@@ -1,0 +1,1 @@
+This site built by independent developer Vitaly Bogomolov with python/flask at GoogleAppengine platform. If you'd like to contact me, please mail to mail@vitaly-bogomolov.ru

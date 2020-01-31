@@ -1,0 +1,14 @@
+queue:
+- name: default
+  rate: 20/s
+  bucket_size: 40
+  max_concurrent_requests: 10
+
+- name: singleton
+  rate: 10/s
+  max_concurrent_requests: 1
+
+- name: backend
+  rate: 5/s
+  target: backend
+  max_concurrent_requests: 3
