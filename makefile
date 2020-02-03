@@ -19,7 +19,7 @@ PIP = $(PYTHON) -m pip install
 SUB_PATH = submodules/vbot
 
 PROJECT = telegram-notify-text
-VERSION = count-users
+VERSION = initial
 
 all: tests
 
