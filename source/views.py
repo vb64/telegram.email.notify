@@ -1,6 +1,7 @@
 """
 App endpoint handlers
 """
+import importlib
 from flask import render_template, request, make_response
 from wsgi import app
 
@@ -27,10 +28,8 @@ def mainpage():
     root page
     """
     if request.method == 'POST':
-        response = make_response(u"codec: {}\n\nsource:\n{}".format(
-          request.form.get('codec'),
-          request.form.get('source')
-        ))
+        pmod = importlib.import_module("modules.{}".format(request.form.get('codec')))
+        response = make_response(pmod.start(request.form.get('source')))
         response.mimetype = "text/plain"
         return response
 
