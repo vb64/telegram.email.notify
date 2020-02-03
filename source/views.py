@@ -1,7 +1,7 @@
 """
 App endpoint handlers
 """
-# from flask import request
+from flask import render_template
 from wsgi import app
 
 
@@ -26,4 +26,7 @@ def mainpage():
     """
     root page
     """
-    return "Main page"
+    context = {
+      'codecs': {'ym': "Yandex Money"},
+    }
+    return render_template('main.html', **context)

@@ -37,7 +37,7 @@ lint:
 	$(PYTHON) -m pylint $(TESTS)/test
 	$(PYTHON) -m pylint --disable=relative-import $(S)
 
-deploy:
+deploy: tests
 	$(GCLOUD) app deploy --quiet --project $(PROJECT) -v $(VERSION) $(S)/app.yaml $(S)/backend.yaml $(S)/index.yaml $(S)/queue.yaml
 
 setup: setup_python setup_pip
