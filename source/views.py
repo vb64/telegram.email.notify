@@ -1,7 +1,7 @@
 """
 App endpoint handlers
 """
-from flask import render_template
+from flask import render_template, request, make_response
 from wsgi import app
 
 
@@ -21,7 +21,7 @@ def backend_start():
     return 'OK'
 
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def mainpage():
     """
     root page
@@ -30,3 +30,16 @@ def mainpage():
       'codecs': {'ym': "Yandex Money"},
     }
     return render_template('main.html', **context)
+
+
+@app.route('/', methods=['POST'])
+def transform():
+    """
+    root page
+    """
+    response = make_response("codec: {}\n\nsource:\n{}".format(
+      request.form['codecs'],
+      request.form['source']
+    ))
+    response.mimetype = "text/plain"
+    return response
