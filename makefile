@@ -14,7 +14,8 @@ S = source
 TESTS = tests
 LIBDIR = $(S)/libs
 
-PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered --cov-report html
+PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered
+COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
 SUB_PATH = submodules/vbot
 
@@ -25,9 +26,11 @@ all: tests
 
 test:
 	$(PYTEST) -s --cov-append $(TESTS)/test/$(T)
+	$(COVERAGE) html --skip-covered
 
 tests: flake8 lint
 	$(PYTEST) --durations=5 $(TESTS)
+	$(COVERAGE) html --skip-covered
 
 flake8:
 	$(PYTHON) -m flake8 --max-line-length=110 --exclude=libs --builtins="_" $(S)

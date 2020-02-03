@@ -30,3 +30,18 @@ class TestCaseViews(TestCase):
         response = self.simple_post('mainpage', {'codec': 'ym', 'source': src})
         assert response.status_code == 200
         assert src in response.data
+
+    def test_transform(self):
+        """
+        transform page
+        """
+        assert self.param_view('transform', {'codec': 'xxx'}, return_code=405).status_code == 405
+        assert self.param_post('transform', {'codec': 'xxx'}, {}).status_code == 404
+
+        src = 'test text'
+        codec = 'ym'
+
+        response = self.param_post('transform', {'codec': codec}, src)
+
+        assert response.status_code == 200
+        assert src in response.data
