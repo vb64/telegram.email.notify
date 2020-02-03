@@ -1,5 +1,2 @@
-requests
 requests-toolbelt
 flask
-jinja2
-html2text
