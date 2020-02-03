@@ -1,6 +1,7 @@
 """
 App endpoint handlers
 """
+import logging
 import importlib
 from flask import render_template, request, make_response, abort
 from wsgi import app
@@ -35,8 +36,12 @@ def transform(codec):
     if codec not in CODECS:
         return abort(404)
 
+    text = request.get_data()
+    logging.info(codec)
+    logging.info(text)
+
     pmod = importlib.import_module("modules.{}".format(codec))
-    response = make_response(pmod.start(request.get_data()))
+    response = make_response(pmod.start(text))
     response.mimetype = "text/plain"
     return response
 
