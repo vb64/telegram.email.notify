@@ -18,7 +18,7 @@ PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered --cov-report html
 PIP = $(PYTHON) -m pip install
 SUB_PATH = submodules/vbot
 
-PROJECT = telegram-notify-text
+PROJECT = text-transform-198104
 VERSION = initial
 
 all: tests
