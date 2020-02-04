@@ -43,6 +43,7 @@ class TestYM(TestCase):
         assert self.transfer('pay_card.txt')
         assert self.transfer('pay_wallet.txt')
         assert self.transfer('transfer_in1.txt')
+        assert self.transfer('pay_wallet1.txt')
 
         # print '\n##', self.transfer('transfer_out.txt')
         # print '\n##', self.transfer('cash.txt')

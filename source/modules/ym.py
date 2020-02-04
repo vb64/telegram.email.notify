@@ -49,16 +49,23 @@ def event_paywallet(subj, text):
     pos_target = text.index(MARK_TARGET)
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(MARK_SUMM_WALLET)
-    pos_com = text.index(MARK_COMIS_YM)
     pos_avail = text.index(MARK_AVAIL)
     pos_hist = text.index(MARK_HIST3)
+
+    if MARK_COMIS_YM in text:
+        pos_com = text.index(MARK_COMIS_YM)
+        fields = [
+          text[pos_sum:pos_com],
+          text[pos_com:pos_avail],
+        ]
+    else:
+        fields = [text[pos_sum:pos_avail]]
 
     return '\n'.join([
       subj, '',
       text[pos_target:pos_date],
       text[pos_date:pos_sum],
-      text[pos_sum:pos_com],
-      text[pos_com:pos_avail],
+    ] + fields + [
       text[pos_avail:pos_hist],
     ])
 
