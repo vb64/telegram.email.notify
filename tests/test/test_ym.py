@@ -9,14 +9,26 @@ class TestYM(TestCase):
     """
     Yandex Money
     """
+    def transfer(self, fname):
+        """
+        transfer fixture by ym
+        """
+        from modules.ym import start
+
+        return start(self.get_fixture(os.path.join('ym', fname)))
+
     def test_pay(self):
         """
         pay notify
         """
-        from modules.ym import start
-
         mark = "(https://money.yandex.ru/i/html-letters/header__logo.png)"
-        text = start(self.get_fixture(os.path.join('ym', 'pay.txt')))
+        text = self.transfer('pay.txt')
 
         assert mark not in text
-        # print unicode(text, 'utf8')
+
+    def test_cash(self):
+        """
+        cash notify
+        """
+        assert self.transfer('cash.txt')
+        # print text
