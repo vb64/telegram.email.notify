@@ -12,6 +12,7 @@ EVNT_INCOME2 = ' пополнен'
 EVNT_TRANS_IN1 = 'На ваш счет '
 EVNT_TRANS_IN2 = ' поступил перевод'
 EVNT_WEEK = 'ваши баллы и скидки за неделю'
+EVNT_TRANS_OUT = 'Вы заплатили со счета '
 
 MARK_CARD = 'Карта '
 MARK_TARGET = 'Назначение платежа '
@@ -33,6 +34,27 @@ MARK_COMMENT = 'Комментарий '
 MARK_BONUS_TOTAL = 'Баллы баланс '
 MARK_BONUS_WEEK = 'За неделю вы заработали '
 MARK_HIST4 = 'Где получать баллы '
+MARK_TRANS_OUT = 'Назначение платежа '
+MARK_TRANS_OUT_SUM = 'Со счета списано '
+
+
+def event_transf_out(subj, text):
+    """
+    event transfer out
+    """
+    pos_trans = text.index(MARK_TRANS_OUT)
+    pos_date = text.index(MARK_DATE)
+    pos_sum = text.index(MARK_TRANS_OUT_SUM)
+    pos_avail = text.index(MARK_AVAIL)
+    pos_hist = text.index(MARK_HIST3)
+
+    return '\n'.join([
+      subj, '',
+      text[pos_trans:pos_date],
+      text[pos_date:pos_sum],
+      text[pos_sum:pos_avail],
+      text[pos_avail:pos_hist],
+    ])
 
 
 def event_week(subj, text):
@@ -171,5 +193,7 @@ def start(html):
         result = event_transf_in(subj, text)
     elif EVNT_WEEK in subj:
         result = event_week(subj, text)
+    elif EVNT_TRANS_OUT in subj:
+        result = event_transf_out(subj, text)
 
     return 'Яндекс.Деньги: ' + result

@@ -35,7 +35,9 @@ class TestYM(TestCase):
         assert self.transfer('income.txt')
         assert self.transfer('transfer_in.txt')
         assert self.transfer('weekly.txt')
+        assert self.transfer('transfer_out.txt')
 
+        # print '\n##', self.transfer('transfer_out.txt')
         # print '\n##', self.transfer('cash.txt')
         # print '\n##', self.transfer('cashback.txt')
         # print '\n##', self.transfer('income.txt')
