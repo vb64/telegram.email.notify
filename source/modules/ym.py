@@ -6,6 +6,12 @@ from html2text import convert
 
 EVNT_PAY = 'Вы заплатили с карты Яндекс.Денег'
 EVNT_CASH = 'Вы сняли наличные с карты Яндекс.Денег'
+EVNT_CASHBACK = 'Кэшбэк '
+EVNT_INCOME1 = 'Ваш счет '
+EVNT_INCOME2 = ' пополнен'
+EVNT_TRANS_IN1 = 'На ваш счет '
+EVNT_TRANS_IN2 = ' поступил перевод'
+EVNT_WEEK = 'ваши баллы и скидки за неделю'
 
 MARK_CARD = 'Карта '
 MARK_TARGET = 'Назначение платежа '
@@ -20,9 +26,78 @@ MARK_COMIS = 'Комиссия за снятие '
 MARK_CURR = 'Сумма в валюте операции '
 MARK_LIMIT = 'В этом месяце вы можете снять '
 MARK_HIST2 = 'Запись обо всех операциях '
+MARK_TRANS_IN = 'Пополнение через '
+MARK_TRANS_SUM = 'Сумма '
+MARK_HIST3 = 'Все детали платежа '
+MARK_COMMENT = 'Комментарий '
+MARK_BONUS_TOTAL = 'Баллы баланс '
+MARK_BONUS_WEEK = 'За неделю вы заработали '
+MARK_HIST4 = 'Где получать баллы '
 
 
-def event_cash(text):
+def event_week(subj, text):
+    """
+    event week note
+    """
+    pos_total = text.index(MARK_BONUS_TOTAL)
+    pos_week = text.index(MARK_BONUS_WEEK)
+    pos_hist = text.index(MARK_HIST4)
+
+    return '\n'.join([
+      subj, '',
+      text[pos_total:pos_week],
+      text[pos_week:pos_hist],
+    ])
+
+
+def event_transf_in(subj, text):
+    """
+    event transfer income
+    """
+    pos_date = text.index(MARK_DATE)
+    pos_sum = text.index(MARK_TRANS_SUM)
+    pos_note = text.index(MARK_COMMENT)
+    pos_avail = text.index(MARK_AVAIL)
+    pos_hist = text.index(MARK_HIST3)
+
+    return '\n'.join([
+      subj, '',
+      text[pos_date:pos_sum],
+      text[pos_sum:pos_note],
+      text[pos_note:pos_avail],
+      text[pos_avail:pos_hist],
+    ])
+
+
+def event_income(subj, text):
+    """
+    event income
+    """
+    pos_date = text.index(MARK_DATE)
+    pos_trans = text.index(MARK_TRANS_IN)
+    pos_sum = text.index(MARK_TRANS_SUM)
+    pos_avail = text.index(MARK_AVAIL)
+    pos_hist = text.index(MARK_HIST3)
+
+    return '\n'.join([
+      subj, '',
+      text[pos_date:pos_trans],
+      text[pos_trans:pos_sum],
+      text[pos_sum:pos_avail],
+      text[pos_avail:pos_hist],
+    ])
+
+
+def event_cashback(subj, _text):
+    """
+    event cashback
+    """
+    return '\n'.join([
+      'Напоминание о кэшбэк', '', subj,
+    ])
+
+
+def event_cash(subj, text):
     """
     event cash out
     """
@@ -38,7 +113,7 @@ def event_cash(text):
     pos_hist = text.index(MARK_HIST2)
 
     return '\n'.join([
-      EVNT_CASH, '',
+      subj, '',
       text[pos_card:pos_bank],
       text[pos_bank:pos_date],
       text[pos_date:pos_cash],
@@ -50,7 +125,7 @@ def event_cash(text):
     ])
 
 
-def event_pay(text):
+def event_pay(subj, text):
     """
     event payment
     """
@@ -63,7 +138,7 @@ def event_pay(text):
     pos_hist = text.index(MARK_HIST1)
 
     return '\n'.join([
-      EVNT_PAY, '',
+      subj, '',
       text[pos_card:pos_target],
       text[pos_target:pos_date],
       text[pos_date:pos_summ],
@@ -82,10 +157,19 @@ def start(html):
         text = text.encode('utf8')
 
     result = text
+    subj = text.splitlines()[0]
 
-    if text.find(EVNT_PAY) == 0:
-        result = event_pay(text)
-    elif text.find(EVNT_CASH) == 0:
-        result = event_cash(text)
+    if EVNT_PAY in subj:
+        result = event_pay(subj, text)
+    elif EVNT_CASH in subj:
+        result = event_cash(subj, text)
+    elif EVNT_CASHBACK in subj:
+        result = event_cashback(subj, text)
+    elif (EVNT_INCOME1 in subj) and (EVNT_INCOME2 in subj):
+        result = event_income(subj, text)
+    elif (EVNT_TRANS_IN1 in subj) and (EVNT_TRANS_IN1 in subj):
+        result = event_transf_in(subj, text)
+    elif EVNT_WEEK in subj:
+        result = event_week(subj, text)
 
-    return result
+    return 'Яндекс.Деньги: ' + result

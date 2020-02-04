@@ -20,7 +20,7 @@ PIP = $(PYTHON) -m pip install
 SUB_PATH = submodules/vbot
 
 PROJECT = text-transform-198104
-VERSION = initial-1
+VERSION = ym
 
 all: tests
 

@@ -26,9 +26,18 @@ class TestYM(TestCase):
 
         assert mark not in text
 
-    def test_cash(self):
+    def test_other(self):
         """
-        cash notify
+        other notify
         """
         assert self.transfer('cash.txt')
-        # print text
+        assert self.transfer('cashback.txt')
+        assert self.transfer('income.txt')
+        assert self.transfer('transfer_in.txt')
+        assert self.transfer('weekly.txt')
+
+        # print '\n##', self.transfer('cash.txt')
+        # print '\n##', self.transfer('cashback.txt')
+        # print '\n##', self.transfer('income.txt')
+        # print '\n##', self.transfer('transfer_in.txt')
+        # print '\n##', self.transfer('weekly.txt')
