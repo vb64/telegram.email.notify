@@ -5,6 +5,8 @@ Yandex Money
 from html2text import convert
 
 EVNT_PAY = 'Вы заплатили с карты Яндекс.Денег'
+EVNT_PAY_CARD = 'Вы заплатили с банковской карты'
+EVNT_PAY_WALLET = 'Вы заплатили из кошелька'
 EVNT_CASH = 'Вы сняли наличные с карты Яндекс.Денег'
 EVNT_CASHBACK = 'Кэшбэк '
 EVNT_INCOME1 = 'Ваш счет '
@@ -36,6 +38,51 @@ MARK_BONUS_WEEK = 'За неделю вы заработали '
 MARK_HIST4 = 'Где получать баллы '
 MARK_TRANS_OUT = 'Назначение платежа '
 MARK_TRANS_OUT_SUM = 'Со счета списано '
+MARK_COMIS_YM = 'Комиссия Яндекс.Денег '
+MARK_SUMM_WALLET = 'Списано '
+MARK_SUBJ_END1 = 'Платеж успешно выполнен'
+MARK_SUBJ_END2 = 'Перевод от другого пользователя'
+
+
+def event_paywallet(subj, text):
+    """
+    event transfer out
+    """
+    pos_subj = text.index(MARK_SUBJ_END1)
+    pos_target = text.index(MARK_TARGET)
+    pos_date = text.index(MARK_DATE)
+    pos_sum = text.index(MARK_SUMM_WALLET)
+    pos_com = text.index(MARK_COMIS_YM)
+    pos_avail = text.index(MARK_AVAIL)
+    pos_hist = text.index(MARK_HIST3)
+
+    return '\n'.join([
+      subj[:pos_subj], '',
+      text[pos_target:pos_date],
+      text[pos_date:pos_sum],
+      text[pos_sum:pos_com],
+      text[pos_com:pos_avail],
+      text[pos_avail:pos_hist],
+    ])
+
+
+def event_paycard(_subj, text):
+    """
+    event transfer out
+    """
+    pos_target = text.index(MARK_TARGET)
+    pos_date = text.index(MARK_DATE)
+    pos_sum = text.index(MARK_TRANS_SUM)
+    pos_com = text.index(MARK_COMIS_YM)
+    pos_hist = text.index(MARK_HIST3)
+
+    return '\n'.join([
+      EVNT_PAY_CARD, '',
+      text[pos_target:pos_date],
+      text[pos_date:pos_sum],
+      text[pos_sum:pos_com],
+      text[pos_com:pos_hist],
+    ])
 
 
 def event_transf_out(subj, text):
@@ -78,15 +125,15 @@ def event_transf_in(subj, text):
     """
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(MARK_TRANS_SUM)
-    pos_note = text.index(MARK_COMMENT)
+    # pos_note = text.index(MARK_COMMENT)
     pos_avail = text.index(MARK_AVAIL)
     pos_hist = text.index(MARK_HIST3)
 
     return '\n'.join([
       subj, '',
       text[pos_date:pos_sum],
-      text[pos_sum:pos_note],
-      text[pos_note:pos_avail],
+      # text[pos_sum:pos_note],
+      # text[pos_note:pos_avail],
       text[pos_avail:pos_hist],
     ])
 
@@ -183,6 +230,10 @@ def start(html):
 
     if EVNT_PAY in subj:
         result = event_pay(subj, text)
+    elif EVNT_PAY_CARD in subj:
+        result = event_paycard(subj, text)
+    elif EVNT_PAY_WALLET in subj:
+        result = event_paywallet(subj, text)
     elif EVNT_CASH in subj:
         result = event_cash(subj, text)
     elif EVNT_CASHBACK in subj:
