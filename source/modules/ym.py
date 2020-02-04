@@ -17,29 +17,31 @@ EVNT_WEEK = 'ваши баллы и скидки за неделю'
 EVNT_TRANS_OUT = 'Вы заплатили со счета '
 
 MARK_CARD = 'Карта '
-MARK_TARGET = 'Назначение платежа '
-MARK_DATE = 'Дата и время '
-MARK_SUMM = 'Сколько списано '
-MARK_PLACE = 'Страна и город '
+MARK_TARGET = 'Назначение платежа'
+MARK_DATE = 'Дата и время'
+MARK_SUMM = 'Сколько списано'
+MARK_PLACE = 'Страна и город'
 MARK_AVAIL = 'Доступно '
-MARK_HIST1 = 'Запись о платеже хранится '
-MARK_BANK = 'Банкомат '
-MARK_CASH = 'Выданная сумма '
-MARK_COMIS = 'Комиссия за снятие '
-MARK_CURR = 'Сумма в валюте операции '
-MARK_LIMIT = 'В этом месяце вы можете снять '
-MARK_HIST2 = 'Запись обо всех операциях '
-MARK_TRANS_IN = 'Пополнение через '
-MARK_TRANS_SUM = 'Сумма '
+MARK_HIST1 = 'Запись о платеже хранится'
+MARK_BANK = 'Банкомат'
+MARK_CASH = 'Выданная сумма'
+MARK_COMIS = 'Комиссия за снятие'
+MARK_CURR = 'Сумма в валюте операции'
+MARK_LIMIT = 'В этом месяце вы можете снять'
+MARK_HIST2 = 'Запись обо всех операциях'
+MARK_TRANS_IN = 'Пополнение через'
+MARK_TRANS_SUM = 'Сумма'
 MARK_HIST3 = 'Все детали платежа'
-MARK_COMMENT = 'Комментарий '
-MARK_BONUS_TOTAL = 'Баллы баланс '
-MARK_BONUS_WEEK = 'За неделю вы заработали '
-MARK_HIST4 = 'Где получать баллы '
-MARK_TRANS_OUT = 'Назначение платежа '
-MARK_TRANS_OUT_SUM = 'Со счета списано '
-MARK_COMIS_YM = 'Комиссия Яндекс.Денег '
-MARK_SUMM_WALLET = 'Списано '
+MARK_COMMENT = 'Комментарий'
+MARK_BONUS_TOTAL = 'Баллы баланс'
+MARK_BONUS_WEEK = 'За неделю вы заработали'
+MARK_HIST4 = 'Где получать баллы'
+MARK_TRANS_OUT = 'Назначение платежа'
+MARK_TRANS_OUT_SUM = 'Со счета списано'
+MARK_COMIS_YM = 'Комиссия Яндекс.Денег'
+MARK_SUMM_WALLET = 'Списано'
+
+NBS = chr(0xC2) + chr(0xA0)
 
 
 def event_paywallet(subj, text):
@@ -232,7 +234,7 @@ def start(subj, body):
     """
     parse Yandex Money
     """
-    text = convert(body)
+    text = convert(body).replace(NBS, ' ')
     result = subj + '\n' + text
 
     if EVNT_PAY in subj:
