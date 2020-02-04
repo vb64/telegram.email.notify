@@ -8,6 +8,9 @@ class TestCaseViews(TestCase):
     """
     site views
     """
+    codec = 'ym'
+    src = 'subject\ntest text'
+
     def test_warmup(self):
         """
         /_ah/warmup
@@ -26,10 +29,10 @@ class TestCaseViews(TestCase):
         """
         assert self.simple_view('mainpage').status_code == 200
 
-        src = 'test text'
-        response = self.simple_post('mainpage', {'codec': 'ym', 'source': src})
+        response = self.simple_post('mainpage', {'codec': self.codec, 'source': self.src})
+
         assert response.status_code == 200
-        assert src in response.data
+        assert self.src in response.data
 
     def test_transform(self):
         """
@@ -38,10 +41,7 @@ class TestCaseViews(TestCase):
         assert self.param_view('transform', {'codec': 'xxx'}, return_code=405).status_code == 405
         assert self.param_post('transform', {'codec': 'xxx'}, {}).status_code == 404
 
-        src = 'test text'
-        codec = 'ym'
-
-        response = self.param_post('transform', {'codec': codec}, src)
+        response = self.param_post('transform', {'codec': self.codec}, self.src)
 
         assert response.status_code == 200
-        assert src in response.data
+        assert self.src in response.data

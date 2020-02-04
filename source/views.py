@@ -11,16 +11,34 @@ CODECS = {
 }
 
 
+def run(codec, body):
+    """
+    run codec for transform body
+    """
+    if isinstance(body, unicode):
+        body = body.encode('utf8')
+
+    lines = body.splitlines()
+    subj = lines[0]
+    text = '\n'.join(lines[1:])
+
+    logging.info(codec)
+    logging.info(subj)
+    logging.info(text)
+
+    pmod = importlib.import_module("modules.{}".format(codec))
+    response = make_response(pmod.start(subj, text))
+    response.mimetype = "text/plain"
+    return response
+
+
 @app.route('/', methods=['GET', 'POST'])
 def mainpage():
     """
     root page
     """
     if request.method == 'POST':
-        pmod = importlib.import_module("modules.{}".format(request.form.get('codec')))
-        response = make_response(pmod.start(request.form.get('source')))
-        response.mimetype = "text/plain"
-        return response
+        return run(request.form.get('codec'), request.form.get('source'))
 
     context = {
       'codecs': CODECS,
@@ -36,14 +54,7 @@ def transform(codec):
     if codec not in CODECS:
         return abort(404)
 
-    text = request.get_data()
-    logging.info(codec)
-    logging.info(text)
-
-    pmod = importlib.import_module("modules.{}".format(codec))
-    response = make_response(pmod.start(text))
-    response.mimetype = "text/plain"
-    return response
+    return run(codec, request.get_data())
 
 
 @app.route('/_ah/warmup')

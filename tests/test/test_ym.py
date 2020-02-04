@@ -15,7 +15,11 @@ class TestYM(TestCase):
         """
         from modules.ym import start
 
-        return start(self.get_fixture(os.path.join('ym', fname)))
+        lines = self.get_fixture(os.path.join('ym', fname)).splitlines()
+        subj = lines[0]
+        text = '\n'.join(lines[1:])
+
+        return start(subj, text)
 
     def test_pay(self):
         """

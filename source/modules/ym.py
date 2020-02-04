@@ -48,7 +48,6 @@ def event_paywallet(subj, text):
     """
     event transfer out
     """
-    pos_subj = text.index(MARK_SUBJ_END1)
     pos_target = text.index(MARK_TARGET)
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(MARK_SUMM_WALLET)
@@ -57,7 +56,7 @@ def event_paywallet(subj, text):
     pos_hist = text.index(MARK_HIST3)
 
     return '\n'.join([
-      subj[:pos_subj], '',
+      subj, '',
       text[pos_target:pos_date],
       text[pos_date:pos_sum],
       text[pos_sum:pos_com],
@@ -66,7 +65,7 @@ def event_paywallet(subj, text):
     ])
 
 
-def event_paycard(_subj, text):
+def event_paycard(subj, text):
     """
     event transfer out
     """
@@ -77,7 +76,7 @@ def event_paycard(_subj, text):
     pos_hist = text.index(MARK_HIST3)
 
     return '\n'.join([
-      EVNT_PAY_CARD, '',
+      subj, '',
       text[pos_target:pos_date],
       text[pos_date:pos_sum],
       text[pos_sum:pos_com],
@@ -217,16 +216,12 @@ def event_pay(subj, text):
     ])
 
 
-def start(html):
+def start(subj, body):
     """
     parse Yandex Money
     """
-    text = convert(html)
-    if isinstance(text, unicode):
-        text = text.encode('utf8')
-
-    result = text
-    subj = text.splitlines()[0]
+    text = convert(body)
+    result = subj + '\n' + text
 
     if EVNT_PAY in subj:
         result = event_pay(subj, text)
