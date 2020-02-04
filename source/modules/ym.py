@@ -40,8 +40,6 @@ MARK_TRANS_OUT = 'Назначение платежа '
 MARK_TRANS_OUT_SUM = 'Со счета списано '
 MARK_COMIS_YM = 'Комиссия Яндекс.Денег '
 MARK_SUMM_WALLET = 'Списано '
-MARK_SUBJ_END1 = 'Платеж успешно выполнен'
-MARK_SUBJ_END2 = 'Перевод от другого пользователя'
 
 
 def event_paywallet(subj, text):
@@ -124,15 +122,22 @@ def event_transf_in(subj, text):
     """
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(MARK_TRANS_SUM)
-    # pos_note = text.index(MARK_COMMENT)
     pos_avail = text.index(MARK_AVAIL)
     pos_hist = text.index(MARK_HIST3)
+
+    if MARK_COMMENT in text:
+        pos_note = text.index(MARK_COMMENT)
+        fields = [
+          text[pos_sum:pos_note],
+          text[pos_note:pos_avail],
+        ]
+    else:
+        fields = [text[pos_sum:pos_avail]]
 
     return '\n'.join([
       subj, '',
       text[pos_date:pos_sum],
-      # text[pos_sum:pos_note],
-      # text[pos_note:pos_avail],
+    ] + fields + [
       text[pos_avail:pos_hist],
     ])
 

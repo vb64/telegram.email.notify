@@ -42,9 +42,7 @@ class TestYM(TestCase):
         assert self.transfer('transfer_out.txt')
         assert self.transfer('pay_card.txt')
         assert self.transfer('pay_wallet.txt')
-
         assert self.transfer('transfer_in1.txt')
-        print '\n##', self.transfer('transfer_in1.txt')
 
         # print '\n##', self.transfer('transfer_out.txt')
         # print '\n##', self.transfer('cash.txt')
@@ -54,3 +52,4 @@ class TestYM(TestCase):
         # print '\n##', self.transfer('weekly.txt')
         # print '\n##', self.transfer('pay_card.txt')
         # print '\n##', self.transfer('pay_wallet.txt')
+        # print '\n##', self.transfer('transfer_in1.txt')
