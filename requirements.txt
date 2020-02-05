@@ -3,5 +3,6 @@ pylint==1.9.4
 pytest
 pytest-cov
 coverage
+coveralls
 tester-gae>=1.3.0
 tester_flask>=1.1

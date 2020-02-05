@@ -74,7 +74,7 @@ def event_paywallet(subj, text):
 
 def event_paycard(subj, text):
     """
-    event transfer out
+    event Yandex card payment
     """
     pos_target = text.index(MARK_TARGET)
     pos_date = text.index(MARK_DATE)

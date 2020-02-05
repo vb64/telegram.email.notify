@@ -1,0 +1,13 @@
+language: python
+python:
+  - "2.7"
+
+install:
+- pip install -r requirements.txt
+- pip install -r source/libs/requirements.txt
+
+script:
+- python -m flake8 --max-line-length=120 --exclude=libs source
+- python -m pylint --disable=relative-import source
+- pytest  --cov=source --cov-report term:skip-covered --durations=5 tests
+- python -m coveralls
