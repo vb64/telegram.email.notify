@@ -32,9 +32,7 @@ class _DeHTMLParser(HTMLParser):
         self.html_link = ''
 
     def handle_starttag(self, tag, attrs):
-        if tag == 'p':
-            self.__text.append('\n')
-        elif tag == 'br':
+        if tag in ['p', 'br']:
             self.__text.append('\n')
         elif tag == 'style':
             self.is_skip = True
