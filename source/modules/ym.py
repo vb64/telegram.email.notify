@@ -29,7 +29,7 @@ MARK_TRANS_OUT_SUM = 'Со счета списано'
 MARK_COMIS_YM = 'Комиссия Яндекс.Денег'
 MARK_SUMM_WALLET = 'Списано'
 
-SUFFIX = 'Яндекс.Деньги: '
+PREFIX = 'Яндекс.Деньги: '
 NBSP = chr(0xC2) + chr(0xA0)
 
 
@@ -239,7 +239,7 @@ def start(subj, body):
     text = convert(body).replace(NBSP, ' ')
     for marks, func in SUBJ_HANDLERS:
         if all([mark in subj for mark in marks]):
-            return SUFFIX + '\n'.join(func(subj, text))
+            return PREFIX + '\n'.join(func(subj, text))
 
     # unknown subject, return default answer
-    return SUFFIX + subj + '\n' + text
+    return PREFIX + subj + '\n' + text
