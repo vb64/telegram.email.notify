@@ -41,7 +41,7 @@ MARK_TRANS_OUT_SUM = 'Со счета списано'
 MARK_COMIS_YM = 'Комиссия Яндекс.Денег'
 MARK_SUMM_WALLET = 'Списано'
 
-NBS = chr(0xC2) + chr(0xA0)
+NBSP = chr(0xC2) + chr(0xA0)
 
 
 def event_paywallet(subj, text):
@@ -234,7 +234,7 @@ def start(subj, body):
     """
     parse Yandex Money
     """
-    text = convert(body).replace(NBS, ' ')
+    text = convert(body).replace(NBSP, ' ')
     result = subj + '\n' + text
 
     if EVNT_PAY in subj:
