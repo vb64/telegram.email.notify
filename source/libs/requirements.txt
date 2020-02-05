@@ -1,4 +1,1 @@
-requests
-requests-toolbelt
 flask
-jinja2

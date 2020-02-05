@@ -15,7 +15,7 @@ ignore-patterns=
 
 # Python code to execute, usually for sys.path manipulation such as
 # pygtk.require().
-init-hook=import tests.conftest; from tester_gae import path_setup; path_setup()
+init-hook=import tests.conftest
 
 # Use multiple processes to speed up Pylint.
 jobs=1

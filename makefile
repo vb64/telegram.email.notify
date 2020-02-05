@@ -14,20 +14,23 @@ S = source
 TESTS = tests
 LIBDIR = $(S)/libs
 
-PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered --cov-report html
+PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered
+COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
 SUB_PATH = submodules/vbot
 
-PROJECT = telegram-notify-text
-VERSION = initial
+PROJECT = text-transform-198104
+VERSION = ym
 
 all: tests
 
 test:
 	$(PYTEST) -s --cov-append $(TESTS)/test/$(T)
+	$(COVERAGE) html --skip-covered
 
 tests: flake8 lint
 	$(PYTEST) --durations=5 $(TESTS)
+	$(COVERAGE) html --skip-covered
 
 flake8:
 	$(PYTHON) -m flake8 --max-line-length=110 --exclude=libs --builtins="_" $(S)
@@ -37,7 +40,7 @@ lint:
 	$(PYTHON) -m pylint $(TESTS)/test
 	$(PYTHON) -m pylint --disable=relative-import $(S)
 
-deploy:
+deploy: tests
 	$(GCLOUD) app deploy --quiet --project $(PROJECT) -v $(VERSION) $(S)/app.yaml $(S)/backend.yaml $(S)/index.yaml $(S)/queue.yaml
 
 setup: setup_python setup_pip
