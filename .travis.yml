@@ -10,5 +10,4 @@ script:
 - python -m flake8 --max-line-length=120 --exclude=libs source
 - python -m pylint --disable=relative-import source
 - pytest  --cov=source --cov-report xml --cov-report term:skip-covered --durations=5 tests
-- python -m coveralls
 - python-codacy-coverage -r coverage.xml
