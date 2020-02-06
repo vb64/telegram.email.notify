@@ -17,4 +17,4 @@ If your program returns a response code other than 200, then @EmailGateBot will 
 
 This project is an implementation of such a conversion for mailing lists of some popular resources. The project is written in python/flask and is intended to be deployed to the Google Cloud Platform AppEngine Standard Environment.
 
-The current version is located at https://text-transform-198104.appspot.com
+The current version is [located here](https://text-transform-198104.appspot.com).
