@@ -18,4 +18,4 @@
 
 Этот проект представляет собой реализацию такого преобразования для почтовых рассылок некоторых популярных ресурсов. Проект написан на python/flask и предназначен для разертывания на Google Cloud Platform AppEngine Standard Environment.
 
-Действующая версия находится по адресу https://text-transform-198104.appspot.com
+Действующая версия [находится здесь](https://text-transform-198104.appspot.com).
