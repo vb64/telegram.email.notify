@@ -1,4 +1,5 @@
 # Преобразование текста сообщения для @EmailGateBot в Telegram Messenger
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2ace560fa61c481488dec980d2e3d6f4)](https://www.codacy.com/manual/vb64/telegram.email.notify?utm_source=github.com&utm_medium=referral&utm_content=vb64/telegram.email.notify&utm_campaign=Badge_Coverage)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f7d4597eef143d99014e59379b4b6a4)](https://app.codacy.com/manual/vb64/telegram.email.notify?utm_source=github.com&utm_medium=referral&utm_content=vb64/telegram.email.notify&utm_campaign=Badge_Grade_Dashboard)
 
