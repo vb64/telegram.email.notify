@@ -25,6 +25,8 @@ jobs:
       run: |
         python -m pylint --disable=relative-import source
     - name: Test with pytest
+      env:
+        CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
       run: |
         pytest  --cov=source --cov-report xml --cov-report term:skip-covered --durations=5 tests
         python-codacy-coverage -r coverage.xml
