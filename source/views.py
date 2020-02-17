@@ -8,6 +8,8 @@ from wsgi import app
 
 CODECS = {
   'ym': "Yandex Money",
+  'fb': "FaceBook",
+  'youtube': "YouTube",
 }
 
 
