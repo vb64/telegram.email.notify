@@ -2,6 +2,7 @@
 """
 FaceBook
 """
+from models import SavedSource
 from html2text import convert
 
 PREFIX = 'FaceBook: '
@@ -12,6 +13,7 @@ def start(subj, body):
     """
     parse FaceBook
     """
+    SavedSource(label='fb', subject=subj, body=body).put()
     text = convert(body).replace(NBSP, ' ')
 
     return PREFIX + subj + '\n' + text
