@@ -2,6 +2,7 @@
 """
 YouTube
 """
+from models import SavedSource
 from html2text import convert
 
 PREFIX = 'YouTube: '
@@ -12,6 +13,7 @@ def start(subj, body):
     """
     parse YouTube
     """
+    SavedSource(label='youtube', subject=subj, body=body).put()
     text = convert(body).replace(NBSP, ' ')
 
     return PREFIX + subj + '\n' + text
