@@ -17,7 +17,6 @@ LIBDIR = $(S)/libs
 PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered
 COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
-SUB_PATH = submodules/vbot
 
 PROJECT = text-transform-198104
 VERSION = store-source
