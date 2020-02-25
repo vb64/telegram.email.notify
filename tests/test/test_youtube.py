@@ -21,11 +21,31 @@ class TestYouTube(TestCase):
 
         return start(subj, text)
 
-    def test_yt_msg(self):
+    def test_wrong(self):
         """
-        wrong youtube notify
+        wrong notify
         """
         mark = "https://money.yandex.ru/i/html"
         text = self.transfer('pay.txt')
 
+        assert mark not in text
+
+    def test_msg(self):
+        """
+        notify
+        """
+        mark = "https://www.youtube.com/account_notifications?feature"
+
+        text = self.transfer('vspishka.txt')
+        assert mark not in text
+
+        text = self.transfer('ezhik.txt')
+        assert mark not in text
+
+    def test_nolink(self):
+        """
+        no link notify
+        """
+        mark = "https://www.youtube.com/account_notifications?feature"
+        text = self.transfer('nolink.txt')
         assert mark not in text
