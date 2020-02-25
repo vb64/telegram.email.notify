@@ -16,8 +16,8 @@ def start(subj, body):
     """
     parse YouTube
     """
-    SavedSource(label='youtube', subject=subj, body=body).put()
     if SUBJ_DELIM not in subj:
+        SavedSource(label='youtube', subject=subj, body=body).put()
         return PREFIX + subj + '\n' + convert(body).replace(NBSP, ' ')
 
     blogger, title = subj.split(SUBJ_DELIM)
@@ -31,5 +31,7 @@ def start(subj, body):
 
     if url:
         link = "[{}]({})".format(title, url)
+    else:
+        SavedSource(label='youtube', subject=subj, body=body).put()
 
     return MARKUP + PREFIX + blogger + '\n' + link
