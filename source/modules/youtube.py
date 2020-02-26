@@ -3,28 +3,22 @@
 YouTube
 """
 from models import SavedSource
-from html2text import convert
+from . import by_subj, MARKUP
 
-NBSP = chr(0xC2) + chr(0xA0)
-MARKUP = '### text_mode markdown\n'
-PREFIX = 'YouTube: '
-SUBJ_DELIM = ' is live now: '
+LABEL = 'youtube'
+SUBJ_LIVE = ' is live now: '
 POST_URL = 'http://www.youtube.com/watch?'
 
 
-def start(subj, body):
+def e_live(subj, text):
     """
-    parse YouTube
+    'is live now:' in subject
     """
-    if SUBJ_DELIM not in subj:
-        SavedSource(label='youtube', subject=subj, body=body).put()
-        return PREFIX + subj + '\n' + convert(body).replace(NBSP, ' ')
-
-    blogger, title = subj.split(SUBJ_DELIM)
+    blogger, title = subj.split(SUBJ_LIVE)
     url = ''
     link = title
 
-    for line in body.splitlines():
+    for line in text.splitlines():
         if line.startswith(POST_URL):
             url = line
             break
@@ -32,6 +26,18 @@ def start(subj, body):
     if url:
         link = "[{}]({})".format(title, url)
     else:
-        SavedSource(label='youtube', subject=subj, body=body).put()
+        SavedSource(label=LABEL, subject=subj, body=text).put()
 
-    return MARKUP + PREFIX + blogger + '\n' + link
+    return [blogger, '', MARKUP, link]
+
+
+SUBJ_HANDLERS = [
+  ((SUBJ_LIVE, ), e_live),
+]
+
+
+def start(subj, body):
+    """
+    parse YouTube
+    """
+    return by_subj(subj, body, body, LABEL, 'YouTube: ', SUBJ_HANDLERS)

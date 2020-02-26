@@ -3,6 +3,7 @@
 Yandex Money
 """
 from html2text import convert
+from . import by_subj, NBSP
 
 MARK_CARD = 'Карта '
 MARK_TARGET = 'Назначение платежа'
@@ -28,9 +29,6 @@ MARK_TRANS_OUT = 'Назначение платежа'
 MARK_TRANS_OUT_SUM = 'Со счета списано'
 MARK_COMIS_YM = 'Комиссия Яндекс.Денег'
 MARK_SUMM_WALLET = 'Списано'
-
-PREFIX = 'Яндекс.Деньги: '
-NBSP = chr(0xC2) + chr(0xA0)
 
 
 def e_paywallet(subj, text):
@@ -236,10 +234,4 @@ def start(subj, body):
     """
     parse Yandex Money
     """
-    text = convert(body).replace(NBSP, ' ')
-    for marks, func in SUBJ_HANDLERS:
-        if all([mark in subj for mark in marks]):
-            return PREFIX + '\n'.join(func(subj, text))
-
-    # unknown subject, return default answer
-    return PREFIX + subj + '\n' + text
+    return by_subj(subj, body, convert(body).replace(NBSP, ' '), 'ym', 'Яндекс.Деньги: ', SUBJ_HANDLERS)
