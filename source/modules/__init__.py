@@ -3,8 +3,8 @@ modules for transform
 """
 from models import SavedSource
 
-MARKUP = '### text_mode markdown'
-BUTTONS = '### buttons'
+MARKUP = '###text_mode markdown'
+BUTTONS = '###buttons'
 NBSP = chr(0xC2) + chr(0xA0)
 
 
