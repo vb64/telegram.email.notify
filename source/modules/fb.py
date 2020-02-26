@@ -18,16 +18,15 @@ def read_citate(lines):
     for line in lines:
         next_line = None
         if line == 'С уважением,':
-            next_line = lines.next()
+            next_line = next(lines)
             if next_line == 'Команда Facebook':
                 break
 
-        ret.append(line)
+        ret.append(line.strip('"'))
         if next_line:
-            ret.append(next_line)
+            ret.append(next_line.strip('"'))
 
-    text = '\n'.join(ret)
-    return text.strip('"')
+    return '\n'.join(ret)
 
 
 def e_comment(subj, text):
@@ -38,10 +37,10 @@ def e_comment(subj, text):
     title = ''
     citate = ''
 
-    lines = text.splitlines()
+    lines = iter(text.splitlines())
     for line in lines:
         if line.startswith(MARK_VIEW):
-            link = "[{}]({})".format(MARK_VIEW, lines.next())
+            link = "[{}]({})".format(MARK_VIEW, next(lines))
         elif line.startswith(SUBJ_COMMENT):
             title = line
         elif line.startswith('Посетить группу'):

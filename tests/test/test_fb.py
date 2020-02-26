@@ -14,3 +14,12 @@ class TestFB(TestCase):
         """
         from modules.fb import start
         return self.start_transfer(fname, start, 'fb')
+
+    def test_comment(self):
+        """
+        comment
+        """
+        mark = "https://www.facebook.com/email_forward_notice"
+
+        text = self.transfer('comment.txt')
+        assert mark not in text
