@@ -23,7 +23,7 @@ def read_citate(lines):
                 break
 
         ret.append(line.strip('"'))
-        if next_line:
+        if next_line is not None:
             ret.append(next_line.strip('"'))
 
     return '\n'.join(ret)
