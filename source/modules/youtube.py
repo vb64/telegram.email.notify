@@ -40,5 +40,4 @@ def start(subj, body):
     """
     parse YouTube
     """
-    SavedSource(label='youtube_all', subject=subj, body=body).put()
     return by_subj(subj, body, body, LABEL, 'YouTube: ', SUBJ_HANDLERS)

@@ -8,6 +8,8 @@ class TestFB(TestCase):
     """
     FaceBook
     """
+    mark = "https://www.facebook.com/email_forward_notice"
+
     def transfer(self, fname):
         """
         transfer fixture by facebook
@@ -19,19 +21,29 @@ class TestFB(TestCase):
         """
         comment
         """
-        mark = "https://www.facebook.com/email_forward_notice"
-
         text = self.transfer('comment.txt')
-        assert mark not in text
+        assert self.mark not in text
 
     def test_broken_comment(self):
         """
         broken comment
         """
-        mark = "https://www.facebook.com/email_forward_notice"
-
         text = self.transfer('comment1.txt')
-        assert mark not in text
+        assert self.mark not in text
 
         text = self.transfer('comment2.txt')
-        assert mark in text
+        assert self.mark in text
+
+    def test_photo(self):
+        """
+        photo
+        """
+        text = self.transfer('photo.txt')
+        assert self.mark not in text
+
+    def test_recomendation(self):
+        """
+        recomendation
+        """
+        text = self.transfer('recomendation.txt')
+        assert self.mark not in text
