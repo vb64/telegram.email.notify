@@ -45,3 +45,11 @@ class TestCaseViews(TestCase):
 
         assert response.status_code == 200
         assert self.src in response.data
+
+    def test_store(self):
+        """
+        store func
+        """
+        response = self.param_post('transform', {'codec': 'store'}, self.src)
+        assert response.status_code == 200
+        assert self.src in response.data

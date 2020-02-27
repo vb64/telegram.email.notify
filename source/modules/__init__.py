@@ -8,6 +8,14 @@ BUTTONS = '###buttons'
 NBSP = chr(0xC2) + chr(0xA0)
 
 
+def store(label, subj, body):
+    """
+    default handler for store incoming messages
+    """
+    SavedSource(label=label, subject=subj, body=body).put()
+    return subj + '\n' + body
+
+
 def by_subj(subj, body, text, label, prefix, handlers):  # pylint: disable=too-many-arguments
     """
     process message by subject

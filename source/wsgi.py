@@ -1,7 +1,6 @@
 """
 App endpoint handlers
 """
-import logging
 import importlib
 
 from flask import render_template, request, make_response, abort, Flask
@@ -12,6 +11,15 @@ CODECS = {
   'ym': "Yandex Money",
   'fb': "FaceBook",
   'youtube': "YouTube",
+  # not implemented handlers, just store message to db
+  'store': None,
+  'ok': None,
+  'vk': None,
+  'reddit': None,
+  'twitter': None,
+  'vif': None,
+  'lj': None,
+  'hh': None,
 }
 
 
@@ -26,12 +34,14 @@ def run(codec, body):
     subj = lines[0]
     text = '\n'.join(lines[1:])
 
-    logging.info(codec)
-    logging.info(subj)
-    logging.info(text)
+    if CODECS[codec] is None:
+        from modules import store
+        ret = store(codec, subj, text)
+    else:
+        pmod = importlib.import_module("modules.{}".format(codec))
+        ret = pmod.start(subj, text)
 
-    pmod = importlib.import_module("modules.{}".format(codec))
-    response = make_response(pmod.start(subj, text))
+    response = make_response(ret)
     response.mimetype = "text/plain"
     return response
 
