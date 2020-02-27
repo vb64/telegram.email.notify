@@ -1,7 +1,7 @@
 [run]
 branch = True
 source = source/
-omit = source/libs/*,source/wsgi.py,source/appengine_config.py
+omit = source/libs/*,source/appengine_config.py
 
 [html]
 directory = htmlcov
