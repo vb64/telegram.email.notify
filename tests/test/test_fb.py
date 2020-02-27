@@ -1,7 +1,6 @@
 """
 make test T=test_fb.py
 """
-import os
 from . import TestCase
 
 
@@ -9,23 +8,42 @@ class TestFB(TestCase):
     """
     FaceBook
     """
+    mark = "https://www.facebook.com/email_forward_notice"
+
     def transfer(self, fname):
         """
         transfer fixture by facebook
         """
         from modules.fb import start
+        return self.start_transfer(fname, start, 'fb')
 
-        lines = self.get_fixture(os.path.join('fb', fname)).splitlines()
-        subj = lines[0]
-        text = '\n'.join(lines[1:])
-
-        return start(subj, text)
-
-    def test_msg(self):
+    def test_comment(self):
         """
-        ym notify (wrong)
+        comment
         """
-        mark = "https://money.yandex.ru/i/html-letters"
-        text = self.transfer('pay.txt')
+        text = self.transfer('comment.txt')
+        assert self.mark not in text
 
-        assert mark not in text
+    def test_broken_comment(self):
+        """
+        broken comment
+        """
+        text = self.transfer('comment1.txt')
+        assert self.mark not in text
+
+        text = self.transfer('comment2.txt')
+        assert self.mark in text
+
+    def test_photo(self):
+        """
+        photo
+        """
+        text = self.transfer('photo.txt')
+        assert self.mark not in text
+
+    def test_recomendation(self):
+        """
+        recomendation
+        """
+        text = self.transfer('recomendation.txt')
+        assert self.mark not in text

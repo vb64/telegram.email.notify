@@ -1,7 +1,6 @@
 """
 make test T=test_ym.py
 """
-import os
 from . import TestCase
 
 
@@ -14,12 +13,7 @@ class TestYM(TestCase):
         transfer fixture by ym
         """
         from modules.ym import start
-
-        lines = self.get_fixture(os.path.join('ym', fname)).splitlines()
-        subj = lines[0]
-        text = '\n'.join(lines[1:])
-
-        return start(subj, text)
+        return self.start_transfer(fname, start, 'ym')
 
     def test_pay(self):
         """

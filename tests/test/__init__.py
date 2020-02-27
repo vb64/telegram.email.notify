@@ -26,3 +26,13 @@ class TestCase(TestFlask, TestGae):
         load content of given file
         """
         return open(os.path.join("tests", "fixture", file_name)).read()
+
+    def start_transfer(self, fname, start_func, label):
+        """
+        run start function
+        """
+        lines = self.get_fixture(os.path.join(label, fname)).splitlines()
+        subj = lines[0]
+        text = '\n'.join(lines[1:])
+
+        return start_func(subj, text)

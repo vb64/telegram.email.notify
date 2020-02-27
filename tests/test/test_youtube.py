@@ -1,7 +1,6 @@
 """
 make test T=test_youtube.py
 """
-import os
 from . import TestCase
 
 
@@ -14,18 +13,24 @@ class TestYouTube(TestCase):
         transfer fixture by YouTube
         """
         from modules.youtube import start
+        return self.start_transfer(fname, start, 'youtube')
 
-        lines = self.get_fixture(os.path.join('youtube', fname)).splitlines()
-        subj = lines[0]
-        text = '\n'.join(lines[1:])
-
-        return start(subj, text)
-
-    def test_yt_msg(self):
+    def test_msg(self):
         """
-        wrong youtube notify
+        notify
         """
-        mark = "https://money.yandex.ru/i/html"
-        text = self.transfer('pay.txt')
+        mark = "https://www.youtube.com/account_notifications?feature"
 
+        text = self.transfer('vspishka.txt')
+        assert mark not in text
+
+        text = self.transfer('ezhik.txt')
+        assert mark not in text
+
+    def test_nolink(self):
+        """
+        no link notify
+        """
+        mark = "https://www.youtube.com/account_notifications?feature"
+        text = self.transfer('nolink.txt')
         assert mark not in text
