@@ -1,6 +1,7 @@
 """
 modules for transform
 """
+from html2text import convert
 from models import SavedSource
 
 MARKUP = '###text_mode markdown'
@@ -13,7 +14,7 @@ def store(label, subj, body):
     default handler for store incoming messages
     """
     SavedSource(label=label, subject=subj, body=body).put()
-    return subj + '\n' + body
+    return subj + '\n' + convert(body).replace(NBSP, ' ')
 
 
 def by_subj(subj, body, text, label, prefix, handlers):  # pylint: disable=too-many-arguments
