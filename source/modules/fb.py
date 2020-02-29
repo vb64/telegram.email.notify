@@ -48,7 +48,7 @@ def get_handler(prefix):
                 link = "[{}]({})".format(MARK_VIEW, next(lines))
             elif line.startswith(prefix):
                 title = line
-            elif line.startswith('Посетить группу'):
+            elif line in ['Посетить группу', 'Читать публикацию']:
                 citate = read_citate(lines)
                 break
 
