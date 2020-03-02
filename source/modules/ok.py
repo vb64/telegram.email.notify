@@ -40,6 +40,6 @@ SUBJ_HANDLERS = [
 
 def start(subj, body):
     """
-    parse FaceBook
+    parse Odnoklassniki.ru
     """
     return by_subj(subj, body, body, LABEL, 'Одноклассники: ', SUBJ_HANDLERS)
