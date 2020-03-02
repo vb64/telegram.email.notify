@@ -65,16 +65,10 @@ def get_handler(prefix, mark):
     return e_post
 
 
-def e_photo(subj, _text):
+def e_subj(subj, _text):
     """
-    photo
-    """
-    return [subj]
-
-
-def e_recommend(subj, _text):
-    """
-    recommendation
+    dubj only
+    photo, recommendation, update
     """
     return [subj]
 
@@ -85,8 +79,9 @@ SUBJ_HANDLERS = [
   ((SUBJ_FRIEND, ), get_handler(SUBJ_FRIEND, MARK_ACCEPT)),
   ((SUBJ_FRIEND1, ), get_handler(SUBJ_FRIEND1, MARK_ACCEPT)),
   ((SUBJ_PHOTO, ), get_handler(SUBJ_PHOTO, MARK_VIEW)),
-  (('добавил', ' новое фото'), e_photo),
-  (('У вас ', ' новых рекомендаций'), e_recommend),
+  (('опубликовал обновление', ), e_subj),
+  (('добавил', ' новое фото'), e_subj),
+  (('У вас ', ' новых рекомендаций'), e_subj),
 ]
 
 
