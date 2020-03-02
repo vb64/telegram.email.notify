@@ -41,6 +41,9 @@ class TestFB(TestCase):
         text = self.transfer('photo.txt')
         assert self.mark not in text
 
+        text = self.transfer('photo1.txt')
+        assert self.mark not in text
+
     def test_recomendation(self):
         """
         recomendation

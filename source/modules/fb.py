@@ -13,6 +13,7 @@ SUBJ_COMMENT = 'Посмотрите комментарий'
 SUBJ_POST = 'Посмотрите новую публикацию'
 SUBJ_FRIEND = 'хочет стать вашим другом на Facebook'
 SUBJ_FRIEND1 = 'запрос на добавление в друзья'
+SUBJ_PHOTO = 'Посмотрите новое фото'
 
 
 def read_citate(lines):
@@ -83,6 +84,7 @@ SUBJ_HANDLERS = [
   ((SUBJ_POST, ), get_handler(SUBJ_POST, MARK_VIEW)),
   ((SUBJ_FRIEND, ), get_handler(SUBJ_FRIEND, MARK_ACCEPT)),
   ((SUBJ_FRIEND1, ), get_handler(SUBJ_FRIEND1, MARK_ACCEPT)),
+  ((SUBJ_PHOTO, ), get_handler(SUBJ_PHOTO, MARK_VIEW)),
   (('добавил', ' новое фото'), e_photo),
   (('У вас ', ' новых рекомендаций'), e_recommend),
 ]
@@ -92,5 +94,4 @@ def start(subj, body):
     """
     parse FaceBook
     """
-    SavedSource(label='fb_all', subject=subj, body=body).put()
     return by_subj(subj, body, body, LABEL, 'FaceBook: ', SUBJ_HANDLERS)
