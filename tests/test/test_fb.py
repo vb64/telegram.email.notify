@@ -57,3 +57,6 @@ class TestFB(TestCase):
 
         text = self.transfer('friend1.txt')
         assert self.mark not in text
+
+        text = self.transfer('friend2.txt')
+        assert self.mark not in text

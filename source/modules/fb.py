@@ -12,6 +12,7 @@ MARK_ACCEPT = 'Подтвердить запрос'
 SUBJ_COMMENT = 'Посмотрите комментарий'
 SUBJ_POST = 'Посмотрите новую публикацию'
 SUBJ_FRIEND = 'хочет стать вашим другом на Facebook'
+SUBJ_FRIEND1 = 'запрос на добавление в друзья'
 
 
 def read_citate(lines):
@@ -81,6 +82,7 @@ SUBJ_HANDLERS = [
   ((SUBJ_COMMENT, ), get_handler(SUBJ_COMMENT, MARK_VIEW)),
   ((SUBJ_POST, ), get_handler(SUBJ_POST, MARK_VIEW)),
   ((SUBJ_FRIEND, ), get_handler(SUBJ_FRIEND, MARK_ACCEPT)),
+  ((SUBJ_FRIEND1, ), get_handler(SUBJ_FRIEND1, MARK_ACCEPT)),
   (('добавил', ' новое фото'), e_photo),
   (('У вас ', ' новых рекомендаций'), e_recommend),
 ]
