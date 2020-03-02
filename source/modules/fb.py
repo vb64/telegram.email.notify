@@ -7,8 +7,11 @@ from . import by_subj, BUTTONS
 
 LABEL = 'fb'
 MARK_VIEW = 'Посмотреть на Facebook'
+MARK_ACCEPT = 'Подтвердить запрос'
+
 SUBJ_COMMENT = 'Посмотрите комментарий'
 SUBJ_POST = 'Посмотрите новую публикацию'
+SUBJ_FRIEND = 'хочет стать вашим другом на Facebook'
 
 
 def read_citate(lines):
@@ -30,7 +33,7 @@ def read_citate(lines):
     return '\n'.join(ret)
 
 
-def get_handler(prefix):
+def get_handler(prefix, mark):
     """
     closure for subj handler
     """
@@ -44,15 +47,15 @@ def get_handler(prefix):
 
         lines = iter(text.splitlines())
         for line in lines:
-            if line.startswith(MARK_VIEW):
-                link = "[{}]({})".format(MARK_VIEW, next(lines))
+            if line.startswith(mark):
+                link = "[{}]({})".format(mark, next(lines))
             elif line.startswith(prefix):
                 title = line
             elif line in ['Посетить группу', 'Читать публикацию']:
                 citate = read_citate(lines)
                 break
 
-        if not all([link, title, citate]):
+        if not all([link, title]):
             SavedSource(label=LABEL, subject=subj, body=text).put()
 
         return [title, '', citate, BUTTONS, link]
@@ -75,8 +78,9 @@ def e_recommend(subj, _text):
 
 
 SUBJ_HANDLERS = [
-  ((SUBJ_COMMENT, ), get_handler(SUBJ_COMMENT)),
-  ((SUBJ_POST, ), get_handler(SUBJ_POST)),
+  ((SUBJ_COMMENT, ), get_handler(SUBJ_COMMENT, MARK_VIEW)),
+  ((SUBJ_POST, ), get_handler(SUBJ_POST, MARK_VIEW)),
+  ((SUBJ_FRIEND, ), get_handler(SUBJ_FRIEND, MARK_ACCEPT)),
   (('добавил', ' новое фото'), e_photo),
   (('У вас ', ' новых рекомендаций'), e_recommend),
 ]

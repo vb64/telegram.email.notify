@@ -47,3 +47,13 @@ class TestFB(TestCase):
         """
         text = self.transfer('recomendation.txt')
         assert self.mark not in text
+
+    def test_friend(self):
+        """
+        friend
+        """
+        text = self.transfer('friend.txt')
+        assert self.mark not in text
+
+        text = self.transfer('friend1.txt')
+        assert self.mark not in text
