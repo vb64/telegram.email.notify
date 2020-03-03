@@ -6,8 +6,10 @@ from models import SavedSource
 from . import by_subj, MARKUP
 
 LABEL = 'youtube'
-SUBJ_LIVE = ' is live now: '
 POST_URL = 'http://www.youtube.com/watch?'
+
+SUBJ_LIVE = ' is live now: '
+SUBJ_UPLOAD = ' just uploaded a video'
 
 
 def e_live(subj, text):
@@ -31,8 +33,32 @@ def e_live(subj, text):
     return [blogger, '', MARKUP, link]
 
 
+def e_upload(subj, text):
+    """
+    'just uploaded a video' in subject
+    """
+    blogger, _tmp = subj.split(SUBJ_UPLOAD)
+    url = ''
+    messages = []
+
+    for line in text.splitlines():
+        if line.startswith(POST_URL):
+            url = line
+            break
+        else:
+            messages.append(line)
+
+    if url:
+        blogger = "[{}]({})".format(blogger, url)
+    else:
+        SavedSource(label=LABEL, subject=subj, body=text).put()
+
+    return [blogger, '', MARKUP, ' '.join(messages)]
+
+
 SUBJ_HANDLERS = [
   ((SUBJ_LIVE, ), e_live),
+  ((SUBJ_UPLOAD, ), e_upload),
 ]
 
 

@@ -41,9 +41,28 @@ class TestFB(TestCase):
         text = self.transfer('photo.txt')
         assert self.mark not in text
 
+        text = self.transfer('photo1.txt')
+        assert self.mark not in text
+
+        text = self.transfer('update.txt')
+        assert self.mark not in text
+
     def test_recomendation(self):
         """
         recomendation
         """
         text = self.transfer('recomendation.txt')
+        assert self.mark not in text
+
+    def test_friend(self):
+        """
+        friend
+        """
+        text = self.transfer('friend.txt')
+        assert self.mark not in text
+
+        text = self.transfer('friend1.txt')
+        assert self.mark not in text
+
+        text = self.transfer('friend2.txt')
         assert self.mark not in text

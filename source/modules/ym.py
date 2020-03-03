@@ -29,6 +29,7 @@ MARK_TRANS_OUT = 'Назначение платежа'
 MARK_TRANS_OUT_SUM = 'Со счета списано'
 MARK_COMIS_YM = 'Комиссия Яндекс.Денег'
 MARK_SUMM_WALLET = 'Списано'
+MARK_HIST5 = 'Все детали пополнения'
 
 
 def e_paywallet(subj, text):
@@ -138,6 +139,23 @@ def e_transf_in(subj, text):
     ]
 
 
+def e_income1(subj, text):
+    """
+    income1
+    """
+    pos_date = text.index(MARK_DATE)
+    pos_trans = text.index(MARK_TRANS_IN)
+    pos_sum = text.index(MARK_TRANS_SUM)
+    pos_avail = text.index(MARK_AVAIL)
+    pos_hist = text.index(MARK_HIST5)
+
+    return [
+      subj, '',
+      text[pos_date:pos_trans], text[pos_trans:pos_sum],
+      text[pos_sum:pos_avail], text[pos_avail:pos_hist],
+    ]
+
+
 def e_income(subj, text):
     """
     income
@@ -227,6 +245,7 @@ SUBJ_HANDLERS = [
   (('На ваш счет ', ' поступил перевод'), e_transf_in),
   (('ваши баллы и скидки за неделю', ), e_week),
   (('Вы заплатили со счета ', ), e_transf_out),
+  (('Ваш кошелек ', ' пополнен'), e_income1),
 ]
 
 

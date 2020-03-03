@@ -9,11 +9,11 @@ app = Flask(__name__)  # pylint: disable=invalid-name
 
 CODECS = {
   'ym': "Yandex Money",
-  'fb': "FaceBook",
   'youtube': "YouTube",
+  'fb': "FaceBook",
+  'ok': 'Odnoklassniki.ru',
   # not implemented handlers, just store message to db
   'store': None,
-  'ok': None,
   'vk': None,
   'reddit': None,
   'twitter': None,

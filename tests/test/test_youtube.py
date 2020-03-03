@@ -27,6 +27,12 @@ class TestYouTube(TestCase):
         text = self.transfer('ezhik.txt')
         assert mark not in text
 
+        text = self.transfer('upload.txt')
+        assert mark not in text
+
+        text = self.transfer('upload1.txt')
+        assert mark not in text
+
     def test_nolink(self):
         """
         no link notify
