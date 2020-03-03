@@ -14,7 +14,7 @@ def store(label, subj, body):
     default handler for store incoming messages
     """
     SavedSource(label=label, subject=subj, body=body).put()
-    return subj + '\n' + convert(body).replace(NBSP, ' ')
+    return subj + '\n' + convert(body, extract_link=True).replace(NBSP, ' ')
 
 
 def by_subj(subj, body, text, label, prefix, handlers):  # pylint: disable=too-many-arguments
