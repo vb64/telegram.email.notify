@@ -12,11 +12,11 @@ CODECS = {
   'youtube': "YouTube",
   'fb': "FaceBook",
   'ok': 'Odnoklassniki.ru',
+  'twitter': "Twitter",
   # not implemented handlers, just store message to db
   'store': None,
   'vk': None,
   'reddit': None,
-  'twitter': None,
   'vif': None,
   'lj': None,
   'hh': None,
