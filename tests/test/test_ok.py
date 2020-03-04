@@ -21,10 +21,17 @@ class TestOk(TestCase):
         """
         message
         """
+        text = self.transfer('no_photo.txt')
+        assert self.mark not in text
+
         text = self.transfer('message.txt')
         assert self.mark not in text
 
-        text = self.transfer('no_photo.txt')
+    def test_m(self):
+        """
+        mN
+        """
+        text = self.transfer('m1.txt')
         assert self.mark not in text
 
     def test_present(self):

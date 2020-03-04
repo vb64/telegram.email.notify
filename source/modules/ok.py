@@ -3,7 +3,7 @@
 Odnoklassniki.ru
 """
 from html2text import convert
-from . import by_subj, BUTTONS, NBSP
+from . import is_present, by_subj, BUTTONS, NBSP
 
 LABEL = 'ok'
 
@@ -12,7 +12,7 @@ SUBJ_PRESENT = 'вам подарок'
 
 BUTT_VIWEW = "[Посмотреть]({})"
 
-MARK_PHOTO = 'добавил  фото'
+MARK_PHOTO = [' добавил', ' фото']
 MARK_PHOTO_REF = '.PHOTO_ADDED'
 MARK_PROFILE_REF = 'https://ok.ru/profile/'
 
@@ -23,13 +23,12 @@ def e_message(_subj, text):
     """
     txt = convert(text, extract_link=True).replace(NBSP, ' ')
 
-    if (MARK_PHOTO in txt) and (MARK_PHOTO_REF in txt):
-
+    if is_present(MARK_PHOTO + [MARK_PHOTO_REF, MARK_PROFILE_REF], txt):
         actor = txt[:txt.index(MARK_PROFILE_REF)]
-        actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' ' + MARK_PHOTO
+        actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' новое фото'
         link = ''
         for word in txt.split():
-            if (MARK_PROFILE_REF in word) and (MARK_PHOTO_REF in word):
+            if is_present([MARK_PROFILE_REF, MARK_PHOTO_REF], word):
                 link = BUTT_VIWEW.format(word)
                 break
 
@@ -45,7 +44,7 @@ def e_present(subj, text):
     link = ""
     lines = iter(text.splitlines())
     for line in lines:
-        if ('https://ok.ru/?' in line) and ('lookPresent' in line):
+        if is_present(['https://ok.ru/?', 'lookPresent'], line):
             link = BUTT_VIWEW.format(line)
             break
 
