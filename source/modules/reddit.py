@@ -8,6 +8,7 @@ LABEL = 'reddit'
 MARK_CLICK = 'https://click.redditmail.com/'
 MARK_POSTED = 'Posted by'
 
+
 def start(subj, body):
     """
     parse Reddit message
