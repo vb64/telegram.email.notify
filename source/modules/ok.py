@@ -3,6 +3,7 @@
 Odnoklassniki.ru
 """
 from html2text import convert
+from models import SavedSource
 from . import is_present, by_subj, BUTTONS, NBSP
 
 LABEL = 'ok'
@@ -17,7 +18,7 @@ MARK_PHOTO_REF = '.PHOTO_ADDED'
 MARK_PROFILE_REF = 'https://ok.ru/profile/'
 
 
-def e_message(_subj, text):
+def e_message(subj, text):
     """
     message
     """
@@ -33,6 +34,9 @@ def e_message(_subj, text):
                 break
 
         return [actor, '', BUTTONS, link]
+
+    else:
+        SavedSource(label='ok_text', subject=subj, body=text).put()
 
     return [txt]
 
