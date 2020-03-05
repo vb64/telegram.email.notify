@@ -1,6 +1,7 @@
 """
 Twitter
 """
+from models import SavedSource
 from . import by_subj
 
 LABEL = 'twitter'
@@ -23,9 +24,13 @@ SUBJ_HANDLERS = [
 ]
 
 
-def start(_subj, body):
+def start(subj, body):
     """
     parse Twitter message
     """
+    SavedSource(label=LABEL, subject=subj, body=body).put()
+
     lines = body.splitlines()
-    return by_subj(lines[0], body, '\n'.join(lines[1:]), LABEL, 'Twitter: ', SUBJ_HANDLERS)
+    text = '\n'.join(lines[1:])
+
+    return by_subj(lines[0], text, text, 'twitter_text', 'Twitter: ', SUBJ_HANDLERS)
