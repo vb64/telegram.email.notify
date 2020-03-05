@@ -14,11 +14,11 @@ CODECS = {
   'ok': 'Odnoklassniki.ru',
   'twitter': "Twitter",
   'reddit': "Reddit",
+  'lj': 'LiveJournal',
   # not implemented handlers, just store message to db
   'store': None,
   'vk': None,
   'vif': None,
-  'lj': None,
   'hh': None,
 }
 
