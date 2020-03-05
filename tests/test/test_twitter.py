@@ -23,3 +23,10 @@ class TestTwitter(TestCase):
         """
         text = self.transfer('msg1.txt')
         assert self.mark not in text
+
+    def test_happening(self):
+        """
+        What's happening
+        """
+        text = self.transfer('msg2.txt')
+        assert self.mark not in text

@@ -13,10 +13,10 @@ CODECS = {
   'fb': "FaceBook",
   'ok': 'Odnoklassniki.ru',
   'twitter': "Twitter",
+  'reddit': "Reddit",
   # not implemented handlers, just store message to db
   'store': None,
   'vk': None,
-  'reddit': None,
   'vif': None,
   'lj': None,
   'hh': None,

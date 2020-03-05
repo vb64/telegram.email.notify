@@ -4,7 +4,9 @@ Twitter
 from . import by_subj
 
 LABEL = 'twitter'
-SUBJ_HIGHLIGHTS = 'Your Highlights'
+SUBJ_HIGHLIGHTS = "Your Highlights"
+SUBJ_HAPPENING = "What's happening"
+
 MARK_MORE = 'Read more at Twitter'
 
 
@@ -17,6 +19,7 @@ def e_post(subj, text):
 
 SUBJ_HANDLERS = [
   ((SUBJ_HIGHLIGHTS, ), e_post),
+  ((SUBJ_HAPPENING, ), e_post),
 ]
 
 
