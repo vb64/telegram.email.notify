@@ -34,6 +34,13 @@ class TestOk(TestCase):
         text = self.transfer('m1.txt')
         assert self.mark not in text
 
+    def test_m2(self):
+        """
+        m2
+        """
+        text = self.transfer('m2.txt')
+        assert self.mark not in text
+
     def test_present(self):
         """
         present
@@ -43,3 +50,5 @@ class TestOk(TestCase):
 
         text = self.transfer('present.txt')
         assert self.mark not in text
+        # print "###"
+        # print text
