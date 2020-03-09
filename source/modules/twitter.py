@@ -1,31 +1,44 @@
 """
 Twitter
 """
-from . import by_subj
+from models import SavedSource
 
 LABEL = 'twitter'
-SUBJ_HIGHLIGHTS = "Your Highlights"
-SUBJ_HAPPENING = "What's happening"
+TITLE = 'Twitter: '
 
-MARK_MORE = 'Read more at Twitter'
+SUBJECTS = [
+  "Your Highlights",
+  "What's happening",
+]
 
-
-def e_post(subj, text):
-    """
-    'Your Highlights'
-    """
-    return [subj, '', text[:text.index(MARK_MORE)]]
-
-
-SUBJ_HANDLERS = [
-  ((SUBJ_HIGHLIGHTS, ), e_post),
-  ((SUBJ_HAPPENING, ), e_post),
+TERMINALS = [
+  "Read more at Twitter",
+  "Go to Moment",
 ]
 
 
-def start(_subj, body):
+def cut_text(text):
+    """
+    extract and return news text
+    """
+    for phrase in TERMINALS:
+        if phrase in text:
+            return text[:text.index(phrase)]
+
+    SavedSource(label=LABEL, subject='cut_text', body=text).put()
+    return text
+
+
+def start(subj, body):
     """
     parse Twitter message
     """
     lines = body.splitlines()
-    return by_subj(lines[0], body, '\n'.join(lines[1:]), LABEL, 'Twitter: ', SUBJ_HANDLERS)
+    for index, line in enumerate(lines):
+        if line in SUBJECTS:
+            text = '\n'.join(lines[index + 1:])
+            return TITLE + line + '\n' + cut_text(text)
+
+    SavedSource(label=LABEL, subject=subj, body=body).put()
+
+    return TITLE + subj

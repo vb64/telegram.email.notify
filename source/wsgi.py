@@ -34,12 +34,18 @@ def run(codec, body):
     subj = lines[0]
     text = '\n'.join(lines[1:])
 
-    if CODECS[codec] is None:
-        from modules import store
-        ret = store(codec, subj, text)
-    else:
-        pmod = importlib.import_module("modules.{}".format(codec))
-        ret = pmod.start(subj, text)
+    try:
+        if CODECS[codec] is None:
+            from modules import store
+            ret = store(codec, subj, text)
+        else:
+            pmod = importlib.import_module("modules.{}".format(codec))
+            ret = pmod.start(subj, text)
+
+    except Exception:
+        from models import SavedSource
+        SavedSource(label=codec, subject=subj, body=text).put()
+        raise
 
     response = make_response(ret)
     response.mimetype = "text/plain"

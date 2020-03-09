@@ -1,0 +1,174 @@
+Пока вас не было
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 100%; height: 100%; margin: 0; padding: 0; background: #fff;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пока вас не было</title>
+<!--[if gte mso 15]>
+			<style type="text/css">
+				table {
+					font-size: 1px;
+					line-height: 0;
+					mso-margin-top-alt: 1px;
+					mso-line-height-rule: exactly;
+				}
+
+				* {
+					mso-line-height-rule: exactly;
+				}
+			</style>
+		<![endif]-->
+<!--[if gte mso 9]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+     <style>
+          @media (max-width: 580px) {
+                .email-wrapper {
+                      margin: 0 !important;
+                      }
+                }
+      </style>
+</head>
+<body style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 100%; height: 100%; margin: 0; padding: 0; background: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif;">
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <tbody><tr>
+        <td valign="top" style="font-size: 14px; line-height: 23px; border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+            <table class="email-wrapper" align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; width: 100%; margin: 32px auto; background: #fff; color: #666; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+                <tbody>
+                    <tr><td><table border="0" cellpadding="0" cellspacing="0" style="width: 600px; border-bottom: 1px solid #ddd; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" width="600">
+    <tbody>
+        <tr>
+            <td valign="middle" width="60" height="70" style="border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="center">
+<a href="https://ok.ru/?landref=m.FeedDigest.headerLogo">
+                                <img src="https://st.mycdn.me/res/i/ok-404.png" alt="" width="25" style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;">
+                            </a>
+            </td>
+            <td valign="middle" width="540" height="70" style="border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+                <div style="color: #EB722E; font-size: 16px;">
+                    Пока вас не было
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table></td></tr><tr><td><div><table width="600" class="card-list" width="600px" border="0" cellpadding="16" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <tbody>
+        <tr>
+    <td width="52" style="font-size: 14px; line-height: 23px; border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+        <a href="https://ok.ru/profile/566915162977?landref=m.FeedDigest.feedOwner">
+            <img src="http://i.mycdn.me/image?id=884060806753&amp;t=59&amp;plc=EJB&amp;ts=00&amp;tkn=*O0MZg0ZHHwjTbrojSAJ-ao_Ik5Y" alt="Владимир Гугелев" width="48" height="48"
+                 style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; height: 48px; width: 48px; border-radius: 50%; overflow: hidden;">
+        </a>
+    </td>
+    <td valign="top" style="font-size: 14px; line-height: 23px; border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+        <div style="margin-left: -16px";>
+            <div>
+                <a href="https://ok.ru/profile/566915162977?landref=m.FeedDigest.feedOwner" class="o" style="color: #666; font-weight: bold; text-decoration: none;">
+                    Владимир Гугелев
+                </a>
+                <span>
+                            создал <a href="https://ok.ru/profile/566915162977/statuses/151141274465121?landref=m.FeedDigest.USER_MEDIA_TOPIC_NEW_CREATED" style="color: #666; font-weight: bold; text-decoration: none;">заметку</a>
+                        </span>
+            </div>
+            <div style="color: #999;">01.03.2020 19:32</div>
+        </div>
+    </td>
+    <td width="100" valign="top" style="font-size: 14px; line-height: 23px; border-collapse: collapse; text-align: right; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="right">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td style="font-size: 14px; line-height: 23px; border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+                <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+                    <tbody><tr>
+                        <td style="font-size: 14px; line-height: 23px; border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+                            <a href="https://ok.ru/profile/566915162977/statuses/151141274465121?landref=m.FeedDigest.USER_MEDIA_TOPIC_NEW_CREATED" target="_blank" style="display: inline-block; font-size: 12px; color: #fff; text-decoration: none; border-radius: 3px; background-color: #ee8208; border-top: 2px solid #ee8208; border-bottom: 2px solid #ee8208; border-right: 16px solid #ee8208; border-left: 16px solid #ee8208;">Посмотреть</a>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+    </td>
+</tr>
+<tr>
+<td colspan="3"><div style="margin-top: -16px;">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<a href="https://ok.ru/profile/566915162977/statuses/151141274465121?landref=m.FeedDigest.like" style="display: inline-block; vertical-align: middle; border: 1px solid rgba(0,0,0,0.15); border-radius: 3px; padding: 0 6px; color: #999; text-decoration: none; margin-right: 6px;">
+                                                    <table cellpadding="1" cellspacing="0">
+                                                        <tr>
+                                                            <td valign="middle">
+                                                                <img style="display: block;" width="16" height="16" src="https://st.mycdn.me/res/i/p/widget/klass-n@2x.png" alt="Класс"/>
+                                                            </td>
+                                                            <td valign="middle" style="font-size: 12px;">
+                                                                Класс
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </a>
+
+</td>
+<td>
+<a href="https://ok.ru/profile/566915162977/statuses/151141274465121?landref=m.FeedDigest.share" style="display: inline-block; vertical-align: middle; border: 1px solid rgba(0,0,0,0.15); border-radius: 3px; padding: 0 6px; color: #999; text-decoration: none; margin-right: 6px;">
+                                                    <table cellpadding="1" cellspacing="0">
+                                                        <tr>
+                                                            <td valign="middle">
+                                                                <img style="display: block;" width="16" height="16" src="https://st.mycdn.me/res/i/p/widget/share-n@2x.png" alt="Поделиться"/>
+                                                            </td>
+                                                            <td valign="middle" style="font-size: 12px;">
+                                                                Поделиться
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </a>
+
+</td>
+<td>
+<a href="https://ok.ru/profile/566915162977/statuses/151141274465121?landref=m.FeedDigest.comment" style="display: inline-block; vertical-align: middle; border: 1px solid rgba(0,0,0,0.15); border-radius: 3px; padding: 0 6px; color: #999; text-decoration: none; margin-right: 6px;">
+                                                    <table cellpadding="1" cellspacing="0">
+                                                        <tr>
+                                                            <td valign="middle">
+                                                                <img style="display: block;" width="16" height="16" src="https://st.mycdn.me/res/i/p/widget/comment-n@2x.png" alt="Комментировать"/>
+                                                            </td>
+                                                            <td valign="middle" style="font-size: 12px;">
+                                                                Комментировать
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </a>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+    </tbody>
+</table></div></td></tr><tr><td><table cellspacing="0" cellpadding="16" width="600" style="width: 600px; border-top: 1px solid #ddd; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td style="border-collapse: collapse; text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+                <div style="color: #999; line-height: 18px; font-size: 12px;">
+                    Если вы не хотите получать эти письма, то можете
+                    <a href="https://ok.ru/settings/notifications?landref=m.FeedDigest.unsubscribe" style="color: #999;">отписаться</a>.
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table></td></tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<img src="https://ok.ru/web-api/retention/pixel?type=FeedDigest&amp;uid=77849611514&amp;ts=1583467255152" alt="" style="-ms-interpolation-mode: bicubic; border: 0; height: 1px; outline: 0; text-decoration: none; width: 1px;">
+</body>

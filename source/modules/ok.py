@@ -15,7 +15,26 @@ BUTT_VIWEW = "[Посмотреть]({})"
 
 MARK_PHOTO = [' добавил', ' фото']
 MARK_PHOTO_REF = '.PHOTO_ADDED'
+
+MARK_NOTE = [' создал', ' заметку']
+MARK_NOTE_REF = '.USER_MEDIA_TOPIC_NEW_CREATED'
+
 MARK_PROFILE_REF = 'https://ok.ru/profile/'
+
+
+def make_link(txt, ref, note):
+    """
+    buttons with link
+    """
+    actor = txt[:txt.index(MARK_PROFILE_REF)]
+    actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' ' + note
+    link = ''
+    for word in txt.split():
+        if is_present([MARK_PROFILE_REF, ref], word):
+            link = BUTT_VIWEW.format(word)
+            break
+
+    return [actor, '', BUTTONS, link]
 
 
 def e_message(subj, text):
@@ -23,22 +42,16 @@ def e_message(subj, text):
     message
     """
     txt = convert(text, extract_link=True).replace(NBSP, ' ')
+    ret = [txt]
 
-    if is_present(MARK_PHOTO + [MARK_PHOTO_REF, MARK_PROFILE_REF], txt):
-        actor = txt[:txt.index(MARK_PROFILE_REF)]
-        actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' новое фото'
-        link = ''
-        for word in txt.split():
-            if is_present([MARK_PROFILE_REF, MARK_PHOTO_REF], word):
-                link = BUTT_VIWEW.format(word)
-                break
-
-        return [actor, '', BUTTONS, link]
-
+    if is_present(MARK_PHOTO + [MARK_PHOTO_REF], txt):
+        ret = make_link(txt, MARK_PHOTO_REF, 'новое фото')
+    elif is_present(MARK_NOTE + [MARK_NOTE_REF], txt):
+        ret = make_link(txt, MARK_NOTE_REF, 'новая заметка')
     else:
         SavedSource(label='ok_text', subject=subj, body=text).put()
 
-    return [txt]
+    return ret
 
 
 def e_present(subj, text):

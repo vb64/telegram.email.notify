@@ -30,3 +30,24 @@ class TestTwitter(TestCase):
         """
         text = self.transfer('msg2.txt')
         assert self.mark not in text
+
+    def test_newlines_subj(self):
+        """
+        new lines in subj
+        """
+        text = self.transfer('msg3.txt')
+        assert self.mark not in text
+
+    def test_wrong(self):
+        """
+        no subj
+        """
+        text = self.transfer('msg4.txt')
+        assert self.mark not in text
+
+    def test_no_term(self):
+        """
+        no terminal phrase
+        """
+        text = self.transfer('msg5.txt')
+        assert self.mark not in text
