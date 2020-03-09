@@ -44,3 +44,10 @@ class TestTwitter(TestCase):
         """
         text = self.transfer('msg4.txt')
         assert self.mark not in text
+
+    def test_no_term(self):
+        """
+        no terminal phrase
+        """
+        text = self.transfer('msg5.txt')
+        assert self.mark not in text
