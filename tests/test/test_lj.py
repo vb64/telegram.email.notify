@@ -23,3 +23,13 @@ class TestLj(TestCase):
         """
         text = self.transfer('msg1.txt')
         assert self.mark not in text
+
+        text = self.transfer('msg2.txt')
+        assert self.mark not in text
+
+    def test_no_url(self):
+        """
+        no url in message
+        """
+        text = self.transfer('msg3.txt')
+        assert self.mark not in text

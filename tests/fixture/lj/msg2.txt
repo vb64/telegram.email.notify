@@ -1,0 +1,2738 @@
+Изнасилование Вайнштейна, ядовитые газы немецкого общества и любимая дочь Сталина
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--[if (gte mso 9)|(IE)]>
+    <xml>
+	<o:OfficeDocumentSettings>
+	    <o:AllowPNG/>
+	    <o:PixelsPerInch>96</o:PixelsPerInch>
+	</o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <title>LiveJournal Newsletter</title>
+</head>
+<body class="body"
+      style="-ms-text-size-adjust: 100% !important;
+-webkit-text-size-adjust: 100% !important; background-color: #ffffff
+!important; color: #333333 !important; margin: 0 !important; min-width:
+100% !important; padding: 0 !important; table-layout: fixed !important;
+width: 100% !important;">
+
+<style type="text/css">
+    #outlook a {
+	padding: 0;
+	}
+
+    body.outlook p {
+	display: inline !important;
+	}
+
+    .ExternalClass {
+	width: 100%;
+	}
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+	line-height: 100%;
+	}
+
+    @media (min-width: 1px) {
+	span[class="header__left"] span[class="cel"] {
+	    max-width: 290px !important;
+	    }
+
+	span[class="header__center"] span[class="cel"] {
+	    max-width: 80px !important;
+	    }
+
+	span[class="header__right"] span[class="cel"] {
+	    max-width: 290px !important;
+	    }
+
+	span[class="header__left"] span[class="cel"] td {
+	    text-align: left !important;
+	    }
+
+	span[class="header__center"] span[class="cel"] td {
+	    text-align: center !important;
+	    }
+
+	span[class="header__center"] span[class="cel"] td a {
+	    padding: 0 5px !important;
+	    }
+
+	span[class="header__right"] span[class="cel"] td {
+	    text-align: right !important;
+	    }
+	}
+
+    @media (max-width: 600px) {
+	td[class="header"] span[class="cel"] {
+	    max-width: 100% !important;
+	    }
+
+	span[class="header__left"] span[class="cel"] td {
+	    text-align: center !important;
+	    }
+
+	span[class="header__center"] span[class="cel"] td {
+	    text-align: center !important;
+	    }
+
+	span[class="header__center"] span[class="cel"] td a:first-child {
+	    padding-right: 112px !important;
+	    }
+
+	span[class="header__center"] span[class="cel"] td a:last-child {
+	    padding-left: 112px !important;
+	    }
+
+	span[class="header__right"] span[class="cel"] td {
+	    text-align: center !important;
+	    }
+	}
+
+    @media (min-width: 1px) {
+	td[class="applications"] {
+	    padding-top: 20px !important;
+	    }
+
+	td[class="applications__apps-top"] {
+	    display: table-cell !important;
+	    }
+
+	td[class="applications__apps-bottom"] {
+	    display: table-cell !important;
+	    }
+
+	td[class="applications__container"] {
+	    padding-right: 0 !important;
+	    }
+
+	td[class="applications__title"] {
+	    text-align: left !important;
+	    }
+
+	td[class="applications__text"] {
+	    text-align: left !important;
+	    }
+
+	td[class="applications__links"] tr {
+	    display: inline-block !important;
+	    width: 100% !important;
+	    max-width: 156px !important;
+	    }
+
+	td[class="applications__links"] tr td {
+	    text-align: left !important;
+	    }
+	}
+
+    @media (max-width: 600px) {
+	td[class="applications"] {
+	    padding-top: 40px !important;
+	    }
+
+	td[class="applications__apps-top"] {
+	    display: none !important;
+	    }
+
+	td[class="applications__apps-bottom"] {
+	    display: none !important;
+	    }
+
+	td[class="applications__container"] {
+	    padding-right: 16px !important;
+	    }
+
+	td[class="applications__title"] {
+	    text-align: center !important;
+	    }
+
+	td[class="applications__text"] {
+	    text-align: center !important;
+	    }
+
+	td[class="applications__links"] {
+	    text-align: center !important;
+	    }
+
+	td[class="applications__links"] tr {
+	    text-align: center !important;
+	    }
+
+	td[class="applications__links"] tr td {
+	    display: inline-block !important;
+	    }
+	}
+
+    @media (max-width: 414px) {
+	td[class="users__user-lead"] .font {
+	    height: auto !important;
+	    }
+	}
+</style>
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+    table {
+	border-collapse: collapse;
+	}
+</style>
+<![endif]-->
+<!--[if !mso]>
+<style type="text/css">
+    .font--size-12 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+!important;
+	font-size: 12px !important;
+	line-height: 12px;
+	}
+
+    .font--size-13 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+!important;
+	font-size: 13px !important;
+	line-height: 13px;
+	}
+
+    .font--size-14 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+!important;
+	font-size: 14px !important;
+	line-height: 16px;
+	}
+
+    .font--size-20 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+!important;
+	font-size: 20px !important;
+	line-height: 20px;
+	}
+
+    .font--size-21 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+!important;
+	font-size: 21px !important;
+	line-height: 21px;
+	}
+
+    .font--size-22 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+!important;
+	font-size: 22px !important;
+	line-height: 24px;
+	}
+</style>
+<![endif]-->
+<div
+style="display:none;font-size:1px;color:#FFFFFF;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+  
+    
+      Христос в гробу mi_ta_pe «Если так ужасна смерть и так сильны законы
+природы, то как же одолеть их?»
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</div>
+<table class="container" style="margin: 0; overflow: hidden; padding: 0;"
+border="0" cellpadding="0" cellspacing="0"
+       bgcolor="#ffffff" width="100%">
+    <tr>
+	<td>
+	    <center class="center" style="margin: 0 auto; width: 100%;">
+		<!--[if (gte mso 9)|(IE)]>
+		<table width="600" cellspacing="0" cellpadding="0"
+border="0">
+		    <tr>
+			<td>
+		<![endif]-->
+		<table style="margin: 0; padding: 0;" border="0"
+cellpadding="0" cellspacing="0" width="100%">
+
+		    <!-- LOGO -->
+		    <tr>
+			<td class="wrapper">
+			    <table style="margin: 0; padding: 0;"
+border="0" cellpadding="0" cellspacing="0"
+				   width="100%" bgcolor="#f8f8f8">
+				<tr>
+				    <td class="logo" style="padding-bottom:
+17px; padding-top: 16px;"
+					align="center">
+					<a class="font font--size-12
+font--color-3 logo__link"
+					  
+href="https://www.livejournal.com/?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+					   title="LiveJournal"
+					   style="color: #00baf8; display:
+block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px; line-height: 12px; text-decoration: none;">
+					    <img class="logo__image"
+						
+src="https://l-stat.livejournal.net/img/newsletter/v7/lj-logo.png"
+						 alt="LiveJournal"
+border="0" width="296"
+						
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+max-width: 296px; max-height: 47px; object-fit: cover; outline: none;">
+					</a>
+				    </td>
+				</tr>
+			    </table>
+			</td>
+		    </tr>
+		    <!-- /LOGO -->
+
+		    <!-- ARTICLES -->
+		    <tr>
+			<td>
+			    <center style="max-width: 600px; margin: 0
+auto; padding: 0; padding-bottom: 24px;"
+				    border="0" cellpadding="0"
+cellspacing="0" align="center">
+				<table style="margin: 0; padding: 0;"
+border="0" cellpadding="0" cellspacing="0"
+				       width="100%">
+				    <tr>
+					<td class="articles"
+style="font-size: 0; padding-top: 6px;" align="center">
+					    
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="300"
+cellspacing="0" cellpadding="0" border="0"
+						       valign="top">
+						    <tr>
+							<td>
+						<![endif]-->
+						
+
+							    <!-- ARTICLE
+-->
+							    <span
+class="cel"
+								 
+style="display: inline-block; vertical-align: top; max-width: 410px; width:
+100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right:
+15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom:
+16px; border-bottom: 1px solid #E9E9E9;">
+
+						<table style="margin: 0;
+padding: 0;" border="0" cellpadding="0"
+						       cellspacing="0"
+width="100%">
+
+						    <!-- ARTICLE TITLE -->
+						    <tr>
+							<td
+class="articles__article-title">
+							    <a class="font
+font--size-22 font--color-1"
+							      
+href="https://mi-ta-pe.livejournal.com/747486.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300;
+letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+								Христос в
+гробу
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE TITLE -->
+
+						    <!-- ARTICLE USERS -->
+						    <tr>
+							<td
+class="articles__article-users"
+							   
+style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+							    
+							    
+								<a
+								       
+class="font font--size-12 font--color-3"
+								       
+href="https://mi-ta-pe.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;"><img
+								       
+src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+								       
+alt="mi_ta_pe userpic" border="0"
+								       
+width="16" height="16"
+								       
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;"></a><span
+								       
+class="font font--size-14 font--color-3"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+width: 8px;"></span>
+								
+								<a
+class="font font--size-14 font--color-3"
+								  
+href="https://mi-ta-pe.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								  
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+text-decoration: none; vertical-align: top;">
+								   
+mi_ta_pe
+								</a>
+								
+							    
+							</td>
+						    </tr>
+						    <!-- /ARTICLE USERS -->
+
+						    <!-- ARTICLE IMAGE -->
+						    <tr>
+							<td
+							   
+class="articles__article-image"
+							    style="width:
+380px; max-width: 380px;">
+							    <div
+							       
+style="max-width: 380px; width: 380px; height: 180px; overflow: hidden;
+border-radius: 5px;">
+								<a
+class="font font--size-12 font--color-3"
+								  
+href="https://mi-ta-pe.livejournal.com/747486.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden"
+target="_blank"
+								  
+style="color: #00baf8; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;">
+								    <img
+								       
+src="https://l-files.livejournal.net/newsletter/1071/1?v=1583509069"
+								       
+width="380"
+								       
+style="-ms-interpolation-mode: bicubic; display: block; width: 380px;
+height: auto; border: none; outline: none;"
+								       
+alt=""/>
+								</a>
+							    </div>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE IMAGE -->
+
+						    <!-- ARTICLE LEAD -->
+						    <tr>
+							<td
+class="articles__article-lead"
+							   
+style="padding-top: 8px;">
+							    <a class="font
+font--size-14 font--color-2"
+							      
+href="https://mi-ta-pe.livejournal.com/747486.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400;
+line-height: 18px; text-decoration: none;">
+								«Если так
+ужасна смерть и так сильны законы природы, то как же одолеть их?»
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE LEAD -->
+
+						</table>
+					</td>
+				    </tr>
+				</table>
+				</span>
+				<!-- /ARTICLE -->
+
+			    
+			    <!--[if (gte mso 9)|(IE)]>
+			    </td>
+			</tr>
+		    </table>
+		    <![endif]-->
+		
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="300"
+cellspacing="0" cellpadding="0" border="0"
+						       valign="top">
+						    <tr>
+							<td>
+						<![endif]-->
+						
+
+							    <!-- ARTICLE
+-->
+							    <span
+class="cel"
+								 
+style="display: inline-block; vertical-align: top; max-width: 410px; width:
+100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right:
+15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom:
+16px; border-bottom: 1px solid #E9E9E9;">
+
+						<table style="margin: 0;
+padding: 0;" border="0" cellpadding="0"
+						       cellspacing="0"
+width="100%">
+
+						    <!-- ARTICLE TITLE -->
+						    <tr>
+							<td
+class="articles__article-title">
+							    <a class="font
+font--size-22 font--color-1"
+							      
+href="https://miumau.livejournal.com/3262808.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300;
+letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+								Лженаука на
+немецких форумах
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE TITLE -->
+
+						    <!-- ARTICLE USERS -->
+						    <tr>
+							<td
+class="articles__article-users"
+							   
+style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+							    
+							    
+								<a
+								       
+class="font font--size-12 font--color-3"
+								       
+href="https://miumau.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;"><img
+								       
+src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+								       
+alt="miumau userpic" border="0"
+								       
+width="16" height="16"
+								       
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;"></a><span
+								       
+class="font font--size-14 font--color-3"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+width: 8px;"></span>
+								
+								<a
+class="font font--size-14 font--color-3"
+								  
+href="https://miumau.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								  
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+text-decoration: none; vertical-align: top;">
+								    miumau
+								</a>
+								
+							    
+							</td>
+						    </tr>
+						    <!-- /ARTICLE USERS -->
+
+						    <!-- ARTICLE IMAGE -->
+						    <tr>
+							<td
+							   
+class="articles__article-image"
+							    style="width:
+380px; max-width: 380px;">
+							    <div
+							       
+style="max-width: 380px; width: 380px; height: 180px; overflow: hidden;
+border-radius: 5px;">
+								<a
+class="font font--size-12 font--color-3"
+								  
+href="https://miumau.livejournal.com/3262808.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+								  
+style="color: #00baf8; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;">
+								    <img
+								       
+src="https://l-files.livejournal.net/newsletter/1071/2?v=1583509070"
+								       
+width="380"
+								       
+style="-ms-interpolation-mode: bicubic; display: block; width: 380px;
+height: auto; border: none; outline: none;"
+								       
+alt=""/>
+								</a>
+							    </div>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE IMAGE -->
+
+						    <!-- ARTICLE LEAD -->
+						    <tr>
+							<td
+class="articles__article-lead"
+							   
+style="padding-top: 8px;">
+							    <a class="font
+font--size-14 font--color-2"
+							      
+href="https://miumau.livejournal.com/3262808.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400;
+line-height: 18px; text-decoration: none;">
+								«Если
+сдерживать себя и стараться не пукнуть, ядовитые газы из кишечника попадут
+прямо в мозг»
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE LEAD -->
+
+						</table>
+					</td>
+				    </tr>
+				</table>
+				</span>
+				<!-- /ARTICLE -->
+
+			    
+			    <!--[if (gte mso 9)|(IE)]>
+			    </td>
+			</tr>
+		    </table>
+		    <![endif]-->
+		
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="300"
+cellspacing="0" cellpadding="0" border="0"
+						       valign="top">
+						    <tr>
+							<td>
+						<![endif]-->
+						
+
+							    <!-- ARTICLE
+-->
+							    <span
+class="cel"
+								 
+style="display: inline-block; vertical-align: top; max-width: 410px; width:
+100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right:
+15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom:
+16px; border-bottom: 1px solid #E9E9E9;">
+
+						<table style="margin: 0;
+padding: 0;" border="0" cellpadding="0"
+						       cellspacing="0"
+width="100%">
+
+						    <!-- ARTICLE TITLE -->
+						    <tr>
+							<td
+class="articles__article-title">
+							    <a class="font
+font--size-22 font--color-1"
+							      
+href="https://varandej.livejournal.com/1036515.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300;
+letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+								Две стороны
+чужой войны
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE TITLE -->
+
+						    <!-- ARTICLE USERS -->
+						    <tr>
+							<td
+class="articles__article-users"
+							   
+style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+							    
+							    
+								<a
+								       
+class="font font--size-12 font--color-3"
+								       
+href="https://varandej.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;"><img
+								       
+src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+								       
+alt="varandej userpic" border="0"
+								       
+width="16" height="16"
+								       
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;"></a><span
+								       
+class="font font--size-14 font--color-3"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+width: 8px;"></span>
+								
+								<a
+class="font font--size-14 font--color-3"
+								  
+href="https://varandej.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								  
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+text-decoration: none; vertical-align: top;">
+								   
+varandej
+								</a>
+								
+							    
+							</td>
+						    </tr>
+						    <!-- /ARTICLE USERS -->
+
+						    <!-- ARTICLE IMAGE -->
+						    <tr>
+							<td
+							   
+class="articles__article-image"
+							    style="width:
+380px; max-width: 380px;">
+							    <div
+							       
+style="max-width: 380px; width: 380px; height: 180px; overflow: hidden;
+border-radius: 5px;">
+								<a
+class="font font--size-12 font--color-3"
+								  
+href="https://varandej.livejournal.com/1036515.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+								  
+style="color: #00baf8; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;">
+								    <img
+								       
+src="https://l-files.livejournal.net/newsletter/1071/3?v=1583509070"
+								       
+width="380"
+								       
+style="-ms-interpolation-mode: bicubic; display: block; width: 380px;
+height: auto; border: none; outline: none;"
+								       
+alt=""/>
+								</a>
+							    </div>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE IMAGE -->
+
+						    <!-- ARTICLE LEAD -->
+						    <tr>
+							<td
+class="articles__article-lead"
+							   
+style="padding-top: 8px;">
+							    <a class="font
+font--size-14 font--color-2"
+							      
+href="https://varandej.livejournal.com/1036515.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400;
+line-height: 18px; text-decoration: none;">
+								Конфликт
+Армении и Азербайджана изнутри
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE LEAD -->
+
+						</table>
+					</td>
+				    </tr>
+				</table>
+				</span>
+				<!-- /ARTICLE -->
+
+			    
+			    <!--[if (gte mso 9)|(IE)]>
+			    </td>
+			</tr>
+		    </table>
+		    <![endif]-->
+		
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="300"
+cellspacing="0" cellpadding="0" border="0"
+						       valign="top">
+						    <tr>
+							<td>
+						<![endif]-->
+						
+
+							    <!-- ARTICLE
+-->
+							    <span
+class="cel"
+								 
+style="display: inline-block; vertical-align: top; max-width: 410px; width:
+100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right:
+15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom:
+16px; border-bottom: 1px solid #E9E9E9;">
+
+						<table style="margin: 0;
+padding: 0;" border="0" cellpadding="0"
+						       cellspacing="0"
+width="100%">
+
+						    <!-- ARTICLE TITLE -->
+						    <tr>
+							<td
+class="articles__article-title">
+							    <a class="font
+font--size-22 font--color-1"
+							      
+href="https://anlazz.livejournal.com/474114.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300;
+letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+								Какими
+должны были быть «хрущёвки»
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE TITLE -->
+
+						    <!-- ARTICLE USERS -->
+						    <tr>
+							<td
+class="articles__article-users"
+							   
+style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+							    
+							    
+								<a
+								       
+class="font font--size-12 font--color-3"
+								       
+href="https://anlazz.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;"><img
+								       
+src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+								       
+alt="anlazz userpic" border="0"
+								       
+width="16" height="16"
+								       
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;"></a><span
+								       
+class="font font--size-14 font--color-3"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+width: 8px;"></span>
+								
+								<a
+class="font font--size-14 font--color-3"
+								  
+href="https://anlazz.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								  
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+text-decoration: none; vertical-align: top;">
+								    anlazz
+								</a>
+								
+							    
+							</td>
+						    </tr>
+						    <!-- /ARTICLE USERS -->
+
+						    <!-- ARTICLE IMAGE -->
+						    <tr>
+							<td
+							   
+class="articles__article-image"
+							    style="width:
+380px; max-width: 380px;">
+							    <div
+							       
+style="max-width: 380px; width: 380px; height: 180px; overflow: hidden;
+border-radius: 5px;">
+								<a
+class="font font--size-12 font--color-3"
+								  
+href="https://anlazz.livejournal.com/474114.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+								  
+style="color: #00baf8; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;">
+								    <img
+								       
+src="https://l-files.livejournal.net/newsletter/1071/4?v=1583509070"
+								       
+width="380"
+								       
+style="-ms-interpolation-mode: bicubic; display: block; width: 380px;
+height: auto; border: none; outline: none;"
+								       
+alt=""/>
+								</a>
+							    </div>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE IMAGE -->
+
+						    <!-- ARTICLE LEAD -->
+						    <tr>
+							<td
+class="articles__article-lead"
+							   
+style="padding-top: 8px;">
+							    <a class="font
+font--size-14 font--color-2"
+							      
+href="https://anlazz.livejournal.com/474114.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400;
+line-height: 18px; text-decoration: none;">
+								Изучаем
+условия взрывной урбанизации 1950-1960 годов
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE LEAD -->
+
+						</table>
+					</td>
+				    </tr>
+				</table>
+				</span>
+				<!-- /ARTICLE -->
+
+			    
+			    <!--[if (gte mso 9)|(IE)]>
+			    </td>
+			</tr>
+		    </table>
+		    <![endif]-->
+		
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="300"
+cellspacing="0" cellpadding="0" border="0"
+						       valign="top">
+						    <tr>
+							<td>
+						<![endif]-->
+						
+
+							    <!-- ARTICLE
+-->
+							    <span
+class="cel"
+								 
+style="display: inline-block; vertical-align: top; max-width: 410px; width:
+100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right:
+15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom:
+16px; border-bottom: 1px solid #E9E9E9;">
+
+						<table style="margin: 0;
+padding: 0;" border="0" cellpadding="0"
+						       cellspacing="0"
+width="100%">
+
+						    <!-- ARTICLE TITLE -->
+						    <tr>
+							<td
+class="articles__article-title">
+							    <a class="font
+font--size-22 font--color-1"
+							      
+href="https://ad-informandum.livejournal.com/65222.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300;
+letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+								Выбравшая
+«свободный мир»
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE TITLE -->
+
+						    <!-- ARTICLE USERS -->
+						    <tr>
+							<td
+class="articles__article-users"
+							   
+style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+							    
+							    
+								<a
+								       
+class="font font--size-12 font--color-3"
+								       
+href="https://ad-informandum.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;"><img
+								       
+src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+								       
+alt="ad_informandum userpic" border="0"
+								       
+width="16" height="16"
+								       
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;"></a><span
+								       
+class="font font--size-14 font--color-3"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+width: 8px;"></span>
+								
+								<a
+class="font font--size-14 font--color-3"
+								  
+href="https://ad-informandum.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								  
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+text-decoration: none; vertical-align: top;">
+								   
+ad_informandum
+								</a>
+								
+							    
+							</td>
+						    </tr>
+						    <!-- /ARTICLE USERS -->
+
+						    <!-- ARTICLE IMAGE -->
+						    <tr>
+							<td
+							   
+class="articles__article-image"
+							    style="width:
+380px; max-width: 380px;">
+							    <div
+							       
+style="max-width: 380px; width: 380px; height: 180px; overflow: hidden;
+border-radius: 5px;">
+								<a
+class="font font--size-12 font--color-3"
+								  
+href="https://ad-informandum.livejournal.com/65222.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden"
+target="_blank"
+								  
+style="color: #00baf8; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;">
+								    <img
+								       
+src="https://l-files.livejournal.net/newsletter/1071/5?v=1583509070"
+								       
+width="380"
+								       
+style="-ms-interpolation-mode: bicubic; display: block; width: 380px;
+height: auto; border: none; outline: none;"
+								       
+alt=""/>
+								</a>
+							    </div>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE IMAGE -->
+
+						    <!-- ARTICLE LEAD -->
+						    <tr>
+							<td
+class="articles__article-lead"
+							   
+style="padding-top: 8px;">
+							    <a class="font
+font--size-14 font--color-2"
+							      
+href="https://ad-informandum.livejournal.com/65222.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400;
+line-height: 18px; text-decoration: none;">
+								Подлинная
+история любимой дочери Сталина Светланы Аллилуевой
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE LEAD -->
+
+						</table>
+					</td>
+				    </tr>
+				</table>
+				</span>
+				<!-- /ARTICLE -->
+
+			    
+			    <!--[if (gte mso 9)|(IE)]>
+			    </td>
+			</tr>
+		    </table>
+		    <![endif]-->
+		
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="300"
+cellspacing="0" cellpadding="0" border="0"
+						       valign="top">
+						    <tr>
+							<td>
+						<![endif]-->
+						
+
+							    <!-- ARTICLE
+-->
+							    <span
+class="cel"
+								 
+style="display: inline-block; vertical-align: top; max-width: 410px; width:
+100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right:
+15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom:
+16px; border-bottom: 1px solid #E9E9E9;">
+
+<td class="articles__article" style="padding-top: 16px; border-bottom:
+0px">
+						
+						<table style="margin: 0;
+padding: 0;" border="0" cellpadding="0"
+						       cellspacing="0"
+width="100%">
+
+						    <!-- ARTICLE TITLE -->
+						    <tr>
+							<td
+class="articles__article-title">
+							    <a class="font
+font--size-22 font--color-1"
+							      
+href="https://ivankravtsov.livejournal.com/794968.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300;
+letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+								Кара за
+изнасилование
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE TITLE -->
+
+						    <!-- ARTICLE USERS -->
+						    <tr>
+							<td
+class="articles__article-users"
+							   
+style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+							    
+							    
+								<a
+								       
+class="font font--size-12 font--color-3"
+								       
+href="https://ivankravtsov.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;"><img
+								       
+src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+								       
+alt="ivankravtsov userpic" border="0"
+								       
+width="16" height="16"
+								       
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;"></a><span
+								       
+class="font font--size-14 font--color-3"
+								       
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+width: 8px;"></span>
+								
+								<a
+class="font font--size-14 font--color-3"
+								  
+href="https://ivankravtsov.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+								  
+style="color: #00baf8; display: inline-block; font-family: 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px;
+text-decoration: none; vertical-align: top;">
+								   
+ivankravtsov
+								</a>
+								
+							    
+							</td>
+						    </tr>
+						    <!-- /ARTICLE USERS -->
+
+						    <!-- ARTICLE IMAGE -->
+						    <tr>
+							<td
+							   
+class="articles__article-image"
+							    style="width:
+380px; max-width: 380px;">
+							    <div
+							       
+style="max-width: 380px; width: 380px; height: 180px; overflow: hidden;
+border-radius: 5px;">
+								<a
+class="font font--size-12 font--color-3"
+								  
+href="https://ivankravtsov.livejournal.com/794968.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+								  
+style="color: #00baf8; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px;
+text-decoration: none;">
+								    <img
+								       
+src="https://l-files.livejournal.net/newsletter/1071/6?v=1583509070"
+								       
+width="380"
+								       
+style="-ms-interpolation-mode: bicubic; display: block; width: 380px;
+height: auto; border: none; outline: none;"
+								       
+alt=""/>
+								</a>
+							    </div>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE IMAGE -->
+
+						    <!-- ARTICLE LEAD -->
+						    <tr>
+							<td
+class="articles__article-lead"
+							   
+style="padding-top: 8px;">
+							    <a class="font
+font--size-14 font--color-2"
+							      
+href="https://ivankravtsov.livejournal.com/794968.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media"
+target="_blank"
+							      
+style="color: #333333; display: block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400;
+line-height: 18px; text-decoration: none;">
+								Грозило ли
+бы Вайнштейну обвинение и срок в России?
+							    </a>
+							</td>
+						    </tr>
+						    <!-- /ARTICLE LEAD -->
+
+						</table>
+					</td>
+				    </tr>
+				</table>
+				</span>
+				<!-- /ARTICLE -->
+
+			    
+			    <!--[if (gte mso 9)|(IE)]>
+			    </td>
+			</tr>
+		    </table>
+		    <![endif]-->
+		
+		</td>
+	    </tr>
+	</table>
+    </center>
+</td>
+</tr>
+<!-- /ARTICLES -->
+
+
+
+
+
+
+
+
+<!-- PROMO TELEGRAM -->
+<tr>
+<td>
+    <table style="max-width: 640px; padding-top: 0; padding-right: 15px;
+padding-bottom: 40px; padding-left: 15px;"
+	   border="0" cellpadding="0" cellspacing="0" width="100%"
+align="center">
+	<tr>
+	    <td bgcolor="#35B1DD" style="background: #35B1DD;
+border-radius: 4px;" valign="middle" align="center">
+		<table style="margin: 0 auto; padding: 0;" border="0"
+cellpadding="0" cellspacing="0">
+		    <tr>
+			<td style="padding-bottom: 25px; padding-top:
+30px;" align="center">
+			    <div style="padding-bottom: 20px; color:
+#FFFFFF;"><img
+src="https://l-stat.livejournal.net/img/newsletter/v6/promo-telegram.png?v=71507"
+alt="Telegram" border="0" width="60" style="-ms-interpolation-mode:
+bicubic; border: none; display: block; max-height: 60px; max-width: 60px;
+object-fit: cover; outline: none; border-radius: 50%; box-shadow: 2px 3px
+5px rgba(0,0,0,0.1);"></div>
+			    <div style="padding-bottom: 10px; color:
+#FFFFFF; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 23px; font-weight: 700; letter-spacing: 0.2px; line-height:
+30px;">Ещё больше интересного</div>
+			    <div style="color: #FFFFFF; font-family:
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;
+font-weight: 400; line-height: 20px;">Подписывайтесь на канал редакции ЖЖ в
+Телеграм!</div>
+			</td>
+		    </tr>
+		    <tr>
+			<td style="padding-bottom: 30px;" align="center">
+			    <div><!--[if mso]><v:roundrect
+xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+href="https://t.me/livejournalru"
+style="height:44px;v-text-anchor:middle;width:170px;" arcsize="10%"
+stroke="f" fillcolor="#ffffff"><w:anchorlock/><center><![endif]-->
+			    <a href="https://t.me/livejournalru"
+target="_blank" style="-webkit-text-size-adjust: none; background-color:
+#ffffff; border-radius: 4px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.20);
+color: #000000; display: inline-block; font-family: 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold;
+line-height: 44px; text-align: center; text-decoration: none; width:
+170px;">Подписаться</a>
+			    <!--[if
+mso]></center></v:roundrect><![endif]--></div>
+			</td>
+		    </tr>
+		</table>
+	    </td>
+	</tr>
+    </table>
+</td>
+</tr>
+<!-- /PROMO TELEGRAM -->
+
+
+<!-- FOOTER -->
+<tr>
+<td class="wrapper footer">
+    <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+cellspacing="0" width="100%" bgcolor="#f8f8f8">
+
+	<!-- FOOTER BORDER -->
+	<tr>
+	    <td class="footer__border" style="border-top: 1px solid
+#E9E9E9; display: block;"></td>
+	</tr>
+	<!-- /FOOTER BORDER -->
+
+	<tr>
+	    <td>
+		<table style="max-width: 630px; padding: 0; padding-left:
+15px; padding-right: 15px;" border="0"
+		       cellpadding="0" cellspacing="0" width="100%"
+align="center">
+
+		    <!-- FOOTER SOCIALS -->
+		    <tr>
+			<td class="footer__socials" style="padding-top:
+24px;" align="center">
+			    <table style="margin: 0; padding: 0;"
+border="0" cellpadding="0" cellspacing="0"
+				   width="232px">
+				<tr>
+				    <td style="padding-left: 10px;
+padding-right: 10px;" width="44px" height="67px"
+					valign="top" align="center">
+					<a class="font font--size-12
+font--color-3"
+					  
+href="https://vk.com/livejournal" target="_blank"
+					   style="color: #00baf8;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:
+12px; line-height: 12px; text-decoration: none;">
+					    <img
+src="https://l-stat.livejournal.net/img/newsletter/v7/vk.png?v=69393"
+alt="VK"
+						 width="50" height="50"
+						
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;">
+					</a>
+				    </td>
+				    <td style="padding-left: 10px;
+padding-right: 10px;" width="44px" height="67px"
+					valign="top" align="center">
+					<a class="font font--size-12
+font--color-3"
+					  
+href="https://facebook.com/livejournal.ru" target="_blank"
+					   style="color: #00baf8;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:
+12px; line-height: 12px; text-decoration: none;">
+					    <img
+src="https://l-stat.livejournal.net/img/newsletter/v7/fb.png?v=69393"
+						 alt="Facebook" width="50"
+height="50"
+						
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;">
+					</a>
+				    </td>
+				    <td style="padding-left: 10px;
+padding-right: 10px;" width="44px" height="67px"
+					valign="top" align="center">
+					<a class="font font--size-12
+font--color-3"
+					  
+href="https://twitter.com/livejournalru" target="_blank"
+					   style="color: #00baf8;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:
+12px; line-height: 12px; text-decoration: none;">
+					    <img
+src="https://l-stat.livejournal.net/img/newsletter/v7/tw.png?v=69393"
+						 alt="Twitter" width="50"
+height="50"
+						
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;">
+					</a>
+				    </td>
+				    <td style="padding-left: 10px;
+padding-right: 10px;" width="44px" height="67px"
+					valign="top" align="center">
+					<a class="font font--size-12
+font--color-3"
+					  
+href="https://ok.ru/group/52709848383578" target="_blank"
+					   style="color: #00baf8;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:
+12px; line-height: 12px; text-decoration: none;">
+					    <img
+src="https://l-stat.livejournal.net/img/newsletter/v7/ok.png?v=69393"
+alt="OK"
+						 width="50" height="50"
+						
+style="-ms-interpolation-mode: bicubic; border: none; display: block;
+object-fit: cover; outline: none;">
+					</a>
+				    </td>
+				</tr>
+			    </table>
+			</td>
+		    </tr>
+		    <!-- /FOOTER SOCIALS -->
+
+		    <!-- FOOTER TEXT -->
+		    <tr>
+			<td class="footer__text" style="padding-bottom:
+22px; padding-top: 6px;" align="center">
+			    <!--[if (gte mso 9)|(IE)]>
+			    <br>
+			    <![endif]-->
+			    <div class="font font--size-12 font--color-1"
+				 style="color: #333333; font-family:
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px;
+line-height: 18px; letter-spacing: -0.38px;">
+				Если вы не зарегистрированы в Livejournal и
+получили это сообщение по ошибке,
+				нажмите <a class="font font--size-12
+font--color-4"
+					  
+href="https://www.livejournal.com/support/submit?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+					   target="_blank"
+					   style="color: #00a2d9;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:
+12px; line-height: 18px; text-decoration: none;">здесь</a>.
+			    </div>
+			    <div class="font font--size-12 font--color-1"
+				 style="color: #333333; font-family:
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px;
+line-height: 18px; letter-spacing: -0.38px;">
+				Вы также можете <a class="font
+font--size-12 font--color-4"
+						  
+href="https://www.livejournal.com/manage/subscriptions/unsubscribe.bml?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&user=ext_1084200&nl=1&hash=e4e771cf181de6c482446ab49feefa3e"
+						   target="_blank"
+						   style="color: #00a2d9;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:
+12px; line-height: 18px; text-decoration: none;">отменить
+				подписку</a> на подобные сообщение или <a
+class="font font--size-12 font--color-4"
+									 
+href="https://www.livejournal.com/manage/settings/?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&cat=notifications"
+									 
+target="_blank"
+									 
+style="color: #00a2d9; font-family: 'Helvetica Neue', Helvetica, Arial,
+sans-serif; font-size: 12px; line-height: 18px; text-decoration:
+none;">изменить
+				настройки</a> уведомления.</br> Забыли
+пароль? <a
+				    class="font font--size-12
+font--color-4"
+				   
+href="https://www.livejournal.com/lostinfo.bml?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+target="_blank"
+				    style="color: #00a2d9; font-family:
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px;
+line-height: 18px; text-decoration: none;">Получите
+				инструкцию</a> по сбросу пароля.
+			    </div>
+			</td>
+		    </tr>
+		    <!-- /FOOTER TEXT -->
+		</table>
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		<img style="display: block;" width="1" height="1" alt=""
+		    
+src="https://ads.adfox.ru/171817/getCode?p1=bissk&p2=v&pe=b&pfc=bacqs&pfb=cswtp&pr=8963920075">
+		<img style="display: block;" width="1" height="1" alt=""
+		    
+src="https://www.livejournal.com/newsletter/track?u=ext_1084200&r=8963920075&hash=e4e771cf181de6c482446ab49feefa3e">
+		<img style="display: block;" width="1" height="1" alt=""
+src="https://xc3.services.livejournal.com/ljmail?j=47169259&t=CyrActive1071&ts=1583814244&s=c5862540310bd839b5faf57068f775ec">
+	    </td>
+	</tr>
+    </table>
+</td>
+</tr>
+<!-- /FOOTER -->
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--[if (gte mso 9)|(IE)]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <title>LiveJournal Newsletter</title>
+</head>
+<body class="body"
+      style="-ms-text-size-adjust: 100% !important; -webkit-text-size-adjust: 100% !important; background-color: #ffffff !important; color: #333333 !important; margin: 0 !important; min-width: 100% !important; padding: 0 !important; table-layout: fixed !important; width: 100% !important;">
+
+<style type="text/css">
+    #outlook a {
+        padding: 0;
+        }
+
+    body.outlook p {
+        display: inline !important;
+        }
+
+    .ExternalClass {
+        width: 100%;
+        }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+        }
+
+    @media (min-width: 1px) {
+        span[class="header__left"] span[class="cel"] {
+            max-width: 290px !important;
+            }
+
+        span[class="header__center"] span[class="cel"] {
+            max-width: 80px !important;
+            }
+
+        span[class="header__right"] span[class="cel"] {
+            max-width: 290px !important;
+            }
+
+        span[class="header__left"] span[class="cel"] td {
+            text-align: left !important;
+            }
+
+        span[class="header__center"] span[class="cel"] td {
+            text-align: center !important;
+            }
+
+        span[class="header__center"] span[class="cel"] td a {
+            padding: 0 5px !important;
+            }
+
+        span[class="header__right"] span[class="cel"] td {
+            text-align: right !important;
+            }
+        }
+
+    @media (max-width: 600px) {
+        td[class="header"] span[class="cel"] {
+            max-width: 100% !important;
+            }
+
+        span[class="header__left"] span[class="cel"] td {
+            text-align: center !important;
+            }
+
+        span[class="header__center"] span[class="cel"] td {
+            text-align: center !important;
+            }
+
+        span[class="header__center"] span[class="cel"] td a:first-child {
+            padding-right: 112px !important;
+            }
+
+        span[class="header__center"] span[class="cel"] td a:last-child {
+            padding-left: 112px !important;
+            }
+
+        span[class="header__right"] span[class="cel"] td {
+            text-align: center !important;
+            }
+        }
+
+    @media (min-width: 1px) {
+        td[class="applications"] {
+            padding-top: 20px !important;
+            }
+
+        td[class="applications__apps-top"] {
+            display: table-cell !important;
+            }
+
+        td[class="applications__apps-bottom"] {
+            display: table-cell !important;
+            }
+
+        td[class="applications__container"] {
+            padding-right: 0 !important;
+            }
+
+        td[class="applications__title"] {
+            text-align: left !important;
+            }
+
+        td[class="applications__text"] {
+            text-align: left !important;
+            }
+
+        td[class="applications__links"] tr {
+            display: inline-block !important;
+            width: 100% !important;
+            max-width: 156px !important;
+            }
+
+        td[class="applications__links"] tr td {
+            text-align: left !important;
+            }
+        }
+
+    @media (max-width: 600px) {
+        td[class="applications"] {
+            padding-top: 40px !important;
+            }
+
+        td[class="applications__apps-top"] {
+            display: none !important;
+            }
+
+        td[class="applications__apps-bottom"] {
+            display: none !important;
+            }
+
+        td[class="applications__container"] {
+            padding-right: 16px !important;
+            }
+
+        td[class="applications__title"] {
+            text-align: center !important;
+            }
+
+        td[class="applications__text"] {
+            text-align: center !important;
+            }
+
+        td[class="applications__links"] {
+            text-align: center !important;
+            }
+
+        td[class="applications__links"] tr {
+            text-align: center !important;
+            }
+
+        td[class="applications__links"] tr td {
+            display: inline-block !important;
+            }
+        }
+
+    @media (max-width: 414px) {
+        td[class="users__user-lead"] .font {
+            height: auto !important;
+            }
+        }
+</style>
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        }
+</style>
+<![endif]-->
+<!--[if !mso]>
+<style type="text/css">
+    .font--size-12 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 12px !important;
+        line-height: 12px;
+        }
+
+    .font--size-13 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 13px !important;
+        line-height: 13px;
+        }
+
+    .font--size-14 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 14px !important;
+        line-height: 16px;
+        }
+
+    .font--size-20 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 20px !important;
+        line-height: 20px;
+        }
+
+    .font--size-21 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 21px !important;
+        line-height: 21px;
+        }
+
+    .font--size-22 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 22px !important;
+        line-height: 24px;
+        }
+</style>
+<![endif]-->
+<div style="display:none;font-size:1px;color:#FFFFFF;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+  
+    
+      Христос в гробу mi_ta_pe «Если так ужасна смерть и так сильны законы природы, то как же одолеть их?»
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</div>
+<table class="container" style="margin: 0; overflow: hidden; padding: 0;" border="0" cellpadding="0" cellspacing="0"
+       bgcolor="#ffffff" width="100%">
+    <tr>
+        <td>
+            <center class="center" style="margin: 0 auto; width: 100%;">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="600" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td>
+                <![endif]-->
+                <table style="margin: 0; padding: 0;" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                    <!-- LOGO -->
+                    <tr>
+                        <td class="wrapper">
+                            <table style="margin: 0; padding: 0;" border="0" cellpadding="0" cellspacing="0"
+                                   width="100%" bgcolor="#f8f8f8">
+                                <tr>
+                                    <td class="logo" style="padding-bottom: 17px; padding-top: 16px;"
+                                        align="center">
+                                        <a class="font font--size-12 font--color-3 logo__link"
+                                           href="https://www.livejournal.com/?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                           title="LiveJournal"
+                                           style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                            <img class="logo__image"
+                                                 src="https://l-stat.livejournal.net/img/newsletter/v7/lj-logo.png"
+                                                 alt="LiveJournal" border="0" width="296"
+                                                 style="-ms-interpolation-mode: bicubic; border: none; display: block; max-width: 296px; max-height: 47px; object-fit: cover; outline: none;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- /LOGO -->
+
+                    <!-- ARTICLES -->
+                    <tr>
+                        <td>
+                            <center style="max-width: 600px; margin: 0 auto; padding: 0; padding-bottom: 24px;"
+                                    border="0" cellpadding="0" cellspacing="0" align="center">
+                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0" cellspacing="0"
+                                       width="100%">
+                                    <tr>
+                                        <td class="articles" style="font-size: 0; padding-top: 6px;" align="center">
+                                            
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="300" cellspacing="0" cellpadding="0" border="0"
+                                                       valign="top">
+                                                    <tr>
+                                                        <td>
+                                                <![endif]-->
+                                                
+
+                                                            <!-- ARTICLE -->
+                                                            <span class="cel"
+                                                                  style="display: inline-block; vertical-align: top; max-width: 410px; width: 100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right: 15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom: 16px; border-bottom: 1px solid #E9E9E9;">
+
+                                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+                                                       cellspacing="0" width="100%">
+
+                                                    <!-- ARTICLE TITLE -->
+                                                    <tr>
+                                                        <td class="articles__article-title">
+                                                            <a class="font font--size-22 font--color-1"
+                                                               href="https://mi-ta-pe.livejournal.com/747486.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+                                                                Христос в гробу
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE TITLE -->
+
+                                                    <!-- ARTICLE USERS -->
+                                                    <tr>
+                                                        <td class="articles__article-users"
+                                                            style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+                                                            
+                                                            
+                                                                <a
+                                                                        class="font font--size-12 font--color-3"
+                                                                        href="https://mi-ta-pe.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;"><img
+                                                                        src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+                                                                        alt="mi_ta_pe userpic" border="0"
+                                                                        width="16" height="16"
+                                                                        style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;"></a><span
+                                                                        class="font font--size-14 font--color-3"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; width: 8px;"></span>
+                                                                
+                                                                <a class="font font--size-14 font--color-3"
+                                                                   href="https://mi-ta-pe.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                   style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-decoration: none; vertical-align: top;">
+                                                                    mi_ta_pe
+                                                                </a>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE USERS -->
+
+                                                    <!-- ARTICLE IMAGE -->
+                                                    <tr>
+                                                        <td
+                                                            class="articles__article-image"
+                                                            style="width: 380px; max-width: 380px;">
+                                                            <div
+                                                                style="max-width: 380px; width: 380px; height: 180px; overflow: hidden; border-radius: 5px;">
+                                                                <a class="font font--size-12 font--color-3"
+                                                                   href="https://mi-ta-pe.livejournal.com/747486.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden" target="_blank"
+                                                                   style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                                                    <img
+                                                                        src="https://l-files.livejournal.net/newsletter/1071/1?v=1583509069"
+                                                                        width="380"
+                                                                        style="-ms-interpolation-mode: bicubic; display: block; width: 380px; height: auto; border: none; outline: none;"
+                                                                        alt=""/>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE IMAGE -->
+
+                                                    <!-- ARTICLE LEAD -->
+                                                    <tr>
+                                                        <td class="articles__article-lead"
+                                                            style="padding-top: 8px;">
+                                                            <a class="font font--size-14 font--color-2"
+                                                               href="https://mi-ta-pe.livejournal.com/747486.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px; text-decoration: none;">
+                                                                «Если так ужасна смерть и так сильны законы природы, то как же одолеть их?»
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE LEAD -->
+
+                                                </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </span>
+                                <!-- /ARTICLE -->
+
+                            
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                        </tr>
+                    </table>
+                    <![endif]-->
+                
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="300" cellspacing="0" cellpadding="0" border="0"
+                                                       valign="top">
+                                                    <tr>
+                                                        <td>
+                                                <![endif]-->
+                                                
+
+                                                            <!-- ARTICLE -->
+                                                            <span class="cel"
+                                                                  style="display: inline-block; vertical-align: top; max-width: 410px; width: 100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right: 15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom: 16px; border-bottom: 1px solid #E9E9E9;">
+
+                                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+                                                       cellspacing="0" width="100%">
+
+                                                    <!-- ARTICLE TITLE -->
+                                                    <tr>
+                                                        <td class="articles__article-title">
+                                                            <a class="font font--size-22 font--color-1"
+                                                               href="https://miumau.livejournal.com/3262808.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+                                                                Лженаука на немецких форумах
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE TITLE -->
+
+                                                    <!-- ARTICLE USERS -->
+                                                    <tr>
+                                                        <td class="articles__article-users"
+                                                            style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+                                                            
+                                                            
+                                                                <a
+                                                                        class="font font--size-12 font--color-3"
+                                                                        href="https://miumau.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;"><img
+                                                                        src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+                                                                        alt="miumau userpic" border="0"
+                                                                        width="16" height="16"
+                                                                        style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;"></a><span
+                                                                        class="font font--size-14 font--color-3"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; width: 8px;"></span>
+                                                                
+                                                                <a class="font font--size-14 font--color-3"
+                                                                   href="https://miumau.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                   style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-decoration: none; vertical-align: top;">
+                                                                    miumau
+                                                                </a>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE USERS -->
+
+                                                    <!-- ARTICLE IMAGE -->
+                                                    <tr>
+                                                        <td
+                                                            class="articles__article-image"
+                                                            style="width: 380px; max-width: 380px;">
+                                                            <div
+                                                                style="max-width: 380px; width: 380px; height: 180px; overflow: hidden; border-radius: 5px;">
+                                                                <a class="font font--size-12 font--color-3"
+                                                                   href="https://miumau.livejournal.com/3262808.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                                   style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                                                    <img
+                                                                        src="https://l-files.livejournal.net/newsletter/1071/2?v=1583509070"
+                                                                        width="380"
+                                                                        style="-ms-interpolation-mode: bicubic; display: block; width: 380px; height: auto; border: none; outline: none;"
+                                                                        alt=""/>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE IMAGE -->
+
+                                                    <!-- ARTICLE LEAD -->
+                                                    <tr>
+                                                        <td class="articles__article-lead"
+                                                            style="padding-top: 8px;">
+                                                            <a class="font font--size-14 font--color-2"
+                                                               href="https://miumau.livejournal.com/3262808.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px; text-decoration: none;">
+                                                                «Если сдерживать себя и стараться не пукнуть, ядовитые газы из кишечника попадут прямо в мозг»
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE LEAD -->
+
+                                                </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </span>
+                                <!-- /ARTICLE -->
+
+                            
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                        </tr>
+                    </table>
+                    <![endif]-->
+                
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="300" cellspacing="0" cellpadding="0" border="0"
+                                                       valign="top">
+                                                    <tr>
+                                                        <td>
+                                                <![endif]-->
+                                                
+
+                                                            <!-- ARTICLE -->
+                                                            <span class="cel"
+                                                                  style="display: inline-block; vertical-align: top; max-width: 410px; width: 100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right: 15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom: 16px; border-bottom: 1px solid #E9E9E9;">
+
+                                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+                                                       cellspacing="0" width="100%">
+
+                                                    <!-- ARTICLE TITLE -->
+                                                    <tr>
+                                                        <td class="articles__article-title">
+                                                            <a class="font font--size-22 font--color-1"
+                                                               href="https://varandej.livejournal.com/1036515.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+                                                                Две стороны чужой войны
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE TITLE -->
+
+                                                    <!-- ARTICLE USERS -->
+                                                    <tr>
+                                                        <td class="articles__article-users"
+                                                            style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+                                                            
+                                                            
+                                                                <a
+                                                                        class="font font--size-12 font--color-3"
+                                                                        href="https://varandej.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;"><img
+                                                                        src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+                                                                        alt="varandej userpic" border="0"
+                                                                        width="16" height="16"
+                                                                        style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;"></a><span
+                                                                        class="font font--size-14 font--color-3"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; width: 8px;"></span>
+                                                                
+                                                                <a class="font font--size-14 font--color-3"
+                                                                   href="https://varandej.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                   style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-decoration: none; vertical-align: top;">
+                                                                    varandej
+                                                                </a>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE USERS -->
+
+                                                    <!-- ARTICLE IMAGE -->
+                                                    <tr>
+                                                        <td
+                                                            class="articles__article-image"
+                                                            style="width: 380px; max-width: 380px;">
+                                                            <div
+                                                                style="max-width: 380px; width: 380px; height: 180px; overflow: hidden; border-radius: 5px;">
+                                                                <a class="font font--size-12 font--color-3"
+                                                                   href="https://varandej.livejournal.com/1036515.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                                   style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                                                    <img
+                                                                        src="https://l-files.livejournal.net/newsletter/1071/3?v=1583509070"
+                                                                        width="380"
+                                                                        style="-ms-interpolation-mode: bicubic; display: block; width: 380px; height: auto; border: none; outline: none;"
+                                                                        alt=""/>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE IMAGE -->
+
+                                                    <!-- ARTICLE LEAD -->
+                                                    <tr>
+                                                        <td class="articles__article-lead"
+                                                            style="padding-top: 8px;">
+                                                            <a class="font font--size-14 font--color-2"
+                                                               href="https://varandej.livejournal.com/1036515.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px; text-decoration: none;">
+                                                                Конфликт Армении и Азербайджана изнутри
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE LEAD -->
+
+                                                </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </span>
+                                <!-- /ARTICLE -->
+
+                            
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                        </tr>
+                    </table>
+                    <![endif]-->
+                
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="300" cellspacing="0" cellpadding="0" border="0"
+                                                       valign="top">
+                                                    <tr>
+                                                        <td>
+                                                <![endif]-->
+                                                
+
+                                                            <!-- ARTICLE -->
+                                                            <span class="cel"
+                                                                  style="display: inline-block; vertical-align: top; max-width: 410px; width: 100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right: 15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom: 16px; border-bottom: 1px solid #E9E9E9;">
+
+                                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+                                                       cellspacing="0" width="100%">
+
+                                                    <!-- ARTICLE TITLE -->
+                                                    <tr>
+                                                        <td class="articles__article-title">
+                                                            <a class="font font--size-22 font--color-1"
+                                                               href="https://anlazz.livejournal.com/474114.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+                                                                Какими должны были быть «хрущёвки»
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE TITLE -->
+
+                                                    <!-- ARTICLE USERS -->
+                                                    <tr>
+                                                        <td class="articles__article-users"
+                                                            style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+                                                            
+                                                            
+                                                                <a
+                                                                        class="font font--size-12 font--color-3"
+                                                                        href="https://anlazz.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;"><img
+                                                                        src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+                                                                        alt="anlazz userpic" border="0"
+                                                                        width="16" height="16"
+                                                                        style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;"></a><span
+                                                                        class="font font--size-14 font--color-3"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; width: 8px;"></span>
+                                                                
+                                                                <a class="font font--size-14 font--color-3"
+                                                                   href="https://anlazz.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                   style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-decoration: none; vertical-align: top;">
+                                                                    anlazz
+                                                                </a>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE USERS -->
+
+                                                    <!-- ARTICLE IMAGE -->
+                                                    <tr>
+                                                        <td
+                                                            class="articles__article-image"
+                                                            style="width: 380px; max-width: 380px;">
+                                                            <div
+                                                                style="max-width: 380px; width: 380px; height: 180px; overflow: hidden; border-radius: 5px;">
+                                                                <a class="font font--size-12 font--color-3"
+                                                                   href="https://anlazz.livejournal.com/474114.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                                   style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                                                    <img
+                                                                        src="https://l-files.livejournal.net/newsletter/1071/4?v=1583509070"
+                                                                        width="380"
+                                                                        style="-ms-interpolation-mode: bicubic; display: block; width: 380px; height: auto; border: none; outline: none;"
+                                                                        alt=""/>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE IMAGE -->
+
+                                                    <!-- ARTICLE LEAD -->
+                                                    <tr>
+                                                        <td class="articles__article-lead"
+                                                            style="padding-top: 8px;">
+                                                            <a class="font font--size-14 font--color-2"
+                                                               href="https://anlazz.livejournal.com/474114.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px; text-decoration: none;">
+                                                                Изучаем условия взрывной урбанизации 1950-1960 годов
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE LEAD -->
+
+                                                </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </span>
+                                <!-- /ARTICLE -->
+
+                            
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                        </tr>
+                    </table>
+                    <![endif]-->
+                
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="300" cellspacing="0" cellpadding="0" border="0"
+                                                       valign="top">
+                                                    <tr>
+                                                        <td>
+                                                <![endif]-->
+                                                
+
+                                                            <!-- ARTICLE -->
+                                                            <span class="cel"
+                                                                  style="display: inline-block; vertical-align: top; max-width: 410px; width: 100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right: 15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom: 16px; border-bottom: 1px solid #E9E9E9;">
+
+                                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+                                                       cellspacing="0" width="100%">
+
+                                                    <!-- ARTICLE TITLE -->
+                                                    <tr>
+                                                        <td class="articles__article-title">
+                                                            <a class="font font--size-22 font--color-1"
+                                                               href="https://ad-informandum.livejournal.com/65222.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+                                                                Выбравшая «свободный мир»
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE TITLE -->
+
+                                                    <!-- ARTICLE USERS -->
+                                                    <tr>
+                                                        <td class="articles__article-users"
+                                                            style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+                                                            
+                                                            
+                                                                <a
+                                                                        class="font font--size-12 font--color-3"
+                                                                        href="https://ad-informandum.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;"><img
+                                                                        src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+                                                                        alt="ad_informandum userpic" border="0"
+                                                                        width="16" height="16"
+                                                                        style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;"></a><span
+                                                                        class="font font--size-14 font--color-3"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; width: 8px;"></span>
+                                                                
+                                                                <a class="font font--size-14 font--color-3"
+                                                                   href="https://ad-informandum.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                   style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-decoration: none; vertical-align: top;">
+                                                                    ad_informandum
+                                                                </a>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE USERS -->
+
+                                                    <!-- ARTICLE IMAGE -->
+                                                    <tr>
+                                                        <td
+                                                            class="articles__article-image"
+                                                            style="width: 380px; max-width: 380px;">
+                                                            <div
+                                                                style="max-width: 380px; width: 380px; height: 180px; overflow: hidden; border-radius: 5px;">
+                                                                <a class="font font--size-12 font--color-3"
+                                                                   href="https://ad-informandum.livejournal.com/65222.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden" target="_blank"
+                                                                   style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                                                    <img
+                                                                        src="https://l-files.livejournal.net/newsletter/1071/5?v=1583509070"
+                                                                        width="380"
+                                                                        style="-ms-interpolation-mode: bicubic; display: block; width: 380px; height: auto; border: none; outline: none;"
+                                                                        alt=""/>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE IMAGE -->
+
+                                                    <!-- ARTICLE LEAD -->
+                                                    <tr>
+                                                        <td class="articles__article-lead"
+                                                            style="padding-top: 8px;">
+                                                            <a class="font font--size-14 font--color-2"
+                                                               href="https://ad-informandum.livejournal.com/65222.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media&utm_content=golden" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px; text-decoration: none;">
+                                                                Подлинная история любимой дочери Сталина Светланы Аллилуевой
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE LEAD -->
+
+                                                </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </span>
+                                <!-- /ARTICLE -->
+
+                            
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                        </tr>
+                    </table>
+                    <![endif]-->
+                
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="300" cellspacing="0" cellpadding="0" border="0"
+                                                       valign="top">
+                                                    <tr>
+                                                        <td>
+                                                <![endif]-->
+                                                
+
+                                                            <!-- ARTICLE -->
+                                                            <span class="cel"
+                                                                  style="display: inline-block; vertical-align: top; max-width: 410px; width: 100%;">
+<table style="margin: 0; padding: 0; padding-left: 15px; padding-right: 15px;" border="0" cellpadding="0"
+   cellspacing="0" align="left" width="100%">
+<tr>
+<td class="articles__article" style="padding-top: 16px; padding-bottom: 16px; border-bottom: 1px solid #E9E9E9;">
+
+<td class="articles__article" style="padding-top: 16px; border-bottom: 0px">
+                                                
+                                                <table style="margin: 0; padding: 0;" border="0" cellpadding="0"
+                                                       cellspacing="0" width="100%">
+
+                                                    <!-- ARTICLE TITLE -->
+                                                    <tr>
+                                                        <td class="articles__article-title">
+                                                            <a class="font font--size-22 font--color-1"
+                                                               href="https://ivankravtsov.livejournal.com/794968.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 300; letter-spacing: 0.4px; line-height: 22px; text-decoration: none;">
+                                                                Кара за изнасилование
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE TITLE -->
+
+                                                    <!-- ARTICLE USERS -->
+                                                    <tr>
+                                                        <td class="articles__article-users"
+                                                            style="padding-top: 8px; padding-bottom: 8px;font-size: 0;">
+                                                            
+                                                            
+                                                                <a
+                                                                        class="font font--size-12 font--color-3"
+                                                                        href="https://ivankravtsov.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;"><img
+                                                                        src="https://l-stat.livejournal.net/img/newsletter/v7/userhead.png?v=69393"
+                                                                        alt="ivankravtsov userpic" border="0"
+                                                                        width="16" height="16"
+                                                                        style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;"></a><span
+                                                                        class="font font--size-14 font--color-3"
+                                                                        style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; width: 8px;"></span>
+                                                                
+                                                                <a class="font font--size-14 font--color-3"
+                                                                   href="https://ivankravtsov.livejournal.com?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                                                   style="color: #00baf8; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-decoration: none; vertical-align: top;">
+                                                                    ivankravtsov
+                                                                </a>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE USERS -->
+
+                                                    <!-- ARTICLE IMAGE -->
+                                                    <tr>
+                                                        <td
+                                                            class="articles__article-image"
+                                                            style="width: 380px; max-width: 380px;">
+                                                            <div
+                                                                style="max-width: 380px; width: 380px; height: 180px; overflow: hidden; border-radius: 5px;">
+                                                                <a class="font font--size-12 font--color-3"
+                                                                   href="https://ivankravtsov.livejournal.com/794968.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                                   style="color: #00baf8; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                                                    <img
+                                                                        src="https://l-files.livejournal.net/newsletter/1071/6?v=1583509070"
+                                                                        width="380"
+                                                                        style="-ms-interpolation-mode: bicubic; display: block; width: 380px; height: auto; border: none; outline: none;"
+                                                                        alt=""/>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE IMAGE -->
+
+                                                    <!-- ARTICLE LEAD -->
+                                                    <tr>
+                                                        <td class="articles__article-lead"
+                                                            style="padding-top: 8px;">
+                                                            <a class="font font--size-14 font--color-2"
+                                                               href="https://ivankravtsov.livejournal.com/794968.html?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&media" target="_blank"
+                                                               style="color: #333333; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px; text-decoration: none;">
+                                                                Грозило ли бы Вайнштейну обвинение и срок в России?
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- /ARTICLE LEAD -->
+
+                                                </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </span>
+                                <!-- /ARTICLE -->
+
+                            
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                        </tr>
+                    </table>
+                    <![endif]-->
+                
+                </td>
+            </tr>
+        </table>
+    </center>
+</td>
+</tr>
+<!-- /ARTICLES -->
+
+
+
+
+
+
+
+
+<!-- PROMO TELEGRAM -->
+<tr>
+<td>
+    <table style="max-width: 640px; padding-top: 0; padding-right: 15px; padding-bottom: 40px; padding-left: 15px;"
+           border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+        <tr>
+            <td bgcolor="#35B1DD" style="background: #35B1DD; border-radius: 4px;" valign="middle" align="center">
+                <table style="margin: 0 auto; padding: 0;" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="padding-bottom: 25px; padding-top: 30px;" align="center">
+                            <div style="padding-bottom: 20px; color: #FFFFFF;"><img src="https://l-stat.livejournal.net/img/newsletter/v6/promo-telegram.png?v=71507" alt="Telegram" border="0" width="60" style="-ms-interpolation-mode: bicubic; border: none; display: block; max-height: 60px; max-width: 60px; object-fit: cover; outline: none; border-radius: 50%; box-shadow: 2px 3px 5px rgba(0,0,0,0.1);"></div>
+                            <div style="padding-bottom: 10px; color: #FFFFFF; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 23px; font-weight: 700; letter-spacing: 0.2px; line-height: 30px;">Ещё больше интересного</div>
+                            <div style="color: #FFFFFF; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 20px;">Подписывайтесь на канал редакции ЖЖ в Телеграм!</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 30px;" align="center">
+                            <div><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://t.me/livejournalru" style="height:44px;v-text-anchor:middle;width:170px;" arcsize="10%" stroke="f" fillcolor="#ffffff"><w:anchorlock/><center><![endif]-->
+                            <a href="https://t.me/livejournalru" target="_blank" style="-webkit-text-size-adjust: none; background-color: #ffffff; border-radius: 4px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.20); color: #000000; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 44px; text-align: center; text-decoration: none; width: 170px;">Подписаться</a>
+                            <!--[if mso]></center></v:roundrect><![endif]--></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+<!-- /PROMO TELEGRAM -->
+
+
+<!-- FOOTER -->
+<tr>
+<td class="wrapper footer">
+    <table style="margin: 0; padding: 0;" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#f8f8f8">
+
+        <!-- FOOTER BORDER -->
+        <tr>
+            <td class="footer__border" style="border-top: 1px solid #E9E9E9; display: block;"></td>
+        </tr>
+        <!-- /FOOTER BORDER -->
+
+        <tr>
+            <td>
+                <table style="max-width: 630px; padding: 0; padding-left: 15px; padding-right: 15px;" border="0"
+                       cellpadding="0" cellspacing="0" width="100%" align="center">
+
+                    <!-- FOOTER SOCIALS -->
+                    <tr>
+                        <td class="footer__socials" style="padding-top: 24px;" align="center">
+                            <table style="margin: 0; padding: 0;" border="0" cellpadding="0" cellspacing="0"
+                                   width="232px">
+                                <tr>
+                                    <td style="padding-left: 10px; padding-right: 10px;" width="44px" height="67px"
+                                        valign="top" align="center">
+                                        <a class="font font--size-12 font--color-3"
+                                           href="https://vk.com/livejournal" target="_blank"
+                                           style="color: #00baf8; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                            <img src="https://l-stat.livejournal.net/img/newsletter/v7/vk.png?v=69393" alt="VK"
+                                                 width="50" height="50"
+                                                 style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;">
+                                        </a>
+                                    </td>
+                                    <td style="padding-left: 10px; padding-right: 10px;" width="44px" height="67px"
+                                        valign="top" align="center">
+                                        <a class="font font--size-12 font--color-3"
+                                           href="https://facebook.com/livejournal.ru" target="_blank"
+                                           style="color: #00baf8; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                            <img src="https://l-stat.livejournal.net/img/newsletter/v7/fb.png?v=69393"
+                                                 alt="Facebook" width="50" height="50"
+                                                 style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;">
+                                        </a>
+                                    </td>
+                                    <td style="padding-left: 10px; padding-right: 10px;" width="44px" height="67px"
+                                        valign="top" align="center">
+                                        <a class="font font--size-12 font--color-3"
+                                           href="https://twitter.com/livejournalru" target="_blank"
+                                           style="color: #00baf8; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                            <img src="https://l-stat.livejournal.net/img/newsletter/v7/tw.png?v=69393"
+                                                 alt="Twitter" width="50" height="50"
+                                                 style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;">
+                                        </a>
+                                    </td>
+                                    <td style="padding-left: 10px; padding-right: 10px;" width="44px" height="67px"
+                                        valign="top" align="center">
+                                        <a class="font font--size-12 font--color-3"
+                                           href="https://ok.ru/group/52709848383578" target="_blank"
+                                           style="color: #00baf8; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; text-decoration: none;">
+                                            <img src="https://l-stat.livejournal.net/img/newsletter/v7/ok.png?v=69393" alt="OK"
+                                                 width="50" height="50"
+                                                 style="-ms-interpolation-mode: bicubic; border: none; display: block; object-fit: cover; outline: none;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- /FOOTER SOCIALS -->
+
+                    <!-- FOOTER TEXT -->
+                    <tr>
+                        <td class="footer__text" style="padding-bottom: 22px; padding-top: 6px;" align="center">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <br>
+                            <![endif]-->
+                            <div class="font font--size-12 font--color-1"
+                                 style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; letter-spacing: -0.38px;">
+                                Если вы не зарегистрированы в Livejournal и получили это сообщение по ошибке,
+                                нажмите <a class="font font--size-12 font--color-4"
+                                           href="https://www.livejournal.com/support/submit?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020"
+                                           target="_blank"
+                                           style="color: #00a2d9; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; text-decoration: none;">здесь</a>.
+                            </div>
+                            <div class="font font--size-12 font--color-1"
+                                 style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; letter-spacing: -0.38px;">
+                                Вы также можете <a class="font font--size-12 font--color-4"
+                                                   href="https://www.livejournal.com/manage/subscriptions/unsubscribe.bml?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&user=ext_1084200&nl=1&hash=e4e771cf181de6c482446ab49feefa3e"
+                                                   target="_blank"
+                                                   style="color: #00a2d9; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; text-decoration: none;">отменить
+                                подписку</a> на подобные сообщение или <a class="font font--size-12 font--color-4"
+                                                                          href="https://www.livejournal.com/manage/settings/?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020&cat=notifications"
+                                                                          target="_blank"
+                                                                          style="color: #00a2d9; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; text-decoration: none;">изменить
+                                настройки</a> уведомления.</br> Забыли пароль? <a
+                                    class="font font--size-12 font--color-4"
+                                    href="https://www.livejournal.com/lostinfo.bml?utm_source=newsletter&utm_medium=email&utm_campaign=10_03_2020" target="_blank"
+                                    style="color: #00a2d9; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; text-decoration: none;">Получите
+                                инструкцию</a> по сбросу пароля.
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- /FOOTER TEXT -->
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style="display: block;" width="1" height="1" alt=""
+                     src="https://ads.adfox.ru/171817/getCode?p1=bissk&p2=v&pe=b&pfc=bacqs&pfb=cswtp&pr=5856718929">
+                <img style="display: block;" width="1" height="1" alt=""
+                     src="https://www.livejournal.com/newsletter/track?u=ext_1084200&r=5856718929&hash=e4e771cf181de6c482446ab49feefa3e">
+                <img style="display: block;" width="1" height="1" alt="" src="https://xc3.services.livejournal.com/ljmail?j=47169259&t=CyrActive1071&ts=1583814244&s=c5862540310bd839b5faf57068f775ec">
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+<!-- /FOOTER -->
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

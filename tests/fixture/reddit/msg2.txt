@@ -1,0 +1,974 @@
+"If there was a company that did historical t..."
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en" style="width: 100%;">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--[if !mso><!-- -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif-->
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" name="viewport">
+<meta name="viewport" content="width=device-width">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<meta name="x-apple-disable-message-reformatting">
+
+<title>Reddit</title>
+
+<style type="text/css">
+.ExternalClass { width:100%; }
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+table td { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+h1, h2, h3, h4, h5, h6 { font-size: inherit; padding: 0; margin: 0; color: black; line-height: 100%; }
+.applelinks a { text-decoration: none; color: inherit !important; }
+a { color: black; text-decoration: none; }
+a, a:link, a:visited { color: inherit; text-decoration: none; }
+span.MsoHyperlink { mso-style-priority: 99; color: inherit; }
+span.MsoHyperlinkFollowed { mso-style-priority: 99; color: inherit; }
+img { border: 0px !important; }
+
+body {
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+.button:hover { background-color: red !important; }
+.opacity:hover { opacity: 0.8 !important; }
+.headline { color: #0079D3 !important;}
+
+@media all {
+.ow100 { width: 100% !important;}
+}
+
+
+@media only screen and (max-width: 480px) {
+.w100m, .column50, .column33, .column25, .column75, .column66 { width: 100% !important; }
+.w90m { width: 90% !important;}
+.expandm { width: 100% !important; display: block !important; }
+.resizem { width: 100% !important; height: auto !important; }
+.hidem { display: none !important; }
+.h1m { font-size: 20px !important;}
+.h2m { font-size: 18px !important;}
+.h22m { font-size: 15px !important;}
+.h3m { font-size: 14px !important;}
+.tcenterm { text-align: center !important; }
+.tleftm { text-align: left !important; }
+.col25m { width: 25% !important;}
+.col75m { width: 75% !important;}
+
+.mobile-position { background-position: 0% 100% !important;}
+
+.hero-size { background-size: auto 100% !important;}
+.logo { width: 100px !important; height: auto !important; }
+.padt0m { padding-top: 0px !important; }
+.padl5m { padding-left: 5px !important; }
+.padt5m { padding-top: 5px !important; }
+.padt10m { padding-top: 10px !important; }
+.padt20m { padding-top: 20px !important; }
+.padt30m { padding-top: 30px !important; }
+.padb5m { padding-bottom: 5px !important;}
+.padb10m { padding-bottom: 10px !important;}
+.padb20m { padding-bottom: 20px !important;}
+.padb30m { padding-bottom: 30px !important;}
+
+.author { display: block !important; }
+}
+
+
+@media only screen and (max-width: 711px) {
+.ow100 { width: 100% !important;}
+.w100 { width: 100% !important;}
+.w90 { width: 90% !important;}
+.hide { display: none !important; }
+.resize { width: 100% !important; height: auto !important; }
+.resize img { width: 100% !important; height: auto !important; }
+.expand { width: 100% !important; display: block !important; }
+.height0 { height: 0 !important; }
+.column50 { width: 50%; }
+.column50a { width: 50%; }
+.column33 { width: 33.33%; }
+.column25 { width: 25%; }
+.column75 { width: 75%; }
+.column66 { width: 66%; }
+.tcenter { text-align: center !important; }
+.w70 { width: 70% !important;}
+
+.bannerpop { background-size: cover !important; }
+.overlay { background: -moz-linear-gradient(-45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
+.padlr0m { padding-left: 0px !important; padding-right: 0px !important;}
+
+.padt0 { padding-top: 0px !important; }
+.padt5 { padding-top: 5px !important; }
+.padt10 { padding-top: 10px !important; }
+.padt20 { padding-top: 20px !important; }
+.padt30 { padding-top: 30px !important; }
+.padb5 { padding-bottom: 5px !important;}
+.padb10 { padding-bottom: 10px !important;}
+.padb20 { padding-bottom: 20px !important;}
+.padb30 { padding-bottom: 30px !important;}
+}
+
+.image-container { height: 0; overflow: hidden; padding-top: 56.25%; position: relative; }
+.image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+
+<!--[if mso>
+<style type="text/css">
+body {
+margin: 0 !important;
+padding: 0 !important;
+font-family: Segoe UI, Arial, sans-serif;
+}
+
+table, td, div, p {
+font-family: Segoe UI, Arial, sans-serif;
+line-height: normal;
+}
+</style>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif-->
+
+
+
+</head>
+
+<body class="tli" style="-webkit-text-size-adjust: none;-ms-text-size-adjust: none; margin: 0; padding: 0; width: 100%; background-color: white;">
+
+
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+    <tr>
+      <td align="center">
+        <table class="w100" width="711" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+
+
+
+          <!-- /// REDDIT LOGO NO TEXT START -->
+          <tr>
+
+            <!-- Image Start -->
+            <!-- 126x83 -->
+            <td class="padt10m" align="center" style="padding-top: 20px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=header%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/6e2A9hX4xvKgxkhexVEMf8-pPVBLDAkCX0ws7kMUjp0=131"><img src="https://www.redditstatic.com/emaildigest/logo.png" width="126" alt="reddit" style="display: block; border: 0; color: black; font-size: 25px; font-weight: bold; font-family: sans-serif;"/></a></td>
+            <!-- Image End -->
+
+          </tr>
+          <!-- REDDIT LOGO NO TEXT END ///-->
+
+
+          <tr>
+            <td align="center">
+              <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <!-- ADD MODULES HERE START -->
+
+                
+                  <!--/// COMMUNITY POST WITH NO IMAGE START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                      <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td align="left" style="padding-top: 20px;">
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                            <tr>
+
+                              <!-- 24x24 Width Image Start -->
+                              <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/manzTrZjQMLGtGLPlP1SNTsiGbehQeEmbWWfktUwCgw=131"><img src="https://styles.redditmedia.com/t5_2qh1i/styles/communityIcon_tijjpyw1qe201.png" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                              <!-- Image End -->
+
+
+                              <!-- Copy Start -->
+                              <td style="padding-left: 10px; text-align: left;">
+                                <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/XEHNwf-xC6AlQ3Iz3N3QhFQ5Hm_5CxJh9YmHZQy0NFQ=131" style="color: #888888; text-decoration: none;">
+                                  <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/AskReddit<span>
+                                </a>
+                                <span class="hidem">&#183;</span>
+                                <span class="author" style="display: inline-block;">
+                                  <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/vLTnkmTax7C_Wcn4jTLqglUPEChFu4t5-xG2GJmhX7E=131" style="color: #999999; text-decoration: none;">Posted by u/Ilikebacon999</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/ywVAKnAOhphFPV3dkLNs8M9CEa-3mxA7bb4JDR6K1XQ=131" style="color: #999999; text-decoration: none;">9h ago</a>
+                                </span>
+                              </td>
+                              <!-- Copy End -->
+
+                            </tr>
+                          </table>
+                        </td>
+                        </tr>
+
+                        <tr>
+
+                          <!-- Copy Start -->
+                          <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/QXQH6j38gHWVAsBHhcoFRx1HBcr3vvR6NA1FxTDyJRs=131" style="color: black; text-decoration: none;"><span class="headline">If there was a company that did historical tours via time travel, what trips would be in high demand?</span></a></td>
+                          <!-- Copy End -->
+
+                        </tr>
+
+                        <tr>
+
+                            <!-- Copy Start -->
+                            <td style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/4qE0UYvXpkcOwD8qz_df2lUMxWM-dg_xhN_AFquOSW4=131" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                            <!-- Copy End -->
+
+                        </tr>
+
+                        <!-- / META DATA START / -->
+                        <tr>
+                          <td class="padt10m" style="padding-top: 15px;">
+                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                              <tr>
+                                <td align="left">
+                                  <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                    <tr>
+
+                                      <!-- 15w Image Start -->
+                                      <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/tveeO1j7jq936Aq4_mKuZZeRMzD4CP18Fewuys1M9JA=131"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                      <!-- Image End -->
+
+                                      <!-- Copy Start -->
+                                      <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/hUgyS6Jlqym0oRLl8zKhCa3Q0mS_uI_cjWKRokSJNMY=131" style="color: #999999; text-decoration: none;">39266<span class="hidem">&nbsp;Votes</span></a></td>
+                                      <!-- Copy End -->
+
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td align="left" style="padding-left: 15px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                    <tr>
+
+                                      <!-- 13w Image Start -->
+                                      <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/pfuH6UO7uZy5fDOPKlswtgLTdKsyvLF3cO8Ywefu2vY=131"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                      <!-- Image End -->
+
+                                      <!-- Copy Start -->
+                                      <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffrg9d%2Fif_there_was_a_company_that_did_historical_tours%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/R2UV84s6QSZI1yd4TutMnAgC7SGRW-cxXFTF2Xx2dBk=131" style="color: #999999; text-decoration: none;">8571<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                      <!-- Copy End -->
+
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- / META DATA END / -->
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH NO IMAGE START END -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH NO IMAGE START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                      <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                        <td align="left" style="padding-top: 20px;">
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                            <tr>
+
+                              <!-- 24x24 Width Image Start -->
+                              <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit/3/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/K-8FDr3FU07Stw7sOydS9MNUxsCvTslX_eExpNcA4Go=131"><img src="https://styles.redditmedia.com/t5_2qh1i/styles/communityIcon_tijjpyw1qe201.png" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                              <!-- Image End -->
+
+
+                              <!-- Copy Start -->
+                              <td style="padding-left: 10px; text-align: left;">
+                                <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit/4/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/m3Xn8dQlN5O7L9NG13tZKXuOcCxglEohrWxlK5PFWPE=131" style="color: #888888; text-decoration: none;">
+                                  <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/AskReddit<span>
+                                </a>
+                                <span class="hidem">&#183;</span>
+                                <span class="author" style="display: inline-block;">
+                                  <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/O32pxRU9XGY7tIHdzNIZos-Y9v2qfwX-nDuPbO19o4E=131" style="color: #999999; text-decoration: none;">Posted by u/noyki86</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/FxILv7VE6WKZbCcx6xNbHiRm0MmWiW_lx62rSNu-pVM=131" style="color: #999999; text-decoration: none;">7h ago</a>
+                                </span>
+                              </td>
+                              <!-- Copy End -->
+
+                            </tr>
+                          </table>
+                        </td>
+                        </tr>
+
+                        <tr>
+
+                          <!-- Copy Start -->
+                          <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/GKT71kDrXTj942F-UnmyyuZC0JQWSq80iH9P9snl0bs=131" style="color: black; text-decoration: none;"><span class="headline">Work smart instead of hard - When does this not apply?</span></a></td>
+                          <!-- Copy End -->
+
+                        </tr>
+
+                        <tr>
+
+                            <!-- Copy Start -->
+                            <td style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/iDgXnJ0_iEswberkEu28n-yVP09tQHzcZGVfiaD2_Zk=131" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                            <!-- Copy End -->
+
+                        </tr>
+
+                        <!-- / META DATA START / -->
+                        <tr>
+                          <td class="padt10m" style="padding-top: 15px;">
+                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                              <tr>
+                                <td align="left">
+                                  <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                    <tr>
+
+                                      <!-- 15w Image Start -->
+                                      <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/yIVm26XFSjuBBo0o6AkOLLQXaeYXeIEKMTR-l97sSCA=131"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                      <!-- Image End -->
+
+                                      <!-- Copy Start -->
+                                      <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/Q_hMthrZtLUs3MX-4wbxxBG4AlUsObugm7-GTbXfr5E=131" style="color: #999999; text-decoration: none;">21631<span class="hidem">&nbsp;Votes</span></a></td>
+                                      <!-- Copy End -->
+
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td align="left" style="padding-left: 15px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                    <tr>
+
+                                      <!-- 13w Image Start -->
+                                      <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/1gWwZuuM_2mEZ-JI4K5z3rZ1fm7SjK1uxMjB0P-ZANo=131"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                      <!-- Image End -->
+
+                                      <!-- Copy Start -->
+                                      <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fcomments%2Fffsuk2%2Fwork_smart_instead_of_hard_when_does_this_not%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/z3h37UgDMdoLCzfgVH5XILu4iSbt5BnkwCV2JEYDryM=131" style="color: #999999; text-decoration: none;">2810<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                      <!-- Copy End -->
+
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- / META DATA END / -->
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH NO IMAGE START END -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/HBVxH0ZhWrnHORTNpHRq_GUuN5TgYf0_f49KwhoRTdg=131"><img src="https://b.thumbs.redditmedia.com/B7IpR8P1mEsQIjdizK5x79s5aGfJUtKk3u2ksGZ9n2Q.png" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/8Cq3gU6LBEDeEjqoHi6X0Oo8aFkAa8lF80-Ey3hJQEk=131" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/todayilearned<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/BV2CMbI-4IuCgRKo-SmaJIZGWVAJ40UsUe65EXSKy1w=131" style="color: #999999; text-decoration: none;">Posted by u/Bluest_waters</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/LA3QFs1rDCzux2Xj5qE4wIe-aXWhQeXoRnEtkVxDqv4=131" style="color: #999999; text-decoration: none;">5h ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/R6j9jyA8-5zzcJfOXYwDEqHeWRku0loXUvOjg5nMzaM=131" style="color: black; text-decoration: none;"><span class="headline">TIL In 1971 Fleetwood Mac had to cancel a sold out show booked at the Whiskey A Go Go when their guitarist Jeremy Spencer simply vanished into thin air. He was eventually found having cut off all his hair, dressed in shabby clothes, and joined a cult called The Children of God.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/P-WkKCTXsYPRiiAQhyp3EaRAdnqq3FBGiZqApgNmnJM=131" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/7qEutt28V6FT4az4_wLxU-jCEW-WWPjt8szbr-7o6EE=131"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/UUvwZrYVk5NXBuyDIO1tUo00OqYV8riiFZJFiImPlIE=131" style="color: #999999; text-decoration: none;">49418<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/BPififAS2icFZw_4U1NOeYOd5JQutr0RsXUX15m_y0c=131"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/-KWW14ovksmULR_njykjeF1OfXhfEP50mnG2AyEaWmY=131" style="color: #999999; text-decoration: none;">1448<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/C2NqnXvEy8xqxLEbKuhyB7c_iM-FO-5SPJXKxHK4woo.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=44d473ea5b12ec921ad7b56c2790d545e9876ce0" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Ftodayilearned%2Fcomments%2Ffftvma%2Ftil_in_1971_fleetwood_mac_had_to_cancel_a_sold%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/_2AY7bmZHEKEoMa7nzUAklPMYd__bURtb5_p-z5-J0M=131" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/KSw2OdOXuEfKwxTLL1lgTeDanND3nXBALTfS-u_uvGw=131"><img src="https://styles.redditmedia.com/t5_2qzb6/styles/communityIcon_rvdumsrxdhp11.jpg" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/W8xDTsfslKbmexakd7zCYfNsbga3qDIQV_VcXbVOWvs=131" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/IAmA<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/KWyrMiPWkiImns5N68gar0-K8x3gD3JHBO74VbO_ZT0=131" style="color: #999999; text-decoration: none;">Posted by u/ChrisHansen_Official</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/RcpF211DYx0mjC4UlN4YypT61XRBFWgsYg396sSdpS0=131" style="color: #999999; text-decoration: none;">2h ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/qRRijXKXmtur4i_qhwlrV5bAnSN57Ax3EMAXelTNBNQ=131" style="color: black; text-decoration: none;"><span class="headline">Hi Reddit! I am Chris Hansen, former host of Dateline NBC&#39;s To Catch a Predator and Crime Watch. Take a seat....and ask me anything.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/-L3y3nx4WAuKZsrXgaHC7X01ieKBiQglDxKJc-A_Bs4=131" style="color: #999999; text-decoration: none;">Hi Reddit!
+
+I&#39;m Chris Hansen from Dateline NBC&#39;s To Catch a Predator and Crime Watch Daily.
+
+Here to answer anything from the Reddit community and will be answering [with video responses via Cameo](ht... <span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/GnkdzC7nOMxseJ_0hxIFKuyjzEIFBj6joXeeaZuXG8E=131"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/t7CnY782Bhst5NGqdcQH28abR4hcOEzFIa0aPIG26bs=131" style="color: #999999; text-decoration: none;">4131<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/OpyjiDTgKLlz0BqtrhucekdlSjfSvGlCQNulnPBSqsY=131"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/8o4yVCv3eMMecjVz8UUKL62j_bUxIWkhK8Q3f-tF18Q=131" style="color: #999999; text-decoration: none;">1575<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/udnWdGASfTqZ0wIlbxlUlKAB3jC4wp8dtrToQpUIhz4.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=5b2a8f17e501f4abda596ae9c038b84df5f99d52" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Fffwy27%2Fhi_reddit_i_am_chris_hansen_former_host_of%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/y7dcp6JtBJfg-l-HJedT8VdFlSJtL9iAHkly-ml7xKs=131" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/RzMoOd5EDGcUDjtw_uws9bgPc6N4RhpIRgqE_--qTU8=131"><img src="https://styles.redditmedia.com/t5_2cneq/styles/communityIcon_fy84mdgh75201.jpg" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/RXLJZydGxnU8dco1SKyvrEgxaVpjJCBk26nykEquXSA=131" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/politics<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/HIMC5CG-FdoKjfT6dkyCVgxsueRGx-zIgawEsZTmwAk=131" style="color: #999999; text-decoration: none;">Posted by u/Thinkingonsleeping</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/pBs03ONrxq5nBgLMMa7puosDkyUFzmyh_P8-0VdL2l4=131" style="color: #999999; text-decoration: none;">7h ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/zumGAlJNJmJNe3v9qfmxmBWzLEmreH7tdHLpJqzlXSo=131" style="color: black; text-decoration: none;"><span class="headline">&#39;There Is Genuine Panic&#39;: Fears of Global Financial Meltdown as Human Toll of Coronavirus Grows; President Donald Trump was described as &#34;the worst person to be in charge in this moment&#34; as coronavirus cases in the U.S. topped 500 over the weekend.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/7WNIbKDrSQjEXjah_GIwTHEOZrsEWcGLw1P929wxnGI=131" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/FRCzQZwilWggaLQQCKyEFdE5cDiBlJpRbvG7A-SlcyE=131"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/Mh4n-h15HYzsDDlZOZUWfFmHMyTMREdk0rA70pkO9ZY=131" style="color: #999999; text-decoration: none;">40065<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/rv9ewz2GJN7g6KRiMsvm46reHVYvQhrHHqUdDjywku4=131"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/7sYz4ISfb21caFWBNfHDc_f9dxR2Mdxgshr9FwX_Uvo=131" style="color: #999999; text-decoration: none;">4356<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/W9VzcwqDp5x3QiJivI8vFUYKhiRmgq9bvjJhDy9y-74.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d258c70a34ae2c5ff5acfdf53dda425ef68a48b0" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fpolitics%2Fcomments%2Fffsqx5%2Fthere_is_genuine_panic_fears_of_global_financial%2F%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/FtfAhJNg_4VfvSPoa1pEp_f16gDQO-UZcrSKn2fznKE=131" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+
+                <!--/// STANDARD BUTTON START -->
+                <tr>
+              <td align="center" style="padding-top: 20px;">
+                <table border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="background-color: #0079D3; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow: hidden;">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+
+                          <!-- Copy Start -->
+                          <td class="opensans" align="center" height="35" style="padding-left: 35px; padding-right: 35px; font-size: 13px; color: white; font-family: Arial, sans-serif; text-align: center; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=view_more%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/YNKg268LV0J088EGgqgfqH4IzhWP6cC39wa4AaTbuv8=131" style="color: white; text-decoration: none;"><span class="opacity" style="display: block; width: 100%; padding-top: 10px; padding-bottom: 10px; color: white;">VIEW MORE&nbsp;POSTS</span></a></td>
+                          <!-- Copy End -->
+
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+                </tr>
+                <!--  STANDARD BUTTON END ///-->
+
+              <!-- ADD MODULES HERE END -->
+
+              </table>
+            </td>
+          </tr>
+
+          <!--/// FOOOTER START  -->
+          <tr>
+            <td align="center" style="padding-top: 20px;">
+              <table align="center" width="90%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td style="background-color: #E8F2F9; padding-top: 30px;">
+                    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center">
+                          <table width="85%" align="center" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+
+                              <!-- 100w Image Start -->
+                              <td align="center"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=footer%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/-dIxaU8q9OdOqtqp4fDuNDZ_26Az0J6w-xzgZy7LC3g=131"><img src="https://www.redditstatic.com/emaildigest/logo.png" width="100" alt="" style="display: block; border: 0;"/></a></td>
+                              <!-- Image End -->
+
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding-top: 20px;">
+                                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+
+                                    <!-- 131x46 Image Start -->
+                                    <td align="center" style="padding-right: 5px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Freddit.app.link%2F%3Faction=click%26publisher_id=293679%26site_id=122129%26site_id_ios=121809%26utm_content=install_app/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/kY83ceMQc54Z9ol5YA5I0oHtXDWOQJQA0L_F0tGQPPE=131"><img src="https://www.redditstatic.com/emaildigest/button_applestore.png" width="131" alt="Download on the App Store" style="display: block; border: 0; color: black; font-size: 15px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="opacity"/></a></td>
+                                    <!-- Image End -->
+
+                                    <!-- 131x46 Image Start -->
+                                    <td align="center"  style="padding-left: 5px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Freddit.app.link%2F%3Faction=click%26publisher_id=293679%26site_id=122129%26site_id_ios=121809%26utm_content=install_app/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/2JkJ4WRTFXD4bub-pLMS_cbYaSqjo87-04EvFj5JLFY=131"><img src="https://www.redditstatic.com/emaildigest/button_googleplay.png" width="131" alt="Get it on Google Play" style="display: block; border: 0; color: black; font-size: 15px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="opacity"/></a></td>
+                                    <!-- Image End -->
+
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+
+                        <!-- Copy Start -->
+                              <td style="padding-top: 30px; text-align: center; font-size: 13px; line-height: 1.4em; color: #808080; font-family: Helvetica, Arial, sans-serif; font-weight: bold;">548 MARKET ST. #1<span></span>6<span></span>09<span></span>3,<span class="expandm">SAN FRANCISCO, CA&nbsp;94<span></span>10<span></span>4&ndash;54<span></span>01</span></td>
+                        <!-- Copy End -->
+
+                            </tr>
+                            <tr>
+
+                        <!-- Copy Start -->
+                              <td style="padding-top: 20px; text-align: center; font-size: 13px; line-height: 1.4em; color: #808080; font-family: Helvetica, Arial, sans-serif; font-weight: normal;">You are receiving this email because a Reddit account (u/_vb64_) is registered to your email address or you have chosen to receive email digests. You can manage email settings by logging in and adjusting your user preferences for that account.</td>
+                        <!-- Copy End -->
+
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding-top: 20px;">
+                                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+
+                              <!-- Copy Start -->
+                                    <td style="padding-right: 10px; text-align: center; font-size: 13px; line-height: 1.4em; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a class="opacity" href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=footer%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/h9_QOOXYaZWeBIBEoIhqMG5G8basOekHD_kp1toFbgs=131" style="text-decoration: none; color: #0079D3;">VIEW ONLINE</a></td>
+                              <!-- Copy End -->
+
+
+                              <!-- Copy Start -->
+                                    <td style="padding-left: 10px; text-align: center; font-size: 13px; line-height: 1.4em; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a class="opacity" href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fmail%2Funsubscribe%2F5uc9hj%2F2%2Fb9371f0c3aa9c6afa37e129dd9a1198694bfefe1844490b479e2671e8fb4ab7b%3F$web_only=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=unsubscribe%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/ENtpVtwCtXlsq2yjy6xbK3ToZ76DwM-XLrZOXvLmJLE=131" style="text-decoration: none; color: #0079D3;">UNSUBSCRIBE</a></td>
+                              <!-- Copy End -->
+
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <!-- 640x200 Image Start -->
+                        <td align="center" style="padding-top: 20px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=e79e13f9-5256-4d2c-8911-1ebf69bf750b%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=footer%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/3/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/_R70bdvF4xvG-JZH75KNg-Cfvh_KrLpto8SUVdqzzRM=131"><img src="https://www.redditstatic.com/emaildigest/bottom_img.png" width="640" alt="" style="display: block; border: 0; background-color: none; color: white; font-size: 20px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="resizem"/></a></td>
+                        <!-- Image End -->
+
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- FOOTER END  ///-->
+        </table>
+      </td>
+    </tr>
+  </table>
+<img alt="" src="http://click.redditmail.com/CI0/01000170c07b2443-b4ee5b44-63c1-4d10-b9c5-a035168babd2-000000/W2OL963oxZF7mQ2LOMmfsmHtHy7LL91cASsRiLONsTY=131" style="display: none; width: 1px; height: 1px;">
+</body>
+</html>

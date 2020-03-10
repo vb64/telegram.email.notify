@@ -53,3 +53,25 @@ class TestCaseViews(TestCase):
         response = self.param_post('transform', {'codec': 'store'}, self.src)
         assert response.status_code == 200
         assert self.src in response.data
+
+    def test_run(self):
+        """
+        run function with exception raise
+        """
+        from wsgi import run
+        import modules
+
+        def mock_store(label, subj, body):
+            """
+            emulate exception raise
+            """
+            raise Exception(''.join([label, subj, body]))
+
+        saved = modules.store
+        modules.store = mock_store
+
+        with self.assertRaises(Exception) as context:
+            run('store', 'xxx')
+        assert 'xxx' in str(context.exception)
+
+        modules.store = saved
