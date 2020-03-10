@@ -23,3 +23,10 @@ class TestReddit(TestCase):
         """
         text = self.transfer('msg1.txt')
         assert self.mark not in text
+
+    def test_message2(self):
+        """
+        reddit message2
+        """
+        text = self.transfer('msg2.txt')
+        assert self.mark not in text

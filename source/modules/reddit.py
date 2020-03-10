@@ -24,4 +24,7 @@ def start(subj, body):
     head = ' '.join(head[head.index(MARK_POSTED) + len(MARK_POSTED):].strip().split()[1:])
     link = "[Read]({})".format(tail.split()[0])
 
+    if not head:
+        head = subj
+
     return 'Reddit: ' + head + '\n' + BUTTONS + '\n' + link
