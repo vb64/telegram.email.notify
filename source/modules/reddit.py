@@ -13,11 +13,13 @@ def start(subj, body):
     """
     parse Reddit message
     """
-    SavedSource(label=LABEL, subject=subj, body=body).put()
-
     text = convert(body, extract_link=True).replace(NBSP, ' ')
-    border = text.index(MARK_CLICK)
 
+    if MARK_CLICK not in text:
+        SavedSource(label=LABEL, subject=subj, body=body).put()
+        return 'Reddit: ' + subj + '\n' + text
+
+    border = text.index(MARK_CLICK)
     head = text[:border]
     tail = text[border:]
 

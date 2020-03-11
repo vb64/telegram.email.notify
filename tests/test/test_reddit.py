@@ -30,3 +30,10 @@ class TestReddit(TestCase):
         """
         text = self.transfer('msg2.txt')
         assert self.mark not in text
+
+    def test_no_link(self):
+        """
+        reddit message without https://click.redditmail.com/
+        """
+        text = self.transfer('msg3.txt')
+        assert self.mark not in text
