@@ -23,7 +23,8 @@ def start(subj, body):
     head = text[:border]
     tail = text[border:]
 
-    head = ' '.join(head[head.index(MARK_POSTED) + len(MARK_POSTED):].strip().split()[1:])
+    if MARK_POSTED in head:
+        head = ' '.join(head[head.index(MARK_POSTED) + len(MARK_POSTED):].strip().split()[1:])
     link = "[Read]({})".format(tail.split()[0])
 
     if not head:

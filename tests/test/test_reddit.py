@@ -37,3 +37,10 @@ class TestReddit(TestCase):
         """
         text = self.transfer('msg3.txt')
         assert self.mark not in text
+
+    def test_covid(self):
+        """
+        covid message
+        """
+        text = self.transfer('msg4.txt')
+        assert self.mark not in text
