@@ -1,0 +1,1200 @@
+r/Coronavirus Community Spotlight: See top posts about COVID-19
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en" style="width: 100%;">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--[if !mso><!-- -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif-->
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" name="viewport">
+<meta name="viewport" content="width=device-width">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<meta name="x-apple-disable-message-reformatting">
+
+<title>Reddit</title>
+
+<style type="text/css">
+.ExternalClass { width:100%; }
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+table td { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+h1, h2, h3, h4, h5, h6 { font-size: inherit; padding: 0; margin: 0; color: black; line-height: 100%; }
+.applelinks a { text-decoration: none; color: inherit !important; }
+a { color: black; text-decoration: none; }
+a, a:link, a:visited { color: inherit; text-decoration: none; }
+span.MsoHyperlink { mso-style-priority: 99; color: inherit; }
+span.MsoHyperlinkFollowed { mso-style-priority: 99; color: inherit; }
+img { border: 0px !important; }
+
+body {
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+.button:hover { background-color: red !important; }
+.opacity:hover { opacity: 0.8 !important; }
+.headline { color: #0079D3 !important;}
+
+@media all {
+.ow100 { width: 100% !important;}
+}
+
+
+@media only screen and (max-width: 480px) {
+.w100m, .column50, .column33, .column25, .column75, .column66 { width: 100% !important; }
+.w90m { width: 90% !important;}
+.expandm { width: 100% !important; display: block !important; }
+.resizem { width: 100% !important; height: auto !important; }
+.hidem { display: none !important; }
+.h1m { font-size: 20px !important;}
+.h2m { font-size: 18px !important;}
+.h22m { font-size: 15px !important;}
+.h3m { font-size: 14px !important;}
+.tcenterm { text-align: center !important; }
+.tleftm { text-align: left !important; }
+.col25m { width: 25% !important;}
+.col75m { width: 75% !important;}
+
+.mobile-position { background-position: 0% 100% !important;}
+
+.hero-size { background-size: auto 100% !important;}
+.logo { width: 100px !important; height: auto !important; }
+.padt0m { padding-top: 0px !important; }
+.padl5m { padding-left: 5px !important; }
+.padt5m { padding-top: 5px !important; }
+.padt10m { padding-top: 10px !important; }
+.padt20m { padding-top: 20px !important; }
+.padt30m { padding-top: 30px !important; }
+.padb5m { padding-bottom: 5px !important;}
+.padb10m { padding-bottom: 10px !important;}
+.padb20m { padding-bottom: 20px !important;}
+.padb30m { padding-bottom: 30px !important;}
+
+.author { display: block !important; }
+}
+
+
+@media only screen and (max-width: 711px) {
+.ow100 { width: 100% !important;}
+.w100 { width: 100% !important;}
+.w90 { width: 90% !important;}
+.hide { display: none !important; }
+.resize { width: 100% !important; height: auto !important; }
+.resize img { width: 100% !important; height: auto !important; }
+.expand { width: 100% !important; display: block !important; }
+.height0 { height: 0 !important; }
+.column50 { width: 50%; }
+.column50a { width: 50%; }
+.column33 { width: 33.33%; }
+.column25 { width: 25%; }
+.column75 { width: 75%; }
+.column66 { width: 66%; }
+.tcenter { text-align: center !important; }
+.w70 { width: 70% !important;}
+
+.bannerpop { background-size: cover !important; }
+.overlay { background: -moz-linear-gradient(-45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
+.padlr0m { padding-left: 0px !important; padding-right: 0px !important;}
+
+.padt0 { padding-top: 0px !important; }
+.padt5 { padding-top: 5px !important; }
+.padt10 { padding-top: 10px !important; }
+.padt20 { padding-top: 20px !important; }
+.padt30 { padding-top: 30px !important; }
+.padb5 { padding-bottom: 5px !important;}
+.padb10 { padding-bottom: 10px !important;}
+.padb20 { padding-bottom: 20px !important;}
+.padb30 { padding-bottom: 30px !important;}
+}
+
+.image-container { height: 0; overflow: hidden; padding-top: 56.25%; position: relative; }
+.image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+
+<!--[if mso>
+<style type="text/css">
+body {
+margin: 0 !important;
+padding: 0 !important;
+font-family: Segoe UI, Arial, sans-serif;
+}
+
+table, td, div, p {
+font-family: Segoe UI, Arial, sans-serif;
+line-height: normal;
+}
+</style>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif-->
+
+
+
+</head>
+
+<body class="tli" style="-webkit-text-size-adjust: none;-ms-text-size-adjust: none; margin: 0; padding: 0; width: 100%; background-color: white;">
+
+
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+    <tr>
+      <td align="center">
+        <table class="w100" width="711" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+
+
+          <!-- /// Reddit Logo With Subtext Start -->
+          <tr>
+            <td class="padt10m" align="center" style="padding-top: 20px;">
+                <table width="90%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+
+                    <!-- 126px Width Image Start -->
+                    <td align="center"><a href="#"><img src="https://images.trendline.email/mts/reddit/logo.png" width="126" alt="reddit" style="display: block; border: 0; color: black; font-size: 25px; font-weight: bold; font-family: sans-serif;"/></a></td>
+                    <!-- 126px Width Image End -->
+
+                    </tr>
+                    <tr>
+
+                        <!-- Copy Start -->
+                        <td style="padding-top: 10px; text-align: center; font-size: 15px; line-height: 1.1em; color: black; font-weight: bold; font-family: Helvetica, Arial, sans-serif;">Keep Yourself Safe and Informed</td>
+                        <!-- Copy End -->
+
+                    </tr>
+                    <tr>
+
+                        <!-- Copy Start -->
+                        <td style="padding-top: 10px; text-align: center; font-size: 15px; line-height: 1.1em; color: black; font-family: Helvetica, Arial, sans-serif;">Visit <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.cdc.gov%2F/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/oBywYdkgDYI10dNqgHsIBftiv6GuDYc6m8fm9zdHjqA=132">CDC.gov</a> for Official Updates</td>
+                        <!-- Copy End -->
+
+                        </tr>
+                </table>
+            </td>
+          </tr>
+          <!-- Reddit Logo With Subtext End ///-->
+
+          <tr>
+            <td align="center">
+              <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                <!-- ADD MODULES HERE START -->
+
+                <!--/// COMMUNITY OVERVIEW START -->
+                <tr>
+                    <td align="center" style="padding-top: 20px;">
+                        <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <!-- 640w Image Start -->
+                                <td align="center"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/OQlTNDXnO-bQaHFUCT__CopoFsEY-mLqfVxQNZOXQnI=132"><img src="https://b.thumbs.redditmedia.com/Z0AuQTEIE2oI_jvIGNvCUKj4Wou2XrNRMoxtdFLeezo.png" width="640" alt="The New Reddit Journal of Science" style="display: block; border: 0; color: black; font-size: 30px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="resizem"/></a></td>
+                                <!-- Image End -->
+                            </tr>
+                            <tr>
+                                <td style="border-left: 1px solid #EDEDEF; border-right: 1px solid #EDEDEF; border-bottom: 1px solid #EDEDEF; padding-bottom: 20px;">
+                                    <table align="center" width="90%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td style="padding-top: 10px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                    <td valign="top">
+
+                                                        <table class="column50" width="286" border="0" align="left" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td align="left" style="padding-top: 10px;">
+                                                                    <table border="0" align="left" cellpadding="0" cellspacing="0">
+                                                                        <tr>
+
+                                                                            <!-- 24w Image Start -->
+                                                                            <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/tqIuPPYmXBChxO8QRvc21fqynNPZUse_P0CaefAXlDc=132"><img src="https://styles.redditmedia.com/t5_2x4yx/styles/communityIcon_ex5aikhvi3i41.png" width="24" alt="" style="display: block; border: 0; background-color: none; color: white; font-size: 20px; font-weight: bold; font-family: sans-serif;"/></a></td>
+                                                                            <!-- Image End -->
+
+                                                                            <td style="padding-left: 10px;">
+                                                                                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+
+                                                                                        <!-- Copy Start -->
+                                                                                        <td style="text-align: left; font-size: 14px; line-height: 1.2em; color: #0079DA; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/3/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/xorEDYEY3U59LDBwniR9SSBUqZsGfwhzig4i2H7Kx7A=132" style="color: #0079D3; text-decoration: none;">r/Coronavirus</a></td>
+                                                                                        <!-- Copy End -->
+
+                                                                                    </tr>
+                                                                                    <tr>
+
+                                                                                        <!-- Copy Start -->
+                                                                                        <td style="text-align: left; font-size: 14px; line-height: 1.2em; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight: normal;">1.2m Subscribers</td>
+                                                                                        <!-- Copy End -->
+
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                    </table>
+
+                                                    <!--[if mso]></td><td valign="top"><![endif]-->
+
+                                                    <table class="column50" width="286" border="0" align="left" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td style="padding-top: 10px;">
+                                                                <table class="w100m" border="0" align="right" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table border="0" align="left" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td style="background-color: #0079D3; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow: hidden;">
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+
+                                                                                                <!-- Copy Start -->
+                                                                                                <td class="opensans" align="center" height="35" style="padding-left: 45px; padding-right: 45px; font-size: 13px; color: white; font-family: Arial, sans-serif; text-align: center; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/4/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/HMC1cmf7MCuH0MP5ignkUW1RjbcTf8lzwMontZppgC0=132" style="color: white; text-decoration: none;"><span class="opacity" style="display: block; width: 100%; padding-top: 10px; padding-bottom: 10px; color: white;">VIEW&nbsp;COMMUNITY</span></a></td>
+                                                                                                <!-- Copy End -->
+
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <!-- Copy Start -->
+                                <td style="padding-top: 20px; text-align: left; font-size: 16px; line-height: 1.3em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a class="headline" href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/5/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/sL9t88MXdH02uI8ly6BybkY05X4IBvzIXnbWR0PB6gw=132" style="color: black; text-decoration: none;">In December 2019, a novel coronavirus strain (SARS-CoV-2) emerged in the city of Wuhan, China. This subreddit seeks to monitor the spread of the disease COVID-19, declared a pandemic by the WHO. Please be civil and empathetic. This subreddit is for high quality posts and discussion.</a></td>
+                                <!-- Copy End -->
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+                <!-- COMMUNITY OVERVIEW END ///-->
+
+                
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/6/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/MzFv9NPPdJJY_em-OY4aJo8muUFvMETOVmQeU8NV0Es=132"><img src="https://styles.redditmedia.com/t5_2x4yx/styles/communityIcon_ex5aikhvi3i41.png" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/7/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/Cg856pPqD-2a8FvNVQ1tx0bYRdvY-RpCFyUCGQ3eJIc=132" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/Coronavirus<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/EOypBHfOnTnYTng3hhR62zvpa9xOjndXYG7ay1_9CHc=132" style="color: #999999; text-decoration: none;">Posted by u/nbcnews</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/0vLRFQgeqIIa2TjH9znDxU9UHCSe_Al4wV7mEyTW4O4=132" style="color: #999999; text-decoration: none;">1w ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/9HSVVmsQy8xeq8ewS9UQTEw7oggZC888E5cfwhem_gE=132" style="color: black; text-decoration: none;"><span class="headline">I’m Dr. John Torres, medical correspondent for NBC News who practices emergency medicine, and I&#39;m joined by Dr. Joseph Fair, a virologist, epidemiologist and global outbreak responder. We’re here to discuss the new COVID-19 coronavirus outbreak. AMA.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/xATHnVfL7lJnqXE-7-qE9Yug9y3UqIL43__SBFGkgH4=132" style="color: #999999; text-decoration: none;">We are working to help people better understand this spreading virus, including what works to help protect yourself (wash your hands!) and doesn’t work (surgical masks), with a goal of helping everyon... <span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/A6mSUP9-ebDUrPdvMQE2LTLVo1Pk3yjo4udqvR3DVsA=132"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/e1cOVSLXvcGNWPf4WVu7lm0F0tODRmSdekAQXjAdQSo=132" style="color: #999999; text-decoration: none;">2593<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/ouwVyQNmjDG45ybao3hoNSGZThEbyi6dQ7biiZQ2BN0=132"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/1ObId7R3oU2kvuvMyx1k1QT2L_Gj3XEt-NTMglmHcgc=132" style="color: #999999; text-decoration: none;">1479<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/2lfS2-YhJGBiTAzmzdCWOSweXCIsZkIGjFXj7rA28uI.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=f10da857bcffe282307825765ceb753915acf347" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffefj9n%2Fim_dr_john_torres_medical_correspondent_for_nbc%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/Jl6sfrdsPL9EJVBpA1JFKq2ijHtoantlMTEsuc7XAlA=132" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/88uz_L23VgUu1HSSXQIER0YU9y4oAv9ZP3N_8KmkFcw=132"><img src="https://styles.redditmedia.com/t5_2qzb6/styles/communityIcon_rvdumsrxdhp11.jpg" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/FvhySmkPBF9B2tJmZBuQLpCKkDFWuYD_AfP75UR63Zg=132" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/IAmA<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/hitGpThc6Rg7_PixMOi4BuRIQJ4-acyVRSJZ-cYVD2E=132" style="color: #999999; text-decoration: none;">Posted by u/APnews</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/m8_U1-ncAqy74dJ4brRYhBeh-OeB6AClLmzB0LkWgi0=132" style="color: #999999; text-decoration: none;">1d ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/dftzRfcpcQDkqz20uWA7X_NQiBjV-wtOeaoXrZQBn2c=132" style="color: black; text-decoration: none;"><span class="headline">We are the chief medical writer for The Associated Press and a vice dean at Johns Hopkins Bloomberg School of Public Health. Ask us anything you want to know about the coronavirus pandemic and how the world is reacting to it.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/oumFcens7oEVjAI08G7aN00QLmlYmeFABdwLj7mD37w=132" style="color: #999999; text-decoration: none;">UPDATE: Thank you to everyone who asked questions.
+
+Please follow https://APNews.com/VirusOutbreak for up-to-the-minute coverage of the pandemic or subscribe to the AP Morning Wire newsletter: https:/... <span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/qR13bUXRhHfRUw1dRpCbynl3mhULCZsqA37fhQJhRXc=132"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/fRyRKMleA3BtxFpF67AbzXronDwO8_vRd9giE-W9zhQ=132" style="color: #999999; text-decoration: none;">15442<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/kz6Ry8xTztkbIJBl5bcKyyHA_9gOjau0eutLFTAQx-w=132"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/IcckQqW_Wqwye_o7N5kzXuXy1D_h2MCANGgq-Tz4xCs=132" style="color: #999999; text-decoration: none;">3149<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/nYaYA0qSIKrnm5eKuuRjyzUbuEqMx_VCqg2pMoKwRvM.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=7d9ec16058c8b15e98a618668a387cbbae338acd" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FIAmA%2Fcomments%2Ffjlvma%2Fwe_are_the_chief_medical_writer_for_the%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/CCXU1fsD9nI66SujpvSwFVVI_SIhqM5mr0LSJ-6ZDZY=132" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/8/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/RIdjF3rW7yE0Cr8wWQ4yPjhVgY0oWvJiHDflEUGiNzs=132"><img src="https://styles.redditmedia.com/t5_2x4yx/styles/communityIcon_ex5aikhvi3i41.png" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus/9/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/JibLC0JCnBAkaxSlHIS47ZPSJEHejd7UmzNDQy-ZmJY=132" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/Coronavirus<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/NNUbWogKYGGBQ64951g-nwoMzBVogMahmi6RQkKyT6Q=132" style="color: #999999; text-decoration: none;">Posted by u/finchdad</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/lBFLNCGeMFV2aCLIXmVIPcKLaWBhiNlvZLgLpbsVIBk=132" style="color: #999999; text-decoration: none;">1w ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/f3rSkjAShhsrZ1yI--aNqlkyPRouI0jwRLZv5W_FWkQ=132" style="color: black; text-decoration: none;"><span class="headline">Even if COVID-19 is unavoidable, delaying infections can flatten the peak number of illnesses to within hospital capacity and significantly reduce deaths.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/1UE1pByjv7c9PzrFwfgz5_HHBDnE2f7C_W7GTA9TYno=132" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/HmM4tow3twlafS728aDREOco3yhvDSYPVLyYSMi5TNQ=132"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/giZ64gKyFnNnzj6KsiIsRjdqTJ1GRVvEV9dm4k4OqeQ=132" style="color: #999999; text-decoration: none;">108704<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/zj0T50OlmK1RTyF-0hXUfnfy0EBoMui5ypNwD8YyFXY=132"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/Ku6PKVS5ZnUZ0MGJK3vFfhX--xZ_Kc9fF75yIXnmi7M=132" style="color: #999999; text-decoration: none;">3505<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/I7zrqzYpoVcXg-nlANxu8Kuk46o4lQf0d9OuSD2TQrM.gif?width=1080&amp;crop=smart&amp;s=038678334b5b10de1c5c97dd538ad2933e528940" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2FCoronavirus%2Fcomments%2Ffgi2pi%2Feven_if_covid19_is_unavoidable_delaying%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/WLW9PIaoyax0iUmowPs9ed0gg0tnFqUH2Oyj72h5HE8=132" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/-X1fnPzCj9MikyjKPqW1SB7M4co97qKpNFkbKxHJqgM=132"><img src="https://www.redditstatic.com/emaildigest/reddit_community.png" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/AxYdyol4WVSF2FlSO9Npf6CTM4QrRpiVimGWyyweUBU=132" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/worldnews<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/PwwaRmEWdOXFHLHXezEoyKcLD9f7hMIbqlH-2bwkhFc=132" style="color: #999999; text-decoration: none;">Posted by u/1160</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/CFaHjBJBlC7owZM-EDP6lavpgx396eZNewJ1QecrEYY=132" style="color: #999999; text-decoration: none;">1d ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/brsEFBkY3es2wT3n0Wmf4pv64nwCrZFIhyiCBEs6Pi0=132" style="color: black; text-decoration: none;"><span class="headline">Coronavirus will bankrupt nearly all the world&#39;s airlines in a matter of weeks, aviation experts say.</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/VbcY9RMSDTWneqckYdC39DwBnHg49hFmyWqmhOQH770=132" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/p5zH2bhUuX6PuD2kPDJZAFDQ0AVvztMimiya1zeB8T8=132"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/Ml4ib_qu1ACSXp9xVSDLtE11w77FUeGCEFmc_OvIUPA=132" style="color: #999999; text-decoration: none;">54622<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/actOFTy2YH3CxQF6ulfxE0U1jLFpzCKFkOmBXyzEMqo=132"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/SWUWmSd1ZHh0eYOAvoEbTSbhxs3tLoQj7yZo2LfBC68=132" style="color: #999999; text-decoration: none;">6073<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/rKX-2BsjuRKDvVVQfqAo0LsnRxmRzCtGjPgZtPSH2ho.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=a2602d0409b8a3d8b5ca6b0a66cf5864eeeebda3" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fworldnews%2Fcomments%2Ffju245%2Fcoronavirus_will_bankrupt_nearly_all_the_worlds%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/F2uOiBxXvUavkZ9X46nL81BwTBKghsD556ntnxyKXzw=132" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+                  <!--/// COMMUNITY POST WITH SUBCOPY START -->
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td valign="top">
+                          <table class="w100" width="515" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table class="w100m" width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td align="left" style="padding-top: 20px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <!-- 24x24 Width Image Start -->
+                                          <td width="24" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/v1aJPWIEcxM-n_9hXd7QMElQfyO5FpyMiC2lFvrCk3E=132"><img src="https://styles.redditmedia.com/t5_2tk95/styles/communityIcon_hrq90p2z27k11.jpg" width="24" alt="" style="display: block; border: 0;"/></a></td>
+                                          <!-- Image End -->
+
+
+                                          <!-- Copy Start -->
+                                          <td style="padding-left: 10px; text-align: left;">
+                                            <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/9-JdMDKsEuh_Hoti-RONlk6BfIH7sbpOJ2pqTNGlEBE=132" style="color: #888888; text-decoration: none;">
+                                              <span style="font-size: 15px; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: bold; width: 1px; white-space: nowrap;">r/dataisbeautiful<span>
+                                            </a>
+                                            <span class="hidem">&#183;</span>
+                                            <span class="author" style="display: inline-block;">
+                                              <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_author%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/9GWOG3ZftM0wVUYZvE363x-5QLEUZzPWeIQyShf5T5Q=132" style="color: #999999; text-decoration: none;">Posted by u/Edward-EFHIII</a>&nbsp;<a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_timestamp%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/GUiKKFvj2mDVj_cVWZQkXEw2z_3i9froVQjCTnjTlgU=132" style="color: #999999; text-decoration: none;">2d ago</a>
+                                            </span>
+                                          </td>
+                                          <!-- Copy End -->
+
+
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td style="padding-top: 10px; text-align: left; font-size: 16px; line-height: 1.2em; color: black; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_title%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/dQ0qJooB4a3jQNS_Y5X59Uj4R9VIGm4qFYZK_emNhO4=132" style="color: black; text-decoration: none;"><span class="headline">[OC] COVID-19 spread from January 23 through March 14th. (Multiple people independently told me to post this here)</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+                                  <tr>
+
+                                    <!-- Copy Start -->
+                                    <td class="hidem" style="padding-top: 10px; text-align: left; font-size: 14px; line-height: 1.4em; color: #888888; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_body%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/YfvMHfit1AbdiQvHZP3EYUJH2akBxK-eDQbL9nHWXfU=132" style="color: #999999; text-decoration: none;"><span style="color: #0079DA;">Read&nbsp;More</span></a></td>
+                                    <!-- Copy End -->
+
+                                  </tr>
+
+                                  <!-- / META DATA START / -->
+                                  <tr>
+                                    <td class="padt10m" style="padding-top: 15px;">
+                                      <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+
+                                          <td align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 15 Image Start -->
+                                                <td width="15" align="left"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/Rgw9_MGXlCLRLEBQ7leazmTayTMyHto7XzcvJjWCNcg=132"><img src="https://www.redditstatic.com/emaildigest/reddit_vote-button.png" width="15" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #999999; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_karma%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/N6OwF6u6MYrzXOfZXzPunISMxxH4nQKlCd5d2cgRsqs=132" style="color: #999999; text-decoration: none;">76747<span class="hidem">&nbsp;Votes</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                          <td align="left" style="padding-left: 15px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left">
+                                              <tr>
+
+                                                <!-- 13w Image Start -->
+                                                <td width="13" align="left" style="line-height: 0px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/67La1RQZaY7o5z_gqjSSIeHQEV2446dtPclOvX_0hVQ=132"><img src="https://www.redditstatic.com/emaildigest/reddit_comment.png" width="13" alt="" style="display: block; border: 0;"/></a></td>
+                                                <!-- Image End -->
+
+                                                <!-- Copy Start -->
+                                                <td style="padding-left: 5px; text-align: left; font-size: 14px; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight:normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_comments%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/knmD6fezWmIWWiAob_R4Tj9edSJCBKM1fXgF_Q3GrpY=132" style="color: #999999; text-decoration: none;">1933<span class="hidem" style="color: #999999; text-decoration: none;">&nbsp;Comments</span></a></td>
+                                                <!-- Copy End -->
+
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <!-- / META DATA END / -->
+
+
+
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!--[if mso]></td><td valign="top"><![endif]-->
+                          <table class="w100" width="120" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="padt20" style="padding-top: 35px;">
+                                <table class="w100m" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <!-- PREVIEW OBJECT BACKGROUND-IMAGE - Note: Apply link to both TD and MSO code -->
+                                    <td background="https://external-preview.redd.it/QsazpDu1wwKCxS1kixTwX62eF1eKypsoXPD6DwaFS4o.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=301643e8f3f6814517d7d4e5b611622e79cf0995" align="center" style="background-size: cover; background-position: left center; background-repeat: no-repeat; border: 1px solid #eeeeee;">
+                                      <!--[if gte mso 9]>
+                                          <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 120px; height: 100px;" src="https://www.redditstatic.com/emaildigest/reddit_post_image1_mobile.jpg" />
+                                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 120px; height: 100px;">
+                                          <v:fill  opacity="0%" color="#ffffff"/>
+                                          <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                      <a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fr%2Fdataisbeautiful%2Fcomments%2Ffj7535%2Foc_covid19_spread_from_january_23_through_march%2F%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=post_image%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/KTBydlse6IUNV1D2EqHdMk7IXlpYIPC-IDgq-KkXwEI=132" style="display: block; border: 0;">
+                                        <div class="image-container">
+
+                                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td class="image" height="100" align="center">&nbsp;</td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                      </a>
+                                      <!--[if gte mso 9]>
+                                          </v:textbox>
+                                          </v:fill>
+                                          </v:rect>
+                                          </v:image> -->
+                                      <!--<![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <!-- COMMUNITY POST WITH SUBCOPY END /// -->
+
+                  <!--/// DIVIDER START-->
+                  <tr>
+                    <td align="center" style="padding-top: 30px;">
+                      <table class="w90m" width="50%" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="border-top: 1px solid #E4E4E4;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- DIVIDER END ///-->
+                  
+
+                <!--/// STANDARD BUTTON START -->
+                <tr>
+              <td align="center" style="padding-top: 20px;">
+                <table border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="background-color: #0079D3; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow: hidden;">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+
+                          <!-- Copy Start -->
+                          <td class="opensans" align="center" height="35" style="padding-left: 35px; padding-right: 35px; font-size: 13px; color: white; font-family: Arial, sans-serif; text-align: center; font-weight: normal;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=view_more%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/_0pOlqm4rT4wG6yYTo0axSlFlLiEEr2MzKQ66LjL5_k=132" style="color: white; text-decoration: none;"><span class="opacity" style="display: block; width: 100%; padding-top: 10px; padding-bottom: 10px; color: white;">VIEW MORE&nbsp;POSTS</span></a></td>
+                          <!-- Copy End -->
+
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+                </tr>
+                <!--  STANDARD BUTTON END ///-->
+
+              <!-- ADD MODULES HERE END -->
+
+              </table>
+            </td>
+          </tr>
+
+          <!--/// FOOOTER START  -->
+          <tr>
+            <td align="center" style="padding-top: 20px;">
+              <table align="center" width="90%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td style="background-color: #E8F2F9; padding-top: 30px;">
+                    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center">
+                          <table width="85%" align="center" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+
+                              <!-- 100w Image Start -->
+                              <td align="center"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=footer%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/8GlpJ8kMSJTA1Oc_EJDdCbzON_9EQ1_vm2Y3ZesGmfE=132"><img src="https://www.redditstatic.com/emaildigest/logo.png" width="100" alt="" style="display: block; border: 0;"/></a></td>
+                              <!-- Image End -->
+
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding-top: 20px;">
+                                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+
+                                    <!-- 131x46 Image Start -->
+                                    <td align="center" style="padding-right: 5px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Freddit.app.link%2F%3Faction=click%26publisher_id=293679%26site_id=122129%26site_id_ios=121809%26utm_content=install_app/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/3HhbuTmlTMD0lwc07UhVzcsXW43rTat9gJf4v-VRpiU=132"><img src="https://www.redditstatic.com/emaildigest/button_applestore.png" width="131" alt="Download on the App Store" style="display: block; border: 0; color: black; font-size: 15px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="opacity"/></a></td>
+                                    <!-- Image End -->
+
+                                    <!-- 131x46 Image Start -->
+                                    <td align="center"  style="padding-left: 5px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Freddit.app.link%2F%3Faction=click%26publisher_id=293679%26site_id=122129%26site_id_ios=121809%26utm_content=install_app/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/P2bPilEr4oZ8_Aa7htAgebq_TucMbmtRsBq8yMAmgD8=132"><img src="https://www.redditstatic.com/emaildigest/button_googleplay.png" width="131" alt="Get it on Google Play" style="display: block; border: 0; color: black; font-size: 15px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="opacity"/></a></td>
+                                    <!-- Image End -->
+
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+
+                        <!-- Copy Start -->
+                              <td style="padding-top: 30px; text-align: center; font-size: 13px; line-height: 1.4em; color: #808080; font-family: Helvetica, Arial, sans-serif; font-weight: bold;">548 MARKET ST. #1<span></span>6<span></span>09<span></span>3,<span class="expandm">SAN FRANCISCO, CA&nbsp;94<span></span>10<span></span>4&ndash;54<span></span>01</span></td>
+                        <!-- Copy End -->
+
+                            </tr>
+                            <tr>
+
+                        <!-- Copy Start -->
+                              <td style="padding-top: 20px; text-align: center; font-size: 13px; line-height: 1.4em; color: #808080; font-family: Helvetica, Arial, sans-serif; font-weight: normal;">You are receiving this email because a Reddit account (u/_vb64_) is registered to your email address or you have chosen to receive email digests. You can manage email settings by logging in and adjusting your user preferences for that account.</td>
+                        <!-- Copy End -->
+
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding-top: 20px;">
+                                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+
+                              <!-- Copy Start -->
+                                    <td style="padding-right: 10px; text-align: center; font-size: 13px; line-height: 1.4em; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a class="opacity" href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=footer%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/2/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/pvlHbdYFpbDrIq1zk8khQaZQlCvdhPeFYdO-oONq54E=132" style="text-decoration: none; color: #0079D3;">VIEW ONLINE</a></td>
+                              <!-- Copy End -->
+
+
+                              <!-- Copy Start -->
+                                    <td style="padding-left: 10px; text-align: center; font-size: 13px; line-height: 1.4em; color: #0079D3; font-family: Helvetica, Arial, sans-serif; font-weight: bold;"><a class="opacity" href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%2Fmail%2Funsubscribe%2F5uc9hj%2F2%2Fb9371f0c3aa9c6afa37e129dd9a1198694bfefe1844490b479e2671e8fb4ab7b%3F$web_only=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=unsubscribe%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/1/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/Q9tcLBAO4mkwOoPgpZfwAg-CFRrHbCFn4G6jFbdAq8U=132" style="text-decoration: none; color: #0079D3;">UNSUBSCRIBE</a></td>
+                              <!-- Copy End -->
+
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <!-- 640x200 Image Start -->
+                        <td align="center" style="padding-top: 20px;"><a href="https://click.redditmail.com/CL0/https:%2F%2Fwww.reddit.com%3F$deep_link=true%26correlation_id=1ee12c9e-cceb-4df9-b375-01e5623a0d67%26ref=email_digest%26ref_campaign=email_digest%26ref_source=email%26utm_content=footer%26utm_medium=digest%26utm_name=top_posts%26utm_source=email%26utm_term=day/3/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/J-ISdvTgGAuLoVTvLwCZsaA77X6EDiuu-OZq06hLBFQ=132"><img src="https://www.redditstatic.com/emaildigest/bottom_img.png" width="640" alt="" style="display: block; border: 0; background-color: none; color: white; font-size: 20px; font-weight: bold; font-family: sans-serif; max-width: 100%;" class="resizem"/></a></td>
+                        <!-- Image End -->
+
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- FOOTER END  ///-->
+        </table>
+      </td>
+    </tr>
+  </table>
+<img alt="" src="http://click.redditmail.com/CI0/01000170ebc2dca4-4e7849a2-c66b-40b6-9365-3ae91a5c3f97-000000/0P5K2PKz23cQsX-joDrK5soLXyzBLmJ65aAPhUFkJ60=132" style="display: none; width: 1px; height: 1px;">
+</body>
+</html>
