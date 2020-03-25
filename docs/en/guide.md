@@ -160,3 +160,23 @@ In the Subject field of this letter, you need to place a list of chat codes wher
 For example, if you use the email address obtained from EmailGateBot `123456789@telegram-email.appspotmail.com` for posting in the chat, the chat code will be '123456789'. Chat codes in the subject field of the letter should be separated by spaces.
 
 With this method of sending, your picture will be uploaded to Telegram once and EmailGateBot will be able to send a message with a picture to the specified chat list without errors.
+
+## List of bot commands
+
+`/start` - The most important command. If you are confused in the bot menu, then you will return to the bot’s start message with a list of your chats.
+
+`/language` - Sets the language in which the bot communicates with you in a private chat.
+
+`/help` - Brief information on the use of the bot.
+
+`/chatlist` - Creates a CSV file with a list of your chats. It is useful when there are a lot of chats. The file is created in UTF-8 encoding. For each chat are displayed:
+
+- type (channel, group, etc)
+- title
+- email for messaging
+
+`/emojicode` - For an emoji icon shows the code for use in the polling buttons.
+
+`/clearkeyboard` - If some sloppy or malicious bot has activated and left a custom keyboard in your group, you can remove it by using this command.
+
+`/donate` - For those who wish to support the development of the project.
