@@ -1,2 +1,12 @@
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
+  - README-ru.md
+
 theme: jekyll-theme-cayman
-source: docs
