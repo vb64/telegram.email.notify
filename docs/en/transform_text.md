@@ -7,6 +7,5 @@ You can receive notifications in Telegram from any resource that can send notifi
 - enable forwarding notifications to this email in your inbox
 
 To remove HTML markup from forwarded messages and make messages concise and informative, EmailGateBot uses its automatic text conversion feature. EmailGateBot sends the contents of the received notifications to a special site and publishes a response from this site in the desired channel/group.
-In this way, EmailGateBot can handle notifications from Twitter, YouTube, Reddit, and some other sites. EmailGateBot determines resources by the sender’s address. For example, notifications from Youtube are sent from noreply@youtube.com.
 
 In addition to publishing notifications from popular resources, @EmailGateBot can do a lot of useful things. You can read a [detailed description](https://medium.com/@vvb64/deferred-messaging-and-polls-in-telegram-channels-and-groups-dabe0dac7b5f) of the features of @EmailGateBot.
