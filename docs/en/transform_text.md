@@ -13,4 +13,4 @@ In this way, EmailGateBot can handle notifications from Twitter, YouTube, Reddit
 The code for the site that processes the contents of notifications is written in Python/Flask and is [available at Github](https://github.com/vb64/telegram.email.notify).
 You can freely use this code to deploy your own notification processing site on your host. Or offer code (Pull Request on Github), which will process the notifications you need on the existing EmailGateBot host.
 
-In addition to publishing notifications from popular resources, @EmailGateBot can do a lot of useful things. You can read a [detailed description](https://medium.com/@vvb64/deferred-messaging-and-polls-in-telegram-channels-and-groups-dabe0dac7b5f) of the features of @EmailGateBot.
+In addition to publishing notifications from popular resources, @EmailGateBot can do a lot of useful things. You can read a [detailed description](guide.md) of the features of @EmailGateBot.
