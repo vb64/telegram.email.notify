@@ -5,3 +5,5 @@ You can receive notifications in Telegram from any resource that can send notifi
 - make sure that you have enabled notifications on your mailbox on this resource
 - get a special email address from the Telegram EmailGateBot bot
 - enable forwarding notifications to this email in your inbox
+
+In addition to publishing notifications from popular resources, @EmailGateBot can do a lot of useful things. You can read a [detailed description](https://medium.com/@vvb64/deferred-messaging-and-polls-in-telegram-channels-and-groups-dabe0dac7b5f) of the features of @EmailGateBot.
