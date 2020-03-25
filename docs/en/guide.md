@@ -131,3 +131,58 @@ For such cases, and also similar to them, EmailGateBot provides the function of 
 This function is available via the 'Set text-transform' item in the menu for managing the whitelisted email (chat managing menu, 'Manage white list', choose email). There you can specify the server address on the Internet, where the bot will send the text from the received email. In the Telegram chat, the bot will publish the text from the response of this server.
 
 You can create and deploy your own server or use the [open-source notification handler](transform_text.md) built into EmailGateBot.
+
+## Editing published messages
+
+You can change Telegram messages from the bot by sending a reply to that message (with a quotation). The text in the original Telegram message will be replaced by text from your reply.
+
+To use markup in updated message, include special code `###text_mode markdown` or `###text_mode HTML` at the separate line of your reply. This line doesnt be included in the updated message.
+
+The bot automatically deletes your reply with a new message text if it has the permitting to delete messages in the corresponding chat. If the bot does not have such permission, you will need to delete your answer yourself (if necessary).
+
+There are some limitations.
+
+- editing does not work for messages published earlier than February 13, 2018 18:00 GMT
+- editing does not work in private chat with the bot
+- in groups and supergroups to edit bot messages, a user must add a bot to this group
+- editing works in channels where the mode 'signed messages' is on
+
+## Bulk messaging
+
+Assume, you added EmailGateBot in 1000 chat rooms and want to publish your text in all these chat rooms. You send a message to the address of one chat and add the remaining 999 addresses in the 'CC' field. EmailGateBot will send your message to 1000 chats in a few minutes.
+
+The situation is different if the message contains a picture. When sending a message with a picture in the usual way, this picture will need to be uploaded 1000 times into the Telegram. In this case, errors will occur. Therefore, EmailGateBot does not guarantee the delivery of messages with pictures when sending them in the usual way.
+
+EmailGateBot offers an alternative way to send mass messages with pictures. You need to send a message with a picture to the address post@telegram-email.appspotmail.com
+
+In the Subject field of this letter, you need to place a list of chat codes where you need to send this message. The chat code is the part before the '@' character in the email address used for posting to the chat.
+
+For example, if you use the email address obtained from EmailGateBot `123456789@telegram-email.appspotmail.com` for posting in the chat, the chat code will be '123456789'. Chat codes in the subject field of the letter should be separated by spaces.
+
+With this method of sending, your picture will be uploaded to Telegram once and EmailGateBot will be able to send a message with a picture to the specified chat list without errors.
+
+## List of bot commands
+
+/start — The most important command. If you are confused in the bot menu, then you will return to the bot’s start message with a list of your chats.
+
+/language — Sets the language in which the bot communicates with you in a private chat.
+
+/help — Brief information on the use of the bot.
+
+/chatlist — Creates a CSV file with a list of your chats. It is useful when there are a lot of chats. The file is created in UTF-8 encoding. For each chat are displayed:
+
+- type (channel, group, etc)
+- title
+- email for messaging
+
+/emojicode — For an emoji icon shows the code for use in the polling buttons.
+
+/clearkeyboard — If some sloppy or malicious bot has activated and left a custom keyboard in your group, you can remove it by using this command.
+
+/donate — For those who wish to support the development of the project.
+
+## Help and support
+
+More information on using the bot and developer contacts can be obtained through the /help command.
+
+[Try EmailGateBot](http://t.me/EmailGateBot)
