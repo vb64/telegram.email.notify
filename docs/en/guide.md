@@ -25,3 +25,109 @@ Subsequent letters from addresses from the 'white' list are published automatica
 Send the /start command in private with the bot, select the group where you want to delete the email address, select the 'Manage white list' menu item (at the very end of the menu, scroll the mouse wheel), select the desired email address from the list of addresses, select from the menu item 'Remove'.
 
 Managing a 'black' list is similar to managing a 'white' list.
+
+## Publish pictures and files
+
+You can publish images by attaching an image file to the email you send. The first 1024 bytes of the text of the letter will be used as a caption for the picture. During the day in this way, you can post no more than 120 pictures. The limit is reset every day at 00:00 GMT. Mass mailing (see further) to several chats via post@telegram-email.appspotmail.com is counted as one picture.
+
+Also, you can publish pictures and files of any type in another way. Send the file to the private chat with a bot. The bot will respond to you with a message that contains a special code. This code should be added as a separate line in the text of the email and your file will be published.
+
+You can send files of the following types: audio, animation, photo, sticker, video, voice, video message, and regular file (document). Files and images sent in this way are not counted for the daily quota of sent pictures.
+
+If you send an email containing the code and the attached image file, the attached image file will be published, but the code will be ignored.
+
+## Deferred messages
+
+The bot can post deferred messages. To do this, place special code on the separate line of your message. For example:
+
+```
+###start 31-12-2018 23:59
+```
+
+In this case, the message will be published in Telegram chat in a given date and time (UTC time zone used). A line with a code will be removed from the published message. You can plan deferred messages up to 30 days ahead.
+
+## Pinned messages
+
+A bot can 'pin' messages sent to supergroups and channels if it has the appropriate rights there. To 'pin' a message, add a separate line to the message body.
+
+```
+###pin
+```
+
+This line will be removed from the published message, and the message itself will be 'pinned' in the target channel/supergroup.
+
+## Polls
+
+EmailGateBot can also be used to create polls with buttons, that have location, titles, and emotions as you need. Messages in Telegram, that were sent via an EmailGateBot, can contain any combination of inline buttons with emoji icons. If you put special string ###buttons in the email text body, the tail of the email after this sign will be interpreted as inline buttons definition.
+
+The text inside square brackets defines the inline button as the poll option. You can put several definitions, separated by spaces, in one row.
+
+```
+###buttons
+[Yes] [No]
+```
+
+The text of buttons title can contain codes, that displaying as emoji icons. A complete list of emoji codes can be found here or use the bot command /emojicode to get the code for the desired icon.
+
+If a closed square bracket is followed by an open round bracket (with no spaces), then this button definition is interpreted as the url-link button. Url address must be put inside round brackets.
+
+![EmailGateBot poll](img/poll.jpeg)
+
+And all of this can be mixed in any combination. For example, to create the poll shown in the picture above, the body of the email should be:
+
+```
+To be or not to be?
+###buttons en
+[{0001F44D} Yes] [Maybe] [{0001F44E}{0001F3FF} No]
+[{0001F1EC}{0001F1E7} Google](https://google.com)
+[{0001F1F7}{0001F1FA} Yandex](https://ya.ru)
+[{0001F1E8}{0001F1F3} Baidu](http://www.baidu.com)
+```
+
+And the corresponding picture should be attached to the email.
+
+By default, the poll will be active for 30 days from the date of creation. This is the maximum duration of the poll. You can reduce it by setting the duration of the poll in minutes. For example, for a 10-minute poll:
+
+```
+###buttons 10
+```
+
+## View voters
+
+In polls created with the bot, the button is added: 'Who has voted?'. Follows this button you can see a list of the latest votes in the poll. Each vote is a link to the Telegram profile of the voter.
+
+When viewing the list of voters in the poll results, you can forward a contact from the list or a message from any Telegram user to a private chat with a bot. The bot will tell you how this contact or user voted in the poll.
+
+## Text Formatting
+
+The text in the email may contain a markup of two types supported by Telegram: Markdown or HTML. To enable markup, add follows code at the separate line of email body:
+
+```
+###text_mode markdown
+```
+
+or
+
+```
+###text_mode html
+```
+
+A string with this code will not be included in the published message. If you use HTML markup, then your email program should send an email with the header
+
+```
+Content-Type: text/plain
+```
+
+Otherwise, the Html tags in the message will not work.
+
+## Automatic text conversion
+
+Quite often automatically generated email messages that are sent to Telegram via EmailGateBot, contain redundant and service information that is not required by the user, but only clutters the chat. Such messages need to be processed in such a way as to leave only important and necessary information.
+
+Another common case is the publication of messages from sources that you do not control. In this situation, the automatic moderation of incoming content is often required.
+
+For such cases, and also similar to them, EmailGateBot provides the function of automatic text conversion.
+
+This function is available via the 'Set text-transform' item in the menu for managing the whitelisted email (chat managing menu, 'Manage white list', choose email). There you can specify the server address on the Internet, where the bot will send the text from the received email. In the Telegram chat, the bot will publish the text from the response of this server.
+
+You can create and deploy your own server or use the [open-source notification handler](transform_text.md) built into EmailGateBot.
