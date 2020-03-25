@@ -163,7 +163,7 @@ With this method of sending, your picture will be uploaded to Telegram once and 
 
 ## List of bot commands
 
-`/start` - The most important command. If you are confused in the bot menu, then you will return to the bot’s start message with a list of your chats.
+`/start` - The most important command. If you are confused in the bot menu, then you will return to the bot start message with a list of your chats.
 
 `/language` - Sets the language in which the bot communicates with you in a private chat.
 
@@ -180,3 +180,9 @@ With this method of sending, your picture will be uploaded to Telegram once and 
 `/clearkeyboard` - If some sloppy or malicious bot has activated and left a custom keyboard in your group, you can remove it by using this command.
 
 `/donate` - For those who wish to support the development of the project.
+
+## Help and support
+
+More information on using the bot and developer contacts can be obtained through the /help command.
+
+[Try EmailGateBot](http://t.me/EmailGateBot)
