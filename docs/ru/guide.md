@@ -1,6 +1,6 @@
 # Email в каналах и группах Telegram
 
-![EmailGateBot logo](logo.png)
+![EmailGateBot logo](../logo.png)
 
 @EmailGateBot публикует содержание отправленного ему email в каналах и группах Telegram.
 
