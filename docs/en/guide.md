@@ -1,6 +1,6 @@
 # Emailing to the channels and groups of Telegram Messenger.
 
-![EmailGateBot logo](img/logo.png)
+![EmailGateBot logo](logo.png)
 
 @EmailGateBot allows messaging to channels and groups of Telegram by emailing to the special mailbox.
 

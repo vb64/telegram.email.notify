@@ -1,6 +1,6 @@
 # Email в каналах и группах Telegram
 
-![EmailGateBot logo](img/logo.png)
+![EmailGateBot logo](logo.png)
 
 @EmailGateBot публикует содержание отправленного ему email в каналах и группах Telegram.
 
@@ -77,9 +77,8 @@
 
 И все это можно смешивать в произвольных комбинациях. Например, чтобы создать опрос, показанный на картинке выше, тело письма должно быть таким:
 
-To be or not to be?
-
 ```
+To be or not to be?
 ###buttons ru
 [{0001F44D} Yes] [{0001F44E}{0001F3FF} No]
 [Может быть]
