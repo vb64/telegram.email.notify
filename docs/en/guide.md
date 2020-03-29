@@ -67,7 +67,7 @@ The text inside square brackets defines the inline button as the poll option. Yo
 [Yes] [No]
 ```
 
-The text of buttons title can contain codes, that displaying as emoji icons. A complete list of emoji codes can be found here or use the bot command /emojicode to get the code for the desired icon.
+The text of buttons title can contain codes, that displaying as emoji icons. A complete list of emoji codes can be [found here](http://www.unicode.org/emoji/charts/full-emoji-list.html) or use the bot command /emojicode to get the code for the desired icon.
 
 If a closed square bracket is followed by an open round bracket (with no spaces), then this button definition is interpreted as the url-link button. Url address must be put inside round brackets.
 
