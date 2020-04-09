@@ -1,4 +1,4 @@
-# FAQ
+# EmailGateBot FAQ
 
 ## How reliable is the bot hosting? How big is the chance that the bot will stop working at the most crucial moment?
 
