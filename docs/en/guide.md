@@ -98,7 +98,16 @@ In polls created with the bot, the button is added: 'Who has voted?'. Follows th
 
 When viewing the list of voters in the poll results, you can forward a contact from the list or a message from any Telegram user to a private chat with a bot. The bot will tell you how this contact or user voted in the poll.
 
-## Text Formatting
+## Emoji emoticons and text formatting
+
+Emoji emoticons can be included in the message text.
+In the text of the email in curly brackets specify the code of the desired emoji and this emoticon will appear in the message published in Telegram. For instance:
+
+```
+{0001F44D}
+```
+
+To find out the emoticon code, send the command `/emojicode` to the bot and then the emoticon you need.
 
 The text in the email may contain a markup of two types supported by Telegram: Markdown or HTML. To enable markup, add follows code at the separate line of email body:
 
