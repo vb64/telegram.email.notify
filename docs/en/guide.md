@@ -6,6 +6,8 @@
 
 The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. It is possible to post deferred messages at the specified time (up to 30 days in advance), automatically change the published text according to your rules, view the list of users who participated in the poll. Published messages can contain Markdown or HTML markup. Messages can be 'pinned' and later edited in Telegram.
 
+EmailGateBot cannot send outgoing emails from Telegram and is absolutely safe because does not require access to your email accounts, as (for example) GmailBot and other similar bots.
+
 ## How to messaging
 
 You can be messaging to Telegram channel and groups by sending emails to `SPECIAL_CODE@telegram-email.appspotmail.com`
