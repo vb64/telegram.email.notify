@@ -28,6 +28,9 @@ Send the /start command in private with the bot, select the group where you want
 
 Managing a 'black' list is similar to managing a 'white' list.
 
+You can completely disable the verification of incoming email addresses and automatically publish all incoming mail to the channel/group address, displaying the address from which it was received.
+Use this mode carefully. This is a potential opportunity for an attacker to spam your channels and groups.
+
 ## Publish pictures and files
 
 You can publish images by attaching an image file to the email you send. The first 1024 bytes of the text of the letter will be used as a caption for the picture. During the day in this way, you can post no more than 120 pictures. The limit is reset every day at 00:00 GMT. Mass mailing (see further) to several chats via post@telegram-email.appspotmail.com is counted as one picture.
