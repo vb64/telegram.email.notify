@@ -133,7 +133,7 @@ In the text of the email in curly brackets specify the code of the desired emoji
 
 To find out the emoticon code, send the command `/emojicode` to the bot and then the emoticon you need.
 
-The text in the email may contain a markup of two types supported by Telegram: Markdown or HTML. To enable markup, add follows code at the separate line of email body:
+The text in the email may contain a markup of two types supported by Telegram: [Markdown](https://core.telegram.org/bots/api#markdown-style) or [HTML](https://core.telegram.org/bots/api#html-style). To enable markup, add follows code at the separate line of email body:
 
 ```
 ###text_mode markdown
