@@ -4,7 +4,7 @@
 
 @EmailGateBot allows messaging to channels and groups of Telegram by emailing to the special mailbox.
 
-The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. It is possible to post deferred messages at the specified time (up to 30 days in advance), automatically change the published text according to your rules, view the list of users who participated in the poll. Published messages can contain Markdown or HTML markup. Messages can be 'pinned' and later edited in Telegram.
+The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. The list of users participating in the poll can be viewed. It is possible to publish messages at a specified time (up to 30 days ahead), to make repeated and auto-deleted posts. Published messages can contain emoji and Markdown/HTML markup. Messages can be 'pinned' and later edited in Telegram.
 
 Compared to GmailBot and similar bots, EmailGateBot cannot send outgoing emails from Telegram and does not require access to your email accounts.
 
@@ -59,7 +59,7 @@ To publish a message several times at different times, add additional lines with
 ###start 01-01-2019 10:00
 ```
 
-To post a message at a specified time and then automatically delete it, add the `stop` tag after the `start` tag. For example, the following lines in the body of the letter will plan the first publication with its removal after 1 hour, the second publication 1 hour after the removal of the first.
+To post a message at a specified time and then automatically delete it, add the `stop` tag after the `start` tag. For example, the following lines in the body of the message will plan the first publication with its removal after 1 hour and the repeated publication of the same message 1 hour after the removal of the first.
 
 ```
 ###start 01-01-2019 10:00 stop 01-01-2019 11:00
