@@ -41,15 +41,34 @@ You can send files of the following types: audio, animation, photo, sticker, vid
 
 If you send an email containing the code and the attached image file, the attached image file will be published, but the code will be ignored.
 
-## Deferred messages
+## Scheduled, repeatable, and auto-deleted publications
 
-The bot can post deferred messages. To do this, place special code on the separate line of your message. For example:
+EmailGateBot can send scheduled messages. To do this, put the special code in a separate line of your message. For example:
 
 ```
 ###start 31-12-2018 23:59
 ```
 
-In this case, the message will be published in Telegram chat in a given date and time (UTC time zone used). A line with a code will be removed from the published message. You can plan deferred messages up to 30 days ahead.
+In this case, the message will be published in the Telegram at the specified time (UTC time zone used).
+
+To publish a message several times at different times, add additional lines with the desired publication time.
+
+```
+###start 31-12-2018 23:00
+###start 31-12-2018 23:59
+###start 01-01-2019 10:00
+```
+
+To post a message at a specified time and then automatically delete it, add the `stop` tag after the `start` tag. For example, the following lines in the body of the letter will plan the first publication with its removal after 1 hour, the second publication 1 hour after the removal of the first.
+
+```
+###start 01-01-2019 10:00 stop 01-01-2019 11:00
+###start 01-01-2019 12:00
+```
+
+Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead. Each channel/group queue can contain up to 10 scheduled tasks.
+
+For each channel/group, you can view the queue of scheduled tasks and manage these tasks.
 
 ## Pinned messages
 
