@@ -4,7 +4,7 @@
 
 @EmailGateBot allows messaging to channels and groups of Telegram by emailing to the special mailbox.
 
-The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. It is possible to post deferred messages at the specified time (up to 30 days in advance), automatically change the published text according to your rules, view the list of users who participated in the poll. Published messages can contain Markdown or HTML markup. Messages can be 'pinned' and later edited in Telegram.
+The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. The list of users participating in the poll can be viewed. It is possible to publish messages at a specified time (up to 30 days ahead), to make repeated and auto-deleted posts. Published messages can contain emoji and Markdown/HTML markup. Messages can be 'pinned' and later edited in Telegram.
 
 Compared to GmailBot and similar bots, EmailGateBot cannot send outgoing emails from Telegram and does not require access to your email accounts.
 
@@ -18,15 +18,15 @@ For messages to the channel add the bot as channel administrator, then send to t
 
 When you send the first message to the chat from the new mailbox, the bot will ask you for confirmation of receiving emails from this address. To prevent a bot from writing to the chat, delete it from the corresponding channel/group.
 
-## 'black' and 'white' mail lists
+## 'stoplist' and 'allowlist'
 
-When the message from the new email address first arrives at the chat email address, the bot asks you what to do with letters from this address. If you press the menu button 'Whitelisted' or 'Blacklisted', then this email address falls into the 'white' or 'black' address list, respectively.
+When the message from the new email address first arrives at the chat email address, the bot asks you what to do with letters from this address. If you press the menu button 'Allow permanently' or 'Disable permanently', then this email address falls into the 'allowlist' or 'stoplist', respectively.
 
-Subsequent letters from addresses from the 'white' list are published automatically, and letters from addresses from the 'black' list are ignored. If you later changed your initial decision and want to prevent a white-list address from automatically posting, you need to do the following.
+Subsequent letters from addresses from the 'allowlist' are published automatically, and letters from addresses from the 'stoplist' are ignored. If you later changed your initial decision and want to prevent a allowlist address from automatically posting, you need to do the following.
 
-Send the /start command in private with the bot, select the group where you want to delete the email address, select the 'Manage white list' menu item (at the very end of the menu, scroll the mouse wheel), select the desired email address from the list of addresses, select from the menu item 'Remove'.
+Send the /start command in private with the bot, select the group where you want to delete the email address, select the 'Allowlist' menu item (at the very end of the menu, scroll the mouse wheel), select the desired email address from the list of addresses, select from the menu item 'Remove'.
 
-Managing a 'black' list is similar to managing a 'white' list.
+Managing a 'stoplist' is similar to managing a 'allowlist'.
 
 You can completely disable the verification of incoming email addresses and automatically publish all incoming mail to the channel/group address, displaying the address from which it was received.
 Use this mode carefully. This is a potential opportunity for an attacker to spam your channels and groups.
@@ -41,15 +41,34 @@ You can send files of the following types: audio, animation, photo, sticker, vid
 
 If you send an email containing the code and the attached image file, the attached image file will be published, but the code will be ignored.
 
-## Deferred messages
+## Scheduled, repeatable, and auto-deleted publications
 
-The bot can post deferred messages. To do this, place special code on the separate line of your message. For example:
+EmailGateBot can send scheduled messages. To do this, put the special code in a separate line of your message. For example:
 
 ```
 ###start 31-12-2018 23:59
 ```
 
-In this case, the message will be published in Telegram chat in a given date and time (UTC time zone used). A line with a code will be removed from the published message. You can plan deferred messages up to 30 days ahead.
+In this case, the message will be published in the Telegram at the specified time (UTC time zone used).
+
+To publish a message several times at different times, add additional lines with the desired publication time.
+
+```
+###start 31-12-2018 23:00
+###start 31-12-2018 23:59
+###start 01-01-2019 10:00
+```
+
+To post a message at a specified time and then automatically delete it, add the `stop` tag after the `start` tag. For example, the following lines in the body of the message will plan the first publication with its removal after 1 hour and the repeated publication of the same message 1 hour after the removal of the first.
+
+```
+###start 01-01-2019 10:00 stop 01-01-2019 11:00
+###start 01-01-2019 12:00
+```
+
+Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead. Each channel/group queue can contain up to 10 scheduled tasks.
+
+For each channel/group, you can view the queue of scheduled tasks and manage these tasks.
 
 ## Pinned messages
 
@@ -114,7 +133,7 @@ In the text of the email in curly brackets specify the code of the desired emoji
 
 To find out the emoticon code, send the command `/emojicode` to the bot and then the emoticon you need.
 
-The text in the email may contain a markup of two types supported by Telegram: Markdown or HTML. To enable markup, add follows code at the separate line of email body:
+The text in the email may contain a markup of two types supported by Telegram: [Markdown](https://core.telegram.org/bots/api#markdown-style) or [HTML](https://core.telegram.org/bots/api#html-style). To enable markup, add follows code at the separate line of email body:
 
 ```
 ###text_mode markdown
@@ -142,7 +161,7 @@ Another common case is the publication of messages from sources that you do not 
 
 For such cases, and also similar to them, EmailGateBot provides the function of automatic text conversion.
 
-This function is available via the 'Set text-transform' item in the menu for managing the whitelisted email (chat managing menu, 'Manage white list', choose email). There you can specify the server address on the Internet, where the bot will send the text from the received email. In the Telegram chat, the bot will publish the text from the response of this server.
+This function is available via the 'Set text-transform' item in the menu for managing the allowlist email (chat managing menu, 'Allowlist', choose email). There you can specify the server address on the Internet, where the bot will send the text from the received email. In the Telegram chat, the bot will publish the text from the response of this server.
 
 You can create and deploy your own server or use the [open-source notification handler](transform_text.md) built into EmailGateBot.
 
