@@ -18,15 +18,15 @@ For messages to the channel add the bot as channel administrator, then send to t
 
 When you send the first message to the chat from the new mailbox, the bot will ask you for confirmation of receiving emails from this address. To prevent a bot from writing to the chat, delete it from the corresponding channel/group.
 
-## 'black' and 'white' mail lists
+## 'stoplist' and 'allowlist'
 
-When the message from the new email address first arrives at the chat email address, the bot asks you what to do with letters from this address. If you press the menu button 'Whitelisted' or 'Blacklisted', then this email address falls into the 'white' or 'black' address list, respectively.
+When the message from the new email address first arrives at the chat email address, the bot asks you what to do with letters from this address. If you press the menu button 'Allow permanently' or 'Disable permanently', then this email address falls into the 'allowlist' or 'stoplist', respectively.
 
-Subsequent letters from addresses from the 'white' list are published automatically, and letters from addresses from the 'black' list are ignored. If you later changed your initial decision and want to prevent a white-list address from automatically posting, you need to do the following.
+Subsequent letters from addresses from the 'allowlist' are published automatically, and letters from addresses from the 'stoplist' are ignored. If you later changed your initial decision and want to prevent a allowlist address from automatically posting, you need to do the following.
 
-Send the /start command in private with the bot, select the group where you want to delete the email address, select the 'Manage white list' menu item (at the very end of the menu, scroll the mouse wheel), select the desired email address from the list of addresses, select from the menu item 'Remove'.
+Send the /start command in private with the bot, select the group where you want to delete the email address, select the 'Allowlist' menu item (at the very end of the menu, scroll the mouse wheel), select the desired email address from the list of addresses, select from the menu item 'Remove'.
 
-Managing a 'black' list is similar to managing a 'white' list.
+Managing a 'stoplist' is similar to managing a 'allowlist'.
 
 You can completely disable the verification of incoming email addresses and automatically publish all incoming mail to the channel/group address, displaying the address from which it was received.
 Use this mode carefully. This is a potential opportunity for an attacker to spam your channels and groups.
@@ -161,7 +161,7 @@ Another common case is the publication of messages from sources that you do not 
 
 For such cases, and also similar to them, EmailGateBot provides the function of automatic text conversion.
 
-This function is available via the 'Set text-transform' item in the menu for managing the whitelisted email (chat managing menu, 'Manage white list', choose email). There you can specify the server address on the Internet, where the bot will send the text from the received email. In the Telegram chat, the bot will publish the text from the response of this server.
+This function is available via the 'Set text-transform' item in the menu for managing the allowlist email (chat managing menu, 'Allowlist', choose email). There you can specify the server address on the Internet, where the bot will send the text from the received email. In the Telegram chat, the bot will publish the text from the response of this server.
 
 You can create and deploy your own server or use the [open-source notification handler](transform_text.md) built into EmailGateBot.
 
