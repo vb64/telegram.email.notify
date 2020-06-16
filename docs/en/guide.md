@@ -8,6 +8,25 @@ The bot can publish files of any type supported by Telegram (photo, sticker, voi
 
 Compared to GmailBot and similar bots, EmailGateBot cannot send outgoing emails from Telegram and does not require access to your email accounts.
 
+- [How to messaging](#how-to-messaging)
+- ['stoplist' and 'allowlist'](#stoplist-and-allowlist)
+- [Publish pictures and files](#publish-pictures-and-files)
+- [Scheduled, repeatable, and auto-deleted publications](#scheduled-repeatable-and-auto-deleted-publications)
+- [Pinned messages](#pinned-messages)
+- [Polls](#polls)
+- [View voters](#view-voters)
+- [Emoji emoticons and text formatting](#emoji-emoticons-and-text-formatting)
+- [Automatic text conversion](#automatic-text-conversion)
+- [Editing published messages](#editing-published-messages)
+- [Bulk messaging](#bulk-messaging)
+- [List of bot commands](#list-of-bot-commands)
+- [Help and support](#help-and-support)
+
+Related
+
+- [EmailGateBot FAQ](faq.md)
+- [Notifications from popular resources: YouTube, Twitter, Reddit, etc.](transform_text.md)
+
 ## How to messaging
 
 You can be messaging to Telegram channel and groups by sending emails to `SPECIAL_CODE@telegram-email.appspotmail.com`
