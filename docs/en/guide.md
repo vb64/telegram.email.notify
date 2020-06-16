@@ -4,7 +4,7 @@
 
 @EmailGateBot allows messaging to channels and groups of Telegram by emailing to the special mailbox.
 
-The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. The list of users participating in the poll can be viewed. It is possible to publish messages at a specified time (up to 30 days ahead), to make repeated and auto-deleted posts. Published messages can contain emoji and Markdown/HTML markup. Messages can be 'pinned' and later edited in Telegram.
+The bot can publish files of any type supported by Telegram (photo, sticker, voice, etc), buttons for navigating and polling buttons with emoji icons. The list of users participating in the poll can be viewed. It is possible to publish messages at a specified time (up to 30 days ahead), to make repeated and auto-deleted posts. Published messages can contain emoji and Markdown/HTML markup. Messages can be 'pinned' and later edited.
 
 Compared to GmailBot and similar bots, EmailGateBot cannot send outgoing emails from Telegram and does not require access to your email accounts.
 
