@@ -25,7 +25,7 @@
 Дополнительно
 
 - [EmailGateBot FAQ](faq.md)
-- [Оповещения в каналах и группах Telegram от популярных ресурсов: YouTube, Facebook, Одноклассники и т.п.](transform_text.md)
+- [Оповещения от популярных ресурсов: YouTube, Facebook, Одноклассники и т.п.](transform_text.md)
 
 ## Как постить
 
