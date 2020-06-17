@@ -1,5 +1,9 @@
 # EmailGateBot FAQ
 
+- [How reliable is the bot hosting?](#how-reliable-is-the-bot-hosting-how-big-is-the-chance-that-the-bot-will-stop-working-at-the-most-crucial-moment)
+- [What does the message "processed earlier" mean?](#i-forget-to-click-allow-for-an-incoming-email-at-night-today-morning-i-click-on-allow-and-it-shows-processed-early-what-happened)
+- [How to change the email addresses from that are allowed to post to the chat?](#how-to-change-the-email-addresses-from-that-are-allowed-to-post-to-the-chat-i-want-to-delete-the-address)
+
 ## How reliable is the bot hosting? How big is the chance that the bot will stop working at the most crucial moment?
 
 The bot is implemented on the Google App Engine Standard Environment platform and uses as a hosting the [Google data center in Council Bluffs](https://www.google.com/about/datacenters/inside/locations/council-bluffs/), Iowa, USA. The equipment of this data center also provides the work of regular Google services (Search, Mail, Maps, etc.)
