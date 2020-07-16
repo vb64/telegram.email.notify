@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 make test T=test_beeline.py
 """
@@ -21,3 +22,17 @@ class TestBeeline(TestCase):
         """
         text = self.transfer('voice_mail.txt')
         assert ' 9033756597' in text
+
+    @staticmethod
+    def test_voice_mail_func():
+        """
+        voice mail function
+        """
+        from modules.beeline import voice_mail
+
+        text = ''.join((
+          "В Ваш почтовый ящик поступило сообщекние. ",
+          "Прослушать сообщение можно в web-интерфейсе управления услугой.",
+        ))
+        result = voice_mail('', text)
+        assert 'cloudpbx.beeline.ru' in result[1]
