@@ -20,5 +20,4 @@ class TestBeeline(TestCase):
         voice mail
         """
         text = self.transfer('voice_mail.txt')
-
-        assert text
+        assert ' 9033756597' in text
