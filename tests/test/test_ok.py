@@ -17,6 +17,19 @@ class TestOk(TestCase):
         from modules.ok import start
         return self.start_transfer(fname, start, 'ok')
 
+    @staticmethod
+    def test_make_link():
+        """
+        make_link
+        """
+        from modules.ok import make_link, MARK_PROFILE_REF, SUBJ_POST
+
+        txt = SUBJ_POST + MARK_PROFILE_REF
+        ref = ''
+        note = 'xxx'
+        result = make_link(txt, ref, note)
+        assert result
+
     def test_message(self):
         """
         message
