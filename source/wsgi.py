@@ -15,11 +15,9 @@ CODECS = {
   'twitter': "Twitter",
   'reddit': "Reddit",
   'lj': 'LiveJournal',
+  'beeline': 'Beeline',
   # not implemented handlers, just store message to db
   'store': None,
-  'vk': None,
-  'vif': None,
-  'hh': None,
 }
 
 
