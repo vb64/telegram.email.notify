@@ -31,7 +31,7 @@ Related
 
 You can be messaging to Telegram channel and groups by sending emails to `SPECIAL_CODE@telegram-email.appspotmail.com`
 
-For posting to group and supergroup just add the bot as a member. The bot will tell you the code that you need to specify in the email address so that messages reach this group.
+For posting to group and supergroup just add the bot as a member. The bot must have the rights to publish messages and media content in this group. The bot will tell you the code that you need to specify in the email address so that messages reach this group.
 
 For messages to the channel add the bot as channel administrator, then send to the bot /start command and follow instructions.
 
