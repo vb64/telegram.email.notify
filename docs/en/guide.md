@@ -231,7 +231,9 @@ With this method of sending, your picture will be uploaded to Telegram once and 
 
 `/clearkeyboard` - If some sloppy or malicious bot has activated and left a custom keyboard in your group, you can remove it by using this command.
 
-`/donate` - For those who wish to support the development of the project.
+`/buycoins` - Fund your account with EmailGateBot internal coins.
+
+`/coinslog` - View the history of balance changes
 
 ## Help and support
 
