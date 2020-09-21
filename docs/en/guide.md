@@ -19,7 +19,7 @@ Compared to GmailBot and similar bots, EmailGateBot cannot send outgoing emails 
 - [Automatic text conversion](#automatic-text-conversion)
 - [Editing published messages](#editing-published-messages)
 - [Bulk messaging](#bulk-messaging)
-- [Paid and free use of the bot](#)
+- [Paid and free use of the bot](#paid-and-free-use-of-the-bot)
 - [List of bot commands](#list-of-bot-commands)
 - [Help and support](#help-and-support)
 
@@ -86,7 +86,8 @@ To post a message at a specified time and then automatically delete it, add the 
 ###start 01-01-2019 12:00
 ```
 
-Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead. Each channel/group queue can contain up to 10 scheduled tasks.
+Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead.
+Each channel/group queue can contain up to 10 scheduled tasks for free and up to 200 tasks for [paid mode](#paid-and-free-use-of-the-bot).
 
 For each channel/group, you can view the queue of scheduled tasks and manage these tasks.
 
@@ -233,6 +234,10 @@ The paid mode provides the following benefits.
 The cost of the paid service is one EmailGateBot coin per 30 days for a channel/group. The cost of one EmailGateBot internal coin depends on the number of purchased coins.
 
 From $3 USD when buying one coin to $0.5 USD with a one-time purchase of 100 coins.
+
+Using the `/buycoins` command, you can fund your account with EmailGateBot internal coins.
+The number of coins you have is displayed on the start screen of the bot.
+To view the history of balance changes, you can use the `/coinslog` command.
 
 ## List of bot commands
 
