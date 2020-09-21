@@ -19,6 +19,7 @@ Compared to GmailBot and similar bots, EmailGateBot cannot send outgoing emails 
 - [Automatic text conversion](#automatic-text-conversion)
 - [Editing published messages](#editing-published-messages)
 - [Bulk messaging](#bulk-messaging)
+- [Paid and free use of the bot](#paid-and-free-use-of-the-bot)
 - [List of bot commands](#list-of-bot-commands)
 - [Help and support](#help-and-support)
 
@@ -85,7 +86,8 @@ To post a message at a specified time and then automatically delete it, add the 
 ###start 01-01-2019 12:00
 ```
 
-Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead. Each channel/group queue can contain up to 10 scheduled tasks.
+Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead.
+Each channel/group queue can contain up to 10 scheduled tasks for free and up to 200 tasks for [paid mode](#paid-and-free-use-of-the-bot).
 
 For each channel/group, you can view the queue of scheduled tasks and manage these tasks.
 
@@ -212,6 +214,30 @@ In the Subject field of this letter, you need to place a list of chat codes wher
 For example, if you use the email address obtained from EmailGateBot `123456789@telegram-email.appspotmail.com` for posting in the chat, the chat code will be '123456789'. Chat codes in the subject field of the letter should be separated by spaces.
 
 With this method of sending, your picture will be uploaded to Telegram once and EmailGateBot will be able to send a message with a picture to the specified chat list without errors.
+
+## Paid and free use of the bot
+
+The bot is free for personal use and publishes emails in a private chat without restrictions.
+
+For channels and groups, the bot can be used for free with the following restrictions.
+
+- the bot does not publish the email in private (where access is possible only by the invitation link) channels and groups
+- in public (having a username) channels and groups, the mark `via @EmailGateBot` is added to the published messages
+
+Payment is charged per channel or group. You can simultaneously have channels with a free service mode (see above) and channels served in a paid mode.
+The paid mode provides the following benefits.
+
+- private channels and groups are served
+- there is no mark `via @EmailGateBot` in published messages
+- up to 200 publications can be scheduled for a channel or group (10 for free)
+
+The cost of the paid service is one EmailGateBot coin per 30 days for a channel/group. The cost of one EmailGateBot internal coin depends on the number of purchased coins.
+
+From $3 USD when buying one coin to $0.5 USD with a one-time purchase of 100 coins.
+
+Using the `/buycoins` command, you can fund your account with EmailGateBot internal coins.
+The number of coins you have is displayed on the start screen of the bot.
+To view the history of balance changes, you can use the `/coinslog` command.
 
 ## List of bot commands
 
