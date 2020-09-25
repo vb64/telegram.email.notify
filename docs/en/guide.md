@@ -89,7 +89,8 @@ To post a message at a specified time and then automatically delete it, add the 
 Lines with a code will not be included in the published message. You can schedule publications to 30 days ahead.
 Each channel/group queue can contain up to 10 scheduled tasks for free and up to 200 tasks for [paid mode](#paid-and-free-use-of-the-bot).
 
-For each channel/group, you can view the queue of scheduled tasks and manage these tasks.
+To cancel a scheduled task, send the /start command in private chat with the bot, and select from the list the chat where the publication is scheduled.
+Next, select the "Scheduled:" menu item, then from the list of tasks, select the desired one, in the next menu, select "Revoke task".
 
 ## Pinned messages
 
@@ -229,14 +230,14 @@ The paid mode provides the following benefits.
 
 - private channels and groups are served
 - there is no mark `via @EmailGateBot` in published messages
-- up to 200 publications can be scheduled for a channel or group (10 for free)
+- up to 200 publications can be scheduled for a each channel or group (10 for free)
 
 The cost of the paid service is one EmailGateBot coin per 30 days for a channel/group. The cost of one EmailGateBot internal coin depends on the number of purchased coins.
 
 From $3 USD when buying one coin to $0.5 USD with a one-time purchase of 100 coins.
 
-Using the `/buycoins` command, you can fund your account with EmailGateBot internal coins.
 The number of coins you have is displayed on the start screen of the bot.
+Using the `/buycoins` command, you can fund your account with EmailGateBot internal coins.
 To view the history of balance changes, you can use the `/coinslog` command.
 
 ## List of bot commands
