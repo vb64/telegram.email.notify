@@ -24,7 +24,7 @@ More information on using the bot can be obtained
 
 - in the [EmailGateBot FAQ](faq.md)
 - in the article [Notifications from popular resources: Facebook, Twitter, Reddit, etc.](transform_text.md)
-- through the /help bot command
+- using the /help bot command
 - by subscribing to the bot [news channel](http://t.me/emailgateen)
 - by asking a question in the [support group](http://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg3)
 
