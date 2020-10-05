@@ -23,6 +23,6 @@
 При помощи команды `/buycoins` можно пополнить ваш счет внутренними монетами EmailGateBot.
 Для просмотра истории изменения баланса можно использовать команду `/coinslog`.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-paid)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Как постить](messaging.md)

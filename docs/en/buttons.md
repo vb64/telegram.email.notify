@@ -44,6 +44,6 @@ For example, for a 10-minute poll:
 ###buttons 10
 ```
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-buttons)
 - Return [to TOC](guide.md)
 - Next: [Viewing the list of voters](view_voters.md)

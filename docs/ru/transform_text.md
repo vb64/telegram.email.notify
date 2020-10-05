@@ -22,4 +22,4 @@ EmailGateBot отправляет содержимое получаемых оп
 Кроме показа оповещений от популярных ресурсов, @EmailGateBot умеет делать много полезных вещей.
 Можете ознакомиться с [подробным описанием](guide.md) возможностей EmailGateBot.
 
-Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-transform)

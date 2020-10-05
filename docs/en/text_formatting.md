@@ -36,6 +36,6 @@ Content-Type: text/plain
 
 Otherwise, the Html tags in the message will not work.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-formatting)
 - Return [to TOC](guide.md)
 - Next: [Automatic text conversion](text_conversion.md)

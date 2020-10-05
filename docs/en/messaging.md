@@ -11,6 +11,6 @@ For messages to the channel add the bot as channel administrator, then send to t
 When you send the first message to the chat from the new mailbox, the bot will ask you for confirmation of receiving emails from this address.
 To prevent a bot from writing to the chat, delete it from the corresponding channel/group.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-messaging)
 - Return [to TOC](guide.md)
 - Next: ['stoplist' and 'allowlist'](stop_allow_list.md)

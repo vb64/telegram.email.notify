@@ -19,6 +19,6 @@
 
 Используйте такой режим осторожно. Это потенциальная возможность для злоумышленника заспамить ваши каналы и группы.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-stoplist)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Картинки, видео, стикеры и другие виды медиа](media.md)

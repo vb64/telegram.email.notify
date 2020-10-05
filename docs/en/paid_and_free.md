@@ -23,6 +23,6 @@ The number of coins you have is displayed on the start screen of the bot.
 Using the `/buycoins` command, you can fund your account with EmailGateBot internal coins.
 To view the history of balance changes, you can use the `/coinslog` command.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-paid)
 - Return [to TOC](guide.md)
 - Next: [How to messaging](messaging.md)

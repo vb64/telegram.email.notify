@@ -23,5 +23,5 @@
 
 `/coinslog` - Просмотр истории изменений баланса монет вашего аккаунта.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-commands)
 - Вернуться [к оглавлению](guide.md)

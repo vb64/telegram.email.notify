@@ -25,4 +25,4 @@ which will process the notifications you need on the existing EmailGateBot host.
 In addition to publishing notifications from popular resources, EmailGateBot can do a lot of useful things.
 You can read a [detailed description](guide.md) of the features of EmailGateBot.
 
-Go to [@EmailGateBot](http://t.me/EmailGateBot)
+Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-transform)

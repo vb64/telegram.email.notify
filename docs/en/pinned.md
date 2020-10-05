@@ -9,6 +9,6 @@ To 'pin' a message, add a separate line to the message body.
 
 This line will be removed from the published message, and the message itself will be 'pinned' in the target channel/supergroup.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-pinned)
 - Return [to TOC](guide.md)
 - Next: [Voting buttons and link buttons](buttons.md)

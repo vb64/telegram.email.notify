@@ -37,6 +37,6 @@ Content-Type: text/plain
 
 В противном случае html-теги в сообщении не будут работать.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-formatting)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Автоматическое преобразование текста](text_conversion.md)
