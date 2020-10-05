@@ -32,4 +32,4 @@
 Ваше описание процедуры настройки пересылки для вашего почтового сервиса будет добавлено в этот FAQ.
 Это поможет другим пользователям этой почты.
 
-Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-faq)

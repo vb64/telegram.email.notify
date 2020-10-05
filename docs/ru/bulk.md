@@ -18,6 +18,6 @@ EmailGateBot разошлет ваше сообщение в 1000 чатов в 
 
 При таком способе отправки ваша картинка будет загружена в Telegram один раз и EmailGateBot сможет разослать сообщение с картинкой по указанному списку чатов без ошибок.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-bulk)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Список команд бота](commands.md)

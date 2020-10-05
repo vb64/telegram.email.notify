@@ -19,6 +19,6 @@ displaying the address from which it was received.
 
 Use this mode carefully. This is a potential opportunity for an attacker to spam your channels and groups.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-stoplist)
 - Return [to TOC](guide.md)
 - Next: [Pictures, videos, stickers and other types of media](media.md)

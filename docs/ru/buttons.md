@@ -46,6 +46,6 @@ To be or not to be?
 
 Для неактивных опросов кнопки и результаты голосования отображаются по прежнему, но нажатия на кнопки не засчитывается в результаты голосования.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-buttons)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Просмотр списка голосовавших](view_voters.md)

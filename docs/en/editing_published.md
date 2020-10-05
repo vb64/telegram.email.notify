@@ -16,6 +16,6 @@ There are some limitations.
 The bot automatically deletes your reply with a new message text if it has the permitting to delete messages in the corresponding chat.
 If the bot does not have such permission, you will need to delete your answer yourself (if necessary).
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-editing)
 - Return [to TOC](guide.md)
 - Next: [Bulk messaging](bulk.md)

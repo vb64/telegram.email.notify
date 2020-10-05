@@ -34,6 +34,6 @@ Each channel/group queue can contain up to 10 scheduled tasks for free and up to
 To cancel a scheduled task, send the `/start` command in private chat with the bot, and select from the list the chat where the publication is scheduled.
 Next, select the "Scheduled:" menu item, then from the list of tasks, select the desired one, in the next menu, select "Revoke task".
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-scheduled)
 - Return [to TOC](guide.md)
 - Next: [Pinned messages](pinned.md)

@@ -20,6 +20,6 @@ In the Telegram chat, the bot will publish the text from the response of this se
 
 You can create and deploy your own server or use the [open-source notification handler](transform_text.md) built into EmailGateBot.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-conversion)
 - Return [to TOC](guide.md)
 - Next: [Editing published messages](editing_published.md)

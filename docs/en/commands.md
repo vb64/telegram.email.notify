@@ -20,5 +20,5 @@
 
 `/coinslog` - View the history of balance changes
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-commands)
 - Return [to TOC](guide.md)

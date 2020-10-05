@@ -20,6 +20,6 @@
 
 Вы можете создать и развернуть собственный сервер или использовать встроенный в EmailGateBot [обработчик оповещений с открытым исходным кодом](transform_text.md).
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-conversion)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Редактирование опубликованных сообщений](editing_published.md)

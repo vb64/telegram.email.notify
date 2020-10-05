@@ -26,6 +26,6 @@ Files and images sent in this way are not counted for the daily quota of sent pi
 
 If you send an email containing the code and the attached image file, the attached image file will be published, but the code will be ignored.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-media)
 - Return [to TOC](guide.md)
 - Next: [Scheduled, repeatable, and auto-deleted publications](scheduled.md)

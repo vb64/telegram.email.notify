@@ -2,7 +2,8 @@
 
 ![EmailGateBot logo](../logo.png)
 
-[@EmailGateBot](http://t.me/EmailGateBot) присваивает каналам и группам Telegram специальный адрес email и публикует в них сообщения, отправленные на этот email.
+[@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-guide-01)
+присваивает каналам и группам Telegram специальный адрес email и публикует в них сообщения, отправленные на этот адрес.
 EmailGateBot не может отправлять исходящие email из Telegram и не требует доступа к вашим почтовым аккаунтам.
 Бот бесплатен для персонального использования.
 
@@ -28,4 +29,4 @@ EmailGateBot не может отправлять исходящие email из 
 - подписавшись на [новостной канал](http://t.me/emailgateru) бота
 - задав вопрос в [группе поддержки](https://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg)
 
-Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-guide-02)

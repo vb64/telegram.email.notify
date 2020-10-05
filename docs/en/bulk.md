@@ -21,6 +21,6 @@ Chat codes in the subject field of the letter should be separated by spaces.
 With this method of sending, your picture will be uploaded to Telegram once and
 EmailGateBot will be able to send a message with a picture to the specified chat list without errors.
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot)
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-bulk)
 - Return [to TOC](guide.md)
 - Next: [List of bot commands](commands.md)

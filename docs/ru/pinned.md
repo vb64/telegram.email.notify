@@ -10,6 +10,6 @@
 
 Эта строка будет убрана из опубликованного сообщения, а само сообщение будет "прикреплено" в целевом канале/супергруппе.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-pinned)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Кнопки голосования и кнопки-ссылки](buttons.md)

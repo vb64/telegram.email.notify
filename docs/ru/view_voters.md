@@ -10,6 +10,6 @@
 или сообщение от любого пользователя Telegram.
 Бот скажет, как этот пользователь или контакт голосовал в просматриваемом опросе.
 
-- Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
+- Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-voters)
 - Вернуться [к оглавлению](guide.md)
 - Далее: [Эмодзи и форматирование текста](text_formatting.md)
