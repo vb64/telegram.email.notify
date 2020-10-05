@@ -26,6 +26,6 @@ EmailGateBot не может отправлять исходящие email из 
 - в статье [Оповещения от популярных ресурсов: ЯндексДеньги, Facebook, Одноклассники и т.п.](transform_text.md)
 - через команду бота `/help`
 - подписавшись на [новостной канал](http://t.me/emailgateru) бота
-- задав вопрос в [группе поддержки](http://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg3)
+- задав вопрос в [группе поддержки](https://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg)
 
 Перейти в [@EmailGateBot](http://t.me/EmailGateBot)
