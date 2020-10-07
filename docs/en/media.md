@@ -1,4 +1,4 @@
-## Pictures, videos, stickers and other types of media
+## Pictures, videos, stickers and other types of media in EmailGateBot
 
 You can publish images by attaching an image file to the email you send.
 The first 1024 bytes of the text of the letter will be used as a caption for the picture.

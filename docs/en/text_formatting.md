@@ -1,4 +1,4 @@
-## Emoji emoticons and text formatting
+## Emoji emoticons and text formatting with EmailGateBot
 
 Emoji emoticons can be included in the message text.
 In the text of the email in curly brackets specify the code of the desired emoji and this emoticon will appear in the message published in Telegram.

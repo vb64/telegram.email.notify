@@ -1,4 +1,4 @@
-## List of bot commands
+## List of EmailGateBot commands
 
 `/start` - The most important command. If you are confused in the bot menu, then you will return to the bot start message with a list of your chats.
 

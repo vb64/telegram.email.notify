@@ -1,4 +1,4 @@
-## Scheduled, repeatable, and auto-deleted publications
+## Scheduled, repeatable, and auto-deleted publications EmailGateBot
 
 EmailGateBot can send scheduled messages.
 To do this, put the special code in a separate line of your message.

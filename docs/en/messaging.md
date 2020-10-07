@@ -1,4 +1,4 @@
-## How to messaging
+## How to messaging with EmailGateBot
 
 You can be messaging to Telegram channel and groups by sending emails to `SPECIAL_CODE@telegram-email.appspotmail.com`
 

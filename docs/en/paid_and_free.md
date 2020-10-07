@@ -1,4 +1,4 @@
-## Paid and free use of the bot
+## Paid and free use of the EmailGateBot
 
 The bot is free for personal use and publishes emails in a private chat without restrictions.
 

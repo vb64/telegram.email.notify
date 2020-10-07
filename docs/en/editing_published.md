@@ -1,4 +1,4 @@
-## Editing published messages
+## Editing published messages with EmailGateBot
 
 You can change Telegram messages from the bot by sending a reply to that message (with a quotation).
 The text in the original Telegram message will be replaced by text from your reply.
