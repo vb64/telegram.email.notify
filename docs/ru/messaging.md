@@ -1,4 +1,4 @@
-## Как постить при помощи EmailGateBot
+# Как постить при помощи EmailGateBot
 
 Вы постите сообщения в чаты Telegram, отправляя емейл на адрес `специальный_код@telegram-email.appspotmail.com`
 

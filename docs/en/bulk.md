@@ -1,4 +1,4 @@
-## Bulk messaging with EmailGateBot
+# Bulk messaging with EmailGateBot
 
 Assume, you added EmailGateBot in 1000 chat rooms and want to publish your text in all these chat rooms.
 You send a message to the address of one chat and add the remaining 999 addresses in the 'CC' field.

@@ -1,4 +1,4 @@
-## Voting buttons and link buttons in EmailGateBot
+# Voting buttons and link buttons in EmailGateBot
 
 EmailGateBot can also be used to create polls with buttons, that have location, titles, and emotions as you need.
 Messages in Telegram, that were sent via an EmailGateBot, can contain any combination of inline buttons with emoji icons.

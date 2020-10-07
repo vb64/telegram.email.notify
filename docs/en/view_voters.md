@@ -1,4 +1,4 @@
-## Viewing the list of voters in EmailGateBot
+# Viewing the list of voters in EmailGateBot
 
 In polls created with the bot, the button is added: 'Who has voted?'.
 Follows this button you can see a list of the latest votes in the poll.

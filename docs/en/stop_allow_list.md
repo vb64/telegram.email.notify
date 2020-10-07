@@ -1,4 +1,4 @@
-## 'stoplist' and 'allowlist' in EmailGateBot
+# 'stoplist' and 'allowlist' in EmailGateBot
 
 When the message from the new email address first arrives at the chat email address, the bot asks you what to do with letters from this address.
 If you press the menu button 'Allow permanently' or 'Disable permanently', then this email address falls into the 'allowlist' or 'stoplist', respectively.
