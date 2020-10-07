@@ -1,13 +1,12 @@
-## Bulk messaging
+# Bulk messaging with EmailGateBot
 
 Assume, you added EmailGateBot in 1000 chat rooms and want to publish your text in all these chat rooms.
 You send a message to the address of one chat and add the remaining 999 addresses in the 'CC' field.
 EmailGateBot will send your message to 1000 chats in a few minutes.
 
 The situation is different if the message contains a picture.
-When sending a message with a picture in the usual way, this picture will need to be uploaded 1000 times into the Telegram.
-In this case, errors will occur.
-Therefore, EmailGateBot does not guarantee the delivery of messages with pictures when sending them in the usual way.
+EmailGateBot has a limit on the number of published pictures attached to email: 120 pictures per day.
+Therefore, this method is not suitable for this case.
 
 EmailGateBot offers an alternative way to send mass messages with pictures.
 You need to send a message with a picture to the address `post@telegram-email.appspotmail.com`

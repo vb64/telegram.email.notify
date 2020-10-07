@@ -1,4 +1,4 @@
-## Automatic text conversion
+# Automatic text conversion with EmailGateBot
 
 Quite often automatically generated email messages that are sent to Telegram via EmailGateBot,
 contain redundant and service information that is not required by the user, but only clutters the chat.

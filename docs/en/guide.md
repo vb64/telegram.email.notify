@@ -4,7 +4,7 @@
 
 [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-guide-01) assigns a special email address to Telegram channels and groups and publishes messages sent to this email in them.
 EmailGateBot cannot send outgoing emails from Telegram and does not require access to your email accounts.
-The bot is free for personal use.
+The bot does not require administrator rights in groups and is free for personal use.
 
 - [Paid and free use of the bot](paid_and_free.md)
 - [How to messaging](messaging.md)

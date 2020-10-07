@@ -1,4 +1,4 @@
-## Pinned messages
+# Pinned messages with EmailGateBot
 
 A bot can 'pin' messages sent to supergroups and channels if it has the appropriate rights there.
 To 'pin' a message, add a separate line to the message body.
