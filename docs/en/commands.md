@@ -18,7 +18,9 @@
 
 `/buycoins` - Fund your account with EmailGateBot internal coins.
 
-`/coinslog` - View the history of balance changes
+`/coinslog` - View the history of balance changes.
+
+`/referrals` - EmailGateBot [referral program](referrals.md).
 
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-commands)
 - Return [to TOC](guide.md)

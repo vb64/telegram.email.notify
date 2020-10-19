@@ -20,4 +20,4 @@ EmailGateBot разошлет ваше сообщение в 1000 чатов в 
 
 - Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-bulk)
 - Вернуться [к оглавлению](guide.md)
-- Далее: [Список команд бота](commands.md)
+- Next: [Реферальная программа](referrals.md)
