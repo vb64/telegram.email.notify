@@ -22,4 +22,4 @@ EmailGateBot will be able to send a message with a picture to the specified chat
 
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-bulk)
 - Return [to TOC](guide.md)
-- Next: [List of bot commands](commands.md)
+- Next: [Referral program](referrals.md)

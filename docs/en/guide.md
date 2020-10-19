@@ -18,6 +18,7 @@ The bot does not require administrator rights in groups and is free for personal
 - [Automatic text conversion](text_conversion.md)
 - [Editing published messages](editing_published.md)
 - [Bulk messaging](bulk.md)
+- [Referral program](referrals.md)
 - [List of bot commands](commands.md)
 
 More information on using the bot can be obtained
