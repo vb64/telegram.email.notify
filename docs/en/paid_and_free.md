@@ -19,6 +19,8 @@ The cost of one EmailGateBot internal coin depends on the number of purchased co
 
 From $3 USD when buying one coin to $0.5 USD with a one-time purchase of 100 coins.
 
+Also, EmailGateBot coins can be earned by participating in the bot's [referral program](referrals.md).
+
 The number of coins you have is displayed on the start screen of the bot.
 Using the `/buycoins` command, you can fund your account with EmailGateBot internal coins.
 To view the history of balance changes, you can use the `/coinslog` command.
