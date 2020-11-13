@@ -7,7 +7,7 @@ The bot must have the rights to publish messages and media content in this group
 
 The bot will inform you in private the email address for posting messages to this group.
 
-To post messages to the channel, send the command `/ helpchannel` to the private chat with the bot.
+To post messages to the channel, send the command `/helpchannel` to the private chat with the bot.
 The bot will tell you a special code like
 ```
 /start xxxxxxx
