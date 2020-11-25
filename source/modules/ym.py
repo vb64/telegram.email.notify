@@ -27,7 +27,7 @@ MARK_BONUS_WEEK = 'За неделю вы заработали'
 MARK_HIST4 = 'Где получать баллы'
 MARK_TRANS_OUT = 'Назначение платежа'
 MARK_TRANS_OUT_SUM = 'Со счета списано'
-MARK_COMIS_YM = 'Комиссия Яндекс.Денег'
+MARK_COMIS_YM = 'Комиссия ЮMoney'
 MARK_SUMM_WALLET = 'Списано'
 MARK_HIST5 = 'Все детали пополнения'
 
@@ -236,10 +236,10 @@ def e_pay(subj, text):
 
 
 SUBJ_HANDLERS = [
-  (('Вы заплатили с карты Яндекс.Денег', ), e_pay),
+  (('Вы заплатили с карты ЮMoney', ), e_pay),
   (('Вы заплатили с банковской карты', ), e_paycard),
   (('Вы заплатили из кошелька', ), e_paywallet),
-  (('Вы сняли наличные с карты Яндекс.Денег', ), e_cash),
+  (('Вы сняли наличные с карты', ), e_cash),
   (('Кэшбэк ', ), e_cashback),
   (('Ваш счет ', ' пополнен'), e_income),
   (('На ваш счет ', ' поступил перевод'), e_transf_in),
@@ -253,4 +253,4 @@ def start(subj, body):
     """
     parse Yandex Money
     """
-    return by_subj(subj, body, convert(body).replace(NBSP, ' '), 'ym', 'Яндекс.Деньги: ', SUBJ_HANDLERS)
+    return by_subj(subj, body, convert(body).replace(NBSP, ' '), 'ym', 'ЮMoney: ', SUBJ_HANDLERS)
