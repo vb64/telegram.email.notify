@@ -19,6 +19,9 @@ The bot will inform you in private the email address for posting messages to thi
 When you send the first message to the chat from the new mailbox, the bot will ask you for confirmation of receiving emails from this address.
 To prevent a bot from writing to the chat, delete it from the corresponding channel/group.
 
+The size of the text of the letter published via EmailGateBot should not exceed 100 Kb. The total size of the letter, including files attached to the letter, should not exceed 30 Mb.
+Messages exceeding these limits are ignored by the bot.
+
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-messaging)
 - Return [to TOC](guide.md)
 - Next: ['stoplist' and 'allowlist'](stop_allow_list.md)
