@@ -22,6 +22,8 @@ To prevent a bot from writing to the chat, delete it from the corresponding chan
 The size of the text of the letter published via EmailGateBot should not exceed 100 Kb. The total size of the letter, including files attached to the letter, should not exceed 30 Mb.
 Messages exceeding these limits are ignored by the bot.
 
+From the text of your email, the bot publishes the first 4 Kb, this is a limit on the size of messages in the Telegram messenger.
+
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-messaging)
 - Return [to TOC](guide.md)
 - Next: ['stoplist' and 'allowlist'](stop_allow_list.md)
