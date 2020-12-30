@@ -1,3 +1,27 @@
+msgid "Yandex Money"
+msgstr "Яндекс Деньги"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "FaceBook"
+msgstr "FaceBook"
+
+msgid "Odnoklassniki.ru"
+msgstr "Одноклассники"
+
+msgid "LiveJournal"
+msgstr "LiveJournal"
+
+msgid "Reddit "
+msgstr "Reddit "
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Beeline"
+msgstr "Билайн"
+
 msgid "There is incoming mail from '{}' to {}."
 msgstr "Есть входящая почта от '{}' для {}."
 
@@ -139,8 +163,14 @@ msgstr ""
 msgid "Learn more from the [detailed guide]({})."
 msgstr "Узнайте больше из [подробного описания]({})."
 
+msgid "https://vb64.github.io/telegram.email.notify/docs/en/guide.html"
+msgstr "https://vb64.github.io/telegram.email.notify/docs/кг/guide.html"
+
 msgid "Stay tuned at the [news channel]({}) of the bot."
 msgstr "Будьте в курсе всех изменений с [новостным каналом]({}) бота."
+
+msgid "t.me/emailgateen"
+msgstr "t.me/emailgateru"
 
 msgid "Ask questions at the bot [support group]({})."
 msgstr "Задавайте вопросы в [группе поддержки]({})."
@@ -568,6 +598,9 @@ msgstr "Там же можно узнать адрес email для постин
 msgid "You can read more about the paid mode here"
 msgstr "Больше информации о платном режиме"
 
+msgid "https://vb64.github.io/telegram.email.notify/docs/en/paid_and_free.html"
+msgstr "https://vb64.github.io/telegram.email.notify/docs/ru/paid_and_free.html"
+
 msgid "Hi, admin!"
 msgstr "Привет, админ!"
 
@@ -880,6 +913,11 @@ msgstr "Этот адрес не должен содержать символо�
 
 msgid "[There is a HOWTO]({}) for building and deploying such web resource."
 msgstr "[Есть руководство]({}) по созданию и развертыванию такого веб-ресурса."
+
+msgid ""
+"http://telegra.ph/EmailGateBot-webhook-for-message-text-transformation-03-18"
+msgstr ""
+"http://telegra.ph/Veb-resurs-dlya-preobrazovaniya-teksta-v-EmailGateBot-03-18"
 
 msgid "Checking given address '{}'..."
 msgstr "Проверка адреса '{}'..."
