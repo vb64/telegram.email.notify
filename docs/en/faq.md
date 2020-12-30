@@ -13,6 +13,7 @@ So the chance of the bot stop work by hosting reason is equal to the chance of t
 
 ## I forget to click 'allow' for an incoming email at night. Today morning i click on 'allow' and it shows 'processed early'. What happened?
 
-The request to process inbound email is active in one hour. If you did not respond to this request within an hour, the incoming email is automatically rejected.
+The request to process inbound email is active in one hour.
+If you did not respond to this request within an hour, the incoming email is automatically rejected.
 
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-faq)

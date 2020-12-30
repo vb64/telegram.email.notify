@@ -44,6 +44,8 @@ For example, for a 10-minute poll:
 ###buttons 10
 ```
 
+For inactive polls, the buttons and voting results are still displayed, but button clicks are not counted in the voting results.
+
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-buttons)
 - Return [to TOC](guide.md)
 - Next: [Viewing the list of voters](view_voters.md)

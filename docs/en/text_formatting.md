@@ -28,6 +28,7 @@ or
 ```
 
 A string with this code will not be included in the published message.
+
 If you use HTML markup, then your email program should send an email with the header
 
 ```
