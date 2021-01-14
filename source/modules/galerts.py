@@ -7,9 +7,10 @@ import urlparse
 from html2text2 import convert, Parser as BaseParser
 from . import by_subj, NBSP
 
-MARK_SKIP = u"Ещё результаты"
-MARK_NORELEVANT = u"Пометить как нерелевантный"
-MARK_NEWS = u"НОВОСТИ"
+DROP_RU = [
+  u"Пометить как нерелевантный",
+  u"НОВОСТИ",
+]
 
 
 class Parser(BaseParser):
@@ -30,13 +31,13 @@ def alert_ru(subj, text):
     """
     alert with ru language
     """
-    pos_skip = text.index(MARK_SKIP)
+    pos_skip = text.index(u"Ещё результаты")
     if pos_skip >= 0:
         text = text[:pos_skip]
 
     lines = []
     for line in text.split('\n'):
-        if not any([line.startswith(i) for i in [MARK_NORELEVANT, MARK_NEWS]]):
+        if not any([line.startswith(i) for i in DROP_RU]):
             lines.append(line)
 
     return [
