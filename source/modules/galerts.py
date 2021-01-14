@@ -27,6 +27,53 @@ class Parser(BaseParser):
         return text
 
 
+def is_href(text):
+    """
+    is text looks like href
+    """
+    return any([
+      text.startswith('https://'),
+      text.startswith('http://'),
+    ])
+
+
+def add_href(words, text):
+    """
+    save text as markdown link
+    """
+    if not words:
+        add_word(words, text)
+        return
+
+    last_word = words[-1]
+    if last_word[1]:  # already link
+        add_word(words, text)
+        return
+
+    words[-1] = (u"[{}]({})".format(last_word[0], text), True)
+
+
+def add_word(words, text):
+    """
+    save simple text
+    """
+    words.append((text, False))  # clear *_
+
+
+def make_markdown(text):
+    """
+    embed url as markdown links
+    """
+    result = []
+    for word in text.split():
+        if is_href(word):
+            add_href(result, word)
+        else:
+            add_word(result, word)
+
+    return ' '.join([i[0] for i in result])
+
+
 def alert_ru(subj, text):
     """
     alert with ru language
@@ -38,7 +85,7 @@ def alert_ru(subj, text):
     lines = []
     for line in text.split('\n'):
         if not any([line.startswith(i) for i in DROP_RU]):
-            lines.append(line)
+            lines.append(make_markdown(line))
 
     return [
       subj.decode('utf-8'),
