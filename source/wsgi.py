@@ -57,7 +57,11 @@ def mainpage():
     root page
     """
     if request.method == 'POST':
-        return run(request.form.get('codec'), request.form.get('source'))
+        codec = request.form.get('codec')
+        if codec not in CODECS:
+            return abort(404)
+
+        return run(codec, request.form.get('source'))
 
     context = {
       'codecs': CODECS,
