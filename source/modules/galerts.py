@@ -88,7 +88,7 @@ def alert_ru(subj, text):
     """
     alert with ru language
     """
-    pos_skip = text.index(u"Ещё результаты")
+    pos_skip = text.find(u"Ещё результаты")
     if pos_skip >= 0:
         text = text[:pos_skip]
 
@@ -115,7 +115,7 @@ def start(subj, body):
     parse Google Alerts
     """
     text = body
-    pos_start = text.index('<div dir="ltr">')
+    pos_start = text.find('<div dir="ltr">')
     if pos_start >= 0:
         text = convert(Parser, body[pos_start:].replace(NBSP, ' '), extract_link=True)
 

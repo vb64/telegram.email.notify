@@ -19,7 +19,7 @@ COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
 
 PROJECT = text-transform-198104
-VERSION = galerts01
+VERSION = galerts03
 
 all: tests
 
@@ -40,7 +40,7 @@ lint:
 	$(PYTHON) -m pylint --disable=relative-import $(S)
 
 deploy: tests
-	$(GCLOUD) app deploy --quiet --project $(PROJECT) -v $(VERSION) $(S)/app.yaml $(S)/backend.yaml $(S)/index.yaml $(S)/queue.yaml
+	$(GCLOUD) app deploy --quiet --project $(PROJECT) -v $(VERSION) $(S)/app.yaml $(S)/backend.yaml $(S)/queue.yaml
 
 setup: setup_python setup_pip
 
