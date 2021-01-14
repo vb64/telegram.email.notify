@@ -2,13 +2,29 @@
 """
 Google Alerts
 """
-from html2text2 import convert, Parser
+import urlparse
+
+from html2text2 import convert, Parser as BaseParser
 from . import by_subj, NBSP
 
 MARK_START_HTML = '<div dir="ltr">'
 MARK_SKIP = u"Ещё результаты"
 MARK_NORELEVANT = u"Пометить как нерелевантный"
 MARK_NEWS = u"НОВОСТИ"
+
+
+class Parser(BaseParser):
+    """
+    parser class
+    """
+    def extract_real_link(self, text):  # pylint: disable=no-self-use
+        """
+        extract real link from google redirects
+        """
+        if text.startswith('https://www.google.com/url?'):
+            return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0]
+
+        return text
 
 
 def alert_ru(_subj, text):
