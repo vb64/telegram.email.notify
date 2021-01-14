@@ -16,6 +16,7 @@ CODECS = {
   'reddit': "Reddit",
   'lj': 'LiveJournal',
   'beeline': 'Beeline',
+  'galerts': 'Google Alerts',
   # not implemented handlers, just store message to db
   'store': None,
 }
