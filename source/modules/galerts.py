@@ -7,6 +7,8 @@ from . import by_subj, NBSP
 
 MARK_START_HTML = '<div dir="ltr">'
 MARK_SKIP = u"Ещё результаты"
+MARK_NORELEVANT = u"Пометить как нерелевантный"
+MARK_NEWS = u"НОВОСТИ"
 
 
 def alert_ru(_subj, text):
@@ -21,6 +23,18 @@ def alert_ru(_subj, text):
 SUBJ_HANDLERS = [
   (('Оповещение Google ', ), alert_ru),
 ]
+
+
+def drop_lines(text, marks):
+    """
+    drop lines starting with any substring from marks
+    """
+    ret = []
+    for line in text.split('\n'):
+        if not any([line.startswith(i) for i in marks]):
+            ret.append(line)
+
+    return u'\n'.join(ret)
 
 
 def start(subj, body):
@@ -38,4 +52,4 @@ def start(subj, body):
     if pos_skip >= 0:
         text = text[:pos_skip]
 
-    return text
+    return Parser.drop_newlines(drop_lines(text, [MARK_NORELEVANT, MARK_NEWS]))

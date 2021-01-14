@@ -38,8 +38,7 @@ class Parser(HTMLParser):
             self.__text.append(text + ' ')
 
             if self.html_link:
-                self.__text.append(self.html_link.encode('utf8'))
-                self.__text.append('\n')
+                self.__text.extend([self.html_link.encode('utf8'), ' '])
 
             self.html_link = ''
 
@@ -70,16 +69,21 @@ class Parser(HTMLParser):
         if tag == 'style':
             self.is_skip = False
 
+    @staticmethod
+    def drop_newlines(text):
+        """
+        drop extra mew lines from text
+        """
+        while '\n\n\n' in text:
+            text = text.replace('\n\n\n', '\n\n')
+
+        return text
+
     def text(self):
         """
         result of parsing
         """
-        ret = ''.join(self.__text).strip()
-        if self.html_table:
-            while '\n\n\n' in ret:
-                ret = ret.replace('\n\n\n', '\n\n')
-
-        return ret
+        return self.drop_newlines(''.join(self.__text).strip())
 
 
 def convert(parser_class, text, extract_link=False, html_table=True, codepage='utf-8'):
