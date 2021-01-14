@@ -22,5 +22,5 @@ class TestGalerts(TestCase):
         """
         text = self.transfer('alert1.txt')
         print "###"
-        print unicode(text, 'utf-8').encode('cp866', 'ignore')
+        print text.encode('cp866', 'ignore')
         # assert 'XXXX' in text

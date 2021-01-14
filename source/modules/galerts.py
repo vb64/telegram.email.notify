@@ -2,10 +2,11 @@
 """
 Google Alerts
 """
-from html2text import convert
+from html2text2 import convert, Parser
 from . import by_subj, NBSP
 
 MARK_START_HTML = '<div dir="ltr">'
+MARK_SKIP = u"Ещё результаты"
 
 
 def alert_ru(_subj, text):
@@ -29,6 +30,12 @@ def start(subj, body):
     text = body
     pos_start = text.index(MARK_START_HTML)
     if pos_start >= 0:
-        text = convert(body[pos_start:]).replace(NBSP, ' ')
+        text = convert(Parser, body[pos_start:].replace(NBSP, ' '), extract_link=True)
 
-    return by_subj(subj, body, text, 'galerts', 'Google Alerts\n\n', SUBJ_HANDLERS)
+    text = by_subj(subj, body, text, 'galerts', u'Оповещение Google\n\n', SUBJ_HANDLERS)
+
+    pos_skip = text.index(MARK_SKIP)
+    if pos_skip >= 0:
+        text = text[:pos_skip]
+
+    return text
