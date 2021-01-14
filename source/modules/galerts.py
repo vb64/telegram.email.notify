@@ -26,18 +26,6 @@ class Parser(BaseParser):
         return text
 
 
-def drop_lines(text, marks):
-    """
-    drop lines starting with any substring from marks
-    """
-    ret = []
-    for line in text.split('\n'):
-        if not any([line.startswith(i) for i in marks]):
-            ret.append(line)
-
-    return u'\n'.join(ret)
-
-
 def alert_ru(subj, text):
     """
     alert with ru language
@@ -46,10 +34,15 @@ def alert_ru(subj, text):
     if pos_skip >= 0:
         text = text[:pos_skip]
 
+    lines = []
+    for line in text.split('\n'):
+        if not any([line.startswith(i) for i in [MARK_NORELEVANT, MARK_NEWS]]):
+            lines.append(line)
+
     return [
       subj.decode('utf-8'),
       '',
-      Parser.drop_newlines(drop_lines(text, [MARK_NORELEVANT, MARK_NEWS])),
+      Parser.drop_newlines(u'\n'.join(lines)),
     ]
 
 
