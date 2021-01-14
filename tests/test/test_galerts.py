@@ -24,4 +24,33 @@ class TestGalerts(TestCase):
 
         text = self.transfer('alert1.txt')
         assert MARKUP in text
+
+    def test_add_href(self):
+        """
+        add_href
+        """
+        from modules.galerts import add_href
+
+        words = []
+        add_href(words, 'xxx')
+        assert words == [('xxx', False)]
+
+        words = [('xxx', True)]
+        add_href(words, 'yyy')
+        assert words == [('xxx', True), ('yyy', False)]
+
+    def test_alert_ru(self):
+        """
+        alert_ru
+        """
+        from modules.galerts import alert_ru
+        assert len(alert_ru('subj', 'body')) == 4
+
+    def test_start(self):
+        """
+        start
+        """
+        from modules.galerts import start
+
+        assert start('subj', 'body') == 'subj\nbody'
         # print text.encode('cp866', 'ignore')
