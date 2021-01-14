@@ -5,7 +5,7 @@ Google Alerts
 import urlparse
 
 from html2text2 import convert, Parser as BaseParser
-from . import by_subj, NBSP
+from . import by_subj, NBSP, MARKUP
 
 DROP_RU = [
   u"Пометить как нерелевантный",
@@ -53,11 +53,21 @@ def add_href(words, text):
     words[-1] = (u"[{}]({})".format(last_word[0], text), True)
 
 
+def clear_markdown(text):
+    """
+    clear special markdown symbols from text
+    """
+    for i in ['*', '_', '`']:
+        text = text.replace(i, '')
+
+    return text
+
+
 def add_word(words, text):
     """
     save simple text
     """
-    words.append((text, False))  # clear *_
+    words.append((clear_markdown(text), False))
 
 
 def make_markdown(text):
@@ -88,7 +98,8 @@ def alert_ru(subj, text):
             lines.append(make_markdown(line))
 
     return [
-      subj.decode('utf-8'),
+      MARKUP,
+      clear_markdown(subj).decode('utf-8'),
       '',
       Parser.drop_newlines(u'\n'.join(lines)),
     ]

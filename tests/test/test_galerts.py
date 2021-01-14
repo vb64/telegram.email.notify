@@ -16,11 +16,12 @@ class TestGalerts(TestCase):
         from modules.galerts import start
         return self.start_transfer(fname, start, 'galerts')
 
-    def test_voice_mail(self):
+    def test_dflt(self):
         """
-        voice mail
+        default
         """
+        from modules import MARKUP
+
         text = self.transfer('alert1.txt')
-        print "###"
-        print text.encode('cp866', 'ignore')
-        # assert 'XXXX' in text
+        assert MARKUP in text
+        # print text.encode('cp866', 'ignore')
