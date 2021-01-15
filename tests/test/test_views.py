@@ -34,6 +34,9 @@ class TestCaseViews(TestCase):
         assert response.status_code == 200
         assert self.src in response.data
 
+        response = self.simple_post('mainpage', {'codec': 'xxx', 'source': ''})
+        assert response.status_code == 404
+
     def test_transform(self):
         """
         transform page
