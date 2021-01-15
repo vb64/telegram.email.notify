@@ -1,5 +1,5 @@
 """
-Html parser
+Html parser ver2
 """
 from HTMLParser import HTMLParser
 from re import sub
