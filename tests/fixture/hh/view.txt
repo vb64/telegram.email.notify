@@ -1,0 +1,151 @@
+Vitaly, ваше резюме просматривали
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Письмо</title><style type="text/css">
+          .ReadMsgBody {width:100%;background-color:#ffffff;color:#333333;}
+          .ExternalClass {width:100%;background-color:#ffffff;color:#333333;}
+          #outlook a {padding:0;}
+          body {width:100% !important;margin:0;padding:0;background-color:#ffffff;color:#333333;font-family:Arial, sans-serif;-webkit-font-smoothing:antialiased;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+          .ExternalClass {width:100%;}
+          .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+
+
+          @media screen and (max-width:1023px) {
+          .mobile-visible {display:inline-block!important;width:auto!important;height:auto!important;max-height:none!important;}
+          .mobile-hidden {position:absolute !important;left:-1000px !important;display:none !important;min-width:0 !important;width:0 !important;min-height:0 !important;height:0 !important;max-height:0!important;}
+
+          .device-width {width:99.9%!important;width:100%!important;}
+          .device-clear {float:none !important;width:99.9%!important;width:100%!important;}
+
+          .g-h1 {font-size:18px!important;line-height:22px!important;}
+          .g-h2 {font-size:15px!important;line-height:18px!important;}
+
+          .l-wrapper {background:#fff!important;}
+          .l-content {padding-top:0 !important;}
+          .l-footer {background:#eeeeee!important;}
+
+          .logo {width:99.9% !important;width:100%!important;padding-right:0!important;padding-left:0!important;text-align:left!important;}
+          .logo__table {width:99.9% !important;width:100%!important;padding-right:0!important;padding-left:0!important;text-align:left!important;}
+          .header__logo-mobile {width:115px!important;height:40px!important;}
+          .navi {display:none!important;}
+
+          .footer-menu {float:none !important;margin:0 auto !important;text-align:center !important;}
+          .footer-menu-link {}
+          .footer-copyright {}
+          .footer-copyright-text {text-align:center !important;}
+          .footer-hint {margin-top:2px !important;}
+          .footer-hint-text {text-align:center !important;font-size:11px !important;line-height:18px!important;}
+
+          .mobile-image {display:inline-block !important;vertical-align:top !important;min-width:auto !important;width:auto !important;min-height:auto !important;height:auto !important;}
+          .image {position:absolute !important;left:-1000px !important;display:none !important;min-width:0 !important;width:0 !important;min-height:0 !important;height:0 !important;}
+
+          .info {margin-top:15px !important;font-size:14px !important;line-height:21px !important;}
+          .info_last {margin-top:20px !important;}
+          .button {}
+          .button-box {width:100% !important;}
+          .button-label {}
+
+          .socials {padding-top:20px!important;text-align:center!important;}
+
+          .adaptive-col {float:none!important;width:99.9%!important;width:100%!important;}
+          .adaptive-padding {padding-right:9%!important;padding-left:9%!important;}
+          .adaptive-no-aflat-shift {padding-right:0!important;padding-left:0!important;margin-right:0!important;margin-left:0!important;}
+          .adaptive-no-vert-shift {padding-top:0!important;padding-bottom:0!important;margin-top:0!important;margin-bottom:0!important;}
+          .adaptive-col__inner {padding-top:20px!important;}
+          .adaptive-bottom-padding {padding-bottom:30px!important;}
+          .adaptive-separator {display:block!important;width:auto!important;height:auto!important;max-height:none!important;}
+          .adaptive-block {display: block!important;max-width: none!important;width: auto!important;}
+          .adaptive-image {width:99.9%!important;width:100%!important;max-width: 100%!important;}
+
+          .header_logo .header__info {display: none;}
+          .header_logo .header__logo {text-align: center;}
+
+          .footer-row {display:block;padding-bottom:0!important;}
+          .footer-rowt__item {margin-bottom:25px;padding-right: 15px;padding-left: 15px;}
+          .footer-row__table {float:none!important;}
+          .footer-row__item {display: block !important;max-width:100% !important;}
+          .footer-row__body {display: table;width:99.9%;width:100%;}
+          .footer-row__info {display: table-cell;vertical-align: top;}
+          .nav {width:50%!important;}
+          .nav-item {float:none!important;width:100%!important;max-width:100%!important;}
+          .nav-item__text {font-size: 14px !important;}
+          }
+
+          @media screen and (max-width:374px) {
+          .footer-menu-link {font-size:11px!important;line-height:12px!important;}
+          }
+
+          img {outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;}
+          a img {border:none;}
+          .image_fix {display:block;}
+
+          p {margin:0.2em 0;}
+
+          h1, h2, h3, h4, h5, h6 {color:#333333 !important;}
+          h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color:#0099ff !important;}
+          h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {text-decoration:underline;}
+          h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {color:#0099ff !important;}
+          h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {color:#0099ff !important;}
+
+          table td {border-collapse:collapse;}
+          table {border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;}
+
+          a {color:#0099ff;text-decoration:none;}
+          a:hover {text-decoration:none!important;}
+
+          .button-box:hover {color: #ffffff !important;background: #0f8fee !important;}
+   .button-box:hover .button-label {color: #ffffff !important;background: #0f8fee !important;}
+   .button-label:hover {text-decoration:none !important;}
+
+          .mobile-visible {}
+          .mobile-hidden {}
+
+          .smart-list {}
+        </style></head><body style="background:#f5f5f5;color:#333333;font-family:Arial, sans-serif;-webkit-text-size-adjust:100%;" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><!--WRAPPER--><table style="background:#f5f5f5;" width="100%" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td style="vertical-align:top;" class="l-wrapper" valign="top"><!--WRAPPER-BGR--><div style="width:100%;max-width:780px;margin:0 auto;background:#fff;" class="header device-width"><!--[if mso]>
+                    <table width="780" style="width:780px;margin-bottom: 24.5px;" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <![endif]--><!--[if !mso]><!--><table width="100%" style="width:100%;" border="0" cellpadding="0" cellspacing="0" align="center"><!--<![endif]--><tr><td style="vertical-align:top;background:#fff;" valign="top" align="left"><!--HEADER--><div style="width:100%;max-width:660px;margin:0 auto;" class="device-width"><!--[if mso]>
+                            <table width="660" style="width:660px;" border="0" cellpadding="0" cellspacing="0" align="center">
+                            <![endif]--><!--[if !mso]><!--><table style="width:100%;min-width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="center"><!--<![endif]--><tr><td class="l-layout" style="padding-top:25px;padding-bottom:10px;vertical-align:middle;" valign="middle" align="left"><table class="logo" width="100%" style="width:100%;vertical-align:middle;" cellpadding="0" cellspacing="0" align="left"><tr><td class="logo__table" style="padding:0 53px 0 20px;vertical-align:middle;" valign="middle" align="left"><a style="text-decoration:none;" target="_blank" href="https://hh.ru?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=logo&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--"><span class=""><img class="" src="https://i.hh.ru/mailing/hh.ru/logo.png?h=e266f1c5cb1627df4a0b3101cacfacf6&amp;i=51211231&amp;e=vit.sar68@gmail.com&amp;utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=logo" border="0" style="vertical-align:middle;border:none !important;" alt=""></span></a></td></tr></table></td></tr></table></div><!--/HEADER--><!--BODY--><div style="width:100%;max-width:660px;margin:0 auto;" class="device-width"><!--[if mso]>
+                            <table width="660" style="width:660px;" border="0" cellpadding="0" cellspacing="0" align="center">
+                            <![endif]--><!--[if !mso]><!--><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="center"><!--<![endif]--><tr><td class="l-layout" style="padding:0px 20px 70px;vertical-align:top;text-align:left;" valign="top"><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="center"><tr xmlns=""><td style="vertical-align:top;" valign="top" align="left"><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+
+<tr><td style="padding:20px 0 0 0;vertical-align:top;color:#333333;font:normal 14px/22px Arial,sans-serif;"><p style="margin-top:0;margin-bottom:0;">Ваше резюме вчера просматривала 1 компания</p></td></tr>
+<tr><td style="padding:20px 0 0 0;vertical-align:top;color:#333333;font:normal 14px/22px Arial,sans-serif;"><p style="margin-top:0;margin-bottom:0;">Посмотрите вакансии, которые у них открыты, возможно, среди них найдется подходящая.</p></td></tr>
+<tr><td style="padding:10px 0 0 0;"><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="left"><tbody><tr><td style="padding:10px 0;"><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="left"><tbody>
+<tr><td style="vertical-align:top;color:#333333;font:normal 14px/22px Arial,sans-serif;"><p style="margin-top:0;margin-bottom:0;"><b></b><a style="color:#0096ff;text-decoration:none;" target="_blank" href="https://hh.ru/applicant/resumeview/history?resumeHash=6172279aff031c286d0039ed1f72726c655376&amp;utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;utm_content=text&amp;sent_date=2020_03_26&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--"><b>Инженер-программист</b></a><b></b></p></td></tr>
+<tr><td style="padding:10px 0 0 20px;"><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="left"><tbody><tr><td style="padding:10px 0;"><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="left"><tbody>
+<tr><td style="vertical-align:top;color:#333333;font:normal 14px/22px Arial,sans-serif;"><p style="margin-top:0;margin-bottom:0;"><a style="color:#0096ff;text-decoration:none;" target="_blank" href="https://hh.ru/employer/1296747?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;utm_content=text&amp;sent_date=2020_03_26&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">Завод Нефтегазоборудование</a></p></td></tr>
+</tbody></table></td></tr></tbody></table></td></tr>
+</tbody></table></td></tr></tbody></table></td></tr>
+<tr><td style="padding:20px 0 0 0;vertical-align:top;color:#333333;font:normal 14px/22px Arial,sans-serif;"><p style="margin-top:0;margin-bottom:0;">Обратите внимание, что просмотр резюме не означает готовности сделать вам предложение о работе.</p></td></tr><tr><td style="padding:20px 0 0 0;vertical-align:top;color:#333333;font:normal 14px/22px Arial,sans-serif;"><p style="margin-top:0;margin-bottom:0;">Установите <a style="color:#0096ff;text-decoration:none;" target="_blank" href="https://hh.ru/mobile?from=resumeseen">мобильное приложение hh.ru</a>, чтобы получать моментальные уведомления о просмотрах резюме и приглашениях от работодателей.</p></td></tr>
+</table></td></tr></table></td></tr></table></div><!--/BODY--><!--NAV--><table style="width:100%;background:#333333;" width="100%" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td style="vertical-align:top;background:#333333;" valign="top" align="left"><div style="width:100%;max-width:660px;margin:0 auto;" class="device-width"><!--[if mso]>
+                              <table width="660" style="width:660px;" border="0" cellpadding="0" cellspacing="0" align="center">
+                              <![endif]--><!--[if !mso]><!--><table style="width:100%;" width="100%" border="0" cellpadding="0" cellspacing="0" align="center"><!--<![endif]--><tr><td class="" style="padding:16px 20px 8px;vertical-align:top;color:#ffffff;font:14px/16px Arial, sans-serif;" valign="top"><table border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;" width="100%"><tbody><tr><td style="padding:0;vertical-align:top;" valign="top"><!--[if !mso]><!--><table class="nav" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0;vertical-align:top;" valign="top"><!--<![endif]--><table class="nav-item" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0 20px 10px 0;vertical-align:middle;text-align:left;color:#ffffff;" valign="middle"><a class="nav-item__text" style="font:14px/16px Arial, sans-serif;color:#ffffff;text-decoration:none;" target="_blank" href="https://hh.ru/search/vacancy/advanced/?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=footer_search_vacancy&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">
+                                                              Поиск&nbsp;вакансий
+                                                            </a></td></tr></tbody></table><table class="nav-item" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td class="nav-item__inner" style="padding:0 20px 10px 0;vertical-align:middle;text-align:left;color:#ffffff;" valign="middle"><a class="nav-item__text" style="font:14px/16px Arial, sans-serif;color:#ffffff;text-decoration:none;" target="_blank" href="https://hh.ru/applicant/negotiations?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=negotiations&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">
+                                                              Мои&nbsp;отклики
+                                                            </a></td></tr></tbody></table><!--[if !mso]><!--></td></tr></tbody></table><table class="nav" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0;vertical-align:top;" valign="top"><!--<![endif]--><table class="nav-item" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0 20px 10px 0;vertical-align:middle;text-align:left;color:#ffffff;" valign="middle"><a class="nav-item__text" style="font:14px/16px Arial, sans-serif;color:#ffffff;text-decoration:none;" target="_blank" href="https://hh.ru/applicant/resumes?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=footer_resumes&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">
+                                                              Мои&nbsp;резюме
+                                                            </a></td></tr></tbody></table><table class="nav-item" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td class="nav-item__inner" style="padding:0 0 10px 0;vertical-align:middle;text-align:left;color:#ffffff;" valign="middle"><a class="nav-item__text" style="font:14px/16px Arial, sans-serif;color:#ffffff;text-decoration:none;" target="_blank" href="https://hh.ru/applicant/services?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=services&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">
+                                                              Продвижение резюме
+                                                            </a></td></tr></tbody></table><!--[if !mso]><!--></td></tr></tbody></table><!--<![endif]--></td></tr></tbody></table></td></tr></table></div></td></tr></table><!--/NAV--><!--FOOTER--><table style="width:100%;background:#eeeeee;" width="100%" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td style="vertical-align:top;background:#eeeeee;" valign="top" align="left"><div style="width:100%;max-width:660px;margin:0 auto;" class="device-width"><!--[if mso]>
+                                  <table width="660" style="width:660px;" border="0" cellpadding="0" cellspacing="0" align="center">
+                                  <![endif]--><!--[if !mso]><!--><table width="100%" style="width:100%;" border="0" cellpadding="0" cellspacing="0" align="center"><!--<![endif]--><tr><td class="l-layout" style="padding:46px 20px 67px;vertical-align:top;" valign="top"><table style="width:100%;" class="device-clear" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td style="padding:0 0 32px;vertical-align:top;color:#333333;font:14px/22px Arial, sans-serif;" valign="top"><table border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0 20px 0 0;vertical-align:middle;text-align:left;" valign="middle"><p style="margin-top:0;margin-bottom:0;">Будьте осторожны при пересылке этого письма: все ссылки ведут в ваш личный кабинет.</p></td></tr></tbody></table></td></tr><tr><td style="padding:0 0 32px;vertical-align:top;color:#333333;font:14px/22px Arial, sans-serif;" valign="top"><table border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0 20px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a style="font:14px/22px Arial, sans-serif;text-decoration:none;color:#0096ff;" target="_blank" href="https://hh.ru/unsubscribe/applicant/85E80C6C-6C30-3E64-6A6B-07667416EED6?date=2020-03-26&sub_category=3&s=07f1cf54b8799099c5ff6d92dde419508a5b93f5c438e0a95c1fe0dada2bc51b&amp;utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=unsubscribe&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">
+                                                    Управление рассылкой
+                                                  </a></td><td style="padding:0 20px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a style="font:14px/22px Arial, sans-serif;text-decoration:none;color:#0096ff;" target="_blank" href="https://hh.ru/feedback?utm_source=email&amp;utm_medium=email&amp;utm_campaign=resume_watched&amp;sent_date=2020_03_26&amp;utm_content=feedback&amp;loginkey=RVoupNxdsr8flmyWHK_A_kIajGOqMg9UAGi5U9kNugemaPrYrg--">
+                                                    Вопросы и&nbsp;ответы
+                                                  </a></td></tr></tbody></table></td></tr><tr><td class="footer-row" style="vertical-align:top;color:#333333;font:14px/22px Arial, sans-serif;" valign="top"><!--[if mso]>
+                                              <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                              <tr>
+                                              <td width="476" valign="top">
+                                              <![endif]--><span class="footer-row__item" style="display:inline-block;vertical-align: top;width: 100%;max-width: 476px;"><table class="footer-row__table adaptive-col" width="100%" border="0" cellpadding="0" cellspacing="0" align="left"><tbody class="footer-row__body"><tr><td class="" style="padding:0 0 5px;vertical-align:top;text-align:left;color:#333333;font:14px/22px Arial, sans-serif;" valign="top">
+                                                    HeadHunter в социальных сетях
+                                                  </td></tr><tr><td class="" style="padding:0 0 30px;vertical-align:top;text-align: left;" valign="top"><!-- Соц. сети --><table border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0 10px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a style="text-decoration:none;" href="https://vk.com/headhunter" target="_blank"><img src="https://hhcdn.ru/icms/10115345.png" border="0" style="vertical-align:top;border:none !important;width: 40px !important;max-width:40px !important;" width="40" alt=""></a></td><td style="padding:0 10px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a style="text-decoration:none;" href="https://www.facebook.com/headhuntergroup" target="_blank"><img src="https://hhcdn.ru/icms/10115346.png" border="0" style="vertical-align:top;border:none !important;width: 40px !important;max-width:40px !important;" width="40" alt=""></a></td><td style="padding:0 10px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a style="text-decoration:none;" href="https://www.instagram.com/hh_ru/" target="_blank"><img src="https://hhcdn.ru/icms/10115347.png" border="0" style="vertical-align:top;border:none !important;width: 40px !important;max-width:40px !important;" width="40" alt=""></a></td><td style="padding:0 10px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a style="text-decoration:none;" href="https://twitter.com/hh_ru" target="_blank"><img src="https://hhcdn.ru/icms/10115348.png" border="0" style="vertical-align:top;border:none !important;width: 40px !important;max-width:40px !important;" width="40" alt=""></a></td><td style="padding:0;vertical-align:middle;text-align:left;" valign="middle"><a style="text-decoration:none;" href="https://ok.ru/headhunter" target="_blank"><img src="https://hhcdn.ru/icms/10115349.png" border="0" style="vertical-align:top;border:none !important;width: 40px !important;max-width:40px !important;" width="40" alt=""></a></td></tr></tbody></table><!-- /Соц. сети --></td></tr></tbody></table></span><!--[if mso]>
+                                              </td><td width="140" valign="top">
+                                          <![endif]--><span class="footer-row__item" style="display:inline-block;vertical-align: top;width: 100%;max-width: 140px;"><table class="footer-row__table adaptive-col" width="100%" border="0" cellpadding="0" cellspacing="0" align="left"><tbody class="footer-row__body"><tr><td class="" style="padding:0 0 5px;vertical-align:top;text-align:left;color:#333333;font:14px/22px Arial, sans-serif;" valign="top">
+                                                    Для смартфонов
+                                                  </td></tr><tr><td class="" style="padding:0 0 30px;vertical-align:top;text-align: left;" valign="top"><table border="0" cellpadding="0" cellspacing="0" align="left" style="text-align:left;"><tbody><tr><td style="padding:0 10px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a href="https://hh.ru/mobile?from=resume_watched" target="_blank"><span class=""><img class="" src="https://hhcdn.ru/icms/10115351.png" border="0" style="vertical-align:middle;border:none !important;" alt=""></span></a></td><td style="padding:0 10px 0 0;vertical-align:middle;text-align:left;" valign="middle"><a href="https://hh.ru/mobile?from=resume_watched" target="_blank"><span class=""><img class="" src="https://hhcdn.ru/icms/10115353.png" border="0" style="vertical-align:middle;border:none !important;" alt=""></span></a></td></tr></tbody></table></td></tr></tbody></table></span><!--[if mso]>
+                                              </td>
+                                              </tr>
+                                              </table>
+                                              <![endif]--></td></tr><tr><td style="padding:23px 0 0;vertical-align:top;border-top:1px solid #cccccc;color:#333333;font:14px/22px Arial, sans-serif;" valign="top"><p style="margin-top:0;margin-bottom:0;">Вы получили это письмо, поскольку зарегистрированы на hh.ru</p><p style="margin-top:0;margin-bottom:0;">&copy;&nbsp;Группа компаний HeadHunter, 2000&ndash;2020</p></td></tr></table></td></tr></table></div></td></tr></table><!--/FOOTER--></td></tr></table></div></td></tr><tr><td style="padding:0 300px 0 0"></td></tr></table><!--/WRAPPER--></body></html>
