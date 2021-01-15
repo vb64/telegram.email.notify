@@ -26,21 +26,6 @@ class TestGalerts(TestCase):
         assert MARKUP in text
 
     @staticmethod
-    def test_add_href():
-        """
-        add_href
-        """
-        from modules.galerts import add_href
-
-        words = []
-        add_href(words, 'xxx')
-        assert words == [('xxx', False)]
-
-        words = [('xxx', True)]
-        add_href(words, 'yyy')
-        assert words == [('xxx', True), ('yyy', False)]
-
-    @staticmethod
     def test_alert_ru():
         """
         alert_ru
