@@ -2,13 +2,29 @@
 """
 LiveJournal
 """
-from html2text2 import convert, Parser
+from html2text2 import convert, Parser as BaseParser
 from . import make_markdown, clear_markdown, MARKUP
 
 DROP_IN = [
   u'.livejournal.com?utm_source=',
   u'LiveJournal Newsletter ',
+  u"Вечерний ЖЖ ",
 ]
+
+
+class Parser(BaseParser):
+    """
+    parser class for LJ
+    """
+    def extract_real_link(self, text):  # pylint: disable=no-self-use
+        """
+        extract part of link without ru symbols
+        """
+        index = text.find('?utm_source=')
+        if index > 0:
+            return text[:index]
+
+        return text
 
 
 def start(subj, body):

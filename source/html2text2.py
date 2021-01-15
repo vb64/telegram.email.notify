@@ -38,7 +38,7 @@ class Parser(HTMLParser):
             self.__text.append(text + ' ')
 
             if self.html_link:
-                self.__text.extend([self.html_link.encode('utf8'), ' '])
+                self.__text.extend([self.html_link, ' '])
 
             self.html_link = ''
 
