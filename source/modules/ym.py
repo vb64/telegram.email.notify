@@ -8,21 +8,12 @@ from . import is_present, by_subj, NBSP
 MARK_CARD = u'Карта '
 MARK_TARGET = u'Назначение платежа'
 MARK_DATE = u'Дата и время'
-MARK_SUMM = u'Сколько списано'
 MARK_PLACE = u'Страна и город'
 MARK_AVAIL = u'Доступно '
-MARK_HIST1 = u'Запись о платеже хранится'
-MARK_BANK = u'Банкомат'
-MARK_CASH = u'Выданная сумма'
-MARK_COMIS = u'Комиссия за снятие'
-MARK_CURR = u'Сумма в валюте операции'
-MARK_LIMIT = u'В этом месяце вы можете снять'
-MARK_HIST2 = u'Запись обо всех операциях'
 MARK_TRANS_IN = u'Пополнение через'
 MARK_TRANS_SUM = u'Сумма'
-MARK_HIST3 = u'Все детали платежа'
-
-MARK_COMIS_YM = u'Комиссия ЮMoney'
+MARK_HIST = u'Все детали платежа'
+MARK_COMIS = u'Комиссия ЮMoney'
 
 
 def e_paywallet(subj, text):
@@ -33,10 +24,10 @@ def e_paywallet(subj, text):
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(u'Списано')
     pos_avail = text.index(MARK_AVAIL)
-    pos_hist = text.index(MARK_HIST3)
+    pos_hist = text.index(MARK_HIST)
 
-    if MARK_COMIS_YM in text:
-        pos_com = text.index(MARK_COMIS_YM)
+    if MARK_COMIS in text:
+        pos_com = text.index(MARK_COMIS)
         fields = [
           text[pos_sum:pos_com],
           text[pos_com:pos_avail],
@@ -60,8 +51,8 @@ def e_paycard(subj, text):
     pos_target = text.index(MARK_TARGET)
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(MARK_TRANS_SUM)
-    pos_com = text.index(MARK_COMIS_YM)
-    pos_hist = text.index(MARK_HIST3)
+    pos_com = text.index(MARK_COMIS)
+    pos_hist = text.index(MARK_HIST)
 
     return [
       subj, '',
@@ -80,7 +71,7 @@ def e_transf_out(subj, text):
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(u'Со счета списано')
     pos_avail = text.index(MARK_AVAIL)
-    pos_hist = text.index(MARK_HIST3)
+    pos_hist = text.index(MARK_HIST)
 
     return [
       subj, '',
@@ -111,7 +102,7 @@ def e_transf_in(subj, text):
     pos_date = text.index(MARK_DATE)
     pos_sum = text.index(MARK_TRANS_SUM)
     pos_avail = text.index(MARK_AVAIL)
-    pos_hist = text.index(MARK_HIST3)
+    pos_hist = text.index(MARK_HIST)
     comment = u'Комментарий'
 
     if comment in text:
@@ -156,7 +147,7 @@ def e_income(subj, text):
     pos_trans = text.index(MARK_TRANS_IN)
     pos_sum = text.index(MARK_TRANS_SUM)
     pos_avail = text.index(MARK_AVAIL)
-    pos_hist = text.index(MARK_HIST3)
+    pos_hist = text.index(MARK_HIST)
 
     return [
       subj, '',
@@ -181,15 +172,15 @@ def e_cash(subj, text):
     cash out
     """
     pos_card = text.index(MARK_CARD)
-    pos_bank = text.index(MARK_BANK)
+    pos_bank = text.index(u'Банкомат')
     pos_date = text.index(MARK_DATE)
-    pos_cash = text.index(MARK_CASH)
-    pos_comis = text.index(MARK_COMIS)
-    pos_curr = text.index(MARK_CURR)
+    pos_cash = text.index(u'Выданная сумма')
+    pos_comis = text.index(u'Комиссия за снятие')
+    pos_curr = text.index(u'Сумма в валюте операции')
     pos_place = text.index(MARK_PLACE)
     pos_avail = text.index(MARK_AVAIL)
-    pos_limit = text.index(MARK_LIMIT)
-    pos_hist = text.index(MARK_HIST2)
+    pos_limit = text.index(u'В этом месяце вы можете снять')
+    pos_hist = text.index(u'Запись обо всех операциях')
 
     return [
       subj, '',
@@ -211,10 +202,10 @@ def e_pay(subj, text):
     pos_card = text.index(MARK_CARD)
     pos_target = text.index(MARK_TARGET)
     pos_date = text.index(MARK_DATE)
-    pos_summ = text.index(MARK_SUMM)
+    pos_summ = text.index(u'Сколько списано')
     pos_place = text.index(MARK_PLACE)
     pos_avail = text.index(MARK_AVAIL)
-    pos_hist = text.index(MARK_HIST1)
+    pos_hist = text.index(u'Запись о платеже хранится')
 
     return [
       subj, '',
