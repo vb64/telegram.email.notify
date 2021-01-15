@@ -3,7 +3,7 @@
 Yandex Money
 """
 from html2text import convert
-from . import by_subj, NBSP
+from . import is_present, by_subj, NBSP
 
 MARK_CARD = 'Карта '
 MARK_TARGET = 'Назначение платежа'
@@ -247,10 +247,41 @@ SUBJ_HANDLERS = [
   (('Вы заплатили со счета ', ), e_transf_out),
   (('Ваш кошелек ', ' пополнен'), e_income1),
 ]
+SUBJ_ONLY = [
+  ('Информация о платеже',),
+  ('Статус распоряжения:',),
+  ('Как насчёт вашей подписки',),
+  ('Получайте ', 'годовых'),
+  ('Переводы с комиссией',),
+  ('сундук с призами',),
+  ('На всякий случай:',),
+  ('Несколько вопросов',),
+  ('Получите подарок',),
+  ('Выиграйте', 'на покупки'),
+  ('Повышенный кэшбэк',),
+  ('Получайте кэшбэк',),
+  ('Списание средств',),
+  ('поступили денежные средства',),
+  ('о важном',),
+  ('найдёт для вас кэшбэк',),
+  ('Сохраните свои деньги',),
+  ('Вход', 'от имени клиента'),
+  ('Транзакция по банковской карте',),
+  ('Автоплатежи',),
+  ('Получите бонус',),
+  ('Поступление зарплаты',),
+  ('Инвестируйте',),
+  ('возврат по операции',),
+]
 
 
 def start(subj, body):
     """
     parse Yandex Money
     """
-    return by_subj(subj, body, convert(body).replace(NBSP, ' '), 'ym', 'ЮMoney: ', SUBJ_HANDLERS)
+    title = 'ЮMoney: '
+    for marks in SUBJ_ONLY:
+        if is_present(marks, subj):
+            return title + subj
+
+    return by_subj(subj, body, convert(body).replace(NBSP, ' '), 'ym', title, SUBJ_HANDLERS)

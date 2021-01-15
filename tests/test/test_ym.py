@@ -38,8 +38,13 @@ class TestYM(TestCase):
         assert self.transfer('pay_wallet.txt')
         assert self.transfer('transfer_in1.txt')
         assert self.transfer('pay_wallet1.txt')
-
         assert self.transfer('transfer_in2.txt')
+
+    def test_subjonly(self):
+        """
+        subj only
+        """
+        assert self.transfer('subjonly.txt')
 
     def __test_week1(self):
         """
