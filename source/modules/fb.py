@@ -2,93 +2,67 @@
 """
 FaceBook
 """
-from models import SavedSource
-from . import by_subj, BUTTONS
+from . import BUTTONS
 
-LABEL = 'fb'
+DELIMETER = '========================================'
 MARK_VIEW = 'Посмотреть на Facebook'
-MARK_ACCEPT = 'Подтвердить запрос'
-
-SUBJ_COMMENT = 'Посмотрите комментарий'
-SUBJ_POST = 'Посмотрите новую публикацию'
-SUBJ_FRIEND = 'хочет стать вашим другом на Facebook'
-SUBJ_FRIEND1 = 'запрос на добавление в друзья'
-SUBJ_PHOTO = 'Посмотрите новое фото'
+MARK_HI = 'Здравствуйте, '
 
 
-def read_citate(lines):
+def extract_link(text):
     """
-    read citate from iterator
+    extract link to fb post
     """
-    ret = []
-    for line in lines:
-        next_line = None
-        if line == 'С уважением,':
-            next_line = next(lines)
-            if next_line == 'Команда Facebook':
-                break
+    if not text.startswith(MARK_VIEW):
+        return ''
 
-        ret.append(line.strip('"'))
-        if next_line is not None:
-            ret.append(next_line.strip('"'))
-
-    return '\n'.join(ret)
+    link = text.split('\n')[1]
+    return '\n'.join((
+      '',
+      BUTTONS,
+      "[{}]({})".format(MARK_VIEW, link),
+    ))
 
 
-def get_handler(prefix, mark):
+def extract_text(text):
     """
-    closure for subj handler
+    extract value from text part
     """
-    def e_post(subj, text):
-        """
-        post
-        """
-        link = ''
-        title = ''
-        citate = ''
+    lines = text.split('\n')
+    start_indx = 0
+    end_indx = len(lines) - 1
 
-        lines = iter(text.splitlines())
-        for line in lines:
-            if line.startswith(mark):
-                link = "[{}]({})".format(mark, next(lines))
-            elif line.startswith(prefix):
-                title = line
-            elif line in ['Посетить группу', 'Читать публикацию']:
-                citate = read_citate(lines)
-                break
+    for i, line in enumerate(lines):
+        if line.startswith('"'):
+            start_indx = i
+            break
 
-        if not all([link, title]):
-            SavedSource(label=LABEL, subject=subj, body=text).put()
+    for i, line in enumerate(lines[start_indx:]):
+        if line.endswith('"'):
+            end_indx = start_indx + i
+            break
 
-        return [title, '', citate, BUTTONS, link]
+    if start_indx == end_indx:
+        lines[start_indx] = lines[start_indx][1:-1]
+        result = [lines[start_indx]]
+    else:
+        lines[start_indx] = lines[start_indx][1:]
+        lines[end_indx] = lines[end_indx][:-1]
+        result = lines[start_indx:end_indx]
 
-    return e_post
-
-
-def e_subj(subj, _text):
-    """
-    dubj only
-    photo, recommendation, update
-    """
-    return [subj]
-
-
-SUBJ_HANDLERS = [
-  ((SUBJ_COMMENT, ), get_handler(SUBJ_COMMENT, MARK_VIEW)),
-  ((SUBJ_POST, ), get_handler(SUBJ_POST, MARK_VIEW)),
-  ((SUBJ_FRIEND, ), get_handler(SUBJ_FRIEND, MARK_ACCEPT)),
-  ((SUBJ_FRIEND1, ), get_handler(SUBJ_FRIEND1, MARK_ACCEPT)),
-  ((SUBJ_PHOTO, ), get_handler(SUBJ_PHOTO, MARK_VIEW)),
-  (('опубликовал обновление', ), e_subj),
-  (('добавил', ' новое фото'), e_subj),
-  (('У вас ', ' новых рекомендаций'), e_subj),
-  (('У вас ', ' новые рекомендации'), e_subj),
-  (('новые рекомендации групп:', ), e_subj),
-]
+    return '\n'.join(result)
 
 
 def start(subj, body):
     """
     parse FaceBook
     """
-    return by_subj(subj, body, body, LABEL, 'FaceBook: ', SUBJ_HANDLERS)
+    parts = body.split(DELIMETER)
+    text = ''.join((
+      subj,
+      '\n\n',
+      extract_text(parts[2].strip()),
+      extract_link(parts[1].strip()),
+    ))
+
+    return text.decode('utf-8')

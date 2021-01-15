@@ -19,7 +19,7 @@ COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
 
 PROJECT = text-transform-198104
-VERSION = galerts03
+VERSION = fix-fb
 
 all: tests
 

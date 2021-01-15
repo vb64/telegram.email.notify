@@ -1,15 +1,14 @@
+# -*- coding: utf-8 -*-
 """
 make test T=test_fb.py
 """
 from . import TestCase
 
 
-class TestFB(TestCase):
+class TestFb(TestCase):
     """
     FaceBook
     """
-    mark = "https://www.facebook.com/email_forward_notice"
-
     def transfer(self, fname):
         """
         transfer fixture by facebook
@@ -17,58 +16,43 @@ class TestFB(TestCase):
         from modules.fb import start
         return self.start_transfer(fname, start, 'fb')
 
-    def test_comment(self):
+    @staticmethod
+    def test_extract_text():
         """
-        comment
+        extract_text
         """
-        text = self.transfer('comment.txt')
-        assert self.mark not in text
+        from modules.fb import extract_text
+        assert extract_text('') == ''
 
-    def test_broken_comment(self):
+    @staticmethod
+    def test_extract_link():
         """
-        broken comment
+        extract_link
         """
-        text = self.transfer('comment1.txt')
-        assert self.mark not in text
+        from modules.fb import extract_link
+        assert extract_link('xxx') == ''
 
-        text = self.transfer('comment2.txt')
-        assert self.mark in text
-
-    def test_photo(self):
+    def test_poll(self):
         """
-        photo
+        poll
         """
-        text = self.transfer('photo.txt')
-        assert self.mark not in text
+        text = self.transfer('poll.txt')
+        assert 'https://www.facebook.com/nd/?' in text
+        assert u"создал опрос" in text
 
-        text = self.transfer('photo1.txt')
-        assert self.mark not in text
-
-        text = self.transfer('update.txt')
-        assert self.mark not in text
-
-    def test_recomendation(self):
+    def test_publication(self):
         """
-        recomendation
+        publication
         """
-        text = self.transfer('recomendation.txt')
-        assert self.mark not in text
+        text = self.transfer('publication.txt')
+        assert 'https://www.facebook.com/nd/?' in text
+        assert u"сделал публикацию" in text
 
-        text = self.transfer('recomendation1.txt')
-        assert self.mark not in text
-
-        text = self.transfer('recomendation2.txt')
-        assert self.mark not in text
-
-    def test_friend(self):
+    def test_video(self):
         """
-        friend
+        video
         """
-        text = self.transfer('friend.txt')
-        assert self.mark not in text
-
-        text = self.transfer('friend1.txt')
-        assert self.mark not in text
-
-        text = self.transfer('friend2.txt')
-        assert self.mark not in text
+        text = self.transfer('video.txt')
+        assert 'https://www.facebook.com/nd/?' in text
+        assert u"опубликовал видео" in text
+        # print text.encode('cp866', 'ignore')
