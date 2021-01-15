@@ -2,34 +2,27 @@
 """
 Yandex Money
 """
-from html2text import convert
+from html2text2 import convert, Parser
 from . import is_present, by_subj, NBSP
 
-MARK_CARD = 'Карта '
-MARK_TARGET = 'Назначение платежа'
-MARK_DATE = 'Дата и время'
-MARK_SUMM = 'Сколько списано'
-MARK_PLACE = 'Страна и город'
-MARK_AVAIL = 'Доступно '
-MARK_HIST1 = 'Запись о платеже хранится'
-MARK_BANK = 'Банкомат'
-MARK_CASH = 'Выданная сумма'
-MARK_COMIS = 'Комиссия за снятие'
-MARK_CURR = 'Сумма в валюте операции'
-MARK_LIMIT = 'В этом месяце вы можете снять'
-MARK_HIST2 = 'Запись обо всех операциях'
-MARK_TRANS_IN = 'Пополнение через'
-MARK_TRANS_SUM = 'Сумма'
-MARK_HIST3 = 'Все детали платежа'
-MARK_COMMENT = 'Комментарий'
-MARK_BONUS_TOTAL = 'Баллы баланс'
-MARK_BONUS_WEEK = 'За неделю вы заработали'
-MARK_HIST4 = 'Где получать баллы'
-MARK_TRANS_OUT = 'Назначение платежа'
-MARK_TRANS_OUT_SUM = 'Со счета списано'
-MARK_COMIS_YM = 'Комиссия ЮMoney'
-MARK_SUMM_WALLET = 'Списано'
-MARK_HIST5 = 'Все детали пополнения'
+MARK_CARD = u'Карта '
+MARK_TARGET = u'Назначение платежа'
+MARK_DATE = u'Дата и время'
+MARK_SUMM = u'Сколько списано'
+MARK_PLACE = u'Страна и город'
+MARK_AVAIL = u'Доступно '
+MARK_HIST1 = u'Запись о платеже хранится'
+MARK_BANK = u'Банкомат'
+MARK_CASH = u'Выданная сумма'
+MARK_COMIS = u'Комиссия за снятие'
+MARK_CURR = u'Сумма в валюте операции'
+MARK_LIMIT = u'В этом месяце вы можете снять'
+MARK_HIST2 = u'Запись обо всех операциях'
+MARK_TRANS_IN = u'Пополнение через'
+MARK_TRANS_SUM = u'Сумма'
+MARK_HIST3 = u'Все детали платежа'
+
+MARK_COMIS_YM = u'Комиссия ЮMoney'
 
 
 def e_paywallet(subj, text):
@@ -38,7 +31,7 @@ def e_paywallet(subj, text):
     """
     pos_target = text.index(MARK_TARGET)
     pos_date = text.index(MARK_DATE)
-    pos_sum = text.index(MARK_SUMM_WALLET)
+    pos_sum = text.index(u'Списано')
     pos_avail = text.index(MARK_AVAIL)
     pos_hist = text.index(MARK_HIST3)
 
@@ -83,9 +76,9 @@ def e_transf_out(subj, text):
     """
     transfer out
     """
-    pos_trans = text.index(MARK_TRANS_OUT)
+    pos_trans = text.index(u'Назначение платежа')
     pos_date = text.index(MARK_DATE)
-    pos_sum = text.index(MARK_TRANS_OUT_SUM)
+    pos_sum = text.index(u'Со счета списано')
     pos_avail = text.index(MARK_AVAIL)
     pos_hist = text.index(MARK_HIST3)
 
@@ -102,14 +95,12 @@ def e_week(subj, text):
     """
     week note
     """
-    pos_total = text.index(MARK_BONUS_TOTAL)
-    pos_week = text.index(MARK_BONUS_WEEK)
-    pos_hist = text.index(MARK_HIST4)
+    pos1 = text.index(u'баланс на ')
+    pos2 = text.index(u'Где получать баллы')
 
     return [
       subj, '',
-      text[pos_total:pos_week],
-      text[pos_week:pos_hist],
+      text[pos1:pos2],
     ]
 
 
@@ -121,9 +112,10 @@ def e_transf_in(subj, text):
     pos_sum = text.index(MARK_TRANS_SUM)
     pos_avail = text.index(MARK_AVAIL)
     pos_hist = text.index(MARK_HIST3)
+    comment = u'Комментарий'
 
-    if MARK_COMMENT in text:
-        pos_note = text.index(MARK_COMMENT)
+    if comment in text:
+        pos_note = text.index(comment)
         fields = [
           text[pos_sum:pos_note],
           text[pos_note:pos_avail],
@@ -147,7 +139,7 @@ def e_income1(subj, text):
     pos_trans = text.index(MARK_TRANS_IN)
     pos_sum = text.index(MARK_TRANS_SUM)
     pos_avail = text.index(MARK_AVAIL)
-    pos_hist = text.index(MARK_HIST5)
+    pos_hist = text.index(u'Все детали пополнения')
 
     return [
       subj, '',
@@ -180,7 +172,7 @@ def e_cashback(subj, _text):
     cashback
     """
     return [
-      'Напоминание о кэшбэк', '', subj,
+      u'Напоминание о кэшбэк', '', subj,
     ]
 
 
@@ -236,42 +228,42 @@ def e_pay(subj, text):
 
 
 SUBJ_HANDLERS = [
-  (('Вы заплатили с карты ЮMoney', ), e_pay),
-  (('Вы заплатили с банковской карты', ), e_paycard),
-  (('Вы заплатили из кошелька', ), e_paywallet),
-  (('Вы сняли наличные с карты', ), e_cash),
-  (('Кэшбэк ', ), e_cashback),
-  (('Ваш счет ', ' пополнен'), e_income),
-  (('На ваш счет ', ' поступил перевод'), e_transf_in),
-  (('ваши баллы и скидки за неделю', ), e_week),
-  (('Вы заплатили со счета ', ), e_transf_out),
-  (('Ваш кошелек ', ' пополнен'), e_income1),
+  ((u'Вы заплатили с карты ЮMoney', ), e_pay),
+  ((u'Вы заплатили с банковской карты', ), e_paycard),
+  ((u'Вы заплатили из кошелька', ), e_paywallet),
+  ((u'Вы сняли наличные с карты', ), e_cash),
+  ((u'Кэшбэк ', ), e_cashback),
+  ((u'Ваш счет ', u' пополнен'), e_income),
+  ((u'На ваш счет ', u' поступил перевод'), e_transf_in),
+  ((u'ваши баллы и скидки за неделю', ), e_week),
+  ((u'Вы заплатили со счета ', ), e_transf_out),
+  ((u'Ваш кошелек ', u' пополнен'), e_income1),
 ]
 SUBJ_ONLY = [
-  ('Информация о платеже',),
-  ('Статус распоряжения:',),
-  ('Как насчёт вашей подписки',),
-  ('Получайте ', 'годовых'),
-  ('Переводы с комиссией',),
-  ('сундук с призами',),
-  ('На всякий случай:',),
-  ('Несколько вопросов',),
-  ('Получите подарок',),
-  ('Выиграйте', 'на покупки'),
-  ('Повышенный кэшбэк',),
-  ('Получайте кэшбэк',),
-  ('Списание средств',),
-  ('поступили денежные средства',),
-  ('о важном',),
-  ('найдёт для вас кэшбэк',),
-  ('Сохраните свои деньги',),
-  ('Вход', 'от имени клиента'),
-  ('Транзакция по банковской карте',),
-  ('Автоплатежи',),
-  ('Получите бонус',),
-  ('Поступление зарплаты',),
-  ('Инвестируйте',),
-  ('возврат по операции',),
+  (u'Информация о платеже',),
+  (u'Статус распоряжения:',),
+  (u'Как насчёт вашей подписки',),
+  (u'Получайте ', u'годовых'),
+  (u'Переводы с комиссией',),
+  (u'сундук с призами',),
+  (u'На всякий случай:',),
+  (u'Несколько вопросов',),
+  (u'Получите подарок',),
+  (u'Выиграйте',),
+  (u'Повышенный кэшбэк',),
+  (u'Получайте кэшбэк',),
+  (u'Списание средств',),
+  (u'поступили денежные средства',),
+  (u'о важном',),
+  (u'найдёт для вас кэшбэк',),
+  (u'Сохраните свои деньги',),
+  (u'Вход', u'от имени клиента'),
+  (u'Транзакция по банковской карте',),
+  (u'Автоплатежи',),
+  (u'Получите бонус',),
+  (u'Поступление зарплаты',),
+  (u'Инвестируйте',),
+  (u'возврат по операции',),
 ]
 
 
@@ -279,9 +271,18 @@ def start(subj, body):
     """
     parse Yandex Money
     """
-    title = 'ЮMoney: '
+    title = u'ЮMoney: '
+    subj = subj.decode('utf-8')
+
     for marks in SUBJ_ONLY:
         if is_present(marks, subj):
             return title + subj
 
-    return by_subj(subj, body, convert(body).replace(NBSP, ' '), 'ym', title, SUBJ_HANDLERS)
+    return by_subj(
+      subj,
+      body,
+      convert(Parser, body.replace(NBSP, ' ')),
+      'ym',
+      title,
+      SUBJ_HANDLERS
+    )

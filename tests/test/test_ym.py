@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 make test T=test_ym.py
 """
@@ -32,7 +33,6 @@ class TestYM(TestCase):
         assert self.transfer('cashback.txt')
         assert self.transfer('income.txt')
         assert self.transfer('transfer_in.txt')
-        assert self.transfer('weekly.txt')
         assert self.transfer('transfer_out.txt')
         assert self.transfer('pay_card.txt')
         assert self.transfer('pay_wallet.txt')
@@ -44,11 +44,12 @@ class TestYM(TestCase):
         """
         subj only
         """
-        assert self.transfer('subjonly.txt')
+        assert u"Вход куда-то от имени клиента" in self.transfer('subjonly.txt')
 
-    def __test_week1(self):
+    def test_week(self):
         """
         week1
         """
         text = self.transfer('weekly1.txt')
-        print text.encode('cp866', 'ignore')
+        assert u"баланс на 1 августа" in text
+        # print text.encode('cp866', 'ignore')
