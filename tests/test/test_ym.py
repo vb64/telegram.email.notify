@@ -40,4 +40,10 @@ class TestYM(TestCase):
         assert self.transfer('pay_wallet1.txt')
 
         assert self.transfer('transfer_in2.txt')
-        print '\n##', self.transfer('transfer_in2.txt')
+
+    def __test_week1(self):
+        """
+        week1
+        """
+        text = self.transfer('weekly1.txt')
+        print text.encode('cp866', 'ignore')
