@@ -5,7 +5,7 @@ Google Alerts
 import urlparse
 
 from html2text2 import convert, Parser as BaseParser
-from . import by_subj, NBSP, MARKUP
+from . import by_subj, make_markdown, clear_markdown, NBSP, MARKUP
 
 DROP_RU = [
   u"Пометить как нерелевантный",
@@ -25,63 +25,6 @@ class Parser(BaseParser):
             return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0]
 
         return text
-
-
-def is_href(text):
-    """
-    is text looks like href
-    """
-    return any([
-      text.startswith('https://'),
-      text.startswith('http://'),
-    ])
-
-
-def add_href(words, text):
-    """
-    save text as markdown link
-    """
-    if not words:
-        add_word(words, text)
-        return
-
-    last_word = words[-1]
-    if last_word[1]:  # already link
-        add_word(words, text)
-        return
-
-    words[-1] = (u"[{}]({})".format(last_word[0], text), True)
-
-
-def clear_markdown(text):
-    """
-    clear special markdown symbols from text
-    """
-    for i in ['*', '_', '`']:
-        text = text.replace(i, '')
-
-    return text
-
-
-def add_word(words, text):
-    """
-    save simple text
-    """
-    words.append((clear_markdown(text), False))
-
-
-def make_markdown(text):
-    """
-    embed url as markdown links
-    """
-    result = []
-    for word in text.split():
-        if is_href(word):
-            add_href(result, word)
-        else:
-            add_word(result, word)
-
-    return ' '.join([i[0] for i in result])
 
 
 def alert_ru(subj, text):

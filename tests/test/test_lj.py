@@ -33,3 +33,11 @@ class TestLj(TestCase):
         """
         text = self.transfer('msg3.txt')
         assert self.mark not in text
+
+    def test_last(self):
+        """
+        another message
+        """
+        text = self.transfer('msg4.txt')
+        assert self.mark not in text
+        # print text.encode('cp866', 'ignore')
