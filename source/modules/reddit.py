@@ -1,11 +1,10 @@
+# -*- coding: utf-8 -*-
 """
 Reddit
 """
-from models import SavedSource
-from . import convert, NBSP, BUTTONS
+from html2text2 import Parser
+from . import is_present
 
-LABEL = 'reddit'
-MARK_CLICK = 'https://click.redditmail.com/'
 MARK_POSTED = 'Posted by'
 
 
@@ -13,21 +12,15 @@ def start(subj, body):
     """
     parse Reddit message
     """
-    text = convert(body, extract_link=True).replace(NBSP, ' ')
+    parser = Parser(True, True)
+    parser.feed(body)
+    parser.close()
+    text = parser.text()
+    lines = []
 
-    if MARK_CLICK not in text:
-        SavedSource(label=LABEL, subject=subj, body=body).put()
-        return 'Reddit: ' + subj + '\n' + text
+    for line in text.split('\n')[2:]:
+        if is_present(('VIEW MORE', 'POSTS '), line):
+            break
+        lines.append(line)
 
-    border = text.index(MARK_CLICK)
-    head = text[:border]
-    tail = text[border:]
-
-    if MARK_POSTED in head:
-        head = ' '.join(head[head.index(MARK_POSTED) + len(MARK_POSTED):].strip().split()[1:])
-    link = "[Read]({})".format(tail.split()[0])
-
-    if not head:
-        head = subj
-
-    return 'Reddit: ' + head + '\n' + BUTTONS + '\n' + link
+    return 'Reddit: ' + subj + '\n\n' + '\n'.join(lines)
