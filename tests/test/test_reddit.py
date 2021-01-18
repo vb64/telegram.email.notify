@@ -23,7 +23,7 @@ class TestReddit(TestCase):
         """
         text = self.transfer('msg1.txt')
         assert self.mark not in text
-        print text.decode('utf-8').encode('cp866', 'ignore')
+        # print text.decode('utf-8').encode('cp866', 'ignore')
 
     def test_message2(self):
         """
