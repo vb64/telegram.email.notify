@@ -7,6 +7,7 @@ import urlparse
 from html2text2 import convert, Parser as BaseParser
 from . import by_subj, make_markdown, clear_markdown, NBSP, MARKUP
 
+DELIMETER = '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -'
 DROP_RU = [
   u"Пометить как нерелевантный",
   u"НОВОСТИ",
@@ -53,10 +54,34 @@ SUBJ_HANDLERS = [
 ]
 
 
+def convert_plain_part(subj, body):
+    """
+    handle plain/text part
+    """
+    lines = []
+    for line in body.split('\n'):
+        if line.startswith('<https://www.google.com/url?'):
+            line = line.lstrip('<').rstrip('>')
+            words = lines[-1].split()
+            words[-1] = "[{}]({})".format(words[-1], line)
+            lines[-1] = ' '.join(words)
+        else:
+            lines.append(make_markdown(line))
+
+    return '\n'.join((
+      MARKUP,
+      clear_markdown(subj), '',
+      '\n'.join(lines),
+    ))
+
+
 def start(subj, body):
     """
     parse Google Alerts
     """
+    if DELIMETER in body:
+        return convert_plain_part(subj, body[:body.index(DELIMETER)])
+
     text = body
     pos_start = text.find('<div dir="ltr">')
     if pos_start >= 0:
