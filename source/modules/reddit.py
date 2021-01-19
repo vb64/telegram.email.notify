@@ -1,70 +1,64 @@
-# -*- coding: utf-8 -*-
 """
 Reddit
 """
 from html2text2 import Parser
-from . import is_present, make_markdown
+from . import is_href, is_present, MARKUP
+
+
+def clear_links(text):
+    """
+    Clear links from text
+    """
+    words = []
+    for i in text.split():
+        if not is_href(i):
+            words.append(i)
+
+    return ' '.join(words)
 
 
 class Section:
     """
     Reddit message section
     """
-    def __init__(self):
-        self.lines = []
+    def __init__(self, text):
+        self.skiplines = [
+          ' Votes ',
+          ' Comments ',
+        ]
+        self.lines = [clear_links(text)]
         self.read_more = None
-        self.comments = None
-        self.votes = None
 
     def __unicode__(self):
-        return u"{}\n\n{} {} {}".format(
+        return "{}\n\n{}".format(
           '\n\n'.join(self.lines),
           self.read_more,
-          self.comments,
-          self.votes,
         )
 
     def __str__(self):
-        return self.__unicode__().encode('utf-8')
+        return self.__unicode__()
 
     def add_line(self, text):
         """
         return true if detected end if section
         """
-        if text.endswith(' Votes '):
-            return self.add_votes(text)
-        elif text.endswith(' Comments '):
-            return self.add_comments(text)
-        elif text.startswith('Read ') and text.endswith(' More '):
-            return self.add_readmore(text)
+        for i in self.skiplines:
+            if text.endswith(i):
+                return
+
+        if text.startswith('Read ') and text.endswith(' More '):
+            self.add_readmore(text)
         else:
             if text.strip():
-                self.lines.append(make_markdown(text.decode('utf-8')))
-            return False
+                self.lines.append(clear_links(text))
 
     def add_readmore(self, text):
         """
         line with read more link
         """
         words = text.split()
-        self.read_more = "Read [more]({})".format(words[1])
+        self.read_more = "[Read more]({})".format(words[1])
         return False
-
-    def add_comments(self, text):
-        """
-        line with comments
-        """
-        words = text.split()
-        self.comments = "comments [{}]({})".format(words[0], words[1])
-        return False
-
-    def add_votes(self, text):
-        """
-        line with votes
-        """
-        words = text.split()
-        self.votes = "votes [{}]({})".format(words[0], words[1])
-        return True
 
 
 def start(_subj, body):
@@ -76,13 +70,21 @@ def start(_subj, body):
     parser.close()
     text = parser.text()
     sections = []
-    section = Section()
+    section = None
 
     for line in text.split('\n')[2:]:
+        if 'Posted by ' in line:
+            if section:
+                sections.append(str(section))
+            section = Section(line)
+            continue
+
         if is_present(('VIEW MORE', 'POSTS '), line):
             break
-        if section.add_line(line):
-            sections.append(str(section))
-            section = Section()
 
-    return 'Reddit news' + '\n\n' + '\n\n'.join(sections)
+        if section:
+            section.add_line(line)
+
+    sections.append(str(section))
+
+    return MARKUP + '\n' 'Reddit news' + '\n\n' + '\n\n'.join(sections)
