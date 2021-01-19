@@ -78,3 +78,11 @@ class TestCaseViews(TestCase):
         assert 'xxx' in str(context.exception)
 
         modules.store = saved
+
+    def test_testdata(self):
+        """
+        run function with testdata
+        """
+        response = self.param_post('transform', {'codec': 'store'}, 'testdata')
+        assert response.status_code == 200
+        assert response.data == 'OK'

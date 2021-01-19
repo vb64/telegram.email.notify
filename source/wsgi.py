@@ -26,6 +26,11 @@ def run(codec, body):
     """
     run codec for transform body
     """
+    if body == 'testdata':
+        response = make_response('OK')
+        response.mimetype = "text/plain"
+        return response
+
     if isinstance(body, unicode):
         body = body.encode('utf8')
 
