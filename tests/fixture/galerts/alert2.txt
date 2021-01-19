@@ -1,0 +1,60 @@
+Оповещение Google – Филатов луг
+=== Интернет - 1 новый результат по запросу [Филатов луг] ===
+
+(Новомосковский), Московский, Первый Московский микрорайон, 10-я фаза
+территория, к7 м ...
+Время в пути до станции метро "Филатов Луг" составляет ориентировочно 20
+минут пешком. На территории проекта есть все необходимые ...
+<https://www.google.com/url?rct=j&sa=t&url=https://www.cian.ru/sale/flat/248593366/&ct=ga&cd=CAEYACoTOTc4MDEwOTY0OTY2NTU2NDA4MjIbMTYyOTIwYmI0ZmI3NjgyZTpydTpydTpSVTpM&usg=AFQjCNE7rP9IDa9o0bDzCsgiZx3HCDn5pg>
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Отказаться от данного оповещения Google:
+<https://www.google.ru/alerts/remove?source=alertsmail&hl=ru&gl=RU&msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg&s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI>
+
+Создать другое оповещение Google:
+<https://www.google.ru/alerts?source=alertsmail&hl=ru&gl=RU&msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg>
+
+Войдите, чтобы управлять оповещениями:
+<https://www.google.ru/alerts?source=alertsmail&hl=ru&gl=RU&msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg>
+
+<html lang="ru-RU"> <head> </head> <body> <div>  <script data-scope="inboxmarkup" type="application/json">{
+  "api_version": "1.0",
+  "publisher": {
+    "api_key": "668269e72cfedea31b22524041ff21d9",
+    "name": "Google Alerts"
+  },
+  "entity": {
+    "external_key": "Оповещение Google – Филатов луг",
+    "title": "Оповещение Google – Филатов луг",
+    "subtitle": "Последнее: 19 января 2021 г.",
+    "avatar_image_url": "https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png",
+    "main_image_url": "https://www.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/smartmail/mobile/il_newspaper_header_r1.png"
+  },
+  "updates": {
+    "snippets": [ {
+      "icon": "BOOKMARK",
+      "message": "(Новомосковский), Московский, Первый Московский микрорайон, 10-я фаза территория, к7 м ..."
+    } ]
+  },
+  "cards": [ {
+    "title": "Оповещение Google – Филатов луг",
+    "subtitle": "Из последнего письма",
+    "actions": [ {
+      "name": "Ещё результаты",
+      "url": "https://www.google.ru/alerts?s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI\u0026start=1611025766\u0026end=1611031638\u0026source=alertsmail\u0026hl=ru\u0026gl=RU\u0026msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg#history"
+    } ],
+    "widgets": [ {
+      "type": "LINK",
+      "title": "(Новомосковский), Московский, Первый Московский микрорайон, 10-я фаза территория, к7 м ...",
+      "description": "Время в пути до станции метро \"Филатов Луг\" составляет ориентировочно 20 минут пешком. На территории проекта есть все необходимые ...",
+      "url": "https://www.google.com/url?rct=j\u0026sa=t\u0026url=https://www.cian.ru/sale/flat/248593366/\u0026ct=ga\u0026cd=CAEYACoTOTc4MDEwOTY0OTY2NTU2NDA4MjIbMTYyOTIwYmI0ZmI3NjgyZTpydTpydTpSVTpM\u0026usg=AFQjCNE7rP9IDa9o0bDzCsgiZx3HCDn5pg"
+    } ]
+  } ]
+}
+</script> <!--[if mso]>
+ <table><tr><td width=650>
+<![endif]-->
+ <div style="width:100%;max-width:650px"> <div style="font-family:Arial"> <table style="border-collapse:collapse;border-left:1px solid #e4e4e4;border-right:1px solid #e4e4e4"> <tr> <td style="background-color:#f8f8f8;padding-left:18px;border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e4e4"></td> <td valign="middle" style="padding:13px 10px 8px 0px;background-color:#f8f8f8;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4"> <a href="https://www.google.ru/alerts?source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg" style="text-decoration:none"> <img src="https://www.google.com/intl/ru_ru/alerts/logo.png?cd=KhM5NzgwMTA5NjQ5NjY1NTY0MDgy" alt="Google" border="0" height="25"> </a> </td> <td style="background-color:#f8f8f8;padding-left:18px;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4"></td> </tr>  <tr> <td style="padding-left:32px"></td> <td style="padding:18px 0px 0px 0px;vertical-align:middle;line-height:20px;font-family:Arial"> <span style="color:#262626;font-size:22px">Филатов луг</span> <div style="vertical-align:top;padding-top:6px;color:#aaa;font-size:12px;line-height:16px"> <span>Мгновенное обновление</span> <span style="padding:0px 4px 0px 4px">&sdot;</span> <a style="color:#aaa;text-decoration:none">19 января 2021 г.</a> </div> </td> <td style="padding-left:32px"></td> </tr>  <tr> <td style="padding-left:18px"></td> <td style="padding:16px 0px 12px 0px;border-bottom:1px solid #e4e4e4"> <span style="font-size:12px;color:#737373"> ПОИСК </span> </td> <td style="padding-right:18px"></td> </tr>   <tr> <td style="padding-left:18px"></td> <td style="padding:18px 0px 12px 0px;vertical-align:top;font-family:Arial">  <div>  <span style="padding:0px 6px 0px 0px"> <a href="https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.cian.ru/sale/flat/248593366/&amp;ct=ga&amp;cd=CAEYACoTOTc4MDEwOTY0OTY2NTU2NDA4MjIbMTYyOTIwYmI0ZmI3NjgyZTpydTpydTpSVTpM&amp;usg=AFQjCNE7rP9IDa9o0bDzCsgiZx3HCDn5pg" style="color:#427fed;display:inline;text-decoration:none;font-size:16px;line-height:20px"> <span>(Новомосковский), Московский, Первый Московский микрорайон, 10-я фаза территория, к7 м ...</span> </a> </span>  <div> <div style="padding:2px 0px 8px 0px"> <div style="color:#737373;font-size:12px"> <a style="text-decoration:none;color:#737373"> <span>Циан</span> </a> </div> <div style="color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">Время в пути до станции метро &quot;<b>Филатов Луг</b>&quot; составляет ориентировочно 20 минут пешком. На территории проекта есть все необходимые&nbsp;...</div> </div>   <table> <tr> <td width="16" style="padding-right:6px"> <a href="https://www.google.ru/alerts/share?hl=ru&amp;gl=RU&amp;ru=https://www.cian.ru/sale/flat/248593366/&amp;ss=fb&amp;rt=(%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9),+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,+%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD,+10-%D1%8F+%D1%84%D0%B0%D0%B7%D0%B0+%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F,+%D0%BA7+%D0%BC+...&amp;cd=KhM5NzgwMTA5NjQ5NjY1NTY0MDgyMhsxNjI5MjBiYjRmYjc2ODJlOnJ1OnJ1OlJVOkw&amp;ssp=AMJHsmXBFEP9Ydp7ouz4mxNXvNdDGJjOCA" style="text-decoration:none"> <img alt="Facebook" src="https://www.gstatic.com/alerts/images/fb-24.png" border="0" height="16" width="16"></a> </td> <td width="16" style="padding-right:6px"> <a href="https://www.google.ru/alerts/share?hl=ru&amp;gl=RU&amp;ru=https://www.cian.ru/sale/flat/248593366/&amp;ss=tw&amp;rt=(%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9),+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,+%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD,+10-%D1%8F+%D1%84%D0%B0%D0%B7%D0%B0+%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F,+%D0%BA7+%D0%BC+...&amp;cd=KhM5NzgwMTA5NjQ5NjY1NTY0MDgyMhsxNjI5MjBiYjRmYjc2ODJlOnJ1OnJ1OlJVOkw&amp;ssp=AMJHsmXBFEP9Ydp7ouz4mxNXvNdDGJjOCA" style="text-decoration:none"> <img alt="Twitter" src="https://www.gstatic.com/alerts/images/tw-24.png" border="0" height="16" width="16"></a> </td> <td style="padding:0px 0px 6px 15px;font-family:Arial"> <a href="https://www.google.ru/alerts/feedback?ffu=https://www.cian.ru/sale/flat/248593366/&amp;source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg&amp;s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI" style="text-decoration:none;vertical-align:middle;color:#aaa;font-size:10px"> Пометить как нерелевантный </a> </td> </tr> </table>  </div> </div> </td> <td style="padding-right:18px"></td> </tr>    <tr> <td colspan="3" valign="middle" style="background-color:#f8f8f8;font-size:14px;vertical-align:middle;text-align:center;padding:10px 10px 10px 10px;line-height:20px;border:1px solid #e4e4e4;font-family:Arial"> <a href="https://www.google.ru/alerts?s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI&amp;start=1611025766&amp;end=1611031638&amp;source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg#history" style="text-decoration:none;vertical-align:middle;color:#427fed"> Ещё результаты </a> <span style="font-size:12px;padding-left:15px;padding-right:15px;color:#aaa">|</span> <a href="https://www.google.ru/alerts/edit?source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg&amp;s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI&amp;email=filatovlugcom%40gmail.com" style="text-decoration:none;vertical-align:middle;color:#427fed">Изменить оповещение</a>  </td> </tr>  </table> <table style="padding-top:6px;font-size:12px;color:#252525;text-align:center;width:100%"> <tr> <td style="font-family:Arial"> Вы получили это сообщение, поскольку подписаны на <b>Оповещения Google</b>. <div> <a href="https://www.google.ru/alerts/remove?source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg&amp;s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI" style="text-decoration:none;color:#427fed">Отменить подписку</a> <span style="padding:0px 4px 0px 4px;color:#252525">|</span> <a href="https://www.google.ru/alerts?source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg" style="text-decoration:none;color:#427fed"> Все оповещения </a> </div> </td> </tr> <tr> <td style="padding:6px 10px 0px 0px;font-family:Arial"> <a href="https://www.google.com/alerts/feeds/11393018640588788707/4193662451953938852" style="text-decoration:none;color:#427fed"> <img src="https://www.gstatic.com/alerts/images/rss-16.gif" alt="RSS" border="0" style="padding:0px 8px 0px 0px;vertical-align:middle"> <span style="display:inline;line-height:16px;vertical-align:middle">Получать оповещения по этому запросу в формате RSS-фида</span> </a> </td> </tr> <tr> <td style="padding:6px 0px 0px 0px;font-family:Arial"> <a href="https://www.google.ru/alerts?source=alertsmail&amp;hl=ru&amp;gl=RU&amp;msgid=OTc4MDEwOTY0OTY2NTU2NDA4Mg&amp;s=AB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI&amp;ffu=" style="text-decoration:none;color:#427fed"> <div style="display:inline;line-height:16px;vertical-align:middle">Отправить отзыв</div> </a> </td> </tr> </table> </div> </div> <!--[if mso]>
+</td></tr></table>
+<![endif]-->  </div>  </body> </html>

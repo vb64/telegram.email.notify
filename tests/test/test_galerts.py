@@ -41,4 +41,22 @@ class TestGalerts(TestCase):
         from modules.galerts import start
 
         assert start('subj', 'body') == 'subj\nbody'
-        # print text.encode('cp866', 'ignore')
+
+    def test_02(self):
+        """
+        alert2.txt
+        """
+        from modules import MARKUP
+
+        text = self.transfer('alert2.txt')
+        assert MARKUP in text
+
+    def test_03(self):
+        """
+        alert3.txt
+        """
+        from modules import MARKUP
+
+        text = self.transfer('alert3.txt')
+        assert MARKUP in text
+        # print text.decode('utf-8').encode('cp866', 'ignore')

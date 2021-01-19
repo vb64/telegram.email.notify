@@ -19,7 +19,7 @@ COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
 
 PROJECT = text-transform-198104
-VERSION = fix-reddit01
+VERSION = galerts01
 
 all: tests
 
