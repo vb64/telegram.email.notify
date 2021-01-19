@@ -10,7 +10,7 @@ SUBJECTS = [
   "Your Highlights",
   "What's happening",
 ]
-
+DELIMETER = '  Opt-out: https://twitter.com/'
 TERMINALS = [
   "Read more at Twitter",
   "Go to Moment",
@@ -29,6 +29,22 @@ def cut_text(text):
     return text
 
 
+def convert_plain(text):
+    """
+    text/plain part
+    """
+    lines = text.split('\n')
+    title = lines[0]
+    result = []
+    for line in lines[1:]:
+        result.append(line.strip())
+
+    return '\n'.join((
+      title, '',
+      '\n'.join(result)
+    ))
+
+
 def start(subj, body):
     """
     parse Twitter message
@@ -39,6 +55,8 @@ def start(subj, body):
             text = '\n'.join(lines[index + 1:])
             return TITLE + line + '\n' + cut_text(text)
 
-    SavedSource(label=LABEL, subject=subj, body=body).put()
+    if DELIMETER in body:
+        return convert_plain(body[:body.index(DELIMETER)])
 
+    SavedSource(label=LABEL, subject=subj, body=body).put()
     return TITLE + subj

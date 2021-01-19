@@ -51,3 +51,11 @@ class TestTwitter(TestCase):
         """
         text = self.transfer('msg5.txt')
         assert self.mark not in text
+
+    def test_06(self):
+        """
+        msg6.txt
+        """
+        text = self.transfer('msg6.txt')
+        assert self.mark not in text
+        # print text.decode('utf-8').encode('cp866', 'ignore')
