@@ -26,5 +26,8 @@ handlers:
   login: admin 
   script: wsgi.app
 
+- url: /upload/.*
+  script: upload.APP
+
 - url: /.*
   script: wsgi.app
