@@ -20,7 +20,6 @@ class EmailData(ndb.Model):  # pylint: disable=too-few-public-methods
     email origin file data
     """
     made = ndb.DateTimeProperty(auto_now_add=True)
-    sent = ndb.DateTimeProperty(indexed=False)
     field_from = ndb.TextProperty(default='')
     field_to = ndb.TextProperty(default='')
     field_subj = ndb.TextProperty(default='')
