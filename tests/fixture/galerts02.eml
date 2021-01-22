@@ -1,0 +1,392 @@
+Delivered-To: vit.sar68@gmail.com
+Received: by 2002:a02:605f:0:0:0:0:0 with SMTP id d31csp440566jaf;
+        Mon, 18 Jan 2021 21:38:42 -0800 (PST)
+X-Received: by 2002:a5e:9612:: with SMTP id a18mr1720673ioq.209.1611034722771;
+        Mon, 18 Jan 2021 21:38:42 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1611034722; cv=none;
+        d=google.com; s=arc-20160816;
+        b=l0PC+K25lbi7cbOWEP2fc+h52sk0GYSku2/zvTLpRptnPz2nBqdtiudRI3TgKGtfAz
+         bV1+dIWwAUjLFIj9RU+bMTT2O+m5XXERSApOAdjJkLwe+dvAElyVfh4CsHZaiVWjoAzJ
+         uz7HMoOKf/FQ1UScQfRY3aX05DQmBO1Cz0t0Gw/EXhiZ3nx/XWpC5oD+qXlnBkVW3DwX
+         nGehl2N3DLTyf+tO0UZzPS+bNnMrOP4Hn9qX4uvzj4e+lwj7ZtKBM5z9brM7fTSbEM1X
+         vDw3gsQLEfpk6Rd8u84Z2Nip12JKnV6mbSxC8gTtqxDp/SDkMZRLMvJ9wQYZmRiiRWKE
+         ezbQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=6lHuCGMdqvi5Y/N+/liK8jmF75sYkqfILniZ17KCCSA=;
+        b=WqbY0X8gfffE5tl7S1CPU3BF0G0vxsYVy0ymxAKVUJDmqJeTBMVgw17u+9idmlQ6RJ
+         +YM6LZOjl87AGOxRFoqM1bxsq8DV+Cc+tZo7r0PGw/t26J/MFdeJD5BOBwESk0XuA40I
+         xl7gMoeoiBOLSskMhiz35OZ+i0S2118ua5HYA/gJUsy5D3QxUULXazbMOFe8mpAOwuAw
+         w1g2n6wVNLHyipkdrVGcQvVibN3UirNOSBGuNJJthmks5smrHRnGNjQlQbcM961gSqS0
+         /j/u8BCWz7kY8CxpbXKa8YGBRqjblyFBfMyphtsjH4RjUjAPojc5NChNv/JcVGaspDR5
+         zZig==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=KynyzTZ4;
+       spf=pass (google.com: domain of filatovlugcom@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=filatovlugcom@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <filatovlugcom@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x10sor28875368jat.2.2021.01.18.21.38.42
+        for <vit.sar68@gmail.com>
+        (Google Transport Security);
+        Mon, 18 Jan 2021 21:38:42 -0800 (PST)
+Received-SPF: pass (google.com: domain of filatovlugcom@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=KynyzTZ4;
+       spf=pass (google.com: domain of filatovlugcom@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=filatovlugcom@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=6lHuCGMdqvi5Y/N+/liK8jmF75sYkqfILniZ17KCCSA=;
+        b=KynyzTZ4DZ4hrM5JJs/X9+yZjNpZ3sqxQ3m4OzJnMmFVyf9pzr4DeejFXP7dc0HRGt
+         Ch4L89Uxm5EPkFjntqads4WoosvxpgFIiG/DyMg8Qz+P7BIomfhSU/QtZk6KxZlTab13
+         i3EWJqD0cghwHojOaXqXOIszdfCWbfY7zFQwOG20rJiBTc3av1Y5aHcB9HStFq3rQ93a
+         XyTnWgpfI92jI2nNx92IMmbhpAcQUzaVKJNEgG1aEKc/9n2QzmMCvzBY+rZPTvIJ7WlP
+         GWNNeDHJhnDLXT5ZnDpiXU0aBNRzbkxefjUZpcAJvS6Iv4RMhRpE+b6mh6uoIiRDhnLW
+         pOcg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=6lHuCGMdqvi5Y/N+/liK8jmF75sYkqfILniZ17KCCSA=;
+        b=dmFpkENGgNfh254DSZd/yaG9g9l1WnVz6PhcNQ06NCII1xFVSNHsIhRTxP0vOTaC2/
+         NzZ65azmgEWrU+zfCQy8qujQx/4TRK9SphSMldwMJSQCkB93/E9AawL1ENc4DPhHbamd
+         SyrVatowzhVW+JLuOT4W2gEi8Zj3oNaXHPIGwDv/mtOd1rKZiYgbhSWc0hWMqHYh9YM+
+         eXsErG+SIiUAZXLUQZ5+LgWznDZk1/9mkueDSM4M6eExzKT+cD/spSaOOgIGCoZfwLBx
+         yacj1jAwexNN1a5rV38Es+s2WfDGijRvd3fFAsKfU/Z/EVapjY9mrtKbAjmubRhLzMNd
+         BmZw==
+X-Gm-Message-State: AOAM530Lzp6+0pL29Jy5kECeuYKyir52JBlPYnWSoiK442GySVxvGUPt
+	A0czVU9+cK2u8xHkwhxvKaggJIhG011istMEHSQdt1yqXaI=
+X-Google-Smtp-Source: ABdhPJz1tFhAYZuZ3yQyhMhhxw7JoWFmW1qxZXA9V6PS8s0nPINdpz0i+BMHBJHPBdw4M60C86qwFkAdI1hwkX5oAGQ=
+X-Received: by 2002:a05:6638:b12:: with SMTP id a18mr2171873jab.114.1611034722457;
+ Mon, 18 Jan 2021 21:38:42 -0800 (PST)
+MIME-Version: 1.0
+References: <000000000000731a7205b9382a37@google.com>
+In-Reply-To: <000000000000731a7205b9382a37@google.com>
+From: =?UTF-8?B?0JDQu9C10LrRgdCw0L3QtNGAINCQ0LLQsNC30L7Qsg==?= <filatovlugcom@gmail.com>
+Date: Tue, 19 Jan 2021 08:38:30 +0300
+Message-ID: <CAOYJvFfZuYCvF-DOzPODwJEkiBVO4XsphgRggcfko-4U+QJptw@mail.gmail.com>
+Subject: =?UTF-8?B?RndkOiDQntC/0L7QstC10YnQtdC90LjQtSBHb29nbGUg4oCTINCk0LjQu9Cw0YLQvtCyIA==?=
+	=?UTF-8?B?0LvRg9Cz?=
+To: vit.sar68@gmail.com
+Content-Type: multipart/alternative; boundary="0000000000005a5a0905b93a406e"
+
+--0000000000005a5a0905b93a406e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+LS0tLS0tLS0tLSBGb3J3YXJkZWQgbWVzc2FnZSAtLS0tLS0tLS0NCtCe0YI6IEdvb2dsZSBBbGVy
+dHMgPGdvb2dsZWFsZXJ0cy1ub3JlcGx5QGdvb2dsZS5jb20+DQpEYXRlOiDQstGCLCAxOSDRj9C9
+0LIuIDIwMjEg0LMuLCAwNjowOQ0KU3ViamVjdDog0J7Qv9C+0LLQtdGJ0LXQvdC40LUgR29vZ2xl
+IOKAkyDQpNC40LvQsNGC0L7QsiDQu9GD0LMNClRvOiA8ZmlsYXRvdmx1Z2NvbUBnbWFpbC5jb20+
+DQoNCg0KW2ltYWdlOiBHb29nbGVdDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLnJ1L2FsZXJ0cz9zb3Vy
+Y2U9YWxlcnRzbWFpbCZobD1ydSZnbD1SVSZtc2dpZD1NVEl5TURFd016TXhNekkyTnpNek1EZ3dP
+VFU+DQrQpNC40LvQsNGC0L7QsiDQu9GD0LMNCtCc0LPQvdC+0LLQtdC90L3QvtC1INC+0LHQvdC+
+0LLQu9C10L3QuNC1IOKLhSAxOSDRj9C90LLQsNGA0Y8gMjAyMSDQsy4NCtCd0J7QktCe0KHQotCY
+DQoNCtCe0L/RgNCw0LLQtNCw0L3QsCDQu9C4INGB0LXQudGH0LDRgSDQv9C+0LrRg9C/0LrQsCDQ
+utCy0LDRgNGC0LjRgNGLINC00LvRjyDRgdC00LDRh9C4INCyINCw0YDQtdC90LTRgw0KPGh0dHBz
+Oi8vd3d3Lmdvb2dsZS5jb20vdXJsP3JjdD1qJnNhPXQmdXJsPWh0dHBzOi8vcmcucnUvMjAyMS8w
+MS8xOC9vcHJhdmRhbmEtbGktc2VqY2hhcy1wb2t1cGthLWt2YXJ0aXJ5LWRsaWEtc2RhY2hpLXYt
+YXJlbmR1Lmh0bWwmY3Q9Z2EmY2Q9Q0FFWUFDb1VNVEl5TURFd016TXhNekkyTnpNek1EZ3dPVFV5
+R3pFMk1qa3lNR0ppTkdaaU56WTRNbVU2Y25VNmNuVTZVbFU2VEEmdXNnPUFGUWpDTkZWcWd6azE1
+bW5EVWxuUEY4NXhvYWg1dGR5MkE+DQrQoNC+0YHRgdC40LnRgdC60LDRjyDQk9Cw0LfQtdGC0LAN
+CtCd0LDQv9GA0LjQvNC10YAsINC30LTQtdGB0Ywg0LHQu9Cw0LPQvtGD0YHRgtGA0L7QuNC70Lgg
+0L7QtNC40L0g0LjQtyDRgdCw0LzRi9GFINC60YDRg9C/0L3Ri9GFINC/0LDRgNC60L7QsiDQnNC+
+0YHQutCy0YsgIirQpNC40LvQsNGC0L7Qsg0K0LvRg9CzKiIsINCz0LTQtSDQtdGB0YLRjCDQstGB
+0LUg0LLQvtC30LzQvtC20L3QvtGB0YLQuCDQtNC70Y8g0LLQtdC70L7RgdC40L/QtdC00L3Ri9GF
+LCDQv9C10YjQuNGFIC4uLg0KW2ltYWdlOiBGYWNlYm9va10NCjxodHRwczovL3d3dy5nb29nbGUu
+cnUvYWxlcnRzL3NoYXJlP2hsPXJ1JmdsPVJVJnJ1PWh0dHBzOi8vcmcucnUvMjAyMS8wMS8xOC9v
+cHJhdmRhbmEtbGktc2VqY2hhcy1wb2t1cGthLWt2YXJ0aXJ5LWRsaWEtc2RhY2hpLXYtYXJlbmR1
+Lmh0bWwmc3M9ZmImcnQ9JUQwJTlFJUQwJUJGJUQxJTgwJUQwJUIwJUQwJUIyJUQwJUI0JUQwJUIw
+JUQwJUJEJUQwJUIwKyVEMCVCQiVEMCVCOCslRDElODElRDAlQjUlRDAlQjklRDElODclRDAlQjAl
+RDElODErJUQwJUJGJUQwJUJFJUQwJUJBJUQxJTgzJUQwJUJGJUQwJUJBJUQwJUIwKyVEMCVCQSVE
+MCVCMiVEMCVCMCVEMSU4MCVEMSU4MiVEMCVCOCVEMSU4MCVEMSU4QislRDAlQjQlRDAlQkIlRDEl
+OEYrJUQxJTgxJUQwJUI0JUQwJUIwJUQxJTg3JUQwJUI4KyVEMCVCMislRDAlQjAlRDElODAlRDAl
+QjUlRDAlQkQlRDAlQjQlRDElODMmY2Q9S2hReE1qSXdNVEF6TXpFek1qWTNNek13T0RBNU5USWJN
+VFl5T1RJd1ltSTBabUkzTmpneVpUcHlkVHB5ZFRwU1ZUcE0mc3NwPUFNSkhzbVhCMzQ4bnl6N0Iz
+Xy1VdWl0M2ViVHdmaXpyZHc+DQpbaW1hZ2U6DQpUd2l0dGVyXQ0KPGh0dHBzOi8vd3d3Lmdvb2ds
+ZS5ydS9hbGVydHMvc2hhcmU/aGw9cnUmZ2w9UlUmcnU9aHR0cHM6Ly9yZy5ydS8yMDIxLzAxLzE4
+L29wcmF2ZGFuYS1saS1zZWpjaGFzLXBva3Vwa2Eta3ZhcnRpcnktZGxpYS1zZGFjaGktdi1hcmVu
+ZHUuaHRtbCZzcz10dyZydD0lRDAlOUUlRDAlQkYlRDElODAlRDAlQjAlRDAlQjIlRDAlQjQlRDAl
+QjAlRDAlQkQlRDAlQjArJUQwJUJCJUQwJUI4KyVEMSU4MSVEMCVCNSVEMCVCOSVEMSU4NyVEMCVC
+MCVEMSU4MSslRDAlQkYlRDAlQkUlRDAlQkElRDElODMlRDAlQkYlRDAlQkElRDAlQjArJUQwJUJB
+JUQwJUIyJUQwJUIwJUQxJTgwJUQxJTgyJUQwJUI4JUQxJTgwJUQxJThCKyVEMCVCNCVEMCVCQiVE
+MSU4RislRDElODElRDAlQjQlRDAlQjAlRDElODclRDAlQjgrJUQwJUIyKyVEMCVCMCVEMSU4MCVE
+MCVCNSVEMCVCRCVEMCVCNCVEMSU4MyZjZD1LaFF4TWpJd01UQXpNekV6TWpZM016TXdPREE1TlRJ
+Yk1UWXlPVEl3WW1JMFptSTNOamd5WlRweWRUcHlkVHBTVlRwTSZzc3A9QU1KSHNtWEIzNDhueXo3
+QjNfLVV1aXQzZWJUd2ZpenJkdz4NCtCf0L7QvNC10YLQuNGC0YwNCtC60LDQuiDQvdC10YDQtdC7
+0LXQstCw0L3RgtC90YvQuQ0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5ydS9hbGVydHMvZmVlZGJhY2s/
+ZmZ1PWh0dHBzOi8vcmcucnUvMjAyMS8wMS8xOC9vcHJhdmRhbmEtbGktc2VqY2hhcy1wb2t1cGth
+LWt2YXJ0aXJ5LWRsaWEtc2RhY2hpLXYtYXJlbmR1Lmh0bWwmc291cmNlPWFsZXJ0c21haWwmaGw9
+cnUmZ2w9UlUmbXNnaWQ9TVRJeU1ERXdNek14TXpJMk56TXpNRGd3T1RVJnM9QUIyWHE0ajlucldR
+QWdMOWx2RnNTdXVJckM3cy1tdTJPN0k2OHJJPg0K0JHQvtC70LXQtSAyMCDQutC40LvQvtC80LXR
+gtGA0L7QsiDQtNC+0YDQvtCzINC/0L7RgdGC0YDQvtC40LvQuCDQsiDQotC40J3QkNCeINCyIDIw
+MjAg0LPQvtC00YMNCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1o
+dHRwOi8vd3d3LnJlYWx0by5ydS9qb3VybmFsL2FydGljbGVzL2JvbGVlLTIwLWtpbG9tZXRyb3Yt
+ZG9yb2ctcG9zdHJvaWxpLXYtdGluYW8tdi0yMDIwLWdvZHUvJmN0PWdhJmNkPUNBRVlBU29VTVRJ
+eU1ERXdNek14TXpJMk56TXpNRGd3T1RVeUd6RTJNamt5TUdKaU5HWmlOelk0TW1VNmNuVTZjblU2
+VWxVNlRBJnVzZz1BRlFqQ05IWkE1bHlFYjBnMXdVTEptXzBia0NVejB3eGp3Pg0K0J/QvtGA0YLQ
+sNC7INC+INC90LXQtNCy0LjQttC40LzQvtGB0YLQuCBSZWFsdG8uUnUNCtCh0LXQs9C+0LTQvdGP
+INC+0L3QsCDQvtCx0LXRgdC/0LXRh9C40LLQsNC10YIg0YPQtNC+0LHQvdGD0Y4g0YLRgNCw0L3R
+gdC/0L7RgNGC0L3Rg9GOINC00L7RgdGC0YPQv9C90L7RgdGC0Ywg0YHRgtCw0L3RhtC40LkgKtCk
+0LjQu9Cw0YLQvtCyDQrQm9GD0LMqINC4INCf0YDQvtC60YjQuNC90L4g0KHQvtC60L7Qu9GM0L3Q
+uNGH0LXRgdC60L7QuSDQu9C40L3QuNC4INC80LXRgtGA0L7Qv9C+0LvQuNGC0LXQvdCwINC00LvR
+jyAuLi4NCltpbWFnZTogRmFjZWJvb2tdDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLnJ1L2FsZXJ0cy9z
+aGFyZT9obD1ydSZnbD1SVSZydT1odHRwOi8vd3d3LnJlYWx0by5ydS9qb3VybmFsL2FydGljbGVz
+L2JvbGVlLTIwLWtpbG9tZXRyb3YtZG9yb2ctcG9zdHJvaWxpLXYtdGluYW8tdi0yMDIwLWdvZHUv
+JnNzPWZiJnJ0PSVEMCU5MSVEMCVCRSVEMCVCQiVEMCVCNSVEMCVCNSsyMCslRDAlQkElRDAlQjgl
+RDAlQkIlRDAlQkUlRDAlQkMlRDAlQjUlRDElODIlRDElODAlRDAlQkUlRDAlQjIrJUQwJUI0JUQw
+JUJFJUQxJTgwJUQwJUJFJUQwJUIzKyVEMCVCRiVEMCVCRSVEMSU4MSVEMSU4MiVEMSU4MCVEMCVC
+RSVEMCVCOCVEMCVCQiVEMCVCOCslRDAlQjIrJUQwJUEyJUQwJUI4JUQwJTlEJUQwJTkwJUQwJTlF
+KyVEMCVCMisyMDIwKyVEMCVCMyVEMCVCRSVEMCVCNCVEMSU4MyZjZD1LaFF4TWpJd01UQXpNekV6
+TWpZM016TXdPREE1TlRJYk1UWXlPVEl3WW1JMFptSTNOamd5WlRweWRUcHlkVHBTVlRwTSZzc3A9
+QU1KSHNtWF9YLTlkRF9na25sVU5OYlNDdkNPdi05QURkdz4NCltpbWFnZToNClR3aXR0ZXJdDQo8
+aHR0cHM6Ly93d3cuZ29vZ2xlLnJ1L2FsZXJ0cy9zaGFyZT9obD1ydSZnbD1SVSZydT1odHRwOi8v
+d3d3LnJlYWx0by5ydS9qb3VybmFsL2FydGljbGVzL2JvbGVlLTIwLWtpbG9tZXRyb3YtZG9yb2ct
+cG9zdHJvaWxpLXYtdGluYW8tdi0yMDIwLWdvZHUvJnNzPXR3JnJ0PSVEMCU5MSVEMCVCRSVEMCVC
+QiVEMCVCNSVEMCVCNSsyMCslRDAlQkElRDAlQjglRDAlQkIlRDAlQkUlRDAlQkMlRDAlQjUlRDEl
+ODIlRDElODAlRDAlQkUlRDAlQjIrJUQwJUI0JUQwJUJFJUQxJTgwJUQwJUJFJUQwJUIzKyVEMCVC
+RiVEMCVCRSVEMSU4MSVEMSU4MiVEMSU4MCVEMCVCRSVEMCVCOCVEMCVCQiVEMCVCOCslRDAlQjIr
+JUQwJUEyJUQwJUI4JUQwJTlEJUQwJTkwJUQwJTlFKyVEMCVCMisyMDIwKyVEMCVCMyVEMCVCRSVE
+MCVCNCVEMSU4MyZjZD1LaFF4TWpJd01UQXpNekV6TWpZM016TXdPREE1TlRJYk1UWXlPVEl3WW1J
+MFptSTNOamd5WlRweWRUcHlkVHBTVlRwTSZzc3A9QU1KSHNtWF9YLTlkRF9na25sVU5OYlNDdkNP
+di05QURkdz4NCtCf0L7QvNC10YLQuNGC0YwNCtC60LDQuiDQvdC10YDQtdC70LXQstCw0L3RgtC9
+0YvQuQ0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5ydS9hbGVydHMvZmVlZGJhY2s/ZmZ1PWh0dHA6Ly93
+d3cucmVhbHRvLnJ1L2pvdXJuYWwvYXJ0aWNsZXMvYm9sZWUtMjAta2lsb21ldHJvdi1kb3JvZy1w
+b3N0cm9pbGktdi10aW5hby12LTIwMjAtZ29kdS8mc291cmNlPWFsZXJ0c21haWwmaGw9cnUmZ2w9
+UlUmbXNnaWQ9TVRJeU1ERXdNek14TXpJMk56TXpNRGd3T1RVJnM9QUIyWHE0ajlucldRQWdMOWx2
+RnNTdXVJckM3cy1tdTJPN0k2OHJJPg0K0JXRidGRINGA0LXQt9GD0LvRjNGC0LDRgtGLDQo8aHR0
+cHM6Ly93d3cuZ29vZ2xlLnJ1L2FsZXJ0cz9zPUFCMlhxNGo5bnJXUUFnTDlsdkZzU3V1SXJDN3Mt
+bXUyTzdJNjhySSZzdGFydD0xNjEwOTMyOTU2JmVuZD0xNjExMDI1NzY1JnNvdXJjZT1hbGVydHNt
+YWlsJmhsPXJ1JmdsPVJVJm1zZ2lkPU1USXlNREV3TXpNeE16STJOek16TURnd09UVSNoaXN0b3J5
+Pg0KfCDQmNC30LzQtdC90LjRgtGMINC+0L/QvtCy0LXRidC10L3QuNC1DQo8aHR0cHM6Ly93d3cu
+Z29vZ2xlLnJ1L2FsZXJ0cy9lZGl0P3NvdXJjZT1hbGVydHNtYWlsJmhsPXJ1JmdsPVJVJm1zZ2lk
+PU1USXlNREV3TXpNeE16STJOek16TURnd09UVSZzPUFCMlhxNGo5bnJXUUFnTDlsdkZzU3V1SXJD
+N3MtbXUyTzdJNjhySSZlbWFpbD1maWxhdG92bHVnY29tJTQwZ21haWwuY29tPg0K0JLRiyDQv9C+
+0LvRg9GH0LjQu9C4INGN0YLQviDRgdC+0L7QsdGJ0LXQvdC40LUsINC/0L7RgdC60L7Qu9GM0LrR
+gyDQv9C+0LTQv9C40YHQsNC90Ysg0L3QsCAq0J7Qv9C+0LLQtdGJ0LXQvdC40Y8gR29vZ2xlKi4N
+CtCe0YLQvNC10L3QuNGC0Ywg0L/QvtC00L/QuNGB0LrRgw0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5y
+dS9hbGVydHMvcmVtb3ZlP3NvdXJjZT1hbGVydHNtYWlsJmhsPXJ1JmdsPVJVJm1zZ2lkPU1USXlN
+REV3TXpNeE16STJOek16TURnd09UVSZzPUFCMlhxNGo5bnJXUUFnTDlsdkZzU3V1SXJDN3MtbXUy
+TzdJNjhyST4NCnwg0JLRgdC1INC+0L/QvtCy0LXRidC10L3QuNGPDQo8aHR0cHM6Ly93d3cuZ29v
+Z2xlLnJ1L2FsZXJ0cz9zb3VyY2U9YWxlcnRzbWFpbCZobD1ydSZnbD1SVSZtc2dpZD1NVEl5TURF
+d016TXhNekkyTnpNek1EZ3dPVFU+DQpbaW1hZ2U6IFJTU10g0J/QvtC70YPRh9Cw0YLRjCDQvtC/
+0L7QstC10YnQtdC90LjRjyDQv9C+INGN0YLQvtC80YMg0LfQsNC/0YDQvtGB0YMg0LIg0YTQvtGA
+0LzQsNGC0LUgUlNTLdGE0LjQtNCwDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9hbGVydHMvZmVl
+ZHMvMTEzOTMwMTg2NDA1ODg3ODg3MDcvNDE5MzY2MjQ1MTk1MzkzODg1Mj4NCg0K0J7RgtC/0YDQ
+sNCy0LjRgtGMINC+0YLQt9GL0LINCjxodHRwczovL3d3dy5nb29nbGUucnUvYWxlcnRzP3NvdXJj
+ZT1hbGVydHNtYWlsJmhsPXJ1JmdsPVJVJm1zZ2lkPU1USXlNREV3TXpNeE16STJOek16TURnd09U
+VSZzPUFCMlhxNGo5bnJXUUFnTDlsdkZzU3V1SXJDN3MtbXUyTzdJNjhySSZmZnU9Pg0K
+--0000000000005a5a0905b93a406e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><div><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" =
+class=3D"gmail_attr">---------- Forwarded message ---------<br>=D0=9E=D1=82=
+: <strong class=3D"gmail_sendername" dir=3D"auto">Google Alerts</strong> <s=
+pan dir=3D"auto">&lt;<a href=3D"mailto:googlealerts-noreply@google.com">goo=
+glealerts-noreply@google.com</a>&gt;</span><br>Date: =D0=B2=D1=82, 19 =D1=
+=8F=D0=BD=D0=B2. 2021 =D0=B3., 06:09<br>Subject: =D0=9E=D0=BF=D0=BE=D0=B2=
+=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 Google=C2=A0=E2=80=93 =D0=A4=D0=B8=D0=
+=BB=D0=B0=D1=82=D0=BE=D0=B2 =D0=BB=D1=83=D0=B3<br>To:  &lt;<a href=3D"mailt=
+o:filatovlugcom@gmail.com">filatovlugcom@gmail.com</a>&gt;<br></div><br><br=
+>   <div> <div>  =20
+ <div style=3D"width:100%;max-width:650px"> <div style=3D"font-family:Arial=
+"> <table style=3D"border-collapse:collapse;border-left:1px solid #e4e4e4;b=
+order-right:1px solid #e4e4e4"> <tbody><tr> <td style=3D"background-color:#=
+f8f8f8;padding-left:18px;border-bottom:1px solid #e4e4e4;border-top:1px sol=
+id #e4e4e4"></td> <td valign=3D"middle" style=3D"padding:13px 10px 8px 0px;=
+background-color:#f8f8f8;border-top:1px solid #e4e4e4;border-bottom:1px sol=
+id #e4e4e4"> <a href=3D"https://www.google.ru/alerts?source=3Dalertsmail&am=
+p;hl=3Dru&amp;gl=3DRU&amp;msgid=3DMTIyMDEwMzMxMzI2NzMzMDgwOTU" style=3D"tex=
+t-decoration:none" target=3D"_blank" rel=3D"noreferrer"> <img src=3D"https:=
+//www.google.com/intl/ru_ru/alerts/logo.png?cd=3DKhQxMjIwMTAzMzEzMjY3MzMwOD=
+A5NQ" alt=3D"Google" border=3D"0" height=3D"25"> </a> </td> <td style=3D"ba=
+ckground-color:#f8f8f8;padding-left:18px;border-top:1px solid #e4e4e4;borde=
+r-bottom:1px solid #e4e4e4"></td> </tr>  <tr> <td style=3D"padding-left:32p=
+x"></td> <td style=3D"padding:18px 0px 0px 0px;vertical-align:middle;line-h=
+eight:20px;font-family:Arial"> <span style=3D"color:#262626;font-size:22px"=
+>=D0=A4=D0=B8=D0=BB=D0=B0=D1=82=D0=BE=D0=B2 =D0=BB=D1=83=D0=B3</span> <div =
+style=3D"vertical-align:top;padding-top:6px;color:#aaa;font-size:12px;line-=
+height:16px"> <span>=D0=9C=D0=B3=D0=BD=D0=BE=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=
+=D0=B5 =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5</span> =
+<span style=3D"padding:0px 4px 0px 4px">=E2=8B=85</span> <a style=3D"color:=
+#aaa;text-decoration:none" rel=3D"noreferrer">19 =D1=8F=D0=BD=D0=B2=D0=B0=
+=D1=80=D1=8F 2021 =D0=B3.</a> </div> </td> <td style=3D"padding-left:32px">=
+</td> </tr>  <tr> <td style=3D"padding-left:18px"></td> <td style=3D"paddin=
+g:16px 0px 12px 0px;border-bottom:1px solid #e4e4e4"> <span style=3D"font-s=
+ize:12px;color:#737373"> =D0=9D=D0=9E=D0=92=D0=9E=D0=A1=D0=A2=D0=98 </span>=
+ </td> <td style=3D"padding-right:18px"></td> </tr>   <tr> <td style=3D"pad=
+ding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align=
+:top;font-family:Arial"> <a rel=3D"noreferrer"></a> <div>  <span style=3D"p=
+adding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;=
+sa=3Dt&amp;url=3Dhttps://rg.ru/2021/01/18/opravdana-li-sejchas-pokupka-kvar=
+tiry-dlia-sdachi-v-arendu.html&amp;ct=3Dga&amp;cd=3DCAEYACoUMTIyMDEwMzMxMzI=
+2NzMzMDgwOTUyGzE2MjkyMGJiNGZiNzY4MmU6cnU6cnU6UlU6TA&amp;usg=3DAFQjCNFVqgzk1=
+5mnDUlnPF85xoah5tdy2A" style=3D"color:#427fed;display:inline;text-decoratio=
+n:none;font-size:16px;line-height:20px" target=3D"_blank" rel=3D"noreferrer=
+"> <span>=D0=9E=D0=BF=D1=80=D0=B0=D0=B2=D0=B4=D0=B0=D0=BD=D0=B0 =D0=BB=D0=
+=B8 =D1=81=D0=B5=D0=B9=D1=87=D0=B0=D1=81 =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=
+=BA=D0=B0 =D0=BA=D0=B2=D0=B0=D1=80=D1=82=D0=B8=D1=80=D1=8B =D0=B4=D0=BB=D1=
+=8F =D1=81=D0=B4=D0=B0=D1=87=D0=B8 =D0=B2 =D0=B0=D1=80=D0=B5=D0=BD=D0=B4=D1=
+=83</span> </a> </span>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div=
+ style=3D"color:#737373;font-size:12px"> <a style=3D"text-decoration:none;c=
+olor:#737373" rel=3D"noreferrer"> <span>=D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=
+=B9=D1=81=D0=BA=D0=B0=D1=8F =D0=93=D0=B0=D0=B7=D0=B5=D1=82=D0=B0</span> </a=
+> </div> <div style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px=
+;line-height:18px">=D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B7=
+=D0=B4=D0=B5=D1=81=D1=8C =D0=B1=D0=BB=D0=B0=D0=B3=D0=BE=D1=83=D1=81=D1=82=
+=D1=80=D0=BE=D0=B8=D0=BB=D0=B8 =D0=BE=D0=B4=D0=B8=D0=BD =D0=B8=D0=B7 =D1=81=
+=D0=B0=D0=BC=D1=8B=D1=85 =D0=BA=D1=80=D1=83=D0=BF=D0=BD=D1=8B=D1=85 =D0=BF=
+=D0=B0=D1=80=D0=BA=D0=BE=D0=B2 =D0=9C=D0=BE=D1=81=D0=BA=D0=B2=D1=8B &quot;<=
+b>=D0=A4=D0=B8=D0=BB=D0=B0=D1=82=D0=BE=D0=B2 =D0=BB=D1=83=D0=B3</b>&quot;, =
+=D0=B3=D0=B4=D0=B5 =D0=B5=D1=81=D1=82=D1=8C =D0=B2=D1=81=D0=B5 =D0=B2=D0=BE=
+=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B4=D0=BB=D1=8F =
+=D0=B2=D0=B5=D0=BB=D0=BE=D1=81=D0=B8=D0=BF=D0=B5=D0=B4=D0=BD=D1=8B=D1=85, =
+=D0=BF=D0=B5=D1=88=D0=B8=D1=85=C2=A0...</div> </div>   <table> <tbody><tr> =
+<td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google=
+.ru/alerts/share?hl=3Dru&amp;gl=3DRU&amp;ru=3Dhttps://rg.ru/2021/01/18/opra=
+vdana-li-sejchas-pokupka-kvartiry-dlia-sdachi-v-arendu.html&amp;ss=3Dfb&amp=
+;rt=3D%D0%9E%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%B0+%D0%BB%D0%B8+%=
+D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81+%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0=
+%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B+%D0%B4%D0%BB%D1%8F+%D1=
+%81%D0%B4%D0%B0%D1%87%D0%B8+%D0%B2+%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D1%83&amp=
+;cd=3DKhQxMjIwMTAzMzEzMjY3MzMwODA5NTIbMTYyOTIwYmI0ZmI3NjgyZTpydTpydTpSVTpM&=
+amp;ssp=3DAMJHsmXB348nyz7B3_-Uuit3ebTwfizrdw" style=3D"text-decoration:none=
+" target=3D"_blank" rel=3D"noreferrer"> <img alt=3D"Facebook" src=3D"https:=
+//www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=
+=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D=
+"https://www.google.ru/alerts/share?hl=3Dru&amp;gl=3DRU&amp;ru=3Dhttps://rg=
+.ru/2021/01/18/opravdana-li-sejchas-pokupka-kvartiry-dlia-sdachi-v-arendu.h=
+tml&amp;ss=3Dtw&amp;rt=3D%D0%9E%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D=
+0%B0+%D0%BB%D0%B8+%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81+%D0%BF%D0%BE%D0%BA%D=
+1%83%D0%BF%D0%BA%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B+%D0=
+%B4%D0%BB%D1%8F+%D1%81%D0%B4%D0%B0%D1%87%D0%B8+%D0%B2+%D0%B0%D1%80%D0%B5%D0=
+%BD%D0%B4%D1%83&amp;cd=3DKhQxMjIwMTAzMzEzMjY3MzMwODA5NTIbMTYyOTIwYmI0ZmI3Nj=
+gyZTpydTpydTpSVTpM&amp;ssp=3DAMJHsmXB348nyz7B3_-Uuit3ebTwfizrdw" style=3D"t=
+ext-decoration:none" target=3D"_blank" rel=3D"noreferrer"> <img alt=3D"Twit=
+ter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" h=
+eight=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;=
+font-family:Arial"> <a href=3D"https://www.google.ru/alerts/feedback?ffu=3D=
+https://rg.ru/2021/01/18/opravdana-li-sejchas-pokupka-kvartiry-dlia-sdachi-=
+v-arendu.html&amp;source=3Dalertsmail&amp;hl=3Dru&amp;gl=3DRU&amp;msgid=3DM=
+TIyMDEwMzMxMzI2NzMzMDgwOTU&amp;s=3DAB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI"=
+ style=3D"text-decoration:none;vertical-align:middle;color:#aaa;font-size:1=
+0px" target=3D"_blank" rel=3D"noreferrer"> =D0=9F=D0=BE=D0=BC=D0=B5=D1=82=
+=D0=B8=D1=82=D1=8C =D0=BA=D0=B0=D0=BA =D0=BD=D0=B5=D1=80=D0=B5=D0=BB=D0=B5=
+=D0=B2=D0=B0=D0=BD=D1=82=D0=BD=D1=8B=D0=B9 </a> </td> </tr> </tbody></table=
+>  </div> </div> </td> <td style=3D"padding-right:18px"></td> </tr>    <tr>=
+ <td style=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0=
+px;vertical-align:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a r=
+el=3D"noreferrer"></a> <div>  <span style=3D"padding:0px 6px 0px 0px"> <a h=
+ref=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.r=
+ealto.ru/journal/articles/bolee-20-kilometrov-dorog-postroili-v-tinao-v-202=
+0-godu/&amp;ct=3Dga&amp;cd=3DCAEYASoUMTIyMDEwMzMxMzI2NzMzMDgwOTUyGzE2MjkyMG=
+JiNGZiNzY4MmU6cnU6cnU6UlU6TA&amp;usg=3DAFQjCNHZA5lyEb0g1wULJm_0bkCUz0wxjw" =
+style=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;l=
+ine-height:20px" target=3D"_blank" rel=3D"noreferrer"> <span>=D0=91=D0=BE=
+=D0=BB=D0=B5=D0=B5 20 =D0=BA=D0=B8=D0=BB=D0=BE=D0=BC=D0=B5=D1=82=D1=80=D0=
+=BE=D0=B2 =D0=B4=D0=BE=D1=80=D0=BE=D0=B3 =D0=BF=D0=BE=D1=81=D1=82=D1=80=D0=
+=BE=D0=B8=D0=BB=D0=B8 =D0=B2 =D0=A2=D0=B8=D0=9D=D0=90=D0=9E =D0=B2 2020 =D0=
+=B3=D0=BE=D0=B4=D1=83</span> </a> </span>  <div> <div style=3D"padding:2px =
+0px 8px 0px"> <div style=3D"color:#737373;font-size:12px"> <a style=3D"text=
+-decoration:none;color:#737373" rel=3D"noreferrer"> <span>=D0=9F=D0=BE=D1=
+=80=D1=82=D0=B0=D0=BB =D0=BE =D0=BD=D0=B5=D0=B4=D0=B2=D0=B8=D0=B6=D0=B8=D0=
+=BC=D0=BE=D1=81=D1=82=D0=B8 Realto.Ru</span> </a> </div> <div style=3D"colo=
+r:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">=D0=A1=
+=D0=B5=D0=B3=D0=BE=D0=B4=D0=BD=D1=8F =D0=BE=D0=BD=D0=B0 =D0=BE=D0=B1=D0=B5=
+=D1=81=D0=BF=D0=B5=D1=87=D0=B8=D0=B2=D0=B0=D0=B5=D1=82 =D1=83=D0=B4=D0=BE=
+=D0=B1=D0=BD=D1=83=D1=8E =D1=82=D1=80=D0=B0=D0=BD=D1=81=D0=BF=D0=BE=D1=80=
+=D1=82=D0=BD=D1=83=D1=8E =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D0=BE=
+=D1=81=D1=82=D1=8C =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B9 <b>=D0=A4=D0=
+=B8=D0=BB=D0=B0=D1=82=D0=BE=D0=B2 =D0=9B=D1=83=D0=B3</b> =D0=B8 =D0=9F=D1=
+=80=D0=BE=D0=BA=D1=88=D0=B8=D0=BD=D0=BE =D0=A1=D0=BE=D0=BA=D0=BE=D0=BB=D1=
+=8C=D0=BD=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B9 =D0=BB=D0=B8=D0=BD=D0=
+=B8=D0=B8 =D0=BC=D0=B5=D1=82=D1=80=D0=BE=D0=BF=D0=BE=D0=BB=D0=B8=D1=82=D0=
+=B5=D0=BD=D0=B0 =D0=B4=D0=BB=D1=8F=C2=A0...</div> </div>   <table> <tbody><=
+tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.go=
+ogle.ru/alerts/share?hl=3Dru&amp;gl=3DRU&amp;ru=3Dhttp://www.realto.ru/jour=
+nal/articles/bolee-20-kilometrov-dorog-postroili-v-tinao-v-2020-godu/&amp;s=
+s=3Dfb&amp;rt=3D%D0%91%D0%BE%D0%BB%D0%B5%D0%B5+20+%D0%BA%D0%B8%D0%BB%D0%BE%=
+D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2+%D0%B4%D0%BE%D1%80%D0%BE%D0%B3+%D0%BF%D=
+0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D0%BB%D0%B8+%D0%B2+%D0%A2%D0%B8%D0%9D%D0=
+%90%D0%9E+%D0%B2+2020+%D0%B3%D0%BE%D0%B4%D1%83&amp;cd=3DKhQxMjIwMTAzMzEzMjY=
+3MzMwODA5NTIbMTYyOTIwYmI0ZmI3NjgyZTpydTpydTpSVTpM&amp;ssp=3DAMJHsmX_X-9dD_g=
+knlUNNbSCvCOv-9ADdw" style=3D"text-decoration:none" target=3D"_blank" rel=
+=3D"noreferrer"> <img alt=3D"Facebook" src=3D"https://www.gstatic.com/alert=
+s/images/fb-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td =
+width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.ru/=
+alerts/share?hl=3Dru&amp;gl=3DRU&amp;ru=3Dhttp://www.realto.ru/journal/arti=
+cles/bolee-20-kilometrov-dorog-postroili-v-tinao-v-2020-godu/&amp;ss=3Dtw&a=
+mp;rt=3D%D0%91%D0%BE%D0%BB%D0%B5%D0%B5+20+%D0%BA%D0%B8%D0%BB%D0%BE%D0%BC%D0=
+%B5%D1%82%D1%80%D0%BE%D0%B2+%D0%B4%D0%BE%D1%80%D0%BE%D0%B3+%D0%BF%D0%BE%D1%=
+81%D1%82%D1%80%D0%BE%D0%B8%D0%BB%D0%B8+%D0%B2+%D0%A2%D0%B8%D0%9D%D0%90%D0%9=
+E+%D0%B2+2020+%D0%B3%D0%BE%D0%B4%D1%83&amp;cd=3DKhQxMjIwMTAzMzEzMjY3MzMwODA=
+5NTIbMTYyOTIwYmI0ZmI3NjgyZTpydTpydTpSVTpM&amp;ssp=3DAMJHsmX_X-9dD_gknlUNNbS=
+CvCOv-9ADdw" style=3D"text-decoration:none" target=3D"_blank" rel=3D"norefe=
+rrer"> <img alt=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw=
+-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"pa=
+dding:0px 0px 6px 15px;font-family:Arial"> <a href=3D"https://www.google.ru=
+/alerts/feedback?ffu=3Dhttp://www.realto.ru/journal/articles/bolee-20-kilom=
+etrov-dorog-postroili-v-tinao-v-2020-godu/&amp;source=3Dalertsmail&amp;hl=
+=3Dru&amp;gl=3DRU&amp;msgid=3DMTIyMDEwMzMxMzI2NzMzMDgwOTU&amp;s=3DAB2Xq4j9n=
+rWQAgL9lvFsSuuIrC7s-mu2O7I68rI" style=3D"text-decoration:none;vertical-alig=
+n:middle;color:#aaa;font-size:10px" target=3D"_blank" rel=3D"noreferrer"> =
+=D0=9F=D0=BE=D0=BC=D0=B5=D1=82=D0=B8=D1=82=D1=8C =D0=BA=D0=B0=D0=BA =D0=BD=
+=D0=B5=D1=80=D0=B5=D0=BB=D0=B5=D0=B2=D0=B0=D0=BD=D1=82=D0=BD=D1=8B=D0=B9 </=
+a> </td> </tr> </tbody></table>  </div> </div> </td> <td style=3D"padding-r=
+ight:18px"></td> </tr>    <tr> <td colspan=3D"3" valign=3D"middle" style=3D=
+"background-color:#f8f8f8;font-size:14px;vertical-align:middle;text-align:c=
+enter;padding:10px 10px 10px 10px;line-height:20px;border:1px solid #e4e4e4=
+;font-family:Arial"> <a href=3D"https://www.google.ru/alerts?s=3DAB2Xq4j9nr=
+WQAgL9lvFsSuuIrC7s-mu2O7I68rI&amp;start=3D1610932956&amp;end=3D1611025765&a=
+mp;source=3Dalertsmail&amp;hl=3Dru&amp;gl=3DRU&amp;msgid=3DMTIyMDEwMzMxMzI2=
+NzMzMDgwOTU#history" style=3D"text-decoration:none;vertical-align:middle;co=
+lor:#427fed" target=3D"_blank" rel=3D"noreferrer"> =D0=95=D1=89=D1=91 =D1=
+=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D1=8B </a> <span style=
+=3D"font-size:12px;padding-left:15px;padding-right:15px;color:#aaa">|</span=
+> <a href=3D"https://www.google.ru/alerts/edit?source=3Dalertsmail&amp;hl=
+=3Dru&amp;gl=3DRU&amp;msgid=3DMTIyMDEwMzMxMzI2NzMzMDgwOTU&amp;s=3DAB2Xq4j9n=
+rWQAgL9lvFsSuuIrC7s-mu2O7I68rI&amp;email=3Dfilatovlugcom%40gmail.com" style=
+=3D"text-decoration:none;vertical-align:middle;color:#427fed" target=3D"_bl=
+ank" rel=3D"noreferrer">=D0=98=D0=B7=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=8C =
+=D0=BE=D0=BF=D0=BE=D0=B2=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D0=B5</a>  </td> </t=
+r>  </tbody></table> <table style=3D"padding-top:6px;font-size:12px;color:#=
+252525;text-align:center;width:100%"> <tbody><tr> <td style=3D"font-family:=
+Arial"> =D0=92=D1=8B =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D1=
+=8D=D1=82=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5, =D0=
+=BF=D0=BE=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D1=83 =D0=BF=D0=BE=D0=B4=D0=
+=BF=D0=B8=D1=81=D0=B0=D0=BD=D1=8B =D0=BD=D0=B0 <b>=D0=9E=D0=BF=D0=BE=D0=B2=
+=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D1=8F Google</b>. <div> <a href=3D"https://w=
+ww.google.ru/alerts/remove?source=3Dalertsmail&amp;hl=3Dru&amp;gl=3DRU&amp;=
+msgid=3DMTIyMDEwMzMxMzI2NzMzMDgwOTU&amp;s=3DAB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu=
+2O7I68rI" style=3D"text-decoration:none;color:#427fed" target=3D"_blank" re=
+l=3D"noreferrer">=D0=9E=D1=82=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=8C =D0=BF=D0=
+=BE=D0=B4=D0=BF=D0=B8=D1=81=D0=BA=D1=83</a> <span style=3D"padding:0px 4px =
+0px 4px;color:#252525">|</span> <a href=3D"https://www.google.ru/alerts?sou=
+rce=3Dalertsmail&amp;hl=3Dru&amp;gl=3DRU&amp;msgid=3DMTIyMDEwMzMxMzI2NzMzMD=
+gwOTU" style=3D"text-decoration:none;color:#427fed" target=3D"_blank" rel=
+=3D"noreferrer"> =D0=92=D1=81=D0=B5 =D0=BE=D0=BF=D0=BE=D0=B2=D0=B5=D1=89=D0=
+=B5=D0=BD=D0=B8=D1=8F </a> </div> </td> </tr> <tr> <td style=3D"padding:6px=
+ 10px 0px 0px;font-family:Arial"> <a href=3D"https://www.google.com/alerts/=
+feeds/11393018640588788707/4193662451953938852" style=3D"text-decoration:no=
+ne;color:#427fed" target=3D"_blank" rel=3D"noreferrer"> <img src=3D"https:/=
+/www.gstatic.com/alerts/images/rss-16.gif" alt=3D"RSS" border=3D"0" style=
+=3D"padding:0px 8px 0px 0px;vertical-align:middle"> <span style=3D"display:=
+inline;line-height:16px;vertical-align:middle">=D0=9F=D0=BE=D0=BB=D1=83=D1=
+=87=D0=B0=D1=82=D1=8C =D0=BE=D0=BF=D0=BE=D0=B2=D0=B5=D1=89=D0=B5=D0=BD=D0=
+=B8=D1=8F =D0=BF=D0=BE =D1=8D=D1=82=D0=BE=D0=BC=D1=83 =D0=B7=D0=B0=D0=BF=D1=
+=80=D0=BE=D1=81=D1=83 =D0=B2 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=B5 RSS=
+-=D1=84=D0=B8=D0=B4=D0=B0</span> </a> </td> </tr> <tr> <td style=3D"padding=
+:6px 0px 0px 0px;font-family:Arial"> <a href=3D"https://www.google.ru/alert=
+s?source=3Dalertsmail&amp;hl=3Dru&amp;gl=3DRU&amp;msgid=3DMTIyMDEwMzMxMzI2N=
+zMzMDgwOTU&amp;s=3DAB2Xq4j9nrWQAgL9lvFsSuuIrC7s-mu2O7I68rI&amp;ffu=3D" styl=
+e=3D"text-decoration:none;color:#427fed" target=3D"_blank" rel=3D"noreferre=
+r"> <div style=3D"display:inline;line-height:16px;vertical-align:middle">=
+=D0=9E=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BE=D1=82=D0=B7=
+=D1=8B=D0=B2</div> </a> </td> </tr> </tbody></table> </div> </div>   </div>=
+  </div> </div></div></div>
+
+--0000000000005a5a0905b93a406e--
