@@ -1,10 +1,10 @@
 """
-make test T=test_reddit.py
+make test T=test_modules/test_reddit.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestReddit(TestCase):
+class TestReddit(TestModule):
     """
     Reddit
     """

@@ -1,10 +1,10 @@
 """
-make test T=test_ok.py
+make test T=test_modules/test_ok.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestOk(TestCase):
+class TestOk(TestModule):
     """
     Odnoklassniki.ru
     """

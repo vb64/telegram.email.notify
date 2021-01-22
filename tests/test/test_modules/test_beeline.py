@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-make test T=test_beeline.py
+make test T=test_modules/test_beeline.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestBeeline(TestCase):
+class TestBeeline(TestModule):
     """
     Beeline
     """

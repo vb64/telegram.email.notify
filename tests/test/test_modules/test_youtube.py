@@ -1,10 +1,10 @@
 """
-make test T=test_youtube.py
+make test T=test_modules/test_youtube.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestYouTube(TestCase):
+class TestYouTube(TestModule):
     """
     YouTube
     """

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-make test T=test_fb.py
+make test T=test_modules/test_fb.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestFb(TestCase):
+class TestFb(TestModule):
     """
     FaceBook
     """
