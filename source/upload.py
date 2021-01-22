@@ -18,7 +18,12 @@ class UploadHandler(blobstore_handlers.BlobstoreUploadHandler):
         if len(bodies) < 1:
             return self.redirect('/')
 
-        edata = EmailData.from_upload(blobstore.BlobReader(bodies[0]))
+        try:
+            edata = EmailData.from_upload(blobstore.BlobReader(bodies[0]))
+        except AttributeError:
+            bodies[0].delete()
+            return self.redirect('/')
+
         bodies[0].delete()
 
         return self.redirect('/email/{}/'.format(edata.key.id()))

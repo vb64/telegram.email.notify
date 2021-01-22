@@ -34,12 +34,14 @@ class EmailData(ndb.Model):  # pylint: disable=too-few-public-methods
         message = mail.InboundEmailMessage(reader.read())
 
         item = cls()
-
-        item.field_from = message.sender
-        item.field_to = message.to
-        item.field_subj = message.subject
-        item.field_text = "".join([body.decode() for _ct, body in message.bodies('text/plain')])
-        item.field_html = "".join([body.decode() for _ct, body in message.bodies('text/html')])
+        try:
+            item.field_from = message.sender
+            item.field_to = message.to
+            item.field_subj = message.subject
+            item.field_text = "".join([body.decode() for _ct, body in message.bodies('text/plain')])
+            item.field_html = "".join([body.decode() for _ct, body in message.bodies('text/html')])
+        except AttributeError:
+            raise
 
         item.put()
         return item

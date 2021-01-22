@@ -80,3 +80,6 @@ class TestUpload(TestCase):
 
         handler = self.mock_handler([self.get_fixture_path('reddit01.eml')])
         assert '/email/' in handler.post()
+
+        handler = self.mock_handler([self.get_fixture_path('msg01.html')])
+        assert handler.post() == '/'
