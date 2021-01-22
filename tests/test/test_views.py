@@ -28,15 +28,9 @@ class TestCaseViews(TestCase):
         """
         root page
         """
-        assert self.simple_view('mainpage').status_code == 200
-
-        response = self.simple_post('mainpage', {'codec': self.codec, 'source': self.src})
-
+        response = self.simple_view('mainpage')
         assert response.status_code == 200
-        assert self.src in response.data
-
-        response = self.simple_post('mainpage', {'codec': 'xxx', 'source': ''})
-        assert response.status_code == 404
+        assert '/upload/' in response.data
 
     def test_transform(self):
         """
@@ -92,10 +86,6 @@ class TestCaseViews(TestCase):
         """
         email page
         """
-        response = self.simple_view('email_upload')
-        assert response.status_code == 200
-        assert '/upload/' in response.data
-
         response = self.guest_view('/email/666/', return_code=404)
         assert response.status_code == 404
 

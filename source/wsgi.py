@@ -63,15 +63,8 @@ def mainpage():
     """
     root page
     """
-    if request.method == 'POST':
-        codec = request.form.get('codec')
-        if codec not in CODECS:
-            return abort(404)
-
-        return run(codec, request.form.get('source'))
-
     context = {
-      'codecs': CODECS,
+      'upload_url': blobstore.create_upload_url('/upload/'),
     }
     return render_template('main.html', **context)
 
@@ -96,17 +89,6 @@ def email_view(eid):
       'codecs': CODECS,
     }
     return render_template('email_view.html', **context)
-
-
-@app.route('/email/', methods=['GET'])
-def email_upload():
-    """
-    root page
-    """
-    context = {
-      'upload_url': blobstore.create_upload_url('/upload/'),
-    }
-    return render_template('upload.html', **context)
 
 
 @app.route('/transform/<codec>/', methods=['POST'])
