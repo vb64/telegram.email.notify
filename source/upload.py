@@ -21,7 +21,7 @@ class UploadHandler(blobstore_handlers.BlobstoreUploadHandler):
         edata = EmailData.from_upload(blobstore.BlobReader(bodies[0]))
         bodies[0].delete()
 
-        return self.redirect('/email/{}/'.format(edata.key().id))
+        return self.redirect('/email/{}/'.format(edata.key.id()))
 
 
 APP = webapp.WSGIApplication([('/upload/', UploadHandler)], debug=True)
