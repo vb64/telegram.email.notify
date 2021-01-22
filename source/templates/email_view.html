@@ -6,21 +6,21 @@
 
 {% block content %}
 
-<h3>Email ID {{edata.key.id}}</h3>
+<h3>Email</h3>
 
 <hr>
-From: {{edata.field_from}}<br>
+<b>From:</b> {{edata.field_from}}<br>
 
 <hr>
-To: {{edata.field_to}}<br>
+<b>To:</b> {{edata.field_to}}<br>
 
 <hr>
-Subject: {{edata.field_subj}}<br>
+<b>Subject:</b> {{edata.field_subj}}<br>
 
 <hr>
-text/plain: {{edata.field_text}}<br>
+<b>text/plain:</b> {{edata.field_text}}<br>
 
 <hr>
-text/html: {{edata.field_html}}<br>
+<b>text/html:</b> {{edata.field_html}}<br>
 
 {% endblock %}
