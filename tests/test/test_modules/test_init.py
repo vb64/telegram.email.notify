@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
 """
-make test T=test_init.py
+make test T=test_modules/test_init.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestInit(TestCase):
+class TestInit(TestModule):
     """
     module.init
     """

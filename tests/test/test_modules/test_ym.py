@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-make test T=test_ym.py
+make test T=test_modules/test_ym.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestYM(TestCase):
+class TestYM(TestModule):
     """
     Yandex Money
     """

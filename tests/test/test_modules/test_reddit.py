@@ -1,10 +1,10 @@
 """
-make test T=test_reddit.py
+make test T=test_modules/test_reddit.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestReddit(TestCase):
+class TestReddit(TestModule):
     """
     Reddit
     """
@@ -23,7 +23,6 @@ class TestReddit(TestCase):
         """
         text = self.transfer('msg1.txt')
         assert self.mark not in text
-        # print text.decode('utf-8').encode('cp866', 'ignore')
 
     def test_message2(self):
         """
@@ -45,3 +44,11 @@ class TestReddit(TestCase):
         """
         text = self.transfer('msg4.txt')
         assert self.mark not in text
+
+    def test_hide(self):
+        """
+        hide item
+        """
+        text = self.transfer('msg5.txt')
+        assert self.mark not in text
+        # print text.decode('utf-8').encode('cp866', 'ignore')

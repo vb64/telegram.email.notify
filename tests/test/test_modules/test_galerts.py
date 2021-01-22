@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-make test T=test_galerts.py
+make test T=test_modules/test_galerts.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestGalerts(TestCase):
+class TestGalerts(TestModule):
     """
     Google Alerts
     """

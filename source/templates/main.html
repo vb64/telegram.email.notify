@@ -1,32 +1,21 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>@EmailGateBot text transformation</title>
+<title>Email visualization</title>
 {% endblock %}
 
 {% block content %}
+<h3>Select .eml file for upload</h3>
 
-<h3>@EmailGateBot text transformation</h3>
-
-<form class="form-horizontal" role="form" action="" method="POST">
-
-<div class="form-group">
-<select name=codec class="form-control">
-  {% for codec, label in codecs.items() %}
-    <option value="{{codec}}" {% if loop.first %} SELECTED{% endif %}>{{ label }}</option>"
-  {% endfor %}
-</select>
-</div>
+<form class="form-horizontal" role="form" action="{{upload_url}}" method="POST" enctype="multipart/form-data">
 
 <div class="form-group">
-<div class="col-sm-3">
-    <textarea class="form-control" rows="10" cols="40" name="source"></textarea>
-</div>
+<input type="file" name="emailbody" class="form-control">
 </div>
 
 <div class="form-group">
 <div class="col-sm-2">
-<input class="form-control btn btn-info" type="submit" value="Transform" />
+<input class="form-control btn btn-info" type="submit" value="Upload" />
 </div>
 </div>
 

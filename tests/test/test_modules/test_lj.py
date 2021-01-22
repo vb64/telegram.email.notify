@@ -1,10 +1,10 @@
 """
-make test T=test_lj.py
+make test T=test_modules/test_lj.py
 """
-from . import TestCase
+from . import TestModule
 
 
-class TestLj(TestCase):
+class TestLj(TestModule):
     """
     LiveJournal
     """

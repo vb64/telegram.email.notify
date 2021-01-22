@@ -3,7 +3,9 @@ App endpoint handlers
 """
 import importlib
 
+from google.appengine.ext import blobstore
 from flask import render_template, request, make_response, abort, Flask
+from models import EmailData
 
 app = Flask(__name__)  # pylint: disable=invalid-name
 
@@ -61,17 +63,32 @@ def mainpage():
     """
     root page
     """
-    if request.method == 'POST':
-        codec = request.form.get('codec')
-        if codec not in CODECS:
-            return abort(404)
-
-        return run(codec, request.form.get('source'))
-
     context = {
-      'codecs': CODECS,
+      'upload_url': blobstore.create_upload_url('/upload/'),
     }
     return render_template('main.html', **context)
+
+
+@app.route('/email/<eid>/', methods=['GET', 'POST'])
+def email_view(eid):
+    """
+    view data for email with given ID
+    """
+    edata = EmailData.get_by_id(int(eid))
+    if not edata:
+        return abort(404)
+
+    if request.method == 'POST':
+        return run(
+          request.form.get('codec'),
+          '\n'.join((edata.field_subj, edata.field_text, edata.field_html))
+        )
+
+    context = {
+      'edata': edata,
+      'codecs': CODECS,
+    }
+    return render_template('email_view.html', **context)
 
 
 @app.route('/transform/<codec>/', methods=['POST'])

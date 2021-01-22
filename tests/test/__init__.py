@@ -21,11 +21,17 @@ class TestCase(TestFlask, TestGae):
         TestGae.tearDown(self)
 
     @staticmethod
-    def get_fixture(file_name):
+    def get_fixture_path(file_name):
+        """
+        fixture path for given file
+        """
+        return os.path.join("tests", "fixture", file_name)
+
+    def get_fixture(self, file_name):
         """
         load content of given file
         """
-        return open(os.path.join("tests", "fixture", file_name)).read()
+        return open(self.get_fixture_path(file_name)).read()
 
     def start_transfer(self, fname, start_func, label):
         """
