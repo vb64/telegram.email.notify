@@ -38,7 +38,7 @@ class TestFb(TestCase):
         """
         text = self.transfer('poll.txt')
         assert 'https://www.facebook.com/nd/?' in text
-        assert u"создал опрос" in text
+        assert "создал опрос" in text
 
     def test_publication(self):
         """
@@ -46,7 +46,7 @@ class TestFb(TestCase):
         """
         text = self.transfer('publication.txt')
         assert 'https://www.facebook.com/nd/?' in text
-        assert u"сделал публикацию" in text
+        assert "сделал публикацию" in text
 
     def test_video(self):
         """
@@ -54,5 +54,5 @@ class TestFb(TestCase):
         """
         text = self.transfer('video.txt')
         assert 'https://www.facebook.com/nd/?' in text
-        assert u"опубликовал видео" in text
+        assert "опубликовал видео" in text
         # print text.encode('cp866', 'ignore')
