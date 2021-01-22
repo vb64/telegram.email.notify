@@ -58,11 +58,9 @@ def start(subj, body):
     parse FaceBook
     """
     parts = body.split(DELIMETER)
-    text = ''.join((
+    return ''.join((
       subj,
       '\n\n',
       extract_text(parts[2].strip()),
       extract_link(parts[1].strip()),
     ))
-
-    return text.decode('utf-8')
