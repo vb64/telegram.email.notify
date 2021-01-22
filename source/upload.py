@@ -16,7 +16,7 @@ class UploadHandler(blobstore_handlers.BlobstoreUploadHandler):
         """
         bodies = self.get_uploads('emailbody')
         if len(bodies) < 1:
-            return self.redirect('/email/')
+            return self.redirect('/')
 
         edata = EmailData.from_upload(blobstore.BlobReader(bodies[0]))
         bodies[0].delete()
