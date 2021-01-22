@@ -2,7 +2,7 @@
 Reddit
 """
 from html2text2 import Parser
-from . import is_href, is_present, MARKUP
+from . import is_href, is_present, clear_markdown, MARKUP
 
 
 def clear_links(text):
@@ -46,11 +46,16 @@ class Section:
             if text.endswith(i):
                 return
 
+        words = text.split()
+        if len(words) == 3:
+            if (words[0] == 'Hide') and is_href(words[2]):
+                return
+
         if text.startswith('Read ') and text.endswith(' More '):
             self.add_readmore(text)
         else:
             if text.strip():
-                self.lines.append(clear_links(text))
+                self.lines.append(clear_markdown(clear_links(text)))
 
     def add_readmore(self, text):
         """
@@ -58,7 +63,6 @@ class Section:
         """
         words = text.split()
         self.read_more = "[Read more]({})".format(words[1])
-        return False
 
 
 def start(_subj, body):

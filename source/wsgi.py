@@ -76,7 +76,7 @@ def mainpage():
     return render_template('main.html', **context)
 
 
-@app.route('/email/<eid>/', methods=['GET'])
+@app.route('/email/<eid>/', methods=['GET', 'POST'])
 def email_view(eid):
     """
     view data for email with given ID
@@ -85,8 +85,15 @@ def email_view(eid):
     if not edata:
         return abort(404)
 
+    if request.method == 'POST':
+        return run(
+          request.form.get('codec'),
+          '\n'.join((edata.field_subj, edata.field_text, edata.field_html))
+        )
+
     context = {
       'edata': edata,
+      'codecs': CODECS,
     }
     return render_template('email_view.html', **context)
 

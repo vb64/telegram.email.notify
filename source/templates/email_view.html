@@ -5,8 +5,29 @@
 {% endblock %}
 
 {% block content %}
+<p>
+<a href="/">Main page</a>
+</p>
 
 <h3>Email</h3>
+
+<form class="form-horizontal" role="form" action="" method="POST">
+
+<div class="form-group">
+<select name=codec class="form-control">
+  {% for codec, label in codecs.items() %}
+    <option value="{{codec}}" {% if loop.first %} SELECTED{% endif %}>{{ label }}</option>"
+  {% endfor %}
+</select>
+</div>
+
+<div class="form-group">
+<div class="col-sm-2">
+<input class="form-control btn btn-info" type="submit" value="Transform" />
+</div>
+</div>
+
+</form>
 
 <hr>
 <b>From:</b> {{edata.field_from}}<br>
@@ -22,5 +43,6 @@
 
 <hr>
 <b>text/html:</b> {{edata.field_html}}<br>
+<hr>
 
 {% endblock %}

@@ -117,3 +117,10 @@ class TestCaseViews(TestCase):
         assert item.field_subj in response.data
         assert item.field_text in response.data
         assert escape(item.field_html) in response.data
+
+        response = self.client.post(
+          '/email/{}/'.format(item.key.id()),
+          data={'codec': self.codec},
+          follow_redirects=True
+        )
+        assert response.status_code == 200
