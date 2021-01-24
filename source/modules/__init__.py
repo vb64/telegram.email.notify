@@ -61,7 +61,7 @@ def add_href(words, text):
         add_word(words, text)
         return
 
-    words[-1] = (u"[{}]({})".format(last_word[0], text), True)
+    words[-1] = ("[{}]({})".format(last_word[0], text), True)
 
 
 def clear_markdown(text):

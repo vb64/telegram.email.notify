@@ -6,9 +6,9 @@ from html2text2 import convert, Parser as BaseParser
 from . import make_markdown, clear_markdown, MARKUP
 
 DROP_IN = [
-  u'.livejournal.com?utm_source=',
-  u'LiveJournal Newsletter ',
-  u"Вечерний ЖЖ ",
+  '.livejournal.com?utm_source=',
+  'LiveJournal Newsletter ',
+  "Вечерний ЖЖ ",
 ]
 
 
@@ -22,17 +22,18 @@ class Parser(BaseParser):
         """
         index = text.find('?utm_source=')
         if index > 0:
-            return text[:index]
+            return text[:index].encode('utf-8')
 
-        return text
+        return text.encode('utf-8')
 
 
 def start(subj, body):
     """
     parse LiveJournal message
     """
-    text = convert(Parser, body, extract_link=True)
-    pos_end = text.find(u"Ещё больше интересного Подписывайтесь")
+    text = convert(Parser, body, extract_link=True).encode('utf-8')
+
+    pos_end = text.find("Ещё больше интересного Подписывайтесь")
     if pos_end > 0:
         text = text[:pos_end]
 
@@ -41,8 +42,8 @@ def start(subj, body):
         if not any([i in line for i in DROP_IN]):
             lines.append(make_markdown(line))
 
-    return u'\n'.join((
-      u'LiveJournal: ' + clear_markdown(subj).decode('utf-8'),
+    return '\n'.join((
+      'LiveJournal: ' + clear_markdown(subj),
       MARKUP,
-      Parser.drop_newlines(u'\n'.join(lines)),
+      Parser.drop_newlines('\n'.join(lines)),
     ))

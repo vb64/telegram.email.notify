@@ -4,13 +4,17 @@ Google Alerts
 """
 import urlparse
 
-from html2text2 import convert, Parser as BaseParser
-from . import by_subj, make_markdown, clear_markdown, NBSP, MARKUP
+from html2text2 import Parser as BaseParser
+from . import by_subj, make_markdown, clear_markdown, MARKUP
 
 DELIMETER = '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -'
 DROP_RU = [
-  u"Пометить как нерелевантный",
-  u"НОВОСТИ",
+  "Пометить как нерелевантный",
+  "[image:",
+  "<https://www.google.ru/alerts"
+]
+TRASH = [
+  "Twitter]\nПометить\nкак нерелевантный",
 ]
 
 
@@ -23,16 +27,26 @@ class Parser(BaseParser):
         extract real link from google redirects
         """
         if text.startswith('https://www.google.com/url?'):
-            return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0]
+            return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0].encode('utf-8')
 
-        return text
+        return text.encode('utf-8')
+
+
+def clear_trash(text):
+    """
+    remove trash items from text
+    """
+    for i in TRASH:
+        text = text.replace(i, '')
+
+    return text
 
 
 def alert_ru(subj, text):
     """
     alert with ru language
     """
-    pos_skip = text.find(u"Ещё результаты")
+    pos_skip = text.find("Ещё результаты")
     if pos_skip >= 0:
         text = text[:pos_skip]
 
@@ -43,9 +57,9 @@ def alert_ru(subj, text):
 
     return [
       MARKUP,
-      clear_markdown(subj).decode('utf-8'),
+      clear_markdown(subj),
       '',
-      Parser.drop_newlines(u'\n'.join(lines)),
+      clear_trash(Parser.drop_newlines('\n'.join(handle_lines(lines)))),
     ]
 
 
@@ -54,24 +68,33 @@ SUBJ_HANDLERS = [
 ]
 
 
-def convert_plain_part(subj, body):
+def handle_lines(text_lines):
     """
-    handle plain/text part
+    handle text lines
     """
     lines = []
-    for line in body.split('\n'):
+    for line in text_lines:
         if line.startswith('<https://www.google.com/url?'):
             line = line.lstrip('<').rstrip('>')
             words = lines[-1].split()
             words[-1] = "[{}]({})".format(words[-1], line)
             lines[-1] = ' '.join(words)
         else:
-            lines.append(make_markdown(line))
+            lines.append(make_markdown(clear_markdown(line)))
+
+    return lines
+
+
+def convert_plain_part(subj, body):
+    """
+    handle plain/text part
+    """
+    lines = handle_lines(body.split('\n'))
 
     return '\n'.join((
       MARKUP,
       clear_markdown(subj), '',
-      '\n'.join(lines),
+      clear_trash('\n'.join(lines)),
     ))
 
 
@@ -85,6 +108,9 @@ def start(subj, body):
     text = body
     pos_start = text.find('<div dir="ltr">')
     if pos_start >= 0:
-        text = convert(Parser, body[pos_start:].replace(NBSP, ' '), extract_link=True)
+        parser = Parser(True, True)
+        parser.feed(body[pos_start:])
+        parser.close()
+        text = parser.text()
 
     return by_subj(subj, body, text, 'galerts', '', SUBJ_HANDLERS)

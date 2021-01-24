@@ -16,6 +16,13 @@ class TestGalerts(TestModule):
         from modules.galerts import start
         return self.start_transfer(fname, start, 'galerts')
 
+    def from_eml(self, fname):
+        """
+        fixture from eml file Google Alerts
+        """
+        from modules.galerts import start
+        return self.start_eml(fname, start, 'galerts')
+
     def test_dflt(self):
         """
         default
@@ -59,4 +66,17 @@ class TestGalerts(TestModule):
 
         text = self.transfer('alert3.txt')
         assert MARKUP in text
+
+    def test_eml(self):
+        """
+        galerts01.eml
+        """
+        from modules import MARKUP
+
+        text = self.from_eml('galerts01.eml')
+        assert MARKUP in text
+
+        text = self.from_eml('galerts02.eml')
+        assert MARKUP in text
         # print text.decode('utf-8').encode('cp866', 'ignore')
+        # print text
