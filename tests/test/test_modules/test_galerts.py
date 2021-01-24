@@ -67,9 +67,13 @@ class TestGalerts(TestModule):
         text = self.transfer('alert3.txt')
         assert MARKUP in text
 
-    def __test_eml01(self):
+    def test_eml01(self):
         """
         galerts01.eml
         """
+        from modules import MARKUP
+
         text = self.from_eml('galerts01.eml')
-        print text.decode('utf-8').encode('cp866', 'ignore')
+        assert MARKUP in text
+        # print text.decode('utf-8').encode('cp866', 'ignore')
+        # print text

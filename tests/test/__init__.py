@@ -53,4 +53,4 @@ class TestCase(TestFlask, TestGae):
         edata = EmailData.from_upload(open(fname))
         text = edata.field_text + '\n' + edata.field_html
 
-        return start_func(edata.field_subj, text)
+        return start_func(edata.field_subj.encode('utf-8'), text.encode('utf-8'))

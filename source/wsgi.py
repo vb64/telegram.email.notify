@@ -33,9 +33,6 @@ def run(codec, body):
         response.mimetype = "text/plain"
         return response
 
-    if isinstance(body, unicode):
-        body = body.encode('utf8')
-
     lines = body.splitlines()
     subj = lines[0]
     text = '\n'.join(lines[1:])
@@ -79,9 +76,10 @@ def email_view(eid):
         return abort(404)
 
     if request.method == 'POST':
+        text = '\n'.join((edata.field_subj, edata.field_text, edata.field_html))
         return run(
           request.form.get('codec'),
-          '\n'.join((edata.field_subj, edata.field_text, edata.field_html))
+          text.encode('utf-8')
         )
 
     context = {
