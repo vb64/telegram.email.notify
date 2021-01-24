@@ -13,6 +13,9 @@ DROP_RU = [
   "[image:",
   "<https://www.google.ru/alerts"
 ]
+TRASH = [
+  "Twitter]\nПометить\nкак нерелевантный",
+]
 
 
 class Parser(BaseParser):
@@ -27,6 +30,16 @@ class Parser(BaseParser):
             return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0].encode('utf-8')
 
         return text.encode('utf-8')
+
+
+def clear_trash(text):
+    """
+    remove trash items from text
+    """
+    for i in TRASH:
+        text = text.replace(i, '')
+
+    return text
 
 
 def alert_ru(subj, text):
@@ -46,7 +59,7 @@ def alert_ru(subj, text):
       MARKUP,
       clear_markdown(subj),
       '',
-      Parser.drop_newlines('\n'.join(handle_lines(lines))),
+      clear_trash(Parser.drop_newlines('\n'.join(handle_lines(lines)))),
     ]
 
 
@@ -81,7 +94,7 @@ def convert_plain_part(subj, body):
     return '\n'.join((
       MARKUP,
       clear_markdown(subj), '',
-      '\n'.join(lines),
+      clear_trash('\n'.join(lines)),
     ))
 
 
