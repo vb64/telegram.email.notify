@@ -42,3 +42,15 @@ class TestCase(TestFlask, TestGae):
         text = '\n'.join(lines[1:])
 
         return start_func(subj, text)
+
+    def start_eml(self, fname, start_func, label):
+        """
+        run start function with data from eml file
+        """
+        from models import EmailData
+
+        fname = self.get_fixture_path(os.path.join(label, fname))
+        edata = EmailData.from_upload(open(fname))
+        text = edata.field_text + '\n' + edata.field_html
+
+        return start_func(edata.field_subj, text)
