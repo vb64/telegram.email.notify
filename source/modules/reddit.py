@@ -31,7 +31,7 @@ class Section:
 
     def __unicode__(self):
         return "{}\n\n{}".format(
-          '\n\n'.join(self.lines),
+          clear_markdown('\n\n'.join(self.lines)),
           self.read_more,
         )
 
@@ -55,7 +55,7 @@ class Section:
             self.add_readmore(text)
         else:
             if text.strip():
-                self.lines.append(clear_markdown(clear_links(text)))
+                self.lines.append(clear_links(text))
 
     def add_readmore(self, text):
         """
