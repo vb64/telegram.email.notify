@@ -17,6 +17,13 @@ class TestReddit(TestModule):
         from modules.reddit import start
         return self.start_transfer(fname, start, 'reddit')
 
+    def from_eml(self, fname):
+        """
+        fixture from eml file Reddit
+        """
+        from modules.reddit import start
+        return self.start_eml(fname, start, 'reddit')
+
     def test_message(self):
         """
         reddit message
@@ -51,4 +58,13 @@ class TestReddit(TestModule):
         """
         text = self.transfer('msg5.txt')
         assert self.mark not in text
-        # print text.decode('utf-8').encode('cp866', 'ignore')
+
+    def test_eml(self):
+        """
+        md.eml
+        """
+        from modules import MARKUP
+
+        text = self.from_eml('md.eml')
+        assert MARKUP in text
+        # print text

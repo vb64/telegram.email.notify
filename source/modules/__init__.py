@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 modules for transform
 """
@@ -68,7 +69,7 @@ def clear_markdown(text):
     """
     clear special markdown symbols from text
     """
-    for i in ['*', '_', '`']:
+    for i in ['*', '_', '`', '’']:
         text = text.replace(i, '')
 
     return text
