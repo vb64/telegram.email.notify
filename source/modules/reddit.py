@@ -21,18 +21,19 @@ class Section:
     """
     Reddit message section
     """
+    skiplines = [
+      ' Votes ',
+      ' Comments ',
+    ]
+
     def __init__(self, text):
-        self.skiplines = [
-          ' Votes ',
-          ' Comments ',
-        ]
         self.lines = [clear_links(text)]
         self.read_more = None
 
     def __unicode__(self):
         return "{}\n\n{}".format(
           clear_markdown('\n\n'.join(self.lines)),
-          self.read_more,
+          self.read_more if self.read_more else '',
         )
 
     def __str__(self):
