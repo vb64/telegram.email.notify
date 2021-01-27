@@ -24,6 +24,11 @@ Messages exceeding these limits are ignored by the bot.
 
 From the text of your email, the bot publishes the first 4 Kb, this is a limit on the size of messages in the Telegram messenger.
 
+Email can contain either the plain text version of the message (text/plain), or the html version of the message (text/html), or both.
+If the message contains text and html versions of the message, EmailGateBot selects the html version for publication.
+
+The "Select plain or html" menu item when editing an email address in the allowlist get you ability to set the publication of a text version of the message, if the message contains both a text and html version of the message.
+
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-messaging)
 - Return [to TOC](guide.md)
 - Next: ['stoplist' and 'allowlist'](stop_allow_list.md)
