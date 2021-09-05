@@ -12,7 +12,8 @@ The bot will tell you a special code like
 ```
 /start xxxxxxx
 ```
-Add EmailGateBot to the desired channel as an administrator, and then send the received code to the channel.
+Add EmailGateBot to the desired channel as an administrator, bot must have the rights to publish messages and media content in this channel.
+Then send the received code to the channel.
 
 The bot will inform you in private the email address for posting messages to this channel.
 
