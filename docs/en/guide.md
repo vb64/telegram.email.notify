@@ -28,5 +28,6 @@ More information on using the bot can be obtained
 - using the /help bot command
 - by subscribing to the bot [news channel](http://t.me/emailgateen)
 - by asking a question in the [support group](https://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg)
+- from community articles: [Publicar en Telegram sin internet es posible](https://telegra.ph/Publicar-en-Telegram-sin-internet-es-posible-11-15) (Spanish)
 
 Try [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-guide-02)
