@@ -3,6 +3,7 @@
 - [How reliable is the bot hosting?](#how-reliable-is-the-bot-hosting-how-big-is-the-chance-that-the-bot-will-stop-working-at-the-most-crucial-moment)
 - [What does the message "processed earlier" mean?](#i-forget-to-click-allow-for-an-incoming-email-at-night-today-morning-i-click-on-allow-and-it-shows-processed-early-what-happened)
 - [I turned the group into a supergroup and EmailGateBot stopped sending messages there. What to do?](#i-turned-the-group-into-a-supergroup-and-emailgatebot-stopped-sending-messages-there-what-to-do)
+- [I created a public group with a bot. But this group does not appear in the list of groups in the bot. What to do?]
 
 ## How reliable is the bot hosting? How big is the chance that the bot will stop working at the most crucial moment?
 
@@ -27,5 +28,9 @@ Add the bot to the group again, it will appear in the list and its email address
 
 If the group had the premium mode enabled, it will stop working, because the mode is tied to the Telegram group ID.
 In this case, write to the [support group](https://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg) to restore premium mode for the paid period.
+
+## I created a public group with a bot. But this group does not appear in the list of groups in the bot. What to do?
+
+Try to remove the bot from the group and then add it there again. If the group after that does not appear in the list, report the problem in the [support group](https://t.me/joinchat/CJ4MSEfmFlaDevQOeMVoLg).
 
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-faq)
