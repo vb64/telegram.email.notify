@@ -3,7 +3,7 @@
 - [How reliable is the bot hosting?](#how-reliable-is-the-bot-hosting-how-big-is-the-chance-that-the-bot-will-stop-working-at-the-most-crucial-moment)
 - [What does the message "processed earlier" mean?](#i-forget-to-click-allow-for-an-incoming-email-at-night-today-morning-i-click-on-allow-and-it-shows-processed-early-what-happened)
 - [I turned the group into a supergroup and EmailGateBot stopped sending messages there. What to do?](#i-turned-the-group-into-a-supergroup-and-emailgatebot-stopped-sending-messages-there-what-to-do)
-- [I created a public group with a bot. But this group does not appear in the list of groups in the bot. What to do?]
+- [I created a public group with a bot. But this group does not appear in the list of groups in the bot. What to do?](#i-created-a-public-group-with-a-bot-but-this-group-does-not-appear-in-the-list-of-groups-in-the-bot-what-to-do)
 
 ## How reliable is the bot hosting? How big is the chance that the bot will stop working at the most crucial moment?
 
