@@ -19,6 +19,7 @@ CODECS = {
   'lj': 'LiveJournal',
   'beeline': 'Beeline',
   'galerts': 'Google Alerts',
+  'subjonly': 'Subject only',
   # not implemented handlers, just store message to db
   'store': None,
 }
