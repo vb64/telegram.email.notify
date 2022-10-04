@@ -2,7 +2,7 @@
 
 You can publish images by attaching an image file to the email you send.
 The first 1024 bytes of the text of the letter will be used as a caption for the picture.
-During the day in this way, you can post no more than 120 pictures.
+During the day in this way, you can post up to 12 pictures in the free chat and up to 240 pictures in the paid chat.
 The limit is reset every day at 00:00 GMT.
 [Mass mailing](bulk.md) to several chats via `post@telegram-email.appspotmail.com` is counted as one picture.
 
