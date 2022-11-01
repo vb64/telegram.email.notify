@@ -13,6 +13,7 @@ The paid mode provides the following benefits.
 - private channels and groups are served
 - there is no mark `via @EmailGateBot` in published messages
 - up to 200 publications can be scheduled for a each channel or group (10 for free)
+- up to 240 pictures attached to email per day for a each channel or group (12 for free)
 
 The cost of the paid service is one EmailGateBot coin per 30 days for a channel/group.
 The cost of one EmailGateBot internal coin depends on the number of purchased coins.
