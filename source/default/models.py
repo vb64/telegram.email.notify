@@ -26,14 +26,12 @@ class EmailData(ndb.Model):
         message = mail.InboundEmailMessage(reader.read())
 
         item = cls()
-        try:
-            item.field_from = message.sender
-            item.field_to = message.to
-            item.field_subj = message.subject
-            item.field_text = "".join([body.decode() for _ct, body in message.bodies('text/plain')])
-            item.field_html = "".join([body.decode() for _ct, body in message.bodies('text/html')])
-        except AttributeError:
-            raise
+
+        item.field_from = message.sender
+        item.field_to = message.to
+        item.field_subj = message.subject
+        item.field_text = "".join([body.decode() for _ct, body in message.bodies('text/plain')])
+        item.field_html = "".join([body.decode() for _ct, body in message.bodies('text/html')])
 
         item.put()
         return item
