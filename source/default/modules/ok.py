@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Odnoklassniki.ru
-"""
+"""Odnoklassniki.ru."""
 from html2text import convert
 from models import SavedSource
 from . import is_present, by_subj, BUTTONS, NBSP
@@ -23,9 +20,7 @@ MARK_PROFILE_REF = 'https://ok.ru/profile/'
 
 
 def make_link(txt, ref, note):
-    """
-    buttons with link
-    """
+    """Button with link."""
     actor = txt[:txt.index(MARK_PROFILE_REF)]
     actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' ' + note
     link = ''
@@ -38,9 +33,7 @@ def make_link(txt, ref, note):
 
 
 def e_message(subj, text):
-    """
-    message
-    """
+    """Message."""
     txt = convert(text, extract_link=True).replace(NBSP, ' ')
     ret = [txt]
 
@@ -55,9 +48,7 @@ def e_message(subj, text):
 
 
 def e_present(subj, text):
-    """
-    present
-    """
+    """Present."""
     link = ""
     lines = iter(text.splitlines())
     for line in lines:
@@ -75,7 +66,5 @@ SUBJ_HANDLERS = [
 
 
 def start(subj, body):
-    """
-    parse Odnoklassniki.ru
-    """
+    """Parse Odnoklassniki.ru."""
     return by_subj(subj, body, body, LABEL, 'Одноклассники: ', SUBJ_HANDLERS)

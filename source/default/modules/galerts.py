@@ -18,6 +18,7 @@ TRASH = [
 
 class Parser(BaseParser):
     """Parser class."""
+
     def extract_real_link(self, text):
         """Extract real link from google redirects."""
         if text.startswith('https://www.google.com/url?'):

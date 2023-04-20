@@ -6,9 +6,8 @@ from . import TestModule
 
 
 class TestLj(TestModule):
-    """
-    LiveJournal
-    """
+    """LiveJournal."""
+
     mark = "<html"
 
     def transfer(self, fname):

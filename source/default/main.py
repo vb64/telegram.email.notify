@@ -1,6 +1,4 @@
-"""
-App endpoint handlers
-"""
+"""App endpoint handlers."""
 import importlib
 
 from google.appengine.ext import blobstore
@@ -26,9 +24,7 @@ CODECS = {
 
 
 def run(codec, body):
-    """
-    run codec for transform body
-    """
+    """Run codec for transform body."""
     if body == 'testdata':
         response = make_response('OK')
         response.mimetype = "text/plain"
@@ -58,9 +54,7 @@ def run(codec, body):
 
 @app.route('/', methods=['GET', 'POST'])
 def mainpage():
-    """
-    root page
-    """
+    """Root page."""
     context = {
       'upload_url': blobstore.create_upload_url('/upload/'),
     }
@@ -69,9 +63,7 @@ def mainpage():
 
 @app.route('/email/<eid>/', methods=['GET', 'POST'])
 def email_view(eid):
-    """
-    view data for email with given ID
-    """
+    """View data for email with given ID."""
     edata = EmailData.get_by_id(int(eid))
     if not edata:
         return abort(404)
@@ -92,26 +84,8 @@ def email_view(eid):
 
 @app.route('/transform/<codec>/', methods=['POST'])
 def transform(codec):
-    """
-    transform post
-    """
+    """Transform post."""
     if codec not in CODECS:
         return abort(404)
 
     return run(codec, request.get_data())
-
-
-@app.route('/_ah/warmup')
-def warmup():
-    """
-    handle warmup request to suppress  warning into logs
-    """
-    return 'OK'
-
-
-@app.route('/_ah/start')
-def backend_start():
-    """
-    handle backend start request to suppress  warning into logs
-    """
-    return 'OK'

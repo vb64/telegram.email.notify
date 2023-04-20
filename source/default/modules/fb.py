@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-FaceBook
-"""
+"""FaceBook."""
 from . import BUTTONS
 
 DELIMETER = '========================================'
@@ -10,9 +7,7 @@ MARK_HI = 'Здравствуйте, '
 
 
 def extract_link(text):
-    """
-    extract link to fb post
-    """
+    """Extract link to fb post."""
     if not text.startswith(MARK_VIEW):
         return ''
 
@@ -25,9 +20,7 @@ def extract_link(text):
 
 
 def extract_text(text):
-    """
-    extract value from text part
-    """
+    """Extract value from text part."""
     lines = text.split('\n')
     start_indx = 0
     end_indx = len(lines) - 1
@@ -54,9 +47,7 @@ def extract_text(text):
 
 
 def start(subj, body):
-    """
-    parse FaceBook
-    """
+    """Parse FaceBook."""
     parts = body.split(DELIMETER)
     return ''.join((
       subj,

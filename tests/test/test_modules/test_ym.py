@@ -21,7 +21,7 @@ class TestYM(TestModule):
         assert mark not in text
 
     def test_other(self):
-        """Other notify. """
+        """Other notify."""
         assert self.transfer('cash.txt')
         assert self.transfer('cashback.txt')
         assert self.transfer('income.txt')

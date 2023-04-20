@@ -1,58 +1,44 @@
-# -*- coding: utf-8 -*-
-"""
+"""FaceBook.
+
 make test T=test_modules/test_fb.py
 """
 from . import TestModule
 
 
 class TestFb(TestModule):
-    """
-    FaceBook
-    """
+    """FaceBook."""
+
     def transfer(self, fname):
-        """
-        transfer fixture by facebook
-        """
+        """Transfer fixture by facebook."""
         from modules.fb import start
         return self.start_transfer(fname, start, 'fb')
 
     @staticmethod
     def test_extract_text():
-        """
-        extract_text
-        """
+        """Check extract_text."""
         from modules.fb import extract_text
         assert extract_text('') == ''
 
     @staticmethod
     def test_extract_link():
-        """
-        extract_link
-        """
+        """Check extract_link."""
         from modules.fb import extract_link
         assert extract_link('xxx') == ''
 
     def test_poll(self):
-        """
-        poll
-        """
+        """Check poll."""
         text = self.transfer('poll.txt')
         assert 'https://www.facebook.com/nd/?' in text
         assert "создал опрос" in text
 
     def test_publication(self):
-        """
-        publication
-        """
+        """Check publication."""
         text = self.transfer('publication.txt')
         assert 'https://www.facebook.com/nd/?' in text
         assert "сделал публикацию" in text
 
     def test_video(self):
-        """
-        video
-        """
+        """Check video."""
         text = self.transfer('video.txt')
         assert 'https://www.facebook.com/nd/?' in text
         assert "опубликовал видео" in text
-        # print text.encode('cp866', 'ignore')

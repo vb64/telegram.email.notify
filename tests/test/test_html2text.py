@@ -1,18 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
+"""Html parser.
+
 make test T=test_html2text.py
 """
 from . import TestCase
 
 
 class TestCaseHtml2text(TestCase):
-    """
-    Extraction text from html
-    """
+    """Extraction text from html."""
+
     def test_convert(self):
-        """
-        convert function
-        """
+        """Convert function."""
         from html2text import convert
 
         html = ''.join((
@@ -34,9 +31,7 @@ class TestCaseHtml2text(TestCase):
 
     @staticmethod
     def test_convert_trunc():
-        """
-        convert trunc html
-        """
+        """Convert trunc html."""
         from html2text import convert
 
         html = ''.join((
@@ -49,9 +44,7 @@ class TestCaseHtml2text(TestCase):
         assert text
 
     def test_ampersand(self):
-        """
-        with ampersand
-        """
+        """With ampersand."""
         from html2text import convert
 
         link = ''.join((
@@ -71,12 +64,9 @@ class TestCaseHtml2text(TestCase):
 
         html = self.get_fixture("msg02.html")
         text = convert(html)
-        # self.assertIn(link, text)
 
     def test_style(self):
-        """
-        inside style tag
-        """
+        """Inside style tag."""
         from html2text import convert
 
         html = self.get_fixture("msg01.html")

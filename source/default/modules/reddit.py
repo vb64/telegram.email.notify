@@ -1,14 +1,10 @@
-"""
-Reddit
-"""
+"""Reddit."""
 from html2text2 import Parser
 from . import is_href, is_present, clear_markdown, MARKUP
 
 
 def clear_links(text):
-    """
-    Clear links from text
-    """
+    """Clear links from text."""
     words = []
     for i in text.split():
         if not is_href(i):
@@ -18,31 +14,27 @@ def clear_links(text):
 
 
 class Section:
-    """
-    Reddit message section
-    """
+    """Reddit message section."""
+
     skiplines = [
       ' Votes ',
       ' Comments ',
     ]
 
     def __init__(self, text):
+        """Section with text."""
         self.lines = [clear_links(text)]
         self.read_more = None
 
-    def __unicode__(self):
+    def __str__(self):
+        """Text representation."""
         return "{}\n\n{}".format(
           clear_markdown('\n\n'.join(self.lines)),
           self.read_more if self.read_more else '',
         )
 
-    def __str__(self):
-        return self.__unicode__()
-
     def add_line(self, text):
-        """
-        return true if detected end if section
-        """
+        """Return true if detected end if section."""
         for i in self.skiplines:
             if text.endswith(i):
                 return
@@ -59,17 +51,13 @@ class Section:
                 self.lines.append(clear_links(text))
 
     def add_readmore(self, text):
-        """
-        line with read more link
-        """
+        """Line with read more link."""
         words = text.split()
         self.read_more = "[Read more]({})".format(words[1])
 
 
 def start(_subj, body):
-    """
-    parse Reddit message
-    """
+    """Parse Reddit message."""
     parser = Parser(True, True)
     parser.feed(body)
     parser.close()

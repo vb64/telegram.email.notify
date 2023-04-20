@@ -1,18 +1,16 @@
-"""
+"""Modules init.
+
 make test T=test_modules/test_init.py
 """
 from . import TestModule
 
 
 class TestInit(TestModule):
-    """
-    module.init
-    """
+    """Module init."""
+
     @staticmethod
     def test_add_href():
-        """
-        add_href
-        """
+        """Add_href."""
         from modules import add_href
 
         words = []

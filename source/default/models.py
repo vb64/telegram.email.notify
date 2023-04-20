@@ -5,6 +5,7 @@ from google.appengine.api import mail
 
 class SavedSource(ndb.Model):
     """Source of inbound requests."""
+
     made = ndb.DateTimeProperty(auto_now_add=True)
     label = ndb.StringProperty(default='')
     subject = ndb.TextProperty(default='')
@@ -13,6 +14,7 @@ class SavedSource(ndb.Model):
 
 class EmailData(ndb.Model):
     """Email origin file data."""
+
     made = ndb.DateTimeProperty(auto_now_add=True)
     field_from = ndb.TextProperty(default='')
     field_to = ndb.TextProperty(default='')

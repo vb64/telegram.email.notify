@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Beeline.ru
-"""
+"""Beeline.ru."""
 from html2text import convert
 from . import by_subj, NBSP, BUTTONS
 
@@ -10,9 +7,7 @@ MARK_CLOUD_GO = 'Прослушать сообщение можно в web-ин�
 
 
 def voice_mail(_subj, text):
-    """
-    voice mail
-    """
+    """Voice mail."""
     pos_start = text.index(MARK_INBOX)
     pos_end = text.index(MARK_CLOUD_GO)
     result = text[pos_start:pos_end]
@@ -32,9 +27,7 @@ SUBJ_HANDLERS = [
 
 
 def start(subj, body):
-    """
-    parse Beeline
-    """
+    """Parse Beeline."""
     return by_subj(
       subj,
       body,

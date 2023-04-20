@@ -1,6 +1,4 @@
-"""
-Twitter
-"""
+"""Twitter."""
 from models import SavedSource
 
 LABEL = 'twitter'
@@ -18,9 +16,7 @@ TERMINALS = [
 
 
 def cut_text(text):
-    """
-    extract and return news text
-    """
+    """Extract and return news text."""
     for phrase in TERMINALS:
         if phrase in text:
             return text[:text.index(phrase)]
@@ -30,9 +26,7 @@ def cut_text(text):
 
 
 def convert_plain(text):
-    """
-    text/plain part
-    """
+    """Part text/plain."""
     lines = text.split('\n')
     title = lines[0]
     result = []
@@ -46,9 +40,7 @@ def convert_plain(text):
 
 
 def start(subj, body):
-    """
-    parse Twitter message
-    """
+    """Parse Twitter message."""
     lines = body.splitlines()
     for index, line in enumerate(lines):
         if line in SUBJECTS:
