@@ -75,9 +75,9 @@ class Parser(HTMLParser):
         return self.drop_newlines(''.join(self.__text).strip())
 
 
-def convert(parser_class, text, extract_link=False, html_table=True, codepage='utf-8'):
+def convert(parser_class, text, extract_link=False, html_table=True):
     """Parser call."""
     parser = parser_class(extract_link, html_table)
-    parser.feed(parser.unescape(text.decode(codepage)))
+    parser.feed(parser.unescape(text))
     parser.close()
     return parser.text()
