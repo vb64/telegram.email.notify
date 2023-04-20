@@ -1,4 +1,5 @@
-"""
+"""App views.
+
 make test T=test_views.py
 """
 from flask import escape
@@ -6,36 +7,19 @@ from . import TestCase
 
 
 class TestCaseViews(TestCase):
-    """
-    site views
-    """
+    """Site views."""
+
     codec = 'ym'
     src = 'subject\ntest text'
 
-    def test_warmup(self):
-        """
-        /_ah/warmup
-        """
-        assert self.simple_view('warmup').status_code == 200
-
-    def test_backend_start(self):
-        """
-        /_ah/start
-        """
-        assert self.simple_view('backend_start').status_code == 200
-
     def test_mainpage(self):
-        """
-        root page
-        """
+        """Root page."""
         response = self.simple_view('mainpage')
         assert response.status_code == 200
         assert '/upload/' in response.data
 
     def test_transform(self):
-        """
-        transform page
-        """
+        """Transform page."""
         assert self.param_view('transform', {'codec': 'xxx'}, return_code=405).status_code == 405
         assert self.param_post('transform', {'codec': 'xxx'}, {}).status_code == 404
 
@@ -45,25 +29,19 @@ class TestCaseViews(TestCase):
         assert self.src in response.data
 
     def test_store(self):
-        """
-        store func
-        """
+        """Store func."""
         response = self.param_post('transform', {'codec': 'store'}, self.src)
         assert response.status_code == 200
         assert self.src in response.data
 
     def test_run(self):
-        """
-        run function with exception raise
-        """
-        from wsgi import run
+        """Run function with exception raise."""
+        from main import run
         import modules
 
         def mock_store(label, subj, body):
-            """
-            emulate exception raise
-            """
-            raise Exception(''.join([label, subj, body]))
+            """Emulate exception raise."""
+            raise Exception(''.join([label, subj, body]))  # pylint: disable=broad-exception-raised
 
         saved = modules.store
         modules.store = mock_store
@@ -75,17 +53,13 @@ class TestCaseViews(TestCase):
         modules.store = saved
 
     def test_testdata(self):
-        """
-        run function with testdata
-        """
+        """Run function with testdata."""
         response = self.param_post('transform', {'codec': 'store'}, 'testdata')
         assert response.status_code == 200
         assert response.data == 'OK'
 
     def test_email(self):
-        """
-        email page
-        """
+        """Email page."""
         response = self.guest_view('/email/666/', return_code=404)
         assert response.status_code == 404
 

@@ -16,5 +16,5 @@ class TestSubjonly(TestModule):
     def test_voice_mail(self):
         """Voice mail messge."""
         text = self.transfer('voice_mail.txt')
-        assert u'Облачная АТС - У вас новое сообщение голосовой почты' in text
+        assert 'Облачная АТС - У вас новое сообщение голосовой почты' in text
         assert ' 9033756597' not in text
