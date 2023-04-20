@@ -1,3 +1,4 @@
+# pylint: disable=W0223
 """Google Alerts."""
 from urllib.parse import parse_qs, urlparse
 

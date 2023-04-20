@@ -1,6 +1,7 @@
+# pylint: disable=W0223
 """Html parser."""
 from re import sub
-from HTMLParser import HTMLParser
+from html.parser import HTMLParser
 
 
 class _DeHTMLParser(HTMLParser):
@@ -8,7 +9,7 @@ class _DeHTMLParser(HTMLParser):
 
     def __init__(self, extract_link):
         """Parser instance."""
-        HTMLParser.__init__(self)
+        super().__init__()
         self.extract_link = extract_link
         self.is_skip = False
         self.__text = []

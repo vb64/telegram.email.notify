@@ -1,6 +1,7 @@
+# pylint: disable=W0223
 """Html parser ver2."""
 from re import sub
-from HTMLParser import HTMLParser
+from html.parser import HTMLParser
 
 
 class Parser(HTMLParser):
@@ -8,7 +9,7 @@ class Parser(HTMLParser):
 
     def __init__(self, extract_link, html_table):
         """Parser instance."""
-        HTMLParser.__init__(self)
+        super().__init__()
         self.extract_link = extract_link
         self.html_table = html_table
         self.is_skip = False
@@ -38,21 +39,21 @@ class Parser(HTMLParser):
 
             self.html_link = ''
 
-    def handle_starttag(self, tag_name, attributes):
+    def handle_starttag(self, tag, attrs):
         """Start tags processing."""
-        if tag_name in ['p', 'br']:
-            self.__text.append('\n')
-
-        elif tag_name == 'style':
+        if tag == 'style':
             self.is_skip = True
 
-        elif tag_name == 'a':
+        elif tag in ['p', 'br']:
+            self.__text.append('\n')
+
+        elif tag == 'a':
             if self.extract_link:
-                link = self.extract_real_link(dict(attributes).get('href', '').strip())
+                link = self.extract_real_link(dict(attrs).get('href', '').strip())
                 if link.startswith('http'):
                     self.html_link = link
 
-        elif tag_name in ['table', 'tr', 'th', 'td']:
+        elif tag in ['table', 'tr', 'th', 'td']:
             if self.html_table:
                 self.__text.append('\n')
 
