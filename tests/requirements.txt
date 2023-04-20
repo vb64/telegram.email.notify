@@ -1,0 +1,8 @@
+pep257
+flake8
+pylint
+pytest
+pytest-cov
+codacy-coverage
+tester_flask==1.1
+test-helper-gae3==1.0
