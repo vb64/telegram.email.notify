@@ -1,6 +1,4 @@
-"""
-YouTube
-"""
+"""YouTube stuff."""
 from models import SavedSource
 from . import by_subj, MARKUP
 
@@ -12,9 +10,7 @@ SUBJ_UPLOAD = ' just uploaded a video'
 
 
 def e_live(subj, text):
-    """
-    'is live now:' in subject
-    """
+    """Check 'is live now:' in subject."""
     blogger, title = subj.split(SUBJ_LIVE)
     url = ''
     link = title
@@ -33,9 +29,7 @@ def e_live(subj, text):
 
 
 def e_upload(subj, text):
-    """
-    'just uploaded a video' in subject
-    """
+    """Check 'just uploaded a video' in subject."""
     blogger, _tmp = subj.split(SUBJ_UPLOAD)
     url = ''
     messages = []
@@ -44,8 +38,7 @@ def e_upload(subj, text):
         if line.startswith(POST_URL):
             url = line
             break
-        else:
-            messages.append(line)
+        messages.append(line)
 
     if url:
         blogger = "[{}]({})".format(blogger, url)
@@ -62,7 +55,5 @@ SUBJ_HANDLERS = [
 
 
 def start(subj, body):
-    """
-    parse YouTube
-    """
+    """Parse YouTube."""
     return by_subj(subj, body, body, LABEL, 'YouTube: ', SUBJ_HANDLERS)

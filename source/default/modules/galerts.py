@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Google Alerts
-"""
+"""Google Alerts."""
 import urlparse
 
 from html2text2 import Parser as BaseParser
@@ -19,13 +16,9 @@ TRASH = [
 
 
 class Parser(BaseParser):
-    """
-    parser class
-    """
-    def extract_real_link(self, text):  # pylint: disable=no-self-use
-        """
-        extract real link from google redirects
-        """
+    """Parser class."""
+    def extract_real_link(self, text):
+        """Extract real link from google redirects."""
         if text.startswith('https://www.google.com/url?'):
             return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0].encode('utf-8')
 
@@ -33,9 +26,7 @@ class Parser(BaseParser):
 
 
 def clear_trash(text):
-    """
-    remove trash items from text
-    """
+    """Remove trash items from text."""
     for i in TRASH:
         text = text.replace(i, '')
 
@@ -43,16 +34,14 @@ def clear_trash(text):
 
 
 def alert_ru(subj, text):
-    """
-    alert with ru language
-    """
+    """Alert with ru language."""
     pos_skip = text.find("Ещё результаты")
     if pos_skip >= 0:
         text = text[:pos_skip]
 
     lines = []
     for line in text.split('\n'):
-        if not any([line.startswith(i) for i in DROP_RU]):
+        if not any([line.startswith(i) for i in DROP_RU]):  # pylint: disable=use-a-generator
             lines.append(make_markdown(line))
 
     return [
@@ -69,9 +58,7 @@ SUBJ_HANDLERS = [
 
 
 def handle_lines(text_lines):
-    """
-    handle text lines
-    """
+    """Handle text lines."""
     lines = []
     for line in text_lines:
         if line.startswith('<https://www.google.com/url?'):
@@ -86,9 +73,7 @@ def handle_lines(text_lines):
 
 
 def convert_plain_part(subj, body):
-    """
-    handle plain/text part
-    """
+    """Handle plain/text part."""
     lines = handle_lines(body.split('\n'))
 
     return '\n'.join((
@@ -99,9 +84,7 @@ def convert_plain_part(subj, body):
 
 
 def start(subj, body):
-    """
-    parse Google Alerts
-    """
+    """Parse Google Alerts."""
     if DELIMETER in body:
         return convert_plain_part(subj, body[:body.index(DELIMETER)])
 

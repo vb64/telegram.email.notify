@@ -1,24 +1,18 @@
-"""
-db model
-"""
+"""Ndb model."""
 from google.appengine.ext import ndb
 from google.appengine.api import mail
 
 
-class SavedSource(ndb.Model):  # pylint: disable=too-few-public-methods
-    """
-    source of inbound requests
-    """
+class SavedSource(ndb.Model):
+    """Source of inbound requests."""
     made = ndb.DateTimeProperty(auto_now_add=True)
     label = ndb.StringProperty(default='')
     subject = ndb.TextProperty(default='')
     body = ndb.TextProperty(default='')
 
 
-class EmailData(ndb.Model):  # pylint: disable=too-few-public-methods
-    """
-    email origin file data
-    """
+class EmailData(ndb.Model):
+    """Email origin file data."""
     made = ndb.DateTimeProperty(auto_now_add=True)
     field_from = ndb.TextProperty(default='')
     field_to = ndb.TextProperty(default='')
@@ -28,9 +22,7 @@ class EmailData(ndb.Model):  # pylint: disable=too-few-public-methods
 
     @classmethod
     def from_upload(cls, reader):
-        """
-        create from blobstore.BlobReader
-        """
+        """Create from blobstore.BlobReader."""
         message = mail.InboundEmailMessage(reader.read())
 
         item = cls()

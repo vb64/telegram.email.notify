@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-modules for transform
-"""
+"""Modules for transform."""
 from html2text import convert
 from models import SavedSource
 
@@ -11,24 +8,18 @@ NBSP = chr(0xC2) + chr(0xA0)
 
 
 def store(label, subj, body):
-    """
-    default handler for store incoming messages
-    """
+    """Default handler for store incoming messages."""
     SavedSource(label=label, subject=subj, body=body).put()
     return subj + '\n' + convert(body, extract_link=True).replace(NBSP, ' ')
 
 
 def is_present(marks, text):
-    """
-    return True, if all marks present in given text
-    """
-    return all([mark in text for mark in marks])
+    """Return True, if all marks present in given text."""
+    return all([mark in text for mark in marks])  # pylint: disable=use-a-generator
 
 
 def by_subj(subj, body, text, label, prefix, handlers):  # pylint: disable=too-many-arguments
-    """
-    process message by subject
-    """
+    """Process message by subject."""
     for marks, func in handlers:
         if is_present(marks, subj):
             return prefix + '\n'.join(func(subj, text))
@@ -40,9 +31,7 @@ def by_subj(subj, body, text, label, prefix, handlers):  # pylint: disable=too-m
 
 
 def is_href(text):
-    """
-    is text looks like href
-    """
+    """Text looks like href."""
     return any([
       text.startswith('https://'),
       text.startswith('http://'),
@@ -50,9 +39,7 @@ def is_href(text):
 
 
 def add_href(words, text):
-    """
-    save text as markdown link
-    """
+    """Save text as markdown link."""
     if not words:
         add_word(words, text)
         return
@@ -66,9 +53,7 @@ def add_href(words, text):
 
 
 def clear_markdown(text):
-    """
-    clear special markdown symbols from text
-    """
+    """Clear special markdown symbols from text."""
     for i in ['*', '_', '`', '’']:
         text = text.replace(i, '')
 
@@ -76,16 +61,12 @@ def clear_markdown(text):
 
 
 def add_word(words, text):
-    """
-    save simple text
-    """
+    """Save simple text."""
     words.append((clear_markdown(text), False))
 
 
 def make_markdown(text):
-    """
-    embed url as markdown links
-    """
+    """Embed url as markdown links."""
     result = []
     for word in text.split():
         if is_href(word):

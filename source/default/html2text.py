@@ -1,15 +1,13 @@
-"""
-Html parser
-"""
-from HTMLParser import HTMLParser
+"""Html parser."""
 from re import sub
+from HTMLParser import HTMLParser
 
 
 class _DeHTMLParser(HTMLParser):
-    """
-    parser class
-    """
+    """Parser class."""
+
     def __init__(self, extract_link):
+        """Parser instance."""
         HTMLParser.__init__(self)
         self.extract_link = extract_link
         self.is_skip = False
@@ -17,6 +15,7 @@ class _DeHTMLParser(HTMLParser):
         self.html_link = ''
 
     def handle_data(self, data):
+        """Data handker."""
         if self.is_skip:
             self.is_skip = False
             return
@@ -32,6 +31,7 @@ class _DeHTMLParser(HTMLParser):
         self.html_link = ''
 
     def handle_starttag(self, tag, attrs):
+        """Tag start."""
         if tag in ['p', 'br']:
             self.__text.append('\n')
         elif tag == 'style':
@@ -43,16 +43,12 @@ class _DeHTMLParser(HTMLParser):
                     self.html_link = link
 
     def text(self):
-        """
-        result of parsing
-        """
+        """Result of parsing."""
         return ''.join(self.__text).strip()
 
 
 def convert(text, extract_link=False):
-    """
-    parser call
-    """
+    """Parser call."""
     try:
         parser = _DeHTMLParser(extract_link)
         parser.feed(text)

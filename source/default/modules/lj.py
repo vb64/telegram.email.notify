@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-LiveJournal
-"""
+"""LiveJournal."""
 from html2text2 import convert, Parser as BaseParser
 from . import make_markdown, clear_markdown, MARKUP
 
@@ -13,13 +10,10 @@ DROP_IN = [
 
 
 class Parser(BaseParser):
-    """
-    parser class for LJ
-    """
-    def extract_real_link(self, text):  # pylint: disable=no-self-use
-        """
-        extract part of link without ru symbols
-        """
+    """Parser class for LJ."""
+
+    def extract_real_link(self, text):
+        """Extract part of link without ru symbols."""
         index = text.find('?utm_source=')
         if index > 0:
             return text[:index].encode('utf-8')
@@ -28,9 +22,7 @@ class Parser(BaseParser):
 
 
 def start(subj, body):
-    """
-    parse LiveJournal message
-    """
+    """Parse LiveJournal message."""
     text = convert(Parser, body, extract_link=True).encode('utf-8')
 
     pos_end = text.find("Ещё больше интересного Подписывайтесь")
@@ -39,7 +31,7 @@ def start(subj, body):
 
     lines = []
     for line in text.split('\n'):
-        if not any([i in line for i in DROP_IN]):
+        if not any([i in line for i in DROP_IN]):  # pylint: disable=use-a-generator
             lines.append(make_markdown(line))
 
     return '\n'.join((
