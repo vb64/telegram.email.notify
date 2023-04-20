@@ -26,7 +26,7 @@ class _DeHTMLParser(HTMLParser):
             text = sub('[\t\r\n]+', '', text)
             self.__text.append(text + ' ')
             if self.html_link:
-                self.__text.append(self.html_link.encode('utf8'))
+                self.__text.append(self.html_link)
                 self.__text.append(' ')
 
         self.html_link = ''
