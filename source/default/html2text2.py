@@ -2,6 +2,7 @@
 """Html parser ver2."""
 from re import sub
 from html.parser import HTMLParser
+from html import unescape
 
 
 class Parser(HTMLParser):
@@ -78,6 +79,6 @@ class Parser(HTMLParser):
 def convert(parser_class, text, extract_link=False, html_table=True):
     """Parser call."""
     parser = parser_class(extract_link, html_table)
-    parser.feed(parser.unescape(text))
+    parser.feed(unescape(text))
     parser.close()
     return parser.text()
