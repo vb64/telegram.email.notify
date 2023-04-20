@@ -23,11 +23,11 @@ class TestCaseHtml2text(TestCase):
           '-- <br>WBR, Vitaly<br></div></div>',
         ))
         text = convert(html)
-        self.assertIn('post@telegram-email.appspotmail.com', text)
+        assert 'post@telegram-email.appspotmail.com' in text
 
         html = self.get_fixture("msg03.html")
         text = convert(html)
-        self.assertNotEqual(text, html)
+        assert text != html
 
     @staticmethod
     def test_convert_trunc():
@@ -60,7 +60,7 @@ class TestCaseHtml2text(TestCase):
           '</a>',
         ))
         text = convert(html)
-        self.assertEqual(text[:20], link[:20])
+        assert text[:20] == link[:20]
 
         html = self.get_fixture("msg02.html")
         text = convert(html)
@@ -78,9 +78,9 @@ class TestCaseHtml2text(TestCase):
         ))
 
         text = convert(html)
-        self.assertNotEqual(text, '')
-        self.assertNotIn('#outlook a {padding:0;}', text)
-        self.assertNotIn(link, text)
+        assert text
+        assert '#outlook a {padding:0;}' not in text
+        assert link not in text
 
         text = convert(html, extract_link=True)
-        self.assertIn(link, text)
+        assert link in text

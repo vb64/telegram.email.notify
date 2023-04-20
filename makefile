@@ -31,7 +31,7 @@ all: tests
 test:
 	$(PTEST) -s $(TESTS)/test/$(T)
 
-tests: flake8 lint
+tests: flake8 pep257 lint
 	$(PYTEST) --durations=5 $(TESTS)
 	$(COVERAGE) html --skip-covered
 
