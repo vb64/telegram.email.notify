@@ -1,15 +1,22 @@
 """Root class for testing telegram.email.notify."""
 import os
 from tester_flask import TestFlask
+from test_helper_gae3 import TestGae3
 
 
-class TestCase(TestFlask):
+class TestCase(TestFlask, TestGae3):
     """Base class."""
 
     def setUp(self):  # pylint: disable=arguments-differ
         """Set up tests."""
         from main import app
         TestFlask.setUp(self, app)
+        TestGae3.set_up(self)
+
+    def tearDown(self):
+        """Clear tests."""
+        TestGae3.tear_down(self)
+        super().tearDown()
 
     @staticmethod
     def get_fixture_path(file_name):
