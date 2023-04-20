@@ -1,5 +1,5 @@
 """Google Alerts."""
-import urlparse
+from urllib.parse import parse_qs, urlparse
 
 from html2text2 import Parser as BaseParser
 from . import by_subj, make_markdown, clear_markdown, MARKUP
@@ -20,7 +20,7 @@ class Parser(BaseParser):
     def extract_real_link(self, text):
         """Extract real link from google redirects."""
         if text.startswith('https://www.google.com/url?'):
-            return urlparse.parse_qs(urlparse.urlparse(text).query)['url'][0].encode('utf-8')
+            return parse_qs(urlparse(text).query)['url'][0].encode('utf-8')
 
         return text.encode('utf-8')
 
