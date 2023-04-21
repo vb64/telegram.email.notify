@@ -17,14 +17,14 @@ class Parser(BaseParser):
         """Extract part of link without ru symbols."""
         index = text.find('?utm_source=')
         if index > 0:
-            return text[:index].encode('utf-8')
+            return text[:index]
 
-        return text.encode('utf-8')
+        return text
 
 
 def start(subj, body):
     """Parse LiveJournal message."""
-    text = convert(Parser, body, extract_link=True).encode('utf-8')
+    text = convert(Parser, body, extract_link=True)
 
     pos_end = text.find("Ещё больше интересного Подписывайтесь")
     if pos_end > 0:

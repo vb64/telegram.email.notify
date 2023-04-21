@@ -22,9 +22,9 @@ class Parser(BaseParser):
     def extract_real_link(self, text):
         """Extract real link from google redirects."""
         if text.startswith('https://www.google.com/url?'):
-            return parse_qs(urlparse(text).query)['url'][0].encode('utf-8')
+            return parse_qs(urlparse(text).query)['url'][0]
 
-        return text.encode('utf-8')
+        return text
 
 
 def clear_trash(text):
