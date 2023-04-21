@@ -8,6 +8,10 @@ automatic_scaling:
   max_instances: 2
   max_idle_instances: 1
 
+env_variables:
+  MEMCACHE_USE_CROSS_COMPATIBLE_PROTOCOL: 'True'
+  NDB_USE_CROSS_COMPATIBLE_PICKLE_PROTOCOL: 'True'
+
 handlers:
 
 - url: /favicon\.ico
