@@ -21,6 +21,10 @@ class TestViews(TestCase):
 
     def test_upload(self):
         """Eml upload."""
+        from models import EmailData
+
+        self.check_db_tables([(EmailData, 0)])
+
         response = self.simple_post('upload', {})
         assert response.status_code == 200
         assert 'Select .eml file for upload' in response.get_data(as_text=True)
@@ -28,6 +32,8 @@ class TestViews(TestCase):
         response = self.simple_post('upload', {'emailbody': (io.BytesIO(b'xxx'), "wrong.eml")})
         assert response.status_code == 200
         assert 'Select .eml file for upload' in response.get_data(as_text=True)
+
+        self.check_db_tables([(EmailData, 0)])
 
         response = self.simple_post(
           'upload',
@@ -37,6 +43,7 @@ class TestViews(TestCase):
         text = response.get_data(as_text=True)
         assert 'Select .eml file for upload' not in text
         assert 'Email visualization' in text
+        self.check_db_tables([(EmailData, 1)])
 
     def test_transform(self):
         """Transform page."""
