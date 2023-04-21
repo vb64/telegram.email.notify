@@ -24,7 +24,11 @@ class TestOk(TestModule):
         ref = ''
         note = 'xxx'
         result = make_link(txt, ref, note)
-        assert result
+        assert len(result) == 4
+
+        txt = ''
+        result = make_link(txt, ref, note)
+        assert len(result) == 4
 
     def test_message(self):
         """Message."""

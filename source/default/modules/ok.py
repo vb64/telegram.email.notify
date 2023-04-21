@@ -21,12 +21,15 @@ MARK_PROFILE_REF = 'https://ok.ru/profile/'
 
 def make_link(txt, ref, note):
     """Button with link."""
-    actor = txt[:txt.index(MARK_PROFILE_REF)]
-    actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' ' + note
+    actor = note
+    if MARK_PROFILE_REF in txt:
+        actor = txt[:txt.index(MARK_PROFILE_REF)]
+        actor = actor[actor.rindex(SUBJ_POST) + len(SUBJ_POST):].strip() + ' ' + note
+
     link = ''
     for word in txt.split():
         if is_present([MARK_PROFILE_REF, ref], word):
-            link = BUTT_VIWEW.format(word)
+            link = BUTT_VIWEW.format(word[word.index(MARK_PROFILE_REF):])
             break
 
     return [actor, '', BUTTONS, link]
