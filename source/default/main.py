@@ -1,8 +1,6 @@
 """App endpoint handlers."""
 import importlib
-
-from google.appengine.ext import blobstore
-from flask import render_template, request, make_response, abort, Flask
+from flask import render_template, request, make_response, abort, Flask, redirect
 from models import EmailData
 
 app = Flask(__name__)  # pylint: disable=invalid-name
@@ -56,9 +54,23 @@ def run(codec, body):
 def mainpage():
     """Root page."""
     context = {
-      'upload_url': blobstore.create_upload_url('/upload/'),
+      'upload_url': '/upload/',
     }
     return render_template('main.html', **context)
+
+
+@app.route('/upload/', methods=['POST'])
+def upload():
+    """GAE upload handler."""
+    if 'emailbody' not in request.files:
+        return redirect('/')
+
+    try:
+        edata = EmailData.from_upload(request.files['emailbody'])
+    except AttributeError:
+        return redirect('/')
+
+    return redirect('/email/{}/'.format(edata.key.id()))
 
 
 @app.route('/email/<eid>/', methods=['GET', 'POST'])

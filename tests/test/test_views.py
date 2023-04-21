@@ -2,11 +2,12 @@
 
 make test T=test_views.py
 """
+import io
 from flask import escape
 from . import TestCase
 
 
-class TestCaseViews(TestCase):
+class TestViews(TestCase):
     """Site views."""
 
     codec = 'ym'
@@ -17,6 +18,25 @@ class TestCaseViews(TestCase):
         response = self.simple_view('mainpage')
         assert response.status_code == 200
         assert '/upload/' in response.get_data(as_text=True)
+
+    def test_upload(self):
+        """Eml upload."""
+        response = self.simple_post('upload', {})
+        assert response.status_code == 200
+        assert 'Select .eml file for upload' in response.get_data(as_text=True)
+
+        response = self.simple_post('upload', {'emailbody': (io.BytesIO(b'xxx'), "wrong.eml")})
+        assert response.status_code == 200
+        assert 'Select .eml file for upload' in response.get_data(as_text=True)
+
+        response = self.simple_post(
+          'upload',
+          {'emailbody': (open(self.get_fixture_path('reddit01.eml'), 'rb'), "reddit.eml")}
+        )
+        assert response.status_code == 200
+        text = response.get_data(as_text=True)
+        assert 'Select .eml file for upload' not in text
+        assert 'Email visualization' in text
 
     def test_transform(self):
         """Transform page."""
