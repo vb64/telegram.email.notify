@@ -1,9 +1,16 @@
 """App endpoint handlers."""
+import os
 import importlib
 from flask import render_template, request, make_response, abort, Flask, redirect
+from google.appengine.api import wrap_wsgi_app
 from models import EmailData
 
 app = Flask(__name__)  # pylint: disable=invalid-name
+
+# https://cloud.google.com/appengine/docs/standard/testing-and-deploying-your-app?tab=python
+if os.getenv('GAE_ENV', '').startswith('standard'):  # pragma: no cover
+    # Production in the standard environment
+    app.wsgi_app = wrap_wsgi_app(app.wsgi_app)
 
 CODECS = {
   'ym': "Yandex Money",
