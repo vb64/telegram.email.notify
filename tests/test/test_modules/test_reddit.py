@@ -58,3 +58,11 @@ class TestReddit(TestModule):
 
         text = self.from_eml('reddit04.eml')
         assert MARKUP in text
+
+    def test_readmore(self):
+        """Check reddit04.eml."""
+        from modules.reddit import Section
+        sect = Section('First line')
+        assert sect.read_more is None
+        sect.add_line('Read http://example.com More ')
+        assert sect.read_more
