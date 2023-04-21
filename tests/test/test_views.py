@@ -16,7 +16,7 @@ class TestCaseViews(TestCase):
         """Root page."""
         response = self.simple_view('mainpage')
         assert response.status_code == 200
-        assert '/upload/' in response.data
+        assert '/upload/' in response.get_data(as_text=True)
 
     def test_transform(self):
         """Transform page."""
@@ -26,13 +26,13 @@ class TestCaseViews(TestCase):
         response = self.param_post('transform', {'codec': self.codec}, self.src)
 
         assert response.status_code == 200
-        assert self.src in response.data
+        assert self.src in response.get_data(as_text=True)
 
     def test_store(self):
         """Store func."""
         response = self.param_post('transform', {'codec': 'store'}, self.src)
         assert response.status_code == 200
-        assert self.src in response.data
+        assert self.src in response.get_data(as_text=True)
 
     def test_run(self):
         """Run function with exception raise."""
@@ -56,7 +56,7 @@ class TestCaseViews(TestCase):
         """Run function with testdata."""
         response = self.param_post('transform', {'codec': 'store'}, 'testdata')
         assert response.status_code == 200
-        assert response.data == 'OK'
+        assert response.get_data(as_text=True) == 'OK'
 
     def test_email(self):
         """Email page."""
@@ -75,12 +75,13 @@ class TestCaseViews(TestCase):
 
         response = self.guest_view('/email/{}/'.format(item.key.id()))
         assert response.status_code == 200
+        text = response.get_data(as_text=True)
 
-        assert item.field_from in response.data
-        assert item.field_to in response.data
-        assert item.field_subj in response.data
-        assert item.field_text in response.data
-        assert escape(item.field_html) in response.data
+        assert item.field_from in text
+        assert item.field_to in text
+        assert item.field_subj in text
+        assert item.field_text in text
+        assert escape(item.field_html) in text
 
         response = self.client.post(
           '/email/{}/'.format(item.key.id()),

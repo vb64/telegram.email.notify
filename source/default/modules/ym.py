@@ -238,8 +238,6 @@ SUBJ_ONLY = [
 def start(subj, body):
     """Parse Yandex Money."""
     title = 'ЮMoney: '
-    subj = subj.decode('utf-8')
-
     for marks in SUBJ_ONLY:
         if is_present(marks, subj):
             return title + subj

@@ -70,10 +70,7 @@ def email_view(eid):
 
     if request.method == 'POST':
         text = '\n'.join((edata.field_subj, edata.field_text, edata.field_html))
-        return run(
-          request.form.get('codec'),
-          text.encode('utf-8')
-        )
+        return run(request.form.get('codec'), text)
 
     context = {
       'edata': edata,
@@ -88,4 +85,4 @@ def transform(codec):
     if codec not in CODECS:
         return abort(404)
 
-    return run(codec, request.get_data())
+    return run(codec, request.get_data(as_text=True))
