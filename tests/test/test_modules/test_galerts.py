@@ -20,7 +20,7 @@ class TestGalerts(TestModule):
 
     def test_dflt(self):
         """Default."""
-        from modules import MARKUP
+        from modutil import MARKUP
 
         text = self.transfer('alert1.txt')
         assert MARKUP in text
@@ -40,21 +40,21 @@ class TestGalerts(TestModule):
 
     def test_02(self):
         """Check alert2.txt."""
-        from modules import MARKUP
+        from modutil import MARKUP
 
         text = self.transfer('alert2.txt')
         assert MARKUP in text
 
     def test_03(self):
         """Check alert3.txt."""
-        from modules import MARKUP
+        from modutil import MARKUP
 
         text = self.transfer('alert3.txt')
         assert MARKUP in text
 
     def test_eml(self):
         """Check galerts01.eml."""
-        from modules import MARKUP
+        from modutil import MARKUP
 
         text = self.from_eml('galerts01.eml')
         assert MARKUP in text

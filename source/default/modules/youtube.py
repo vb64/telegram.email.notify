@@ -1,6 +1,6 @@
 """YouTube stuff."""
 from models import SavedSource
-from . import by_subj, MARKUP
+from modutil import by_subj, MARKUP
 
 LABEL = 'youtube'
 POST_URL = 'http://www.youtube.com/watch?'

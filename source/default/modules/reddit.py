@@ -1,6 +1,6 @@
 """Reddit."""
 from html2text2 import Parser
-from . import is_href, is_present, clear_markdown, MARKUP
+from modutil import is_href, is_present, clear_markdown, MARKUP
 
 
 def clear_links(text):

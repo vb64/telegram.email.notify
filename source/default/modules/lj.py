@@ -1,7 +1,7 @@
 # pylint: disable=W0223
 """LiveJournal."""
 from html2text2 import convert, Parser as BaseParser
-from . import make_markdown, clear_markdown, MARKUP
+from modutil import make_markdown, clear_markdown, MARKUP
 
 DROP_IN = [
   '.livejournal.com?utm_source=',

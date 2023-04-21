@@ -64,20 +64,20 @@ class TestViews(TestCase):
     def test_run(self):
         """Run function with exception raise."""
         from main import run
-        import modules
+        import modutil
 
         def mock_store(label, subj, body):
             """Emulate exception raise."""
             raise Exception(''.join([label, subj, body]))  # pylint: disable=broad-exception-raised
 
-        saved = modules.store
-        modules.store = mock_store
+        saved = modutil.store
+        modutil.store = mock_store
 
         with self.assertRaises(Exception) as context:
             run('store', 'xxx')
         assert 'xxx' in str(context.exception)
 
-        modules.store = saved
+        modutil.store = saved
 
     def test_testdata(self):
         """Run function with testdata."""

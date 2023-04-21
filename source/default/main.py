@@ -41,7 +41,7 @@ def run(codec, body):
 
     try:
         if CODECS[codec] is None:
-            from modules import store
+            from modutil import store
             ret = store(codec, subj, text)
         else:
             pmod = importlib.import_module("modules.{}".format(codec))

@@ -1,5 +1,5 @@
 """FaceBook."""
-from . import BUTTONS
+from modutil import BUTTONS
 
 DELIMETER = '========================================'
 MARK_VIEW = 'Посмотреть на Facebook'

@@ -1,7 +1,7 @@
 """Odnoklassniki.ru."""
 from html2text import convert
 from models import SavedSource
-from . import is_present, by_subj, BUTTONS, NBSP
+from modutil import is_present, by_subj, BUTTONS, NBSP
 
 LABEL = 'ok'
 

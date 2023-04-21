@@ -11,7 +11,7 @@ class TestInit(TestModule):
     @staticmethod
     def test_add_href():
         """Add_href."""
-        from modules import add_href
+        from modutil import add_href
 
         words = []
         add_href(words, 'xxx')

@@ -1,6 +1,6 @@
 """Beeline.ru."""
 from html2text import convert
-from . import by_subj, NBSP, BUTTONS
+from modutil import by_subj, NBSP, BUTTONS
 
 MARK_INBOX = 'В Ваш почтовый ящик '
 MARK_CLOUD_GO = 'Прослушать сообщение можно в web-интерфейсе управления услугой'

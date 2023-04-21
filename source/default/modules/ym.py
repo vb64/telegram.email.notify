@@ -1,6 +1,6 @@
 """Yandex Money."""
 from html2text2 import convert, Parser
-from . import is_present, by_subj, NBSP
+from modutil import is_present, by_subj, NBSP
 
 MARK_CARD = 'Карта '
 MARK_TARGET = 'Назначение платежа'

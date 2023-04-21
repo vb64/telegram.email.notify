@@ -3,7 +3,7 @@
 from urllib.parse import parse_qs, urlparse
 
 from html2text2 import Parser as BaseParser
-from . import by_subj, make_markdown, clear_markdown, MARKUP
+from modutil import by_subj, make_markdown, clear_markdown, MARKUP
 
 DELIMETER = '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -'
 DROP_RU = [

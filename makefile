@@ -24,7 +24,7 @@ PEP257 = $(PYTHON) -m pep257
 PYTEST = $(PTEST) --cov=$(SOURCE) --cov-report term:skip-covered
 
 PRJ = text-transform-198104
-VERSION = py3-03
+VERSION = py3-05
 
 all: tests
 

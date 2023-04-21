@@ -47,14 +47,14 @@ class TestReddit(TestModule):
 
     def test_red_eml(self):
         """Check md.eml."""
-        from modules import MARKUP
+        from modutil import MARKUP
 
         text = self.from_eml('md.eml')
         assert MARKUP in text
 
     def test_reddit04(self):
         """Check reddit04.eml."""
-        from modules import MARKUP
+        from modutil import MARKUP
 
         text = self.from_eml('reddit04.eml')
         assert MARKUP in text
