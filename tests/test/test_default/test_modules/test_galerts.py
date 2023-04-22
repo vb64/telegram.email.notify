@@ -1,6 +1,6 @@
 """Google Alerts.
 
-make test T=test_modules/test_galerts.py
+make test T=test_default/test_modules/test_galerts.py
 """
 from . import TestModule
 

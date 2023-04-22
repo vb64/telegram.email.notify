@@ -1,11 +1,11 @@
 """Ndb models.
 
-make test T=test_models.py
+make test T=test_default/test_models.py
 """
-from . import TestCase
+from . import TestDefault
 
 
-class TestModels(TestCase):
+class TestModels(TestDefault):
     """Module models."""
 
     def test_from_upload(self):

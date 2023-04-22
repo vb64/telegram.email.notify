@@ -1,6 +1,6 @@
 """Beeline.
 
-make test T=test_modules/test_beeline.py
+make test T=test_default/test_modules/test_beeline.py
 """
 from . import TestModule
 
