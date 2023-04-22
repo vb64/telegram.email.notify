@@ -1,0 +1,7 @@
+cron:
+
+- description: daily tasks
+  url: /
+  schedule: every day 03:00
+  timezone: Europe/Moscow
+  target: backend
