@@ -37,7 +37,7 @@ def purge_model(model_class, border_date):
         count += len(keys)
         ndb.model.delete_multi(keys)
 
-    logging.warning("### Table '%s'. Deleted: %s", 'xxx', count)
+    logging.warning("### Table '%s'. Deleted: %s", model_class.__name__, count)
     return count
 
 
