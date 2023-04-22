@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
+"""Html parser ver2.
+
 make test T=test_html2text2.py
 """
 import os
@@ -8,13 +8,10 @@ from . import TestCase
 
 
 class TestCaseHtml2text2(TestCase):
-    """
-    Html parser ver2
-    """
+    """Html parser ver2."""
+
     def test_style(self):
-        """
-        style tag
-        """
+        """Style tag."""
         from html2text2 import convert, Parser
 
         html = self.get_fixture("msg01.html")
@@ -26,9 +23,7 @@ class TestCaseHtml2text2(TestCase):
         assert link not in text
 
     def test_table(self):
-        """
-        table tags
-        """
+        """Table tags."""
         from html2text2 import convert, Parser
 
         html = self.get_fixture(os.path.join("galerts", "alert1.txt"))

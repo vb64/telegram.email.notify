@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Subject only module.
 
 make test T=test_modules/test_subjonly.py
@@ -16,6 +15,6 @@ class TestSubjonly(TestModule):
 
     def test_voice_mail(self):
         """Voice mail messge."""
-        text = unicode(self.transfer('voice_mail.txt'), 'utf-8')
-        assert u'Облачная АТС - У вас новое сообщение голосовой почты' in text
+        text = self.transfer('voice_mail.txt')
+        assert 'Облачная АТС - У вас новое сообщение голосовой почты' in text
         assert ' 9033756597' not in text

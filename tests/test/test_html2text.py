@@ -1,18 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
+"""Html parser.
+
 make test T=test_html2text.py
 """
 from . import TestCase
 
 
 class TestCaseHtml2text(TestCase):
-    """
-    Extraction text from html
-    """
+    """Extraction text from html."""
+
     def test_convert(self):
-        """
-        convert function
-        """
+        """Convert function."""
         from html2text import convert
 
         html = ''.join((
@@ -26,17 +23,15 @@ class TestCaseHtml2text(TestCase):
           '-- <br>WBR, Vitaly<br></div></div>',
         ))
         text = convert(html)
-        self.assertIn('post@telegram-email.appspotmail.com', text)
+        assert 'post@telegram-email.appspotmail.com' in text
 
         html = self.get_fixture("msg03.html")
         text = convert(html)
-        self.assertNotEqual(text, html)
+        assert text != html
 
     @staticmethod
     def test_convert_trunc():
-        """
-        convert trunc html
-        """
+        """Convert trunc html."""
         from html2text import convert
 
         html = ''.join((
@@ -49,9 +44,7 @@ class TestCaseHtml2text(TestCase):
         assert text
 
     def test_ampersand(self):
-        """
-        with ampersand
-        """
+        """With ampersand."""
         from html2text import convert
 
         link = ''.join((
@@ -67,16 +60,13 @@ class TestCaseHtml2text(TestCase):
           '</a>',
         ))
         text = convert(html)
-        self.assertEqual(text[:20], link[:20])
+        assert text[:20] == link[:20]
 
         html = self.get_fixture("msg02.html")
         text = convert(html)
-        # self.assertIn(link, text)
 
     def test_style(self):
-        """
-        inside style tag
-        """
+        """Inside style tag."""
         from html2text import convert
 
         html = self.get_fixture("msg01.html")
@@ -88,9 +78,9 @@ class TestCaseHtml2text(TestCase):
         ))
 
         text = convert(html)
-        self.assertNotEqual(text, '')
-        self.assertNotIn('#outlook a {padding:0;}', text)
-        self.assertNotIn(link, text)
+        assert text
+        assert '#outlook a {padding:0;}' not in text
+        assert link not in text
 
         text = convert(html, extract_link=True)
-        self.assertIn(link, text)
+        assert link in text

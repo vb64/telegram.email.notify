@@ -1,24 +1,20 @@
-"""
+"""Youtube.
+
 make test T=test_modules/test_youtube.py
 """
 from . import TestModule
 
 
 class TestYouTube(TestModule):
-    """
-    YouTube
-    """
+    """YouTube."""
+
     def transfer(self, fname):
-        """
-        transfer fixture by YouTube
-        """
+        """Transfer fixture by YouTube."""
         from modules.youtube import start
         return self.start_transfer(fname, start, 'youtube')
 
     def test_msg(self):
-        """
-        notify
-        """
+        """Notify."""
         mark = "https://www.youtube.com/account_notifications?feature"
 
         text = self.transfer('vspishka.txt')
@@ -34,9 +30,7 @@ class TestYouTube(TestModule):
         assert mark not in text
 
     def test_nolink(self):
-        """
-        no link notify
-        """
+        """No link notify."""
         mark = "https://www.youtube.com/account_notifications?feature"
         text = self.transfer('nolink.txt')
         assert mark not in text

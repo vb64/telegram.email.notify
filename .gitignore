@@ -1,9 +1,5 @@
 *.pyc
-*.mo
 *.log
-*.pot
-*.sqlite3
 .coverage
 htmlcov/*
-venv/*
-source/libs/*
+venv*

@@ -1,7 +1,4 @@
 # Message text transformation for @EmailGateBot in Telegram Messenger
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vb64/telegram.email.notify/telegram.email.notify%20tests?label=Python%202.7&style=plastic)](https://github.com/vb64/telegram.email.notify/actions?query=workflow%3A%22telegram.email.notify+tests%22)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2ace560fa61c481488dec980d2e3d6f4)](https://www.codacy.com/manual/vb64/telegram.email.notify?utm_source=github.com&utm_medium=referral&utm_content=vb64/telegram.email.notify&utm_campaign=Badge_Coverage)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f7d4597eef143d99014e59379b4b6a4)](https://app.codacy.com/manual/vb64/telegram.email.notify?utm_source=github.com&utm_medium=referral&utm_content=vb64/telegram.email.notify&utm_campaign=Badge_Grade_Dashboard)
 
 @EmailGateBot allows messaging to channels and groups of Telegram by emailing to the special mailbox.
 

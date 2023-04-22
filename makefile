@@ -1,53 +1,61 @@
-.PHONY: all deploy lint flake8 tests
+.PHONY: all setup
 # make tests >debug.log 2>&1
 ifeq ($(OS),Windows_NT)
+GCLOUD = $(LOCALAPPDATA)\Google\Cloud SDK\google-cloud-sdk\bin\gcloud.cmd
 PYTHON = venv/Scripts/python.exe
 PTEST = venv/Scripts/pytest.exe
-GCLOUD = $(LOCALAPPDATA)\Application Data\Google\Cloud SDK\google-cloud-sdk\bin\gcloud.cmd
+COVERAGE = venv/Scripts/coverage.exe
 else
-PYTHON = ./venv/Scripts/python
-PTEST = ./venv/bin/pytest
 GCLOUD = gcloud
+PYTHON = ./venv/bin/python
+PTEST = ./venv/bin/pytest
+COVERAGE = ./venv/bin/coverage
 endif
 
-S = source
+SOURCE = source
 TESTS = tests
-LIBDIR = $(S)/libs
+DFLT = $(SOURCE)/default
 
-PYTEST = $(PTEST) --cov=$(S) --cov-report term:skip-covered
-COVERAGE = $(PYTHON) -m coverage
 PIP = $(PYTHON) -m pip install
+DEPLOY = $(GCLOUD) app deploy --project
+FLAKE8 = $(PYTHON) -m flake8
+LINT = $(PYTHON) -m pylint
+PEP257 = $(PYTHON) -m pep257
+PYTEST = $(PTEST) --cov=$(SOURCE) --cov-report term:skip-covered
 
-PROJECT = text-transform-198104
-VERSION = subj-only
+PRJ = text-transform-198104
+VERSION = py3
 
 all: tests
 
 test:
-	$(PYTEST) -s --cov-append $(TESTS)/test/$(T)
-	$(COVERAGE) html --skip-covered
+	$(PTEST) -s $(TESTS)/test/$(T)
 
-tests: flake8 lint
+tests: flake8 pep257 lint
 	$(PYTEST) --durations=5 $(TESTS)
 	$(COVERAGE) html --skip-covered
 
 flake8:
-	$(PYTHON) -m flake8 --max-line-length=110 --exclude=libs --builtins="_" $(S)
-	$(PYTHON) -m flake8 --max-line-length=110 $(TESTS)
+	$(FLAKE8) $(DFLT)
+	$(FLAKE8) $(TESTS)/test
+
+pep257:
+	$(PEP257) $(DFLT)
+	$(PEP257) --match='.*\.py' $(TESTS)/test
 
 lint:
-	$(PYTHON) -m pylint $(TESTS)/test
-	$(PYTHON) -m pylint --disable=relative-import $(S)
+	$(LINT) $(DFLT)
+	$(LINT) $(TESTS)/test
 
-deploy: tests
-	$(GCLOUD) app deploy --quiet --project $(PROJECT) -v $(VERSION) $(S)/app.yaml $(S)/backend.yaml $(S)/queue.yaml
+deploy:
+	$(DEPLOY) $(PRJ) --version $(VERSION) $(DFLT)/app.yaml
 
 setup: setup_python setup_pip
 
 setup_pip:
 	$(PIP) --upgrade pip
-	$(PIP) -r requirements.txt
-	$(PIP) -t $(LIBDIR) -r $(LIBDIR)/requirements.txt
+	$(PIP) -r $(DFLT)/requirements.txt
+	$(PIP) -r $(TESTS)/requirements.txt
 
 setup_python:
-	$(PYTHON_BIN) -m virtualenv venv
+	$(PYTHON_BIN) -m venv ./venv

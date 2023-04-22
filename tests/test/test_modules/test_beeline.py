@@ -1,33 +1,26 @@
-# -*- coding: utf-8 -*-
-"""
+"""Beeline.
+
 make test T=test_modules/test_beeline.py
 """
 from . import TestModule
 
 
 class TestBeeline(TestModule):
-    """
-    Beeline
-    """
+    """Beeline."""
+
     def transfer(self, fname):
-        """
-        transfer fixture by beeline
-        """
+        """Transfer fixture by beeline."""
         from modules.beeline import start
         return self.start_transfer(fname, start, 'beeline')
 
     def test_voice_mail(self):
-        """
-        voice mail
-        """
+        """Voice mail."""
         text = self.transfer('voice_mail.txt')
         assert ' 9033756597' in text
 
     @staticmethod
     def test_voice_mail_func():
-        """
-        voice mail function
-        """
+        """Voice mail function."""
         from modules.beeline import voice_mail
 
         text = ''.join((

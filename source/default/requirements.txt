@@ -1,0 +1,2 @@
+flask==2.2.3
+appengine-python-standard>=1.0.0
