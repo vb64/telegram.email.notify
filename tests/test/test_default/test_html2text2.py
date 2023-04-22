@@ -1,13 +1,12 @@
 """Html parser ver2.
 
-make test T=test_html2text2.py
+make test T=test_default/test_html2text2.py
 """
 import os
+from . import TestDefault
 
-from . import TestCase
 
-
-class TestCaseHtml2text2(TestCase):
+class TestCaseHtml2text2(TestDefault):
     """Html parser ver2."""
 
     def test_style(self):

@@ -1,13 +1,13 @@
 """App views.
 
-make test T=test_views.py
+make test T=test_default/test_views.py
 """
 import io
 from flask import escape
-from . import TestCase
+from . import TestDefault
 
 
-class TestViews(TestCase):
+class TestViews(TestDefault):
     """Site views."""
 
     codec = 'ym'

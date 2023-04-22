@@ -1,6 +1,6 @@
 """Reddit.
 
-make test T=test_modules/test_reddit.py
+make test T=test_default/test_modules/test_reddit.py
 """
 from . import TestModule
 

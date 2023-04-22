@@ -1,6 +1,6 @@
 """Twitter.
 
-make test T=test_modules/test_twitter.py
+make test T=test_default/test_modules/test_twitter.py
 """
 from . import TestModule
 

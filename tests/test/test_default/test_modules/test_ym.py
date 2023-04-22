@@ -1,6 +1,6 @@
 """Yandex Money.
 
-make test T=test_modules/test_ym.py
+make test T=test_default/test_modules/test_ym.py
 """
 from . import TestModule
 

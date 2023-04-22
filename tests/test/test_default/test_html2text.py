@@ -1,11 +1,11 @@
 """Html parser.
 
-make test T=test_html2text.py
+make test T=test_default/test_html2text.py
 """
-from . import TestCase
+from . import TestDefault
 
 
-class TestCaseHtml2text(TestCase):
+class TestCaseHtml2text(TestDefault):
     """Extraction text from html."""
 
     def test_convert(self):
