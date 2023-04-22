@@ -26,7 +26,7 @@ PYTEST = $(PTEST) --cov=$(SOURCE) --cov-report term:skip-covered
 
 PRJ = text-transform-198104
 VERSION = py3
-VERSION_BACK = py3b-01
+VERSION_BACK = py3b
 
 all: tests
 
