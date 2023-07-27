@@ -21,7 +21,7 @@ PIP = $(PYTHON) -m pip install
 DEPLOY = $(GCLOUD) app deploy --project
 FLAKE8 = $(PYTHON) -m flake8
 LINT = $(PYTHON) -m pylint
-PEP257 = $(PYTHON) -m pep257
+PEP257 = $(PYTHON) -m pydocstyle
 PYTEST = $(PTEST) --cov=$(SOURCE) --cov-report term:skip-covered
 
 PRJ = text-transform-198104

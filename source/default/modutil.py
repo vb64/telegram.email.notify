@@ -8,7 +8,7 @@ NBSP = chr(0xC2) + chr(0xA0)
 
 
 def store(label, subj, body):
-    """Default handler for store incoming messages."""
+    """Handle store incoming messages."""
     SavedSource(label=label, subject=subj, body=body).put()
     return subj + '\n' + convert(body, extract_link=True).replace(NBSP, ' ')
 

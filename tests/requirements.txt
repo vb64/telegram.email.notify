@@ -1,4 +1,4 @@
-pep257
+pydocstyle
 flake8
 pylint
 pytest

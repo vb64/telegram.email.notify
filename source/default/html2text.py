@@ -16,7 +16,7 @@ class _DeHTMLParser(HTMLParser):
         self.html_link = ''
 
     def handle_data(self, data):
-        """Data handker."""
+        """Handle data."""
         if self.is_skip:
             self.is_skip = False
             return
@@ -44,7 +44,7 @@ class _DeHTMLParser(HTMLParser):
                     self.html_link = link
 
     def text(self):
-        """Result of parsing."""
+        """Return result of parsing."""
         return ''.join(self.__text).strip()
 
 

@@ -25,7 +25,7 @@ class Parser(HTMLParser):
         return text
 
     def handle_data(self, data):
-        """Data processing."""
+        """Process data."""
         if self.is_skip:
             self.is_skip = False
             return
@@ -72,7 +72,7 @@ class Parser(HTMLParser):
         return text
 
     def text(self):
-        """Result of parsing."""
+        """Return result of parsing."""
         return self.drop_newlines(''.join(self.__text).strip())
 
 

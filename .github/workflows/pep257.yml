@@ -26,12 +26,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pep257
+        pip install pydocstyle
 
     - name: source
       run: |
-        python -m pep257 source
+        python -m pydocstyle source
 
     - name: tests
       run: |
-        python -m pep257 --match='.*\.py' tests/test
+        python -m pydocstyle --match='.*\.py' tests/test
