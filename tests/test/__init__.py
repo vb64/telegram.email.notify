@@ -8,8 +8,8 @@ class TestCase(TestFlask, TestGae3):
 
     def setUp(self, app):  # pylint: disable=arguments-differ
         """Set up tests."""
-        TestFlask.setUp(self, app)
-        TestGae3.set_up(self)
+        TestFlask.set_up(self, app)
+        TestGae3.set_up(self, './')
 
     def tearDown(self):
         """Clear tests."""
