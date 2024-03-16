@@ -49,8 +49,8 @@ https://text-transform-198104.appspot.com/transform/subjonly/
 
 In the selected chat, when an email arrives from the specified address, only the text from the subject field will be published
 
-- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-faq)
-
 ## I noticed that some links shown like "click here" get the hrefs stripped. Is this a limitation or something configurable?
 
 For chat, you can enable the publication of html links. Send the /start command to a private chat with the bot, select the desired chat from the list. In the chat menu, select "Html-links" item.
+
+- Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-faq)

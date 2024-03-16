@@ -64,8 +64,8 @@ https://text-transform-198104.appspot.com/transform/subjonly/
 
 В выбранном чате при поступлении email с указанного адреса будет опубликован только текст из темы.
 
-Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-faq)
-
 ## Я заметил, что некоторые ссылки, отображаемые как «нажмите здесь», удаляют hrefs. Это ограничение или что-то настраиваемое?
 
 Для чата можно включить публикацию html-ссылок. Отправьте команду /start в приватный чат с ботом, выберите нужный чат из списка. В меню чата выберите пункт «Html-ссылки».
+
+Перейти в [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-ru-faq)
