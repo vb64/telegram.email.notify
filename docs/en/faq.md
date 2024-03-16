@@ -5,6 +5,7 @@
 - [I turned the group into a supergroup and EmailGateBot stopped sending messages there. What to do?](#i-turned-the-group-into-a-supergroup-and-emailgatebot-stopped-sending-messages-there-what-to-do)
 - [I created a public group with a bot. But this group does not appear in the list of groups in the bot. What to do?](#i-created-a-public-group-with-a-bot-but-this-group-does-not-appear-in-the-list-of-groups-in-the-bot-what-to-do)
 - [Can I only post the subject of an email?](#i-need-the-subject-only-from-the-email-to-be-published-in-telegram-how-to-do-it)
+- [I noticed that some links shown like "click here" get the hrefs stripped. Is this a limitation or something configurable?](#i-noticed-that-some-links-shown-like-click-here-get-the-hrefs-stripped-is-this-a-limitation-or-something-configurable)
 
 ## How reliable is the bot hosting? How big is the chance that the bot will stop working at the most crucial moment?
 
@@ -47,5 +48,9 @@ https://text-transform-198104.appspot.com/transform/subjonly/
 ```
 
 In the selected chat, when an email arrives from the specified address, only the text from the subject field will be published
+
+## I noticed that some links shown like "click here" get the hrefs stripped. Is this a limitation or something configurable?
+
+For chat, you can enable the publication of html links. Send the /start command to a private chat with the bot, select the desired chat from the list. In the chat menu, select "Html-links" item.
 
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-faq)
