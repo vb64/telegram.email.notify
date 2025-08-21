@@ -17,8 +17,12 @@ Managing a 'stoplist' is similar to managing a 'allowlist'.
 
 You can completely disable the verification of incoming email addresses and automatically publish all incoming mail to the channel/group address,
 displaying the address from which it was received.
+This can be done by selecting the "Auto posting" option in the channel/group menu.
 
-Use this mode carefully. This is a potential opportunity for an attacker to spam your channels and groups.
+When autoposting is enabled, managing the "allowlist" and "stoplist" is unavailable.
+To return to managing the "allowlist" and "stoplist", autoposting must be disabled.
+
+Use autoposting mode carefully. This is a potential opportunity for an attacker to spam your channels and groups.
 
 - Go to [@EmailGateBot](http://t.me/EmailGateBot?start=utm_KDaxQG000_github-en-stoplist)
 - Return [to TOC](guide.md)
